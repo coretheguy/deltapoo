@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "COLLISION",
-    "path": "folders/Objects/COLLISION.yy",
+    "name": "PARENTS",
+    "path": "folders/Objects/PARENTS.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_solidblock",

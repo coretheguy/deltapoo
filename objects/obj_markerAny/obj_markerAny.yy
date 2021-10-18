@@ -22,7 +22,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "marker",
-    "path": "folders/Objects/marker.yy",
+    "path": "folders/Objects/UTIL/marker.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_markerAny",

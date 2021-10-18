@@ -123,7 +123,7 @@
     {"lower":32,"upper":127,},
     {"lower":9647,"upper":9647,},
   ],
-  "regenerateBitmap": true,
+  "regenerateBitmap": false,
   "canGenerateBitmap": true,
   "maintainGms1Font": false,
   "parent": {

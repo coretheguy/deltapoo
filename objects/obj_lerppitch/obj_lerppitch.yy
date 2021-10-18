@@ -26,7 +26,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "lerp",
-    "path": "folders/Objects/lerp.yy",
+    "path": "folders/Objects/UTIL/lerp.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_lerppitch",

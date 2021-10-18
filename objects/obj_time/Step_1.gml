@@ -13,8 +13,9 @@ if (!paused)
     //    return;
     //}
 }
-else
-    return;
+else {
+   // return;
+}
 if scr_debug()
 {
     if (quicksaved != 2)

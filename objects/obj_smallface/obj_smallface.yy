@@ -4,10 +4,7 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_face_parent",
-    "path": "objects/obj_face_parent/obj_face_parent.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -28,7 +25,7 @@
     "path": "folders/Objects/INITIALIZE/DIALOGUE.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_face",
+  "name": "obj_smallface",
   "tags": [],
   "resourceType": "GMObject",
 }

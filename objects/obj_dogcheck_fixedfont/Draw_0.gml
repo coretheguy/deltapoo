@@ -17,19 +17,21 @@ y = ts
 
 
 
-if time = 1 {
+if time mod 5 = 0 {
 	
 	var dognum = irandom_range(23, 30)
 	
 	for (var i = 0; i < dognum; i++) {
 		
-		var newdog = instance_create(irandom_range(20, 620), 500, obj_marker)
+		var rand = random_range(0.1, 0.8)
+		
+		var newdog = instance_create(irandom_range(-20, 620), 500, obj_marker)
 		newdog.sprite_index = spr_dogcar
 		newdog.vspeed = -random_range(7, 14)
-		newdog.image_xscale = 1
-		newdog.image_yscale = 1
+		newdog.image_xscale = rand
+		newdog.image_yscale = rand
 		newdog.image_angle = random_range(20, 120)
-		newdog.friction = 0.2
+		newdog.friction = random_range(0.01, 0.5)
 		newdog.image_speed = 0.1
 		with newdog
 			scr_depth()
@@ -43,11 +45,14 @@ if i_ex(obj_marker) {
 	with obj_marker {
 		
 		image_alpha -= 0.02
+		
+		if image_alpha <= 0
+			instance_destroy()
 	}
 }
 
-if time >= 120 and i_ex(obj_marker) {
-		with obj_marker
-			instance_destroy()
+if time >= 120 {
+		//with obj_marker
+		//	instance_destroy()
 		time = 0
 }

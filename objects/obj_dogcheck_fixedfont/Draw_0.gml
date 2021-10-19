@@ -23,16 +23,17 @@ if time mod 1 = 0 {
 	
 	for (var i = 0; i < dognum; i++) {
 		
-		var rand = random_range(0.1, 0.8)
+		var rand = (random_range(0.1, 0.8) * choose(-1, 1))
 		
 		var newdog = instance_create(irandom_range(-20, 620), 500, obj_marker)
 		newdog.sprite_index = spr_dogcar
 		newdog.vspeed = -random_range(7, 14)
+		newdog.hspeed = random_range(-2, 2)
 		newdog.image_xscale = rand
 		newdog.image_yscale = rand
-		newdog.image_angle = random_range(20, 120)
+		newdog.image_angle = random_range(-120, 120)
 		newdog.friction = random_range(0.01, 0.5)
-		newdog.image_speed = 0.1
+		newdog.image_speed = 0.2
 		with newdog
 			scr_depth()
 		

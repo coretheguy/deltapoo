@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_pixel_white",
+    "path": "sprites/spr_pixel_white/spr_pixel_white.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

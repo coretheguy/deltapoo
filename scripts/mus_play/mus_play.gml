@@ -8,3 +8,9 @@ function mus_loop(argument0) {
     return _xsndinstance;
 }
 
+
+function mus_volume(snd, vol, time) {
+    audio_sound_gain(argument0, (argument1 * global.flag[16]), ((argument2 * 1000) / fps))
+    return;
+}
+

@@ -11,13 +11,13 @@ if (global.interact == 5)
             if (global.menucoord[5] == 0)
             {
                 global.menuno = 9
-                script_execute(gml_Script_scr_litemuseb, global.menucoord[1], global.litem[global.menucoord[1]])
+                script_execute(scr_litemuseb, global.menucoord[1], global.litem[global.menucoord[1]])
             }
             if (global.menucoord[5] == 1)
             {
                 global.menuno = 9
-                script_execute(gml_Script_scr_litemdesc, global.litem[global.menucoord[1]])
-                script_execute(gml_Script_scr_writetext, 0, "x", 0, 0)
+                script_execute(scr_litemdesc, global.litem[global.menucoord[1]])
+                script_execute(scr_writetext, 0, "x", 0, 0)
             }
             if (global.menucoord[5] == 2)
             {
@@ -56,8 +56,8 @@ if (global.interact == 5)
                         if (global.flag[263] == 0)
                             global.flag[263] = 1
                     }
-                    script_execute(gml_Script_scr_writetext, 0, "x", 0, 0)
-                    script_execute(gml_Script_scr_litemshift, global.menucoord[1], 0)
+                    script_execute(scr_writetext, 0, "x", 0, 0)
+                    script_execute(scr_litemshift, global.menucoord[1], 0)
                 }
                 if (dontthrow == 1)
                 {
@@ -65,18 +65,18 @@ if (global.interact == 5)
                     {
                         global.msc = 10
                         scr_text(global.msc)
-                        script_execute(gml_Script_scr_writetext, 10, "x", 0, 0)
+                        script_execute(scr_writetext, 10, "x", 0, 0)
                     }
                     else if (dontthrowtype == 1)
                     {
                         msgsetloc(0, "* (You fumbled and caught them^1. You can't throw these away!)/%", "obj_overworldc_slash_Step_0_gml_61_0")
-                        script_execute(gml_Script_scr_writetext, 0, "x", 0, 0)
+                        script_execute(scr_writetext, 0, "x", 0, 0)
                     }
                     else if (dontthrowtype == 2)
                     {
                         msgsetloc(0, "* (You didn't quite understand why...)/", "obj_overworldc_slash_Step_0_gml_66_0")
                         msgnextloc("* (But, the thought of discarding it felt very wrong.)/%", "obj_overworldc_slash_Step_0_gml_67_0")
-                        script_execute(gml_Script_scr_writetext, 0, "x", 0, 0)
+                        script_execute(scr_writetext, 0, "x", 0, 0)
                     }
                 }
             }
@@ -84,7 +84,7 @@ if (global.interact == 5)
         if (global.menuno == 3)
         {
             global.menuno = 9
-            script_execute(gml_Script_scr_litemuseb, global.menucoord[3], global.phone[global.menucoord[3]])
+            script_execute(scr_litemuseb, global.menucoord[3], global.phone[global.menucoord[3]])
         }
         if (global.menuno == 1)
         {
@@ -95,7 +95,7 @@ if (global.interact == 5)
             global.menuno += (global.menucoord[0] + 1)
         if (global.menuno == 3)
         {
-            script_execute(gml_Script_scr_phonename)
+            script_execute(scr_phonename)
             global.menucoord[3] = 0
         }
         if (global.menuno == 1)
@@ -103,7 +103,7 @@ if (global.interact == 5)
             if (global.litem[0] != 0)
             {
                 global.menucoord[1] = 0
-                script_execute(gml_Script_scr_litemname)
+                script_execute(scr_litemname)
             }
             else
                 global.menuno = 0

@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "deltapoo",
-    "path": "deltapoo.yyp",
+    "name": "DEBUG",
+    "path": "folders/Sprites/DEBUG.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_soliddark",

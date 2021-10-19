@@ -1,6 +1,6 @@
 function scr_dbox() {
-    xxx = __view_get((0 << 0), 0)
-    yyy = __view_get((1 << 0), 0)
+    xxx = __view_get((0), 0)
+    yyy = __view_get((1), 0)
     if (global.darkzone == 0)
     {
         if (side == 0)

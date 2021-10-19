@@ -15,3 +15,12 @@ function snd_volume(argument0, argument1, argument2) {
     return;
 }
 
+function snd_stop(snd) {
+    audio_stop_sound(argument0)
+    return;
+}
+
+function snd_loop(snd) {
+    return audio_play_sound(argument0, 50, true);
+}
+

@@ -240,7 +240,7 @@ function scr_gamestart() // gml_Script_scr_gamestart
     global.currentsong[1] = 259
     global.batmusic[0] = 259
     global.batmusic[1] = 259
-    global.debug = 0
+    global.debug = true
     global.fc = 0
     global.fe = 0
     global.choice = -1

@@ -1,0 +1,5 @@
+scr_makecaterpillar(obj_mainchara.x, obj_mainchara.y, 2, 0)
+scr_makecaterpillar(obj_mainchara.x, obj_mainchara.y, 2, 1)
+scr_makecaterpillar(obj_mainchara.x, obj_mainchara.y, 2, 2)
+scr_makecaterpillar(obj_mainchara.x, obj_mainchara.y, 2, 3)
+scr_makecaterpillar(obj_mainchara.x, obj_mainchara.y, 2, 4)

@@ -1,0 +1,1 @@
+msgsetloc(0, "* It's nothing. For doing nothing./%", "room_empty_slash_3E9400A0_slash_Create_0_gml_1_0")

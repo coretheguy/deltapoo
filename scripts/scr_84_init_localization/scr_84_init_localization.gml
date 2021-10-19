@@ -75,12 +75,12 @@ function scr_84_init_localization() // gml_Script_scr_84_init_localization
         else
         {
             fm = global.font_map
-            ds_map_add(fm, "main", 3)
-            ds_map_add(fm, "mainbig", 2)
-            ds_map_add(fm, "tinynoelle", 0)
-            ds_map_add(fm, "dotumche", 1)
-            ds_map_add(fm, "comicsans", 4)
-            ds_map_add(fm, "small", 5)
+            ds_map_add(fm, "main", fnt_main)
+            ds_map_add(fm, "mainbig", fnt_mainbig)
+            ds_map_add(fm, "tinynoelle", fnt_tinynoelle)
+            ds_map_add(fm, "dotumche", fnt_dotumche)
+            ds_map_add(fm, "comicsans", fnt_comicsans)
+            ds_map_add(fm, "small", fnt_small)
             sm = global.chemg_sprite_map
             ds_map_add(sm, "spr_bnamekris", 2232)
             ds_map_add(sm, "spr_bnameralsei", 2233)

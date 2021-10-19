@@ -5,8 +5,8 @@ if (active == 0)
     mycameray = __view_get(1, camera)
     if (global.flag[12] == 0)
     {
-        __view_set((0 << 0), camera, (mycamerax + shakex))
-        __view_set((1 << 0), camera, (mycameray + shakey))
+        __view_set((0), camera, (mycamerax + shakex))
+        __view_set((1), camera, (mycameray + shakey))
     }
     shakesign = (-shakesign)
     active = 1

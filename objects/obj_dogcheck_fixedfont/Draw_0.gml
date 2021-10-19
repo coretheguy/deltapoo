@@ -17,9 +17,9 @@ y = ts
 
 
 
-if time mod 6 = 0 {
+if time mod 1 = 0 {
 	
-	var dognum = irandom_range(45,  80)
+	var dognum = 1//irandom_range(45,  80)
 	
 	for (var i = 0; i < dognum; i++) {
 		

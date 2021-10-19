@@ -1,0 +1,1 @@
+msginfo = [0, "* pipis/%", "room_empty_slash_7B8FDF2F_slash_Create_1_0"]

@@ -1,6 +1,6 @@
 active = 1
-xx = ((19 * f) + __view_get((0 << 0), 0))
-yy = ((20 * f) + __view_get((1 << 0), 0))
+xx = ((19 * f) + __view_get((0), 0))
+yy = ((20 * f) + __view_get((1), 0))
 xx = round(xx)
 yy = round(yy)
 if (side == 0)

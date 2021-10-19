@@ -20,3 +20,15 @@ function scr_marker(_x, _y, _sprite) {
     return thismarker;
 }
 
+function scr_dark_marker_depth(_x, _y, _depth, _sprite) {
+    thismarker = instance_create_depth(argument0, argument1, argument2, obj_marker)
+    with (thismarker)
+    {
+        sprite_index = argument3
+        image_speed = 0
+        image_xscale = 2
+        image_yscale = 2
+    }
+    return thismarker;
+}
+

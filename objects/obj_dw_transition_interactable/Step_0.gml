@@ -46,7 +46,7 @@ if (con == 3)
     }
     with (obj_dw_transition)
     {
-        quick_mode = 0
+        quick_mode = 1
         if (!scr_havechar(2))
         {
             kris_x = obj_mainchara.x

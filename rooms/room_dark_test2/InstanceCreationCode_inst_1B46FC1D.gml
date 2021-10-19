@@ -1,0 +1,1 @@
+msginfo = [0, "* Buddy, there's nothing here. Buzz off, will ya?/%", "room_DT2_ICC1B4_1_0"]

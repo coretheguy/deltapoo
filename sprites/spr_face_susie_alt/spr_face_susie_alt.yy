@@ -214,7 +214,7 @@
   "nineSlice": null,
   "parent": {
     "name": "susface",
-    "path": "folders/Sprites/FONT/TEXTBOX/FACE/susface.yy",
+    "path": "folders/Sprites/UI/FONT/TEXTBOX/FACE/susface.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_face_susie_alt",

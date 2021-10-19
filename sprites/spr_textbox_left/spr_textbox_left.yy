@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "TEXTBOX",
-    "path": "folders/Sprites/FONT/TEXTBOX.yy",
+    "path": "folders/Sprites/UI/FONT/TEXTBOX.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_textbox_left",

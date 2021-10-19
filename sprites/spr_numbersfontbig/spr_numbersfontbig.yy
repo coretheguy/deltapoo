@@ -158,7 +158,7 @@
   "nineSlice": null,
   "parent": {
     "name": "FONT",
-    "path": "folders/Sprites/FONT.yy",
+    "path": "folders/Sprites/UI/FONT.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_numbersfontbig",

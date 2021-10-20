@@ -152,7 +152,7 @@ function scr_jump_to_point_sprite(ex, ey, jspd, jtm, jspr, lspr) {
     return __jump_to_point;
 }
 
-function scr_jump_in_place(ex, ey) {
+function scr_jump_in_place(jspd, jtm) {
     scr_jump_to_point(x, y, argument0, argument1)
     return;
 }
@@ -160,6 +160,13 @@ function scr_jump_in_place(ex, ey) {
 
 function scr_jump_to_point(ex, ey, jspd, jtm) {
     return scr_jump_to_point_sprite(argument0, argument1, argument2, argument3, 0, 0);
+}
+
+function scr_fadeout(spd) {
+    __fadeouter = instance_create((camerax() - 200), (cameray() - 200), obj_fadeout)
+    __fadeouter.fadespeed = (1 / argument0)
+    __fadeouter.depth = 3
+    return __fadeouter;
 }
 
 

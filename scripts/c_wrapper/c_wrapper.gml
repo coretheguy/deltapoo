@@ -459,7 +459,7 @@ function c_var_lerp() {
     return;
 }
 
-function c_var_lerp_instance() {
+function c_var_lerp_instance(_inst, _var, _start, _end, _diff, _ease) {
     if (argument_count < 6)
         c_cmd_x("var", argument[0], argument[1], argument[2], argument[3], argument[4], 0)
     else if (argument_count == 6)

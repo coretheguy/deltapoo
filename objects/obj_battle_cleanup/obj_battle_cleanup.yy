@@ -21,11 +21,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "heart",
-    "path": "folders/Objects/PLAYER/heart.yy",
+    "name": "BATTLE",
+    "path": "folders/Objects/ENEMY/BATTLE.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_returnheart",
+  "name": "obj_battle_cleanup",
   "tags": [],
   "resourceType": "GMObject",
 }

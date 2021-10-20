@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "kris",
-    "path": "folders/Sprites/CHARA/kris.yy",
+    "name": "soul",
+    "path": "folders/Sprites/CHARA/kris/soul.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_heart_outline2",

@@ -21,8 +21,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "PLAYER",
-    "path": "folders/Objects/PLAYER.yy",
+    "name": "heart",
+    "path": "folders/Objects/PLAYER/heart.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_overworldheart",

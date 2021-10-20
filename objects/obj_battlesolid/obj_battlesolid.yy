@@ -25,7 +25,7 @@
     "path": "folders/Objects/PLAYER/heart.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_returnheart",
+  "name": "obj_battlesolid",
   "tags": [],
   "resourceType": "GMObject",
 }

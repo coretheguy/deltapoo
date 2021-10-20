@@ -1,8 +1,14 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_dodgeheart",
+    "path": "sprites/spr_dodgeheart/spr_dodgeheart.yy",
+  },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_dodgeheart_mask",
+    "path": "sprites/spr_dodgeheart_mask/spr_dodgeheart_mask.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
@@ -17,12 +23,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "PLAYER",
-    "path": "folders/Objects/PLAYER.yy",
+    "name": "heart",
+    "path": "folders/Objects/PLAYER/heart.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_heart",

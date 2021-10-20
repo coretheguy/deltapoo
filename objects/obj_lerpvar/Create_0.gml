@@ -5,6 +5,6 @@ pointb = 0
 time = 0
 maxtime = 30
 target = -1
-init = 0
+init = false
 easetype = 0
 easeinout = "out"

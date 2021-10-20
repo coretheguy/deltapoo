@@ -78,6 +78,76 @@ function scr_ease_out(_var, _type) {
 
 }
 
+function scr_ease_inout(_var, _type) {
+    if (argument1 < -3 || argument1 > 7)
+        return argument0;
+    if (argument1 == -3)
+        return ease_inout_bounce(argument0, 0, 1, 1);
+    else if (argument1 == -2)
+        return ease_inout_elastic(argument0, 0, 1, 1);
+    else if (argument1 == -1)
+        return ease_inout_back(argument0, 0, 1, 1);
+    else if (argument1 == 1)
+        return (-0.5 * cos(((pi * argument0) - 1)));
+    else if (argument1 == 0)
+        return argument0;
+    argument0 *= 2
+    if (argument0 < 1)
+        return (0.5 * scr_ease_in(argument0, argument1));
+    else
+    {
+        argument0--
+        return (0.5 * (scr_ease_out(argument0, argument1) + 1));
+    }
+}
+
+function ease_inout_elastic(a1, a2, a3, a4) {
+    var _s = 1.70158
+    var _p = 0
+    var _a = argument2
+    if (argument0 == 0 || _a == 0)
+        return argument1;
+    argument0 /= (argument3 * 0.5)
+    if (argument0 == 2)
+        return (argument1 + argument2);
+    if (!_p)
+        _p = (argument3 * 0.44999999999999996)
+    if (_a < abs(argument2))
+    {
+        _a = argument2
+        _s = (_p * 0.25)
+    }
+    else
+        _s = ((_p / (2 * pi)) * arcsin((argument2 / _a)))
+    if (argument0 < 1)
+        return ((-0.5 * ((_a * power(2, (10 * --argument0))) * sin(((((argument0 * argument3) - _s) * (2 * pi)) / _p)))) + argument1);
+    return (((((_a * power(2, (-10 * --argument0))) * sin(((((argument0 * argument3) - _s) * (2 * pi)) / _p))) * 0.5) + argument2) + argument1);
+}
+
+
+
+function ease_inout_bounce(a1, a2, a3, a4) {
+    if (argument0 < (argument3 * 0.5))
+        return ((ease_in_bounce((argument0 * 2), 0, argument2, argument3) * 0.5) + argument1);
+    return (((ease_out_bounce(((argument0 * 2) - argument3), 0, argument2, argument3) * 0.5) + (argument2 * 0.5)) + argument1);
+}
+
+
+
+function ease_inout_back(a1, a2, a3, a4) {
+    var _s = 1.70158
+    argument0 /= argument3
+    argument0 *= 2
+    if (argument0 < 1)
+    {
+        _s *= 1.525
+        return (((argument2 * 0.5) * ((argument0 * argument0) * (((_s + 1) * argument0) - _s))) + argument1);
+    }
+    argument0 -= 2
+    _s *= 1.525
+    return (((argument2 * 0.5) * (((argument0 * argument0) * (((_s + 1) * argument0) + _s)) + 2)) + argument1);
+}
+
 
 
 function ease_in_bounce(arg1, arg2, arg3, arg4) {

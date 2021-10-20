@@ -24,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "lerp",
-    "path": "folders/Objects/UTIL/lerp.yy",
+    "name": "UTIL",
+    "path": "folders/Objects/UTIL.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_lerpvar",
+  "name": "obj_animator",
   "tags": [],
   "resourceType": "GMObject",
 }

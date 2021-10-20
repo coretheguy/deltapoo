@@ -20,15 +20,16 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "lerp",
-    "path": "folders/Objects/UTIL/lerp.yy",
+    "name": "CUTSCENE",
+    "path": "folders/Objects/CUTSCENE.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_lerpvar",
+  "name": "obj_cutscene_maker",
   "tags": [],
   "resourceType": "GMObject",
 }

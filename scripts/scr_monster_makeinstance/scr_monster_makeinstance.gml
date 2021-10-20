@@ -34,3 +34,29 @@ function scr_monster_statreset(monst_id) {
     return;
 }
 
+function scr_monsterattacknamecount(amount) {
+    __sameattack = 0
+    for (_sameattacki = 0; _sameattacki < 3; _sameattacki++)
+    {
+        if (global.monsterattackname[_sameattacki] == argument0 && global.monster[_sameattacki] == true)
+            __sameattack++
+    }
+    return __sameattack;
+}
+
+function scr_mosterattackidcount(_id) {
+    scr_monsterattacknamecount(("ThisAttack" + string(argument0)))
+    return;
+}
+
+function scr_monsterattackcheck(name) {
+    for (i = 0; i < 3; i++)
+    {
+        if (global.monsterattackname[i] == argument0 && global.monster[i] == true)
+            return 1;
+    }
+    return 0;
+}
+
+
+

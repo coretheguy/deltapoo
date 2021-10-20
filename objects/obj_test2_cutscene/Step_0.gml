@@ -16,17 +16,44 @@ if (con == 1)
 	
 	scr_actor_setup(spaton, spa_ctor, spr_spamton_drag)
 	
-	spaton.image_angle = -60
+	spa_ctor.image_angle = -60
 	
 	
 	c_sel(spaton)
 	c_speaker("spamton")
-	c_msgset(0, "* KRIS!! WAIT JUST A [Darn Hecking] MINUTE!/%")
+	c_msgsetloc(0, "* KRIS!! WAIT JUST A [[Tootin']] MINUTE!/%", "obj_test2_cutscene_slash_Step_0_gml_24_0")
+	c_talk_wait()
+	
+	c_pannable(true)
+	c_pan(camerax() + 50, 0, 10)
+	c_wait(20)
+	
+	
+	c_var_lerp("image_angle", spa_ctor.image_angle, 0, 5, 2, "out")
+	c_jump(obj_mainchara.x + 130, obj_mainchara.y, 15, 15)
+	c_wait(50)
+	
+	c_mus("free_all")
+	c_mus2("initloop", "spamton_meeting.ogg", 0)
+	c_mus2("pitch", 0.84)
+	
+	c_var_lerp("siner_amplitude0", 0, 10, 10, 1)
+	c_var("siner_add0", 0.1)
+	
+	
+	c_speaker("spamton")
+	c_msgsetloc(0, "* THIS ISN;T MY [[Lost your Car Keys]]!/", "obj_test2_cutscene_slash_Step_0_gml_30_0")
+	c_msgnextloc("* THIS ISN'T [[Affordable deals]] [[Half Off Today Only!!]]!!/%", "oT2CSST0GML_31")
 	c_talk()
+	
 	c_wait_box(1)
-	c_var_lerp_instance(spa_ctor, "x", spa_ctor.x, obj_mainchara.x + 40, 30, 1, "out")
-	c_var_lerp_instance(spa_ctor, "image_angle", spa_ctor.image_angle, 0, 30, 1, "out")
+	//c_shakeobj()
+	c_var("siner_add0", 0.3)
+	
 	c_wait_talk()
+	
+	
+	
 }
 
 if (con == 2)

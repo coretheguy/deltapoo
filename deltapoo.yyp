@@ -1035,6 +1035,7 @@
     {"folderPath":"folders/Sprites/VFX.yy","order":17,"resourceVersion":"1.0","name":"VFX","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/VFX/cybercity.yy","order":1,"resourceVersion":"1.0","name":"cybercity","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/UI/FONT/TEXTBOX/FACE/ralface.yy","order":1,"resourceVersion":"1.0","name":"ralface","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/CUTSCENE/spamton_cutscene.yy","order":1,"resourceVersion":"1.0","name":"spamton_cutscene","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

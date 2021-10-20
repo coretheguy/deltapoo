@@ -33,7 +33,7 @@ function scr_emote() {
     return;
 }
 
-function scr_lerpvar_instance() {
+function scr_lerpvar_instance(targ, varn, pa, pb, maxt, easet, easeio) {
     __lerpvar = instance_create(0, 0, obj_lerpvar)
     __lerpvar.target = argument[0]
     __lerpvar.varname = argument[1]

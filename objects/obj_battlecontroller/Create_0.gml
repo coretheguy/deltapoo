@@ -251,3 +251,5 @@ if (global.chapter == 2)
     if instance_exists(obj_gigaqueen_enemy)
         gigaqueencon = 3
 }
+
+scr_depth()

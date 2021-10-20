@@ -372,3 +372,88 @@ function scr_act_simul() {
     return;
 }
 
+function scr_levelup() {
+    global.flag[65] = (global.flag[65] + 1)
+    global.maxhp[1] += 2
+    global.maxhp[2] += 2
+    global.maxhp[3] += 2
+    global.hp[1] += 2
+    global.hp[2] += 2
+    global.hp[3] += 2
+    if ((global.flag[65] % 2) == 0)
+        global.maxhp[2] += 1
+    if ((global.flag[65] % 10) == 0)
+    {
+        global.at[1] += 1
+        global.at[2] += 1
+        global.mag[2] += 1
+        global.at[3] += 1
+        global.mag[3] += 1
+        global.flag[66] = (global.flag[66] + 1)
+    }
+    if scr_havechar(4)
+    {
+        global.flag[919] = (global.flag[919] + 1)
+        global.maxhp[4] += 4
+        global.hp[4] += 4
+        if ((global.flag[65] % 4) == 0)
+        {
+            global.at[4] += 1
+            global.mag[4] += 1
+        }
+    }
+    global.maxhp[1] = clamp(global.maxhp[1], 10, 160)
+    global.maxhp[2] = clamp(global.maxhp[2], 10, 190)
+    global.maxhp[3] = clamp(global.maxhp[3], 10, 140)
+    global.maxhp[4] = clamp(global.maxhp[4], 10, 999)
+    for (var _i = 1; _i < 5; _i++)
+        global.hp[_i] = min(global.hp[_i], global.maxhp[_i])
+    return;
+}
+
+function scr_wincombat() {
+    if (global.flag[60] == 0 || global.flag[36] == 1)
+    {
+        global.myfight = 7
+        global.mnfight = -1
+        with (obj_battlecontroller)
+            victory = true
+        for (i = 0; i < 3; i += 1)
+        {
+            if (global.monster[i] == true && i_ex(global.monsterinstance[i]))
+            {
+                with (global.monsterinstance[i])
+                    scr_monsterdefeat()
+            }
+        }
+    }
+    else
+    {
+        for (i = 0; i < 3; i += 1)
+        {
+            if (global.monster[i] == true && i_ex(global.monsterinstance[i]))
+            {
+                with (global.monsterinstance[i])
+                    scr_monsterdefeat()
+            }
+        }
+        global.encounterno = global.flag[60]
+        scr_encountersetup(global.encounterno)
+        global.flag[60] = 0
+        for (__j = 0; __j < 3; __j++)
+        {
+            if (global.monstertype[__j] != 0)
+            {
+                _newmonster = scr_monster_add(global.monstertype[__j], global.monsterinstancetype[__j])
+                global.monsterinstance[_newmonster].x = (camerax() + 800)
+                global.monsterinstance[_newmonster].y = global.monstermakey[__j]
+                with (global.monsterinstance[_newmonster])
+                    scr_move_to_point_over_time(global.monstermakex[myself], global.monstermakey[myself], 10)
+            }
+        }
+        global.myfight = 5
+        myfightreturntimer = 15
+        global.mnfight = -1
+    }
+    return;
+}

@@ -136,3 +136,136 @@ function scr_spellinfo(){
     return;
 }
 
+function scr_spellconsumeb(){
+    global.tension -= cost
+    global.faceaction[global.charturn] = 2
+    global.charaction[global.charturn] = 2
+    if (global.flag[34] == 1)
+        global.charspecial[global.charturn] = global.spell[global.char[global.charturn]][global.bmenucoord[2][global.charturn]]
+    if (global.flag[34] == 0)
+        global.charspecial[global.charturn] = global.battlespell[global.charturn][global.bmenucoord[2][global.charturn]]
+    global.tensionselect = 0
+    if (spellanim == true)
+    {
+        with (global.charinstance[global.charturn])
+        {
+            spellframes = 0
+            spellsprite = spellreadysprite
+        }
+    }
+    else
+    {
+        with (global.charinstance[global.charturn])
+        {
+            spellframes = remspellframes
+            spellsprite = remspellsprite
+        }
+    }
+    scr_nexthero()
+    return;
+}
+
+ 
+
+function scr_itemconsumeb() {
+    global.faceaction[global.charturn] = 3
+    global.charaction[global.charturn] = 4
+    global.charspecial[global.charturn] = (tempitem[global.bmenucoord[4][global.charturn]][global.charturn] + 200)
+    if (usable == true && replaceable == false)
+        scr_itemshift_temp(global.bmenucoord[4][global.charturn], global.charturn)
+    else if (replaceable > false)
+        tempitem[global.bmenucoord[4][global.charturn]][global.charturn] = replaceable
+    scr_nexthero()
+    return;
+}
+
+function scr_itemshift_temp(a1, a2) {
+    tempitem[12][argument1] = 0
+    for (i = argument0; i < 12; i += 1)
+        tempitem[i][argument1] = tempitem[(i + 1)][argument1]
+    return;
+}
+
+function scr_actinfo_temp(act) {
+    for (__acti = 0; __acti < 6; __acti++)
+    {
+        canact[__acti] = false
+        if (global.char[global.charturn] == 1)
+        {
+            canact[__acti] = global.canact[argument0][__acti]
+            acttpcost[__acti] = global.actcost[argument0][__acti]
+            actsimul[__acti] = global.actsimul[argument0][__acti]
+        }
+        if (global.char[global.charturn] == 2)
+        {
+            canact[__acti] = global.canactsus[argument0][__acti]
+            acttpcost[__acti] = global.actcostsus[argument0][__acti]
+            actsimul[__acti] = global.actsimulsus[argument0][__acti]
+        }
+        if (global.char[global.charturn] == 3)
+        {
+            canact[__acti] = global.canactral[argument0][__acti]
+            acttpcost[__acti] = global.actcostral[argument0][__acti]
+            actsimul[__acti] = global.actsimulral[argument0][__acti]
+        }
+        if (global.char[global.charturn] == 4)
+        {
+            canact[__acti] = global.canactnoe[argument0][__acti]
+            acttpcost[__acti] = global.actcostnoe[argument0][__acti]
+            actsimul[__acti] = global.actsimulnoe[argument0][__acti]
+        }
+    }
+    return;
+}
+
+function scr_actselect(enemy, char) {
+    if i_ex(global.monsterinstance[argument0])
+    {
+        if (global.char[global.charturn] == 1)
+            global.monsterinstance[argument0].acting = (argument1 + 1)
+        if (global.char[global.charturn] == 2)
+            global.monsterinstance[argument0].actingsus = (argument1 + 1)
+        if (global.char[global.charturn] == 3)
+            global.monsterinstance[argument0].actingral = (argument1 + 1)
+        if (global.char[global.charturn] == 4)
+            global.monsterinstance[argument0].actingnoe = (argument1 + 1)
+    }
+    if (global.char[global.charturn] == 1)
+    {
+        global.actingsimul[0] = actsimul[argument1]
+        global.acting[0] = true
+        global.actingsingle[0] = true
+        global.actingtarget[global.charturn] = argument0
+        if (global.actactor[argument0][argument1] == 2)
+            global.acting[charpos[1]] = true
+        if (global.actactor[argument0][argument1] == 3)
+            global.acting[charpos[2]] = true
+        if (global.actactor[argument0][argument1] == 4)
+        {
+            global.acting[2] = true
+            global.acting[1] = true
+        }
+        if (global.actactor[argument0][argument1] == 5)
+            global.acting[charpos[3]] = true
+        for (i = 0; i < 3; i += 1)
+        {
+            if (global.acting[i] == true)
+            {
+                global.faceaction[i] = 6
+                global.charaction[i] = 9
+            }
+        }
+    }
+    else
+    {
+        global.actingtarget[global.charturn] = argument0
+        global.actingsingle[global.charturn] = true
+        global.actingsimul[global.charturn] = actsimul[argument1]
+        global.faceaction[global.charturn] = 6
+        global.charaction[global.charturn] = 9
+    }
+    return;
+}
+
+
+

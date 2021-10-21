@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "diamond",
-    "path": "folders/Objects/ENEMY/CH1/diamond.yy",
+    "name": "ENEMY",
+    "path": "folders/Objects/ENEMY.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_dbulletcontroller",

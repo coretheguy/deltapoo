@@ -241,8 +241,8 @@ else
     image_speed = 0
     image_index = 0
 }
-global.heartx = ((x + 2) - __view_get((0 << 0), 0))
-global.hearty = ((y + 2) - __view_get((1 << 0), 0))
+global.heartx = ((x + 2) - __view_get(0, 0))
+global.hearty = ((y + 2) - __view_get(1, 0))
 if (color == 0x000001)
 {
     wspeed = 5

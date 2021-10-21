@@ -1,0 +1,1 @@
+msginfo = [0, "* Something about this sign just screams \"technology.\"/%", "RM_room_dark_test2_ICC_I34805_1_0"]

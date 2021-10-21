@@ -4,7 +4,7 @@
     "path": "sprites/spr_soliddark/spr_soliddark.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {

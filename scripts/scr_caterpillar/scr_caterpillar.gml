@@ -157,6 +157,14 @@ function scr_makecaterpillar(x, y, name, inst) {
                 rsprite = spr_noelle_walk_right_blush_dw
                 lsprite = spr_noelle_walk_left_blush_dw
             }
+			
+			if global.darkzone = false {
+				
+				usprite = spr_noelle_walk_up_lw
+				dsprite = spr_noelle_walk_down_lw
+				rsprite = spr_noelle_walk_right_lw
+				lsprite = spr_noelle_walk_left_lw
+			}
         }
     }
     if (argument2 == 5)

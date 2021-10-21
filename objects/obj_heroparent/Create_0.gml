@@ -89,7 +89,7 @@ if (object_index == obj_herosusie)
     actreturnframes = 10
     spellframes = 8
     attackspeed = 0.5
-    normalsprite = spr_susier_dark
+    normalsprite = spr_susie_walk_right_dw
     idlesprite = spr_susieb_idle
     defendsprite = spr_susieb_defend
     hurtsprite = spr_susieb_hurt

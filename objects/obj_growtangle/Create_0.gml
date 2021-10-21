@@ -15,4 +15,4 @@ maxyscale = 2
 customBox = 0
 init = false
 spr_custom_box = sprite_index
-depth = 4000
+depth = 100

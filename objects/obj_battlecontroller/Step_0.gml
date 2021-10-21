@@ -9,6 +9,7 @@ if (global.chapter == 2 && instance_exists(obj_queen_enemy) && obj_queen_enemy.i
     return;
 if (victory == true && victoried == 0)
 {
+	//scr_debug_print("victory checkpoint 1")
     global.faceaction[0] = 0
     global.faceaction[1] = 0
     global.faceaction[2] = 0
@@ -27,8 +28,14 @@ if (victory == true && victoried == 0)
             global.hp[i] = round((global.maxhp[i] / 8))
     }
     lastbattlewriter = 32482473284732
+	
+	
+	//scr_debug_print("victory checkpoint 2")
+	
     if (skipvictory == false)
     {
+		
+	//scr_debug_print("victory checkpoint 3")
         global.monstergold[3] += (floor((global.tension / 10)) * global.chapter)
         if (global.charweapon[1] == 8)
             global.monstergold[3] += floor((global.monstergold[3] / 20))
@@ -57,6 +64,10 @@ if (victory == true && victoried == 0)
         }
         global.msg[0] = global.battlemsg[0]
         global.typer = global.battletyper
+		
+		
+		//scr_debug_print("victory checkpoint 4")
+	
         lastbattlewriter = scr_battletext()
         if (global.flag[38] == 1)
         {
@@ -72,6 +83,8 @@ if (victory == true && victoried == 0)
                 hurttimer = 0
             }
         }
+		
+		//scr_debug_print("victory checkpoint 5")
     }
     victoried = 1
     victortimer = 0
@@ -894,6 +907,7 @@ if (global.myfight == 3)
 {
     if (scr_monsterpop() == 0 && (!instance_exists(obj_writer)))
     {
+		//scr_debug_print("won?")
         scr_wincombat()
         if (global.myfight == 3)
             scr_endturn()

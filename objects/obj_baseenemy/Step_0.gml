@@ -81,7 +81,7 @@ if (global.monster[myself] == true)
                 if scr_messagepriority((100 + random(2)))
                 {
                     substring = string(myself)
-                    global.battlemsg[0] = ""
+                    global.battlemsg[0] = "this dont look good man"
                 }
             }
             attacked = true
@@ -97,7 +97,7 @@ if (global.myfight == 3)
     if (acting == true && actcon == 0)
     {
         actcon = 1
-        msgset(0, "")
+        msgset(0, "* TEST ENEMY - Very test enemy. Yes. Obvious./%")
         scr_battletext_default()
     }
     if (acting == 2 && actcon == 0)
@@ -105,24 +105,24 @@ if (global.myfight == 3)
         actcon = 1
         if (global.automiss[myself] == false)
         {
-            msgset(0, "")
-            global.monstercomment[myself] = ""
+            msgset(0, "* You warned the enemy./%")
+            global.monstercomment[myself] = "what are you gonna do, stab me?"
             global.automiss[myself] = true
         }
         scr_battletext_default()
     }
     if (acting == 3 && actcon == 0)
     {
-        msgset(0, "")
+        msgset(0, "* You acted. The enemy really likes this!/%")
         scr_mercyadd(myself, 100)
         scr_battletext_default()
         actcon = 1
     }
     if (acting == 4 && actcon == 0)
     {
-        msgset(0, "")
+        msgset(0, "* You acted. The enemy sorta likes this!/%")
         if (simultotal == 1)
-            msgset(0, "")
+            msgset(0, "* You acted. The enemy sorta likes this!/%")
         scr_mercyadd(myself, 35)
         scr_simultext("kris")
         if (simulorderkri == 0)
@@ -132,20 +132,20 @@ if (global.myfight == 3)
     }
     if (acting == 5 && actcon == 0)
     {
-        msgset(0, "")
+        msgset(0, "* You acted. The enemy was indifferent./%")
         scr_battletext_default()
         actcon = 1
     }
     if (acting == 6 && actcon == 0)
     {
-        msgset(0, "")
+        msgset(0, "* You acted. It made the enemy sleepy./%")
         scr_monster_make_tired(myself)
         scr_battletext_default()
         actcon = 1
     }
     if (actingsus == true && actconsus == 1)
     {
-        msgset(0, "")
+        msgset(0, "* Susie acted. The enemy sorta likes this!/%")
         scr_mercyadd(myself, 35)
         scr_battletext_default()
         actcon = 1
@@ -153,7 +153,7 @@ if (global.myfight == 3)
     }
     if (actingsus == 2 && actconsus == 1)
     {
-        msgset(0, "")
+        msgset(0, "* Susie did something else. The enemy sorta likes this!/%")
         scr_mercyadd(myself, 35)
         scr_simultext("susie")
         if (simulordersus == 0)
@@ -163,7 +163,7 @@ if (global.myfight == 3)
     }
     if (actingral == true && actconral == 1)
     {
-        msgset(0, "")
+        msgset(0, "* Ralsei acted. The enemy sota likes this!/%")
         scr_mercyadd(myself, 35)
         scr_battletext_default()
         actcon = 1
@@ -171,7 +171,7 @@ if (global.myfight == 3)
     }
     if (actingral == 2 && actconral == 1)
     {
-        msgset(0, "")
+        msgset(0, "* Ralsei acted. Can I stop writing these now?/%")
         scr_mercyadd(myself, 35)
         scr_simultext("ralsei")
         if (simulorderral == 0)

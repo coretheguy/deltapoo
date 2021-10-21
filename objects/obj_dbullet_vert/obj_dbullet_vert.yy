@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "TEST",
-    "path": "folders/Objects/ENEMY/TEST.yy",
+    "name": "diamond",
+    "path": "folders/Objects/ENEMY/CH1/diamond.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_dbullet_vert",

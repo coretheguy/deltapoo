@@ -293,7 +293,7 @@ function scr_attackphase() {
             techwon = true
         //if (global.chapter == 2 && i_ex(obj_berdlyb_enemy) && obj_berdlyb_enemy.endcon == 1)
         //    techwon = true
-        else if (techwon == true)
+        /*else*/ if (techwon == true)
             scr_wincombat()
         if (techwon == false)
         {
@@ -412,12 +412,16 @@ function scr_levelup() {
 }
 
 function scr_wincombat() {
+	
+	
     if (global.flag[60] == 0 || global.flag[36] == 1)
     {
         global.myfight = 7
         global.mnfight = -1
         with (obj_battlecontroller)
             victory = true
+		//scr_debug_print("victory!")
+			
         for (i = 0; i < 3; i += 1)
         {
             if (global.monster[i] == true && i_ex(global.monsterinstance[i]))
@@ -429,6 +433,8 @@ function scr_wincombat() {
     }
     else
     {
+		//scr_debug_print(string(global.flag[60]))
+		
         for (i = 0; i < 3; i += 1)
         {
             if (global.monster[i] == true && i_ex(global.monsterinstance[i]))

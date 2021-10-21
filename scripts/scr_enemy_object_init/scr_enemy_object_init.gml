@@ -193,6 +193,10 @@ function scr_monsterdefeat() {
                 global.flag[global.flag[54]] = global.flag[50]
                 global.flag[54] = 0
             }
+			
+			//scr_debug_print(string(_frozened) + string(_pacified) + string(_spared) + string(_violenced))
+			//global.flag[60] = 0
+			//scr_wincombat()
         }
         event_user(11)
     }

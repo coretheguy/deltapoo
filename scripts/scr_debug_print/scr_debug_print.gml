@@ -3,7 +3,7 @@ function scr_debug_print(stre) {
         return;
     if (!instance_exists(obj_debug_gui))
     {
-        instance_create((__view_get((0 << 0), 0) + 10), (__view_get((1 << 0), 0) + 10), obj_debug_gui)
+        instance_create((__view_get(0, 0) + 10), (__view_get(1, 0) + 10), obj_debug_gui)
         obj_debug_gui.depth = -9999
     }
     obj_debug_gui.newtext = argument0

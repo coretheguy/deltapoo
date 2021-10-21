@@ -11,7 +11,7 @@ function scr_enemy_drawidle_generic(sine) {
     return;
 }
 
-function scr_enemy_drawhurt_Generic() {
+function scr_enemy_drawhurt_generic() {
     hurttimer -= 1
     if (hurttimer < 0)
         state = 0

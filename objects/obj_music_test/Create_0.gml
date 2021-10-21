@@ -1,0 +1,1 @@
+mus_volume(global.currentsong[1], 1, 0)

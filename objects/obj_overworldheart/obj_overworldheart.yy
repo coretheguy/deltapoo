@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_dodgeheart",
+    "path": "sprites/spr_dodgeheart/spr_dodgeheart.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

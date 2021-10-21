@@ -457,3 +457,10 @@ function scr_wincombat() {
     }
     return;
 }
+
+function scr_turntimer(time) {
+    if (global.turntimer < argument0)
+        global.turntimer = argument0
+    return;
+}
+

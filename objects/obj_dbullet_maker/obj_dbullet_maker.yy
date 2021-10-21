@@ -1,10 +1,16 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_diamondbullet_form",
+    "path": "sprites/spr_diamondbullet_form/spr_diamondbullet_form.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_bulletparent",
+    "path": "objects/obj_bulletparent/obj_bulletparent.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -24,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "BATTLE",
-    "path": "folders/Objects/ENEMY/BATTLE.yy",
+    "name": "TEST",
+    "path": "folders/Objects/ENEMY/TEST.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_dbullet_maker",

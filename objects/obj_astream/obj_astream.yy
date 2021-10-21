@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "snd",
-    "path": "folders/Objects/INITIALIZE/snd.yy",
+    "name": "MUSIC",
+    "path": "folders/Objects/MUSIC.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_astream",

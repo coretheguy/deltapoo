@@ -18,13 +18,13 @@ if (global.monster[myself] == true)
         global.typer = 50
         rr = choose(0, 1, 2, 3)
         if (rr == 0)
-            msgset(0, "")
+            msgset(0, "big chungus")
         if (rr == 1)
-            msgset(0, "")
+            msgset(0, "big chungus")
         if (rr == 2)
-            msgset(0, "")
+            msgset(0, "big chungus")
         if (rr == 3)
-            msgset(0, "")
+            msgset(0, "big chungus")
         scr_enemyblcon((x - 160), y, 3)
         talked = true
         talktimer = 0
@@ -38,7 +38,7 @@ if (global.monster[myself] == true)
             if (!instance_exists(obj_moveheart))
                 scr_moveheart()
             if (!instance_exists(obj_growtangle))
-                instance_create((__view_get((0 << 0), 0) + 320), (__view_get((1 << 0), 0) + 170), obj_growtangle)
+                instance_create((__view_get(0, 0) + 320), (__view_get(1, 0) + 170), obj_growtangle)
         }
     }
     if (scr_isphase("bullets") && attacked == false)
@@ -68,13 +68,13 @@ if (global.monster[myself] == true)
             {
                 var substring = string(myself)
                 if (rr == 0)
-                    global.battlemsg[0] = ""
+                    global.battlemsg[0] = "big chungus"
                 if (rr == 1)
-                    global.battlemsg[0] = ""
+                    global.battlemsg[0] = "big chungus"
                 if (rr == 2)
-                    global.battlemsg[0] = ""
+                    global.battlemsg[0] = "212.19.43.104"
                 if (rr == 3)
-                    global.battlemsg[0] = ""
+                    global.battlemsg[0] = "big chungus"
             }
             if (global.monsterhp[myself] <= (global.monstermaxhp[myself] / 3))
             {

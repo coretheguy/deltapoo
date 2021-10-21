@@ -3,7 +3,7 @@
   "isCompatibility": false,
   "parent": {
     "name": "BATTLE",
-    "path": "folders/Scripts/DARKWORLD/BATTLE.yy",
+    "path": "folders/Scripts/BATTLE.yy",
   },
   "resourceVersion": "1.0",
   "name": "scr_enemy_object_init",

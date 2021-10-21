@@ -21,8 +21,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "chara",
-    "path": "folders/Objects/INITIALIZE/chara.yy",
+    "name": "PARENTS",
+    "path": "folders/Objects/PARENTS.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_backgrounderparent",

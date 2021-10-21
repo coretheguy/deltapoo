@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "VFX",
-    "path": "folders/Objects/VFX.yy",
+    "name": "cyber",
+    "path": "folders/Objects/VFX/cyber.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_cybercity_bg_sign",

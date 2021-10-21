@@ -4,7 +4,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_bulletgenparent",
+    "path": "objects/obj_bulletgenparent/obj_bulletgenparent.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -25,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "BATTLE",
-    "path": "folders/Objects/ENEMY/BATTLE.yy",
+    "name": "TEST",
+    "path": "folders/Objects/ENEMY/TEST.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_dbulletcontroller",

@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_pipis_egg",
+    "path": "sprites/spr_pipis_egg/spr_pipis_egg.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

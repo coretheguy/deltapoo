@@ -58,7 +58,7 @@ function scr_draw_sprite_tiled_area(spr, s_img, _xx, _yy, _x1, _y1, _x2, _y2, _x
             if (j <= y1)
                 var top = (y1 - j)
             else
-                top = IMAGE_LOGO
+                top = 0
             var Y = (j + top)
             if (x2 <= (i + sw))
                 var width = (((sw - ((i + sw) - x2)) + 1) - left)
@@ -76,3 +76,20 @@ function scr_draw_sprite_tiled_area(spr, s_img, _xx, _yy, _x1, _y1, _x2, _y2, _x
     }
     return 0;
 }
+
+function draw_text_outline(xx, yy, txt, ocol) {
+    resetcolor = draw_get_color()
+    draw_set_color(argument3)
+    draw_text((argument0 - 1), argument1, argument2)
+    draw_text((argument0 - 1), (argument1 - 1), argument2)
+    draw_text((argument0 - 1), (argument1 + 1), argument2)
+    draw_text((argument0 + 1), argument1, argument2)
+    draw_text((argument0 + 1), (argument1 + 1), argument2)
+    draw_text((argument0 + 1), (argument1 - 1), argument2)
+    draw_text(argument0, (argument1 + 1), argument2)
+    draw_text(argument0, (argument1 - 1), argument2)
+    draw_set_color(resetcolor)
+    draw_text(argument0, argument1, argument2)
+    return;
+}
+

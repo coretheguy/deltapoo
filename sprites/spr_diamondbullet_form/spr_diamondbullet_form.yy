@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "diamond",
-    "path": "folders/Sprites/CHARA/ENEMY/diamond.yy",
+    "name": "bullet",
+    "path": "folders/Sprites/CHARA/ENEMY/diamond/bullet.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_diamondbullet_form",

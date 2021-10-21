@@ -55,3 +55,81 @@ if (type == 1)
         d.target = target
     }
 }
+
+if (type == 13)
+{
+    if (made > 0)
+        return;
+    if (sameattacker == false)
+    {
+        side = irandom(2)
+        monstercount = scr_monsterpop()
+        yoffset = 5
+        if (monstercount != sameattack)
+            yoffset += 20
+        made = 1
+        sidedirection = ((irandom(1) * 2) - 1)
+        cars = (scr_monsterattacknamecount("CarChase") > 0 || scr_monsterattackidcount(16) > false)
+        for (i = 0; i < (monstercount == 1 ? 2 : 3); i++)
+        {
+            xx = obj_growtangle.x
+            if (sameattack == true)
+                xx = (xx + (70 * (-sidedirection)))
+            d = instance_create(xx, (miny - yoffset), obj_viro_invaderfleet)
+            d.lborder = (minx + 10)
+            d.rborder = (maxx - 10)
+            d.fleetsize = sameattack
+            d.fleetspeed = monstercount
+            d.grazepoints = 5
+            d.caralert = cars
+            d.movedirection *= sidedirection
+            yoffset += (monstercount == true ? 40 : 20)
+            sidedirection *= -1
+            d.damage = damage
+            d.target = target
+            if (i == side)
+                d.shottimer = (sameattack == monstercount ? 15 : 5)
+            if (sameattack == monstercount)
+            {
+                d.bigshot = 1
+                d.grazepoints = 4
+            }
+        }
+    }
+    else if (sameattacker == true && instance_exists(obj_viro_invaderfleet))
+    {
+        obj_viro_invaderfleet.targetB = target
+        made = 1
+    }
+}
+
+if (type == 14)
+{
+    if (btimer >= (ratio == 1 ? 6 : (10 * ratio)))
+    {
+        xx = ((maxx + 40) + random(140))
+        if (sameattacker == true)
+            xx = ((minx - 40) - random(140))
+        yy = (miny + random(obj_growtangle.sprite_height))
+        if (scr_monsterpop() == 1)
+        {
+            special--
+            if (special == false)
+                yy = (obj_heart.y + 10)
+            if (special <= false)
+                special = (irandom(5) + 5)
+        }
+        d = instance_create(xx, yy, obj_viro_needle)
+        btimer = 0
+        d.direction = (sameattacker == false ? 180 : 0)
+        d.image_angle = direction
+        d.damage = damage
+        d.target = target
+        d.grazepoints = 5
+        d.speed = 1
+        if (scr_monsterpop() == 1)
+            d.friction = -0.2
+        else
+            d.friction = -0.15
+    }
+}

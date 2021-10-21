@@ -470,3 +470,41 @@ function scr_turntimer(time) {
     return;
 }
 
+function scr_act_charsprite_end() {
+    for (i = 0; i < 10; i++)
+    {
+        with (_charactsprite[i])
+            instance_destroy()
+    }
+    with (obj_heroparent)
+    {
+        if (image_alpha == 0)
+        {
+            image_alpha = 1
+            acttimer = 0
+            state = 0
+            global.faceaction[myself] = 0
+        }
+    }
+    return;
+}
+
+function scr_findchar(char) {
+    __charslot = -1
+    __findchar = 0
+    while (__findchar < 3)
+    {
+        if (global.char[__findchar] == argument0)
+        {
+            __charslot = __findchar
+            break
+        }
+        else
+        {
+            __findchar++
+            continue
+        }
+    }
+    return __charslot;
+}
+

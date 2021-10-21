@@ -44,7 +44,7 @@ function scr_monsterattacknamecount(amount) {
     return __sameattack;
 }
 
-function scr_mosterattackidcount(_id) {
+function scr_monsterattackidcount(_id) {
     scr_monsterattacknamecount(("ThisAttack" + string(argument0)))
     return;
 }

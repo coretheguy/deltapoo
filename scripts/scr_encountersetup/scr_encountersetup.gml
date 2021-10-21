@@ -37,6 +37,21 @@ function scr_encountersetup(encounter ) {
             global.battlemsg[0] = stringsetloc("* Test enemies showed up.", "scr_encountersetup_slash_scr_encountersetup_gml_60_0")
             break
 			
+		case 55:
+            global.monsterinstancetype[0] = obj_virovirokun_enemy
+            global.monstertype[0] = 35
+            global.monstermakex[0] = (xx + 480)
+            global.monstermakey[0] = (yy + 40)
+            global.monsterinstancetype[1] = obj_virovirokun_enemy
+            global.monstertype[1] = 35
+            global.monstermakex[1] = (xx + 510)
+            global.monstermakey[1] = (yy + 154)
+            global.monstertype[2] = 0
+            global.battlemsg[0] = stringsetloc("* Virovirokun floated in!", "scr_encountersetup_slash_scr_encountersetup_gml_637_0")
+            if (global.ambush == 2)
+                global.battlemsg[0] = stringsetloc("* First strike!", "scr_encountersetup_slash_scr_encountersetup_gml_640_0")
+            break
+		
 		case 102:
             global.monsterinstancetype[0] = obj_pipis_enemy
             global.monstertype[0] = 53
@@ -129,5 +144,50 @@ function scr_monstersetup() {
         global.actnameral[myself][1] = stringsetloc("SimuDance", "scr_monstersetup_slash_scr_monstersetup_gml_42_0")
         global.actsimulral[myself][1] = true
     }
+	
+	if (global.monstertype[myself] == 35)
+    {
+        global.monstername[myself] = stringsetloc("Virovirokun", "scr_monstersetup_slash_scr_monstersetup_gml_1008_0")
+        global.monstermaxhp[myself] = 240
+        global.monsterhp[myself] = 240
+        global.monsterat[myself] = 8
+        global.monsterdf[myself] = 0
+        global.monsterexp[myself] = 0
+        global.monstergold[myself] = 84
+        global.sparepoint[myself] = 20
+        global.mercymod[myself] = 0
+        global.mercymax[myself] = 100
+        global.canact[myself][0] = true
+        global.actname[myself][0] = stringsetloc("Check", "scr_monstersetup_slash_scr_monstersetup_gml_1019_0")
+        global.canact[myself][1] = true
+        global.actname[myself][1] = stringsetloc("TakeCare", "scr_monstersetup_slash_scr_monstersetup_gml_1022_0")
+        if (!scr_havechar(4))
+        {
+            global.canact[myself][2] = true
+            global.actactor[myself][2] = 4
+            global.actname[myself][2] = stringsetloc("TakeCareX", "scr_monstersetup_slash_scr_monstersetup_gml_1028_0")
+            global.actdesc[myself][2] = " "
+            global.actcost[myself][2] = 0
+        }
+        else
+        {
+            global.canact[myself][2] = true
+            global.actactor[myself][2] = 5
+            global.actname[myself][2] = stringsetloc("TakeCareX", "scr_monstersetup_slash_scr_monstersetup_gml_1047_0")
+            global.actdesc[myself][2] = " "
+            global.actcost[myself][2] = 0
+        }
+        global.canactsus[myself][0] = true
+        global.actnamesus[myself][0] = stringsetloc("S-Action", "scr_monstersetup_slash_scr_monstersetup_gml_1053_0")
+        global.actsimulsus[myself][0] = true
+        global.canactral[myself][0] = true
+        global.actnameral[myself][0] = stringsetloc("R-Action", "scr_monstersetup_slash_scr_monstersetup_gml_1057_0")
+        global.actsimulral[myself][0] = true
+        global.canactnoe[myself][0] = true
+        global.actnamenoe[myself][0] = stringsetloc("N-Action", "scr_monstersetup_slash_scr_monstersetup_gml_1061_0")
+        global.actsimulnoe[myself][0] = true
+    }
+	
 	return;
 }
+

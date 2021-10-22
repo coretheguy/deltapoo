@@ -4,3 +4,8 @@ function game_restart_true() {
     return;
 }
 
+function ossafe_game_end() {
+    game_restart_true()
+    return;
+}
+

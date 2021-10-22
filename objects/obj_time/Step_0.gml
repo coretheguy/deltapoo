@@ -3,7 +3,7 @@ if scr_debug()
 	
 	if keyboard_check_pressed(ord("O")) {
 		
-		colvis = -colvis
+		colvis = !colvis
 		scr_debug_print("collision visibility " + (colvis = true ? "ON" : "OFF"))
 	}
 	

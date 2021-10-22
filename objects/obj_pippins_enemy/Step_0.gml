@@ -151,7 +151,7 @@ if (global.myfight == 3)
 	if actcon = 14 {
 		
 		if !rolled {
-			msgsetsub(0, "* Press ~1 to make a bet on what the dice will land on!", scr_get_input_name(6))
+			msgset(0, "* Press" + scr_get_input_name(6) + "to make a bet on what the dice will land on!")
 			with obj_herokris
 				visible = false
 		

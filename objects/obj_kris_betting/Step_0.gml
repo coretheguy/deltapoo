@@ -17,7 +17,7 @@ if con = 2 {
 	
 	with creator
 		kris_bet = bet
-	global.msg[0] = stringsetsub("* Kris bets the dice will land on x~1!/%", string(bet))
+	global.msg[0] = stringset("* Kris bets the dice will land on " + string(bet) + "!/%")
 	scr_battletext_default()
 	con = 3
 }

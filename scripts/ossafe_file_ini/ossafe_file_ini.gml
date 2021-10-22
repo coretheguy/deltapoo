@@ -27,3 +27,10 @@ function ossafe_ini_close() {
     return;
 }
 
+function scr_ini_chapter(chapter, entry) {
+    if (argument0 >= 2)
+        return ((("G_" + string(argument0)) + "_") + string(argument1));
+    else
+        return ("G" + string(argument1));
+}
+

@@ -1,2 +1,2 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Set Code Language to GML by default.
+*.yy linguist-language=Game Maker Language

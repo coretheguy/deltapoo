@@ -145,6 +145,27 @@ function scr_monstersetup() {
         global.actsimulral[myself][1] = true
     }
 	
+	if (global.monstertype[myself] == 8)
+    {
+        global.monstername[myself] = stringsetloc("Pippins", "scr_monstersetup_slash_scr_monstersetup_gml_244_0")
+        global.monstermaxhp[myself] = 170
+        global.monsterhp[myself] = 170
+        global.monsterat[myself] = 8
+        global.monsterdf[myself] = 0
+        global.monsterexp[myself] = 0
+        global.monstergold[myself] = 50
+        global.sparepoint[myself] = 10
+        global.mercymod[myself] = 0
+        global.mercymax[myself] = 100
+        global.canact[myself][0] = true
+        global.actname[myself][0] = stringsetloc("Check", "scr_monstersetup_slash_scr_monstersetup_gml_255_0")
+        global.canact[myself][1] = true
+        global.actname[myself][1] = stringsetloc("Bet", "scr_monstersetup_slash_scr_monstersetup_gml_257_0")
+        global.canact[myself][2] = true
+        global.actname[myself][2] = stringsetloc("X-Bet", "scr_monstersetup_slash_scr_monstersetup_gml_259_0")
+        global.actactor[myself][2] = 3
+    }
+	
 	if (global.monstertype[myself] == 35)
     {
         global.monstername[myself] = stringsetloc("Virovirokun", "scr_monstersetup_slash_scr_monstersetup_gml_1008_0")

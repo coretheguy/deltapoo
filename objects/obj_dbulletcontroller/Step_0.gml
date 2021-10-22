@@ -103,6 +103,158 @@ if (type == 13)
     }
 }
 
+if type = 1005 {
+	
+	if made = 0 {
+		
+		dice1 = instance_create(
+	}
+	
+}
+
+if (type == 1006)
+{
+    xx = __view_get((0 << 0), 0)
+    yy = __view_get((1 << 0), 0)
+    if (made == 0)
+    {
+        d = instance_create((300 + xx), (-20 + yy), obj_dicebul)
+        e = instance_create((360 + xx), (-60 + yy), obj_dicebul)
+        d.target = target
+        d.damage = damage
+        e.target = target
+        e.damage = damage
+        made = 1
+    }
+}
+if (type == 1007)
+{
+    xx = __view_get((0 << 0), 0)
+    yy = __view_get((1 << 0), 0)
+    if (made < 3 && btimer >= 15)
+    {
+        btimer = 0
+        mine = instance_create((300 + xx), (-20 + yy), obj_dicebul)
+        mine.damage = damage
+        mine.target = target
+        with (obj_dicebul)
+        {
+            gravity = (0.15 + gravbonus)
+            image_xscale = 1
+            image_yscale = 1
+        }
+        made += 1
+    }
+}
+if (type == 1008)
+{
+    xx = __view_get((0 << 0), 0)
+    yy = __view_get((1 << 0), 0)
+    if (made < 4 && btimer >= 15)
+    {
+        btimer = 0
+        mine = instance_create((300 + xx), (yy - 40), obj_dicebul)
+        mine.damage = damage
+        mine.target = target
+        with (mine)
+        {
+            hspeed = (1.2 + random(1.2))
+            hspeed *= choose(-1, 1)
+            gravbonus = random(0.1)
+            gravity = (0.15 + gravbonus)
+            image_xscale = 0.7
+            image_yscale = 0.7
+        }
+        made += 1
+    }
+}
+if (type == 10010)
+{
+    xx = __view_get((0 << 0), 0)
+    yy = __view_get((1 << 0), 0)
+    if (btimer >= 15)
+    {
+        btimer = 0
+        dicecomet = instance_create(choose((xx + 680), (xx - 100)), (0 - random(100)), obj_dicebul)
+        dicecomet.damage = damage
+        dicecomet.target = target
+        with (dicecomet)
+        {
+            image_xscale = 2
+            image_yscale = 2
+            if (x > (__view_get((0 << 0), 0) + 320))
+                hspeed = (-6 - random(1))
+            else
+                hspeed = (6 + random(1))
+            vspeed = (2 + random(2))
+        }
+    }
+}
+if (type == 10011)
+{
+    xx = __view_get((0 << 0), 0)
+    yy = __view_get((1 << 0), 0)
+    if (made < 4 && btimer >= 15)
+    {
+        btimer = 0
+        bb = instance_create((300 + xx), (-20 + yy), obj_dicebul)
+        bb.damage = damage
+        bb.target = target
+        with (obj_dicebul)
+        {
+            gravity = (0.15 + gravbonus)
+            image_xscale = 1
+            image_yscale = 1
+        }
+        if (made == 3)
+        {
+            with (bb)
+            {
+                green = 1
+                image_blend = c_lime
+            }
+        }
+        made += 1
+    }
+}
+if (type == 10012)
+{
+    xx = __view_get((0 << 0), 0)
+    yy = __view_get((1 << 0), 0)
+    if (made == 0)
+    {
+        db = instance_create((320 + xx), (-20 + yy), obj_dicebul)
+        db.image_xscale = 1
+        db.image_yscale = 1
+        db.damage = damage
+        db.target = target
+        made = 1
+    }
+}
+if (type == 10013)
+{
+    xx = __view_get((0 << 0), 0)
+    yy = __view_get((1 << 0), 0)
+    if (made < 2 && btimer >= 20)
+    {
+        db[made] = instance_create((320 + xx), (-20 + yy), obj_dicebul)
+        db[made].image_xscale = 1
+        db[made].image_yscale = 1
+        db[made].damage = damage
+        db[made].target = target
+        if (made == 1)
+        {
+            with (db[1])
+            {
+                green = 1
+                image_blend = c_lime
+            }
+            db[1].hspeed = (-db[0].hspeed)
+        }
+        made += 1
+    }
+}
+
 if (type == 14)
 {
     if (btimer >= (ratio == 1 ? 6 : (10 * ratio)))

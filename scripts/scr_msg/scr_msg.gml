@@ -55,6 +55,24 @@ function msgsetsubloc(msg_id, stri, str_id, args) {
     return;
 }
 
+function msgsetsub(msg_id, stri, args) {
+    var len = argument_count
+    for (var i = 0; i < len; i++)
+        args[i] = argument[i]
+    var str = substringargs(argument[1], 2, args)
+    msgset(argument[0], str)
+    return;
+}
+
+function msgnextsub(stri, args) {
+    var len = argument_count
+    for (var i = 0; i < len; i++)
+        args[i] = argument[i]
+    var str = substringargs(argument[0], 1, args)
+    msgnext(str)
+    return;
+}
+
 
 
 function msgset(msg_id, stri) {

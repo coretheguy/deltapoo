@@ -11,14 +11,14 @@ global.savedata_error = 0
 global.savedata_debuginfo = ""
 global.game_won = 0
 global.chapter = 2
-//if instance_exists(obj_time_ch1)
+//if instance_exists(obj_time)
 //{
-//    with (obj_time_ch1)
+//    with (obj_time)
 //        instance_destroy()
 //}
-//if instance_exists(obj_debugcontroller_ch1)
+//if instance_exists(obj_debugcontroller)
 //{
-//    with (obj_debugcontroller_ch1)
+//    with (obj_debugcontroller)
 //        instance_destroy()
 //}
 //if global.is_console

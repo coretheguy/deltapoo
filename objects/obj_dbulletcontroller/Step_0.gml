@@ -107,7 +107,9 @@ if type = 1005 {
 	
 	if made = 0 {
 		
-		dice1 = instance_create(
+		dice1 = instance_create(-10, -10, obj_diceroll)
+		dice1.creator = creator
+		made = 1
 	}
 	
 }

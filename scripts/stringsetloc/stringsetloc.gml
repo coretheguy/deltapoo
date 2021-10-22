@@ -9,6 +9,16 @@ function stringset(argument0) {
 	return argument0;
 }
 
+function stringsetsub(stre, args) {
+    var len = argument_count
+    for (var i = 0; i < len; i++)
+        args[i] = argument[i]
+    var str = substringargs(argument[0], 1, args)
+    return stringset(str);
+}
+
+
+
 function stringsetsubloc() {
 	
 	var args
@@ -35,7 +45,7 @@ function substringargs(_str, _offset, _args) {
     {
         var sub = ("~" + string(sub_id))
         var ndx = ((sub_id + offset) - 1)
-        str = string_replace_all(str, sub, args[ndx])
+        str = string_replace_all(str, sub, string(args[ndx]))
         sub_id = (sub_id + 1)
     }
     return str;

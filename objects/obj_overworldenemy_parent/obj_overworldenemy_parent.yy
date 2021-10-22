@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "enemh",
-    "path": "folders/Objects/COLLISION/enemh.yy",
+    "name": "OVERWORLD",
+    "path": "folders/Objects/ENEMY/OVERWORLD.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_overworldenemy_parent",

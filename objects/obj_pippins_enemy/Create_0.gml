@@ -10,3 +10,6 @@ kris_bet = 0
 susie_bet = 0
 ralsei_bet = 0
 noelle_bet = 0
+
+dmgmult = 1
+rolled = false

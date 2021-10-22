@@ -33,8 +33,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "enemh",
-    "path": "folders/Objects/COLLISION/enemh.yy",
+    "name": "ENEMY",
+    "path": "folders/Objects/ENEMY.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_chaseenemy",

@@ -46,44 +46,73 @@ if (global.monster[myself] == true)
         rtimer += 1
         if (rtimer == 12)
         {
-            rr = choose(0, 1)
-            if (rr == 0)
-            {
-                global.monsterattackname[myself] = "HomingDiamonds"
-                dc = scr_bulletspawner(x, y, obj_dbulletcontroller)
-                dc.type = 0
-            }
-            else
-            {
-                global.monsterattackname[myself] = "RisingDiamonds"
-                dc = scr_bulletspawner(x, y, obj_dbulletcontroller)
-                dc.type = 1
-            }
+			if !rolled {
+				
+					global.monsterattackname[myself] = "DiceRoll"
+	                dc = scr_bulletspawner(x, y, obj_dbulletcontroller)
+	                dc.type = 1005
+					rolled = true
+					
+			} else {
+	            rr = choose(0, 1)
+	            if (rr == 0)
+	            {
+						global.monsterattackname[myself] = "DiceAttack1"
+						dc = scr_bulletspawner(x, y, obj_dbulletcontroller)
+						dc.type = 1006
+						dc.dmg_mult = dmgmult
+	
+				
+	            }
+	            else
+	            {
+	                global.monsterattackname[myself] = "DiceAttack2"
+	                dc = scr_bulletspawner(x, y, obj_dbulletcontroller)
+	                dc.type = 1007
+					dc.dmg_mult = dmgmult
+	            }
+				rolled = false
+				dmgmult = 1
+			}
             scr_turntimer(140)
             turns += 1
             global.typer = 6
             global.fc = 0
-            rr = choose(0, 1, 2, 3)
-            if scr_messagepriority(random(2))
-            {
-                var substring = string(myself)
-                if (rr == 0)
-                    global.battlemsg[0] = "big chungus"
-                if (rr == 1)
-                    global.battlemsg[0] = "big chungus"
-                if (rr == 2)
-                    global.battlemsg[0] = "212.19.43.104"
-                if (rr == 3)
-                    global.battlemsg[0] = "big chungus"
-            }
-            if (global.monsterhp[myself] <= (global.monstermaxhp[myself] / 3))
-            {
-                if scr_messagepriority((100 + random(2)))
-                {
-                    substring = string(myself)
-                    global.battlemsg[0] = "this dont look good man"
-                }
-            }
+			if global.mercymod[myself] >= global.mercymax[myself]	
+				global.battlemsg[0] = stringset("* Pippins considers himself successful.")
+			else if rolled
+				global.battlemsg[0] = stringset("* Pippins is preparing an attack...")
+			else {
+				rr = choose(0, 1, 2)
+				
+				if rr = 0
+					global.battlemsg[0] = stringset("* Pippins shuffles his cards.")
+				if rr = 1
+					global.battlemsg[0] = stringset("* Sounds like quiet chuckling.")
+				if rr = 2
+					global.battlemsg[0] = stringset("* Pippins glances at the dice.")
+				
+			}
+            //if scr_messagepriority(random(2))
+            //{
+            //    var substring = string(myself)
+            //    if (rr == 0)
+            //        global.battlemsg[0] = "big chungus"
+            //    if (rr == 1)
+            //        global.battlemsg[0] = "big chungus"
+            //    if (rr == 2)
+            //        global.battlemsg[0] = "212.19.43.104"
+            //    if (rr == 3)
+            //        global.battlemsg[0] = "big chungus"
+            //}
+            //if (global.monsterhp[myself] <= (global.monstermaxhp[myself] / 3))
+            //{
+            //    if scr_messagepriority((100 + random(2)))
+            //    {
+            //        substring = string(myself)
+            //        global.battlemsg[0] = "this dont look good man"
+            //    }
+            //}
             attacked = true
         }
         else
@@ -114,13 +143,23 @@ if (global.myfight == 3)
 	
 	if actcon = 14 {
 		
-		msgsetsub(0, "* Press ~1 to make a bet on what the dice will land on!", scr_get_input_name(6))
-		with obj_herokris
-			visible = false
+		if !rolled {
+			msgsetsub(0, "* Press ~1 to make a bet on what the dice will land on!", scr_get_input_name(6))
+			with obj_herokris
+				visible = false
 		
-		bett = instance_create(obj_herokris.x, obj_herokris.y, obj_kris_betting)
-		scr_battletext_default()
-		actcon = 15
+			bett = instance_create(obj_herokris.x, obj_herokris.y, obj_kris_betting)
+			bett.creator = myself
+		
+			scr_battletext_default()
+			actcon = 15
+		}
+		else {
+			
+			msgset(0, "* Betting twice in a row is against the rules!/%")
+			scr_battletext_default()
+			actcon = 1
+		}
 		
 	}
 	

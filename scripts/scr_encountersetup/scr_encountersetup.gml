@@ -37,6 +37,17 @@ function scr_encountersetup(encounter ) {
             global.battlemsg[0] = stringsetloc("* Test enemies showed up.", "scr_encountersetup_slash_scr_encountersetup_gml_60_0")
             break
 			
+		
+		case 10:
+		
+			global.monsterinstancetype[0] = obj_pippins_enemy
+			global.monstertype[0] = 8
+			global.monstermakex[0] = (xx + 480)
+			global.monstermakey[0] = (yy + 60)
+			global.battlemsg[0] = stringset("* Pippins rolls the dice.")
+			
+			break
+			
 		case 55:
             global.monsterinstancetype[0] = obj_virovirokun_enemy
             global.monstertype[0] = 35

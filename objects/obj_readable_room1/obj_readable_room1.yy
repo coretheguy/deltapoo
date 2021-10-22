@@ -1,15 +1,12 @@
 {
-  "spriteId": {
-    "name": "spr_diamondbullet",
-    "path": "sprites/spr_diamondbullet/spr_diamondbullet.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_regularbullet",
-    "path": "objects/obj_regularbullet/obj_regularbullet.yy",
+    "name": "obj_interactable",
+    "path": "objects/obj_interactable/obj_interactable.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -23,17 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "pippins",
-    "path": "folders/Objects/ENEMY/CH1/pippins.yy",
+    "name": "COLLISION",
+    "path": "folders/Objects/COLLISION.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_dicebul",
+  "name": "obj_readable_room1",
   "tags": [],
   "resourceType": "GMObject",
 }

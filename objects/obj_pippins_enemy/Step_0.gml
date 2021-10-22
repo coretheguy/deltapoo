@@ -64,11 +64,18 @@ if (global.monster[myself] == true)
 	
 				
 	            }
-	            else
+	            else if rr = 1
 	            {
 	                global.monsterattackname[myself] = "DiceAttack2"
 	                dc = scr_bulletspawner(x, y, obj_dbulletcontroller)
-	                dc.type = 1007
+	                dc.type = 1008
+					dc.dmg_mult = dmgmult
+	            }
+				else if rr = 2
+	            {
+	                global.monsterattackname[myself] = "DiceAttack3"
+	                dc = scr_bulletspawner(x, y, obj_dbulletcontroller)
+	                dc.type = 10010
 					dc.dmg_mult = dmgmult
 	            }
 				rolled = false

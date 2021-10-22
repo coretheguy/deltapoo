@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "spr_diamondbullet",
-    "path": "sprites/spr_diamondbullet/spr_diamondbullet.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_regularbullet",
-    "path": "objects/obj_regularbullet/obj_regularbullet.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -25,15 +19,19 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":5,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":3,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":11,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "pippins",
-    "path": "folders/Objects/ENEMY/CH1/pippins.yy",
+    "name": "SHOP",
+    "path": "folders/Objects/SHOP.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_dicebul",
+  "name": "obj_shop_ch2_spamton",
   "tags": [],
   "resourceType": "GMObject",
 }

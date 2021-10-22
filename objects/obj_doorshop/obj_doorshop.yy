@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_diamondbullet",
-    "path": "sprites/spr_diamondbullet/spr_diamondbullet.yy",
+    "name": "spr_doorX",
+    "path": "sprites/spr_doorX/spr_doorX.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_regularbullet",
-    "path": "objects/obj_regularbullet/obj_regularbullet.yy",
+    "name": "obj_doorparent",
+    "path": "objects/obj_doorparent/obj_doorparent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -25,15 +25,18 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":2,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":19,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":3,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "pippins",
-    "path": "folders/Objects/ENEMY/CH1/pippins.yy",
+    "name": "door",
+    "path": "folders/Objects/COLLISION/door.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_dicebul",
+  "name": "obj_doorshop",
   "tags": [],
   "resourceType": "GMObject",
 }

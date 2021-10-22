@@ -71,5 +71,14 @@ function scr_darkbox(argument0, argument1, argument2, argument3) {
     return;
 }
 
+function scr_darkbox_black(xx, yy, xx2, yy2) {
+    draw_set_color(c_black)
+    draw_rectangle((argument0 + 20), (argument1 + 20), (argument2 - 20), (argument3 - 20), false)
+    scr_darkbox(argument0, argument1, argument2, argument3)
+    return;
+}
+
+
+
 
 

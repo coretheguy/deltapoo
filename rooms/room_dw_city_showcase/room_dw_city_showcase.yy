@@ -21,6 +21,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_npc_room","path":"objects/obj_npc_room/obj_npc_room.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":2.0,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1240.0,"y":640.0,"resourceVersion":"1.0","name":"inst_152E3BB","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_interactablesolid","path":"objects/obj_interactablesolid/obj_interactablesolid.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":7.15,"scaleY":1.85,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":827.0,"y":274.0,"resourceVersion":"1.0","name":"inst_2AC3049","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_npc_room","path":"objects/obj_npc_room/obj_npc_room.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":2.0,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1320.0,"y":200.0,"resourceVersion":"1.0","name":"inst_3E2B5B56","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_musicer_city","path":"objects/obj_musicer_city/obj_musicer_city.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-80.0,"y":-80.0,"resourceVersion":"1.0","name":"inst_1A0EDEB8","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":40,"gridY":40,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"OBJECTS_MAIN","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_cybercity_bg_lightset","path":"objects/obj_cybercity_bg_lightset/obj_cybercity_bg_lightset.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.0,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1160.0,"y":480.0,"resourceVersion":"1.0","name":"inst_3DC15660","tags":[],"resourceType":"GMRInstance",},
@@ -191,6 +192,7 @@
     {"name":"inst_152E3BB","path":"rooms/room_dw_city_showcase/room_dw_city_showcase.yy",},
     {"name":"inst_2AC3049","path":"rooms/room_dw_city_showcase/room_dw_city_showcase.yy",},
     {"name":"inst_3E2B5B56","path":"rooms/room_dw_city_showcase/room_dw_city_showcase.yy",},
+    {"name":"inst_1A0EDEB8","path":"rooms/room_dw_city_showcase/room_dw_city_showcase.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

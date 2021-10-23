@@ -317,6 +317,7 @@
     {"id":{"name":"snd_txtsans","path":"sounds/snd_txtsans/snd_txtsans.yy",},"order":157,},
     {"id":{"name":"scr_become_darklight","path":"scripts/scr_become_darklight/scr_become_darklight.yy",},"order":4,},
     {"id":{"name":"snd_rudebuster_hit","path":"sounds/snd_rudebuster_hit/snd_rudebuster_hit.yy",},"order":102,},
+    {"id":{"name":"obj_musicer_city","path":"objects/obj_musicer_city/obj_musicer_city.yy",},"order":5,},
     {"id":{"name":"spr_diamondbullet","path":"sprites/spr_diamondbullet/spr_diamondbullet.yy",},"order":0,},
     {"id":{"name":"spr_kris_fall_smear","path":"sprites/spr_kris_fall_smear/spr_kris_fall_smear.yy",},"order":18,},
     {"id":{"name":"obj_gigaqueen_enemy","path":"objects/obj_gigaqueen_enemy/obj_gigaqueen_enemy.yy",},"order":0,},

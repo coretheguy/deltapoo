@@ -1,0 +1,5 @@
+scr_beatbullet_2(1920, 45, 1, bpm, -4, 4, 0, 1080, 1320)
+scr_beatbullet_2(2040, 45, 2, bpm, -4, 4, 0, 1080, 1320)
+scr_beatbullet_2(2160, 45, 1, bpm, -4, 4, 0, 1080, 1320)
+scr_beatbullet_2(2280, 45, 3, bpm, -4, 4, 0, 1080, 1320)
+scr_beatbullet_2(2400, 45, 1, bpm, -4, 4, 0, 1080, 1320)

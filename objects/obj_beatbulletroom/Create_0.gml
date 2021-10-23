@@ -9,7 +9,7 @@ playsound = false
 alarm[0] = 5
 
 
-function scr_beatbullet_2() {
+function scr_beatbullet_2(xx, __frames, tbeat, _bpm, _follow, _loop, _loffset, OPT_ytop, OPT_ybot, OPT_FIframes, OPT_horiz) {
     var _frames = argument[1]
     var _targetBeat = argument[2]
     var _yTop = cameray()

@@ -58,6 +58,8 @@ if (moved == 1 && follow == 1)
         y = (remy[target] - 6)
     else if (usprite == spr_noelle_walk_up_dw)
         y = (remy[target] - 20)
+	else if usprite = spr_queen_walk_up
+		y = remy[target] - 60
     else
         y = (remy[target] - 12)
     if (sliding[target] == 1)
@@ -146,6 +148,13 @@ if ((dsprite == spr_ralseid || dsprite == spr_ralsei_walk_down) && global.intera
 }
 else
     blushtimer = 0
+	
+
+if name == "queen" {
+	
+	
+}
+	
 if (name == "ralsei")
 {
     if (sprite_index == dsprite)

@@ -45,9 +45,11 @@ function substringargs(_str, _offset, _args) {
     {
         var sub = ("~" + string(sub_id))
         var ndx = ((sub_id + offset) - 1)
-        str = string_replace_all(str, sub, string(args[ndx]))
+        str = string_replace_all(str, sub, args[ndx])
         sub_id = (sub_id + 1)
     }
     return str;
 }
+
+
 

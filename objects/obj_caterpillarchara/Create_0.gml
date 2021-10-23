@@ -52,7 +52,7 @@ pd = parent.dsprite
 pr = parent.rsprite
 pl = parent.lsprite
 pu = parent.usprite
-for (i = 0; i < 75; i += 1)
+for (i = 0; i < 200; i += 1)
 {
     remx[i] = parent.x
     remy[i] = parent.y

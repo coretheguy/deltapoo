@@ -176,6 +176,15 @@ function scr_makecaterpillar(x, y, name, inst) {
             dsprite = spr_berdly_walk_down_dw
             rsprite = spr_berdly_walk_right_dw
             lsprite = spr_berdly_walk_left_dw
+			
+			if global.darkzone = false {
+				
+				usprite = spr_berdly_walk_up_lw
+	            dsprite = spr_berdly_walk_down_lw
+	            rsprite = spr_berdly_walk_right_lw
+	            lsprite = spr_berdly_walk_left_lw
+				
+			}
         }
     }
     if (argument2 == 6)
@@ -183,11 +192,35 @@ function scr_makecaterpillar(x, y, name, inst) {
         with (global.cinstance[argument3])
         {
             name = "starwalker"
-            usprite = spr_npc_originalstarwalker
-            dsprite = spr_npc_originalstarwalker
-            rsprite = spr_npc_originalstarwalker
-            lsprite = spr_npc_originalstarwalker
+            usprite = spr_npc_original_starwalker
+            dsprite = spr_npc_original_starwalker
+            rsprite = spr_npc_original_starwalker
+            lsprite = spr_npc_original_starwalker
         }
     }
+	if argument2 = 7 {
+		
+		with global.cinstance[argument3] {
+			
+			name = "queen"
+			usprite = spr_queen_walk_up
+			dsprite = spr_queen_walk_down
+            rsprite = spr_queen_walk_right
+            lsprite = spr_queen_walk_left
+		}
+	}
+	
+	if argument2 = 8 {
+		
+		with global.cinstance[argument3] {
+			
+			name = "spamton"
+			usprite = spr_spamton_party_l
+			dsprite = spr_spamton_party_l
+            rsprite = spr_spamton_party_l
+            lsprite = spr_spamton_party_l
+		}
+	}
+	
     return global.cinstance[argument3];
 }

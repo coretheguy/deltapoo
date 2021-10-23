@@ -28,13 +28,13 @@ function scr_smallface(_id, _char, _img, _xx, _yy, _str) {
         if (argument1 == "rudy")
             global.smsprite[argument0] = spr_face_rudy
         if (argument1 == "none" || argument1 == "empty")
-            global.smsprite[argument0] = spr_empty
+            global.smsprite[argument0] = spr_nothing
     }
     else
     {
         global.smsprite[argument0] = argument1
         if (argument1 == 0)
-            global.smsprite[argument0] = spr_empty
+            global.smsprite[argument0] = spr_nothing
     }
     global.smimage[argument0] = argument2
     if is_string(argument3)

@@ -229,3 +229,7 @@ function ease_out_back(a1, a2, a3, a4) {
     return ((argument2 * (((argument0 * argument0) * (((_s + 1) * argument0) + _s)) + 1)) + argument1);
 }
 
+function ease_out_cubic(a1, a2, a3, a4) {
+    return ((argument2 * (power(((argument0 / argument3) - 1), 3) + 1)) + argument1);
+}
+

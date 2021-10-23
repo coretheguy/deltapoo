@@ -12,9 +12,13 @@ for (var i = 0; i < array_length(msgnextinfo); i++) {
 
 myinteract = 3
 global.msc = 0
-global.typer = 5
-if global.darkzone = true
-	global.typer = 6
+
+if typer == -1 {
+	global.typer = 5
+	if global.darkzone = true
+		global.typer = 6
+} else { global.typer = typer } 
+
 global.fc = 0
 global.fc = 0
 global.interact = 1

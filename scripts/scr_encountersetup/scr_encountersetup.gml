@@ -164,7 +164,7 @@ function scr_monstersetup() {
         global.monsterat[myself] = 8
         global.monsterdf[myself] = 0
         global.monsterexp[myself] = 0
-        global.monstergold[myself] = 50
+        global.monstergold[myself] = 5000
         global.sparepoint[myself] = 10
         global.mercymod[myself] = 0
         global.mercymax[myself] = 100

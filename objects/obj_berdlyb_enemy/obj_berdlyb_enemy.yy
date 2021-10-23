@@ -21,8 +21,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "WEIRD",
-    "path": "folders/Objects/ENEMY/CH2/WEIRD.yy",
+    "name": "berdlyb",
+    "path": "folders/Objects/ENEMY/CH2/BOSS/berdlyb.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_berdlyb_enemy",

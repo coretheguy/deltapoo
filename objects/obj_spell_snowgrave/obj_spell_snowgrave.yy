@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_icespell_snowflake",
+    "path": "sprites/spr_icespell_snowflake/spr_icespell_snowflake.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

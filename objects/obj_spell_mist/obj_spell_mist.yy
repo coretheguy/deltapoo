@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_icespell_mist",
+    "path": "sprites/spr_icespell_mist/spr_icespell_mist.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

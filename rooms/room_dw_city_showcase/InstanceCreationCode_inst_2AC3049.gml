@@ -1,0 +1,1 @@
+msginfo = [0, "* (Upon closer inspecting, you realize this is actually a real fake door.)/%", "whocares1000100"]

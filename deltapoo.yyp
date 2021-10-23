@@ -711,6 +711,7 @@
     {"id":{"name":"obj_overworldc","path":"objects/obj_overworldc/obj_overworldc.yy",},"order":1,},
     {"id":{"name":"spr_battleblcon_long","path":"sprites/spr_battleblcon_long/spr_battleblcon_long.yy",},"order":1,},
     {"id":{"name":"obj_test2_cutscene","path":"objects/obj_test2_cutscene/obj_test2_cutscene.yy",},"order":1,},
+    {"id":{"name":"spr_npc_original_starwalker","path":"sprites/spr_npc_original_starwalker/spr_npc_original_starwalker.yy",},"order":3,},
     {"id":{"name":"snd_noise","path":"sounds/snd_noise/snd_noise.yy",},"order":88,},
     {"id":{"name":"scr_spareanim","path":"scripts/scr_spareanim/scr_spareanim.yy",},"order":1,},
     {"id":{"name":"spr_battleblcon_long_r","path":"sprites/spr_battleblcon_long_r/spr_battleblcon_long_r.yy",},"order":7,},

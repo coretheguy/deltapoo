@@ -105,7 +105,7 @@ function scr_84_init_localization() // gml_Script_scr_84_init_localization
             ds_map_add(sm, "spr_bnamenoelle", spr_bnamenoelle)
             ds_map_add(sm, "spr_bnamethrash", spr_bnamethrash)
             ds_map_add(sm, "spr_cutscene_27_tender_goodbye", 373)
-            ds_map_add(sm, "spr_ch2_cityscreen", 3058)
+            ds_map_add(sm, "spr_ch2_cityscreen", spr_ch2_cityscreen)
             ds_map_add(sm, "spr_battlemsg", spr_battlemsg)
             ds_map_add(sm, "spr_queenscreen", 37)
             ds_map_add(sm, "spr_acrade_retire", 2190)

@@ -39,6 +39,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_solidblocksized","path":"objects/obj_solidblocksized/obj_solidblocksized.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":12.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2200.0,"y":-120.0,"resourceVersion":"1.0","name":"inst_78D59F37","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_darkslide_new","path":"objects/obj_darkslide_new/obj_darkslide_new.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":10.0,"scaleY":30.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1520.0,"y":640.0,"resourceVersion":"1.0","name":"inst_751D3F6F","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_overworld_bulletarea","path":"objects/obj_overworld_bulletarea/obj_overworld_bulletarea.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":9.0,"scaleY":6.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1880.0,"y":1120.0,"resourceVersion":"1.0","name":"inst_6C89470E","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_doorX","path":"objects/obj_doorX/obj_doorX.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":9.2,"scaleY":4.6,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2028.0,"y":-44.0,"resourceVersion":"1.0","name":"inst_7D56AD5","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":40,"gridY":40,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"OBJECTS_COLLISION","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_mainchara","path":"objects/obj_mainchara/obj_mainchara.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":256.0,"resourceVersion":"1.0","name":"inst_13DDA2AE_2","tags":[],"resourceType":"GMRInstance",},
@@ -159,6 +160,7 @@
     {"name":"inst_78D59F37","path":"rooms/room_dark_test2/room_dark_test2.yy",},
     {"name":"inst_751D3F6F","path":"rooms/room_dark_test2/room_dark_test2.yy",},
     {"name":"inst_6C89470E","path":"rooms/room_dark_test2/room_dark_test2.yy",},
+    {"name":"inst_7D56AD5","path":"rooms/room_dark_test2/room_dark_test2.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

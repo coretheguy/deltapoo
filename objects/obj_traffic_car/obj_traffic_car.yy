@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "cybercity",
-    "path": "folders/Objects/COLLISION/cybercity.yy",
+    "name": "car",
+    "path": "folders/Objects/COLLISION/cybercity/car.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_traffic_car",

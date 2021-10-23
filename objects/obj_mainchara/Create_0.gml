@@ -65,6 +65,15 @@ if (global.darkzone == 1)
     lsprite = spr_krisl_dark
     usprite = spr_krisu_dark
 }
+
+if global.mainchar != "kris" {
+	
+	dsprite = global.mc_dspr
+	rsprite = global.mc_rspr
+	lsprite = global.mc_lspr
+	usprite = global.mc_uspr
+}
+
 swordfacing = 1
 swordsprite = rsprite
 fun = 0

@@ -307,6 +307,13 @@ function scr_gamestart() // gml_Script_scr_gamestart
     global.cinstance[0] = 4854845464869464
     global.cinstance[1] = 48548454648694644
     global.cinstance[2] = 48548454648694649
+	
+	global.mainchar = "kris"
+	global.mc_dspr = spr_krisd
+	global.mc_rspr = spr_krisr
+	global.mc_lspr = spr_krisl
+	global.mc_uspr = spr_krisu
+ 	
     return;
 }
 

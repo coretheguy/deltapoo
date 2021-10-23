@@ -5,7 +5,10 @@
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_krismask",
+    "path": "sprites/spr_krismask/spr_krismask.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,

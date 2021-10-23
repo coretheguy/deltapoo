@@ -350,3 +350,116 @@ function scr_set_facing_sprites(char) {
     ltsprite = lsprite
     return;
 }
+
+
+
+function scr_setmainchar(char) {
+	
+	
+	switch char {
+		
+		case "susie": case "sus": case 1:
+			global.mainchar = "susie"
+			
+			
+			global.mc_dspr = spr_susie_walk_down_lw
+			global.mc_rspr = spr_susie_walk_right_lw
+			global.mc_lspr = spr_susie_walk_left_lw
+			global.mc_uspr = spr_susie_walk_up_lw
+			
+			if global.darkzone { 
+				global.mc_dspr = spr_susie_walk_down_dw
+				global.mc_rspr = spr_susie_walk_right_dw
+				global.mc_lspr = spr_susie_walk_left_dw
+				global.mc_uspr = spr_susie_walk_up_dw
+			}
+			break
+			
+		case "ralsei": case "ral": case 2:
+			global.mainchar = "ralsei"
+			global.mc_dspr = spr_ralsei_walk_down
+			global.mc_rspr = spr_ralsei_walk_right
+			global.mc_lspr = spr_ralsei_walk_left
+			global.mc_uspr = spr_ralsei_walk_up
+			break
+			
+		case "noelle": case "noe": case 3:
+			global.mainchar = "noelle"
+			global.mc_dspr = spr_noelle_walk_down_lw
+			global.mc_rspr = spr_noelle_walk_right_lw
+			global.mc_lspr = spr_noelle_walk_left_lw
+			global.mc_uspr = spr_noelle_walk_up_lw
+			
+			if global.darkzone { 
+				global.mc_dspr = spr_noelle_walk_down_dw
+				global.mc_rspr = spr_noelle_walk_right_dw
+				global.mc_lspr = spr_noelle_walk_left_dw
+				global.mc_uspr = spr_noelle_walk_up_dw
+			}
+			break
+			
+		case "lancer": case "lan": case 4:
+			global.mainchar = "lancer"
+			global.mc_dspr = spr_lancer_dt
+			global.mc_rspr = spr_lancer_rt
+			global.mc_lspr = spr_lancer_lt
+			global.mc_uspr = spr_lancer_ut
+			break
+			
+		case "berdly": case "ber": case 5:
+			global.mainchar = "berdly"
+			global.mc_dspr = spr_berdly_walk_down_lw
+			global.mc_rspr = spr_berdly_walk_right_lw
+			global.mc_lspr = spr_berdly_walk_left_lw
+			global.mc_uspr = spr_berdly_walk_up_lw
+			
+			if global.darkzone { 
+				global.mc_dspr = spr_berdly_walk_down_dw
+				global.mc_rspr = spr_berdly_walk_right_dw
+				global.mc_lspr = spr_berdly_walk_left_dw
+				global.mc_uspr = spr_berdly_walk_up_dw
+			}
+			break
+			
+		case "starwalker": case "sta": case 6:
+			global.mainchar = "starwalker"
+			global.mc_dspr = spr_krisd
+			global.mc_rspr = spr_krisr
+			global.mc_lspr = spr_krisl
+			global.mc_uspr = spr_krisu
+			break
+			
+		case "queen": case "que": case 7:
+			global.mainchar = "queen"
+			global.mc_dspr = spr_krisd
+			global.mc_rspr = spr_krisr
+			global.mc_lspr = spr_krisl
+			global.mc_uspr = spr_krisu
+			break	
+			
+		
+		default: 
+			global.mainchar = "kris"
+			global.mc_dspr = spr_krisd
+			global.mc_rspr = spr_krisr
+			global.mc_lspr = spr_krisl
+			global.mc_uspr = spr_krisu
+			break
+	}
+	
+	with obj_mainchara {
+		
+		dsprite = global.mc_dspr
+		rsprite = global.mc_rspr
+		lsprite = global.mc_lspr
+		usprite = global.mc_uspr
+		
+	}
+	
+	var char_string = global.mainchar
+	
+		scr_debug_print("mainchar = " + char_string)
+
+	
+	return;
+}

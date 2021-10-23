@@ -224,3 +224,13 @@ function scr_makecaterpillar(x, y, name, inst) {
 	
     return global.cinstance[argument3];
 }
+
+function scr_removecaterpillar(inst) {
+	
+	if global.cinstance[inst] == obj_caterpillarchara {
+		instance_destroy(global.cinstance[inst])
+		global.cinstance[inst] = 0
+	}
+	
+	return global.cinstance[inst];
+}

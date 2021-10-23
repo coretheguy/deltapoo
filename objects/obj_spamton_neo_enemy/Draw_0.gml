@@ -343,6 +343,445 @@ for (i = 0; i < 8; i += 1)
         }
     }
 	
+	if (partmode >= 21 && partmode <= 30)
+    {
+        if (partmode == 21 || partmode == 23 || partmode == 24 || partmode == 25)
+        {
+            partsiner[i] += 0.1
+            partx[i] = lerp(partx[i], 0, 0.5)
+            party[i] = lerp(party[i], 0, 0.5)
+            idealrot[i] = (sin((partsiner[i] + (i / 8))) * 20)
+            idealrot[1] = (sin(partsiner[2]) * 60)
+            idealrot[2] = (sin((partsiner[2] - 0.1)) * 60)
+            idealrot[3] = ((-sin((partsiner[2] + 0.3))) * 60)
+            idealrot[6] = ((-sin((partsiner[2] + 0.1))) * 60)
+            partframe[5] = 1
+            partrot[i] = lerp(partrot[i], idealrot[i], 0.5)
+            partrot[5] += 2
+            if (i == 5)
+            {
+                if (partmode == 23)
+                {
+                    partframe[5] = 2
+                    headsize = lerp(headsize, 0.5, 0.25)
+                }
+                if (partmode == 24)
+                {
+                    partframe[5] = 2
+                    headsize = lerp(headsize, 1, 0.25)
+                }
+                if (partmode == 25)
+                {
+                    partframe[5] = 2
+                    headsize = lerp(headsize, 1.5, 0.25)
+                    partrot[5] = -15
+                    partx[i] = random(2)
+                    party[i] = random(2)
+                }
+            }
+        }
+        if (partmode == 22)
+        {
+            partframe[5] = 0
+            partrot[5] = (sin((partsiner[0] / 2)) * 4)
+            partsiner[0] += 0.1
+            if (partsiner[0] >= 5)
+            {
+                partx[i] = random(2)
+                party[i] = random(2)
+                if (i == 8)
+                    partsiner[0] = 0
+            }
+        }
+        if (partmode == 27)
+        {
+            partframe[5] = 1
+            idealrot[i] = 0
+            idealrot[2] = 45
+            partframe[2] = 1
+            partrot[i] = lerp(partrot[i], idealrot[i], 0.5)
+        }
+    }
+	
+	if (partmode >= 30)
+    {
+        if scr_debug()
+        {
+            //if (keyboard_check_pressed(ord("D")) && i == 5)
+            //    partmode++
+        }
+        if (partmode == 30)
+        {
+            headsize = 0
+            if scr_debug()
+            {
+                if (keyboard_check_pressed(ord("A")) && i == 5)
+                    shake_head = 1
+            }
+            partsprite[5] = spr_sneo_head_preview
+            if (partframe[5] == 0)
+                partframe[5] = 1
+            partsprite[0] = spr_nothing
+            partsiner[i] += 1
+            if (shake_head == 0)
+            {
+                party[i] = (sin((partsiner[i] / 15)) * 4)
+                idealrot[i] = (sin((partsiner[i] / 20)) * 4)
+            }
+            else if (i == 5)
+            {
+                if (shake_head == 1)
+                {
+                    partframe[5]++
+                    snd_play(snd_swallow)
+                }
+                partrot[5] = ((sin((shake_head * 2)) * 8) + random(4))
+                party[5] = random(4)
+                partx[5] = random(4)
+                shake_head++
+                if (shake_head >= 6)
+                {
+                    shake_head = 0
+                    partrot[5] = 0
+                }
+            }
+        }
+        if (partmode == 31 && partmode < 34)
+        {
+            if (i == 5)
+            {
+                snd_play(snd_weaponpull_fast)
+                var _n = 0
+                repeat (5)
+                {
+                    var eyeshine = instance_create((((((_n * 8) + x) + (partx[5] * facing)) + (partxoff[5] * facing)) + lastxoff), ((y + party[5]) + partyoff[5]), obj_afterimage_grow)
+                    eyeshine.sprite_index = spr_sneo_head_preview
+                    eyeshine.image_index = 0
+                    eyeshine.image_speed = 0
+                    eyeshine.image_xscale = (-2 - (_n / 5))
+                    eyeshine.image_yscale = (2 + (_n / 5))
+                    eyeshine.xrate = 0
+                    eyeshine.yrate = 0
+                    eyeshine.image_alpha = (1 + _n)
+                    _n += 0.2
+                }
+                eyeshine.image_angle = (partrot[5] * facing)
+                eyeshine = scr_dark_marker((((x + (partx[5] * facing)) + (partxoff[5] * facing)) + lastxoff), ((y + party[5]) + partyoff[5]), spr_sneo_head_preview)
+                eyeshine.image_xscale = -2
+                partmode = 32
+            }
+        }
+        if (partmode == 33)
+        {
+            with (obj_marker)
+            {
+                if (sprite_index == spr_sneo_head_preview)
+                    instance_destroy()
+            }
+            partsprite[0] = spr_sneo_wingl
+            partsprite[1] = spr_sneo_arml
+            partsprite[2] = spr_sneo_legl
+            partsprite[3] = spr_sneo_legr
+            partsprite[4] = spr_sneo_body
+            partsprite[5] = spr_sneo_head
+            partsprite[6] = spr_sneo_armr
+            partsprite[7] = spr_sneo_wingr
+            partframe[5] = 0
+            partmode = 0
+            snd_play(snd_bump)
+        }
+    }
+	
+	if (partmode == 35)
+    {
+        flyx = 0
+        if (dance_con == 1)
+            flyx = 0
+        if (dance_con == 0)
+            flyx = 0
+        if (i == 0)
+        {
+            siner += 1.3
+            dance_timer++
+            if (dance_timer > 9)
+            {
+                dance_timer = 0
+                dance_con++
+            }
+            if (dance_con >= 2)
+                dance_con = 0
+            if (dance_con == 0)
+            {
+                idealx[0] = 0
+                idealx[1] = 0
+                idealx[2] = 0
+                idealx[3] = 0
+                idealx[4] = 0
+                idealx[5] = 0
+                idealx[6] = 0
+                idealx[7] = 0
+                idealrot[0] = -20
+                idealrot[1] = -120
+                idealrot[2] = -30
+                idealrot[3] = 30
+                idealrot[4] = 0
+                idealrot[5] = 0
+                idealrot[6] = -230
+                idealrot[7] = 0
+            }
+            if (dance_con == 1)
+            {
+                idealx[0] = 4
+                idealx[1] = 0
+                idealx[2] = 0
+                idealx[3] = 0
+                idealx[4] = 0
+                idealx[5] = 15
+                idealx[6] = 0
+                idealx[7] = 4
+                idealrot[0] = -20
+                idealrot[1] = -250
+                idealrot[2] = 30
+                idealrot[3] = -30
+                idealrot[4] = 0
+                idealrot[5] = 0
+                idealrot[6] = -120
+                idealrot[7] = -30
+            }
+        }
+        partrot[i] = lerp(partrot[i], (idealrot[i] + random(4)), (0.14 * f))
+        partx[i] = lerp((partx[i] + flyx), idealx[i], (0.1 * f))
+        party[i] = lerp(party[i], 0, (0.06 * f))
+        if (i == 5)
+        {
+            partx[i] = lerp(partx[i], 0, (0.25 * f))
+            party[i] = lerp(party[i], 0, (0.25 * f))
+            partrot[i] -= (10 * f)
+            if (partmode == 5)
+            {
+                partrot[i] /= 2
+                partrot[i] += (10 * f)
+                partframe[i] = 1
+            }
+            else if (partmode == 6)
+            {
+                partrot[i] /= 2
+                if (partmode > 6 || partrot[1] <= -120)
+                    partframe[i] = 0
+            }
+            else if (partmode == 11)
+                partframe[i] += (0.2 * f)
+            else if (partmode == 12)
+                partframe[i] += (0.3 * f)
+            else
+                partframe[i] += (0.05 * f)
+            if (partframe[i] >= 3)
+                partframe[i] = 0
+            if (partframe[i] >= 2)
+                partrot[i] += (20 * f)
+        }
+        y = (ystart + (sin((siner / 6)) * 30))
+        x = lerp(x, (xstart + 60), 0.1)
+    }
+	
+	if (partmode == 40)
+    {
+        if (i == 0 && dontchangepose == 0)
+            shocktimer++
+        partsiner[i] += ((1 + (i / 5)) * f)
+        partx[i] = sin(((partsiner[i] / 2) * f))
+        party[i] = cos(((partsiner[i] / 2) * f))
+        if ((shockthreshold <= 5 && hurttimer2 == 0 && i == 0) || (smokethreshold > 1 && i == 0))
+        {
+            smoketimer++
+            if (smoketimer >= smokethreshold)
+            {
+                var smokey = instance_create((x + 50), (y + 80), obj_afterimage_grow)
+                smokey.visible = false
+                with (smokey)
+                    scr_script_delayed(scr_var, 1, "visible", 1)
+                smokey.depth = (depth + 10)
+                smokey.image_alpha = 2.5
+                smokey.sprite_index = spr_cakesmoke
+                smokey.hspeed = random_range(2, 8)
+                smokey.gravity = -0.5
+                smokey.friction = 0.2
+                smokey.vspeed = random_range(-1, -2)
+                smoketimer = 0
+            }
+        }
+        if (shockthreshold <= 8 && hurttimer2 == 0 && global.flag[8] == 0)
+        {
+            fsiner = (partsiner[i] / 8)
+            flash = true
+        }
+        if (global.flag[8] == 1)
+            shockthreshold = clamp(shockthreshold, 5, 100)
+        if (shocktimer >= shockthreshold)
+        {
+            partrot[i] = (60 - random(120))
+            if (i == 4)
+                partrot[i] = (40 - random(80))
+            if (i == 5)
+            {
+                partframe[i] += (1 * f)
+                if (partframe[i] >= 3)
+                    partframe[i] = 0
+            }
+            if (i == 7)
+                shocktimer = 0
+        }
+    }
+	
+	if (partmode == 41)
+    {
+        if (i == 0)
+            laughtimer++
+        if (i == 5)
+        {
+            if (laughtimer == 1)
+                snd_play(snd_sneo_laugh_long)
+            if (laughtimer >= 1 && laughtimer < 30)
+            {
+                headsize = 0
+                partframe[i] = 0
+                headsize = random(0.25)
+                partrot[i] = (30 + random(10))
+            }
+            if (laughtimer >= 30 && laughtimer < 48)
+            {
+                partframe[i] = 1
+                headsize = random(0.25)
+                partrot[i] = (-40 + random(10))
+            }
+            if (laughtimer >= 48 && laughtimer < 60)
+            {
+                partframe[i] = 2
+                headsize = random(0.25)
+                partrot[i] = 30
+            }
+            if (laughtimer >= 60)
+            {
+                partframe[i] = 3
+                headsize = random(0.25)
+                partrot[i] = (-70 + random(10))
+            }
+            if (laughtimer >= 80)
+                headsize = 0
+            if (partframe[i] >= 3)
+                partframe[i] = 0
+        }
+        partsiner[i] += ((1 + (i / 5)) * f)
+        partx[i] = sin(((partsiner[i] / 2) * f))
+        party[i] = cos(((partsiner[i] / 2) * f))
+        if (global.flag[8] == 1)
+            shockthreshold = clamp(shockthreshold, 5, 100)
+    }
+    if (partmode == 42)
+    {
+        partsiner[i] = 0
+        partframe[i] = 0
+        partframe[5] = 7
+        if (i == 0)
+        {
+            var fallen = 0
+            if (y < (cameray() + 130))
+            {
+                fakegrav += 1
+                y += fakegrav
+            }
+            else
+                fallen = 1
+            if (fallen == 1)
+            {
+                if (y < (cameray() + 216))
+                {
+                    partrot[2] = lerp(partrot[2], -90, 0.1)
+                    partrot[3] = lerp(partrot[3], 90, 0.1)
+                    partrot[5] = (y - (cameray() + 120))
+                    if (y > ((cameray() + 216) - 30))
+                    {
+                        partrot[1] = lerp(partrot[1], -30, 0.1)
+                        partrot[6] = lerp(partrot[6], 30, 0.1)
+                    }
+                    y = lerp(y, (cameray() + 216), 0.1)
+                }
+            }
+            if (fallen == 0)
+            {
+                if (i == 5)
+                {
+                    partrot[i] = lerp(partrot[i], 30, (0.25 * f))
+                    partx[i] = lerp(partx[i], -10, (0.25 * f))
+                    party[i] = lerp(party[i], 10, (0.25 * f))
+                    if (dead == true)
+                        partframe[i] = 3
+                }
+                else
+                {
+                    partrot[i] = lerp(partrot[i], 0, (0.25 * f))
+                    partx[i] = lerp(partx[i], 0, (0.25 * f))
+                    party[i] = lerp(party[i], 0, (0.25 * f))
+                    if (abs(partrot[i]) < 1)
+                        partrot[i] = 0
+                    if (abs(partx[i]) < 1)
+                        partx[i] = 0
+                    if (abs(party[i]) < 1)
+                        party[i] = 0
+                }
+            }
+        }
+    }
+    if (partmode == 43 && i == 0)
+    {
+        fallen = 0
+        falltimer++
+        if (y < (cameray() + 200))
+        {
+            fallshake = 10
+            fakegrav += (0.5 + (fakegrav / 10))
+            fakegrav = clamp(fakegrav, 0, 16.5)
+            y += fakegrav
+        }
+        else
+            fallen = 1
+        partframe[5] = 7
+        partrot[1] = ((-fakegrav) * 6)
+        partx[1] = (fakegrav * 2)
+        party[1] = (fakegrav * 1.5)
+        partrot[6] = ((-fakegrav) * 6)
+        partx[6] = (fakegrav * 0.6)
+        party[6] = (fakegrav * 2)
+        partrot[2] = ((-fakegrav) * 6)
+        partx[2] = ((-fakegrav) * 1.6)
+        party[2] = ((-fakegrav) * 0.65)
+        partrot[3] = ((-fakegrav) * 6)
+        partx[3] = ((-fakegrav) * 2.5)
+        party[3] = ((-fakegrav) * 0.15)
+        partrot[4] = ((-fakegrav) * 6.25)
+        partx[4] = (fakegrav * 2)
+        party[4] = (fakegrav / 1.5)
+        partrot[5] = ((-fakegrav) * 8)
+        partx[5] = (fakegrav * 1.8)
+        party[5] = (fakegrav * 2)
+        partrot[0] = ((-fakegrav) * 4)
+        party[0] = (fakegrav * 3)
+        partrot[7] = ((-fakegrav) * 4)
+        party[7] = (fakegrav * 3)
+        if (fallen != 0)
+        {
+            if (fallshake == 10)
+                snd_play(snd_closet_impact)
+            for (ii = 0; ii < 7; ii++)
+            {
+                party[ii] += random_range((-fallshake), fallshake)
+                partx[ii] += random_range((-fallshake), fallshake)
+            }
+            if (fallshake > 0)
+                fallshake--
+        }
+    }
+	
 	scalebonus = 0
     if (i == 5)
         scalebonus = headsize

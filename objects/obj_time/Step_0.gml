@@ -10,7 +10,7 @@ if scr_debug()
 	
 	with obj_solidblock {
 		
-		if object_index != obj_npc_room
+		if object_index != obj_npc_room and object_index != obj_traffic_switch
 			visible = other.colvis
 	}
 	

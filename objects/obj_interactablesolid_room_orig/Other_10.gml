@@ -19,6 +19,10 @@ switch text {
 //msgnextinfo[0] = ["* He's Not Even Moving/", "idontcarelmao2", "queen", 15]
 //msgnextinfo[1] = ["* Do you think he's...uh.../", "idontcarelmao3", "noelle", 5]
 //msgnextinfo[2] = ["* No/%", "idontcarelmao4", "queen", 13]
+
+		
+		scr_smallface(0, "susie", 0, "rightmid", "bottom", stringset("(This was a bad idea..)"))
+		
 		scr_speaker("queen")
 		scr_anyface("queen", 0, 1)
 		msgset(0, "* Bro I Think Spammy Boy Completely Lost It Lmao/")
@@ -27,8 +31,7 @@ switch text {
 		scr_anyface_next("noelle", 5)
 		msgnext("* Um, do you think he's...uh.../")
 		scr_anyface_next("queen", 13)
-		msgnext("* Noelle Sweety Gravy Honey Mustard Don't Be Silly/%")
-		scr_smallface(0, "susie", 0, "leftmid", "bottom", stringset("(This was a bad idea..)"))
+		msgnext("* Noelle Sweety Gravy Honey Mustard Don't Be Silly\\f0/%")
 		
 		
 	

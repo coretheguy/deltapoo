@@ -1,5 +1,5 @@
 if (swordmode == 0)
-    draw_self()
+    draw_sprite_ext(sprite_index, image_index, x, y + y_off, image_xscale, image_yscale, image_angle, image_blend, image_alpha)
 if (button1_p() && scr_debug())
 {
     if (global.darkzone == false)

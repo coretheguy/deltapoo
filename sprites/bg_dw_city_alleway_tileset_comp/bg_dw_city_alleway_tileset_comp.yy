@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"bcdcdc17-1ebf-4c48-b587-94e599f692db","path":"sprites/Sprite331/Sprite331.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bcdcdc17-1ebf-4c48-b587-94e599f692db","path":"sprites/Sprite331/Sprite331.yy",},"LayerId":{"name":"abf6c69e-7d76-406c-ab65-31acebf95433","path":"sprites/Sprite331/Sprite331.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Sprite331","path":"sprites/Sprite331/Sprite331.yy",},"resourceVersion":"1.0","name":"bcdcdc17-1ebf-4c48-b587-94e599f692db","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"bcdcdc17-1ebf-4c48-b587-94e599f692db","path":"sprites/bg_dw_city_alleway_tileset_comp/bg_dw_city_alleway_tileset_comp.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"bcdcdc17-1ebf-4c48-b587-94e599f692db","path":"sprites/bg_dw_city_alleway_tileset_comp/bg_dw_city_alleway_tileset_comp.yy",},"LayerId":{"name":"abf6c69e-7d76-406c-ab65-31acebf95433","path":"sprites/bg_dw_city_alleway_tileset_comp/bg_dw_city_alleway_tileset_comp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"bg_dw_city_alleway_tileset_comp","path":"sprites/bg_dw_city_alleway_tileset_comp/bg_dw_city_alleway_tileset_comp.yy",},"resourceVersion":"1.0","name":"bcdcdc17-1ebf-4c48-b587-94e599f692db","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Sprite331","path":"sprites/Sprite331/Sprite331.yy",},
+    "spriteId": {"name":"bg_dw_city_alleway_tileset_comp","path":"sprites/bg_dw_city_alleway_tileset_comp/bg_dw_city_alleway_tileset_comp.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"fcfeabe9-861b-4097-b4ca-6dadde3fe419","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bcdcdc17-1ebf-4c48-b587-94e599f692db","path":"sprites/Sprite331/Sprite331.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"fcfeabe9-861b-4097-b4ca-6dadde3fe419","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bcdcdc17-1ebf-4c48-b587-94e599f692db","path":"sprites/bg_dw_city_alleway_tileset_comp/bg_dw_city_alleway_tileset_comp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Sprite331","path":"sprites/Sprite331/Sprite331.yy",},
+    "parent": {"name":"bg_dw_city_alleway_tileset_comp","path":"sprites/bg_dw_city_alleway_tileset_comp/bg_dw_city_alleway_tileset_comp.yy",},
     "resourceVersion": "1.3",
-    "name": "Sprite331",
+    "name": "bg_dw_city_alleway_tileset_comp",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/BG/cyber/city/tile.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Sprite331",
+  "name": "bg_dw_city_alleway_tileset_comp",
   "tags": [],
   "resourceType": "GMSprite",
 }

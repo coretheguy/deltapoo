@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"45e01986-0f6c-4c61-8410-1074030e1768","path":"sprites/Sprite332/Sprite332.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"45e01986-0f6c-4c61-8410-1074030e1768","path":"sprites/Sprite332/Sprite332.yy",},"LayerId":{"name":"0513d2db-74d8-4995-ba80-e17a3c3abd07","path":"sprites/Sprite332/Sprite332.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Sprite332","path":"sprites/Sprite332/Sprite332.yy",},"resourceVersion":"1.0","name":"45e01986-0f6c-4c61-8410-1074030e1768","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"45e01986-0f6c-4c61-8410-1074030e1768","path":"sprites/bg_dw_city_street_edges_tileset_comp/bg_dw_city_street_edges_tileset_comp.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"45e01986-0f6c-4c61-8410-1074030e1768","path":"sprites/bg_dw_city_street_edges_tileset_comp/bg_dw_city_street_edges_tileset_comp.yy",},"LayerId":{"name":"0513d2db-74d8-4995-ba80-e17a3c3abd07","path":"sprites/bg_dw_city_street_edges_tileset_comp/bg_dw_city_street_edges_tileset_comp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"bg_dw_city_street_edges_tileset_comp","path":"sprites/bg_dw_city_street_edges_tileset_comp/bg_dw_city_street_edges_tileset_comp.yy",},"resourceVersion":"1.0","name":"45e01986-0f6c-4c61-8410-1074030e1768","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Sprite332","path":"sprites/Sprite332/Sprite332.yy",},
+    "spriteId": {"name":"bg_dw_city_street_edges_tileset_comp","path":"sprites/bg_dw_city_street_edges_tileset_comp/bg_dw_city_street_edges_tileset_comp.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"1182fa1b-c4bc-47c4-8dfa-cd16bbd985eb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"45e01986-0f6c-4c61-8410-1074030e1768","path":"sprites/Sprite332/Sprite332.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1182fa1b-c4bc-47c4-8dfa-cd16bbd985eb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"45e01986-0f6c-4c61-8410-1074030e1768","path":"sprites/bg_dw_city_street_edges_tileset_comp/bg_dw_city_street_edges_tileset_comp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Sprite332","path":"sprites/Sprite332/Sprite332.yy",},
+    "parent": {"name":"bg_dw_city_street_edges_tileset_comp","path":"sprites/bg_dw_city_street_edges_tileset_comp/bg_dw_city_street_edges_tileset_comp.yy",},
     "resourceVersion": "1.3",
-    "name": "Sprite332",
+    "name": "bg_dw_city_street_edges_tileset_comp",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/BG/cyber/city/tile.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Sprite332",
+  "name": "bg_dw_city_street_edges_tileset_comp",
   "tags": [],
   "resourceType": "GMSprite",
 }

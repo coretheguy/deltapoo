@@ -68,6 +68,7 @@ if (global.darkzone == 1)
 
 if global.mainchar != "kris" {
 	
+	scr_setmainchar(global.mainchar)
 	dsprite = global.mc_dspr
 	rsprite = global.mc_rspr
 	lsprite = global.mc_lspr
@@ -220,3 +221,12 @@ if (global.chapter == 2)
     if (global.flag[302] == 1)
         instance_create(x, y, obj_kris_headobj)
 }
+
+y_off = 0
+
+if global.mainchar = "susie"
+	y_off = -8
+if global.mainchar = "noelle"
+	y_off = -10
+	
+y_off *= image_yscale

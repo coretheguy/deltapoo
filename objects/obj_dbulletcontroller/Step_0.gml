@@ -103,6 +103,48 @@ if (type == 13)
     }
 }
 
+else if (type >= 23 && type <= 25)
+{
+    if (init == true)
+    {
+        global.monsterinstance[creator].visible = false
+        d = instance_create(x, y, obj_spamton_attack_mode)
+        d.creator = creator
+        d.attack = (type - 23)
+        d.depth++
+        init = 2
+        btimer = -10
+        if (type == 25)
+            instance_create(obj_growtangle.x, obj_growtangle.y, obj_spamton_warped_box)
+        if (type == 23)
+        {
+            d.bullettype = obj_spamton_jumper
+            d.firingspeed = 10
+        }
+        else if (type == 24)
+        {
+            d.bullettype = obj_spamton_wordbullet
+            d.firingspeed = 28
+            btimer = 10
+        }
+        d.damage = damage
+        d.target = target
+        d.grazepoints = 4
+    }
+    else if (type == 25 && btimer >= 8 && global.turntimer > 50)
+    {
+        xx = ((minx - random(30)) - 20)
+        yy = ((obj_growtangle.y - random(200)) + 100)
+        d = instance_create(xx, yy, obj_spamton_dollar)
+        d.damage = damage
+        d.target = target
+        d.grazepoints = 4
+        d.speed = 0.1
+        btimer = 0
+    }
+}
+
+
 if type = 1005 {
 	
 	if made = 0 {

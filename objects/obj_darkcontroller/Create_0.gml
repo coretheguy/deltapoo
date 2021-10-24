@@ -75,10 +75,10 @@ for (i = 0; i < 3; i += 1)
                 slidesprite = 814
                 if (global.chapter >= 2)
                 {
-                    usprite = 798
-                    dsprite = 784
-                    rsprite = 794
-                    lsprite = 790
+                    usprite = spr_ralsei_walk_up
+                    dsprite = spr_ralsei_walk_down
+                    rsprite = spr_ralsei_walk_left
+                    lsprite = spr_ralsei_walk_right
                 }
                 else
                 {
@@ -101,11 +101,11 @@ for (i = 0; i < 3; i += 1)
             with (global.cinstance[(i - 1)])
             {
                 name = "noelle"
-                slidesprite = 717
-                usprite = 727
-                dsprite = 717
-                rsprite = 723
-                lsprite = 718
+                slidesprite = spr_noelle_walk_up_dw
+                usprite = spr_noelle_walk_up_dw
+                dsprite = spr_noelle_walk_down_dw
+                rsprite = spr_noelle_walk_right_dw
+                lsprite = spr_noelle_walk_left_dw
             }
         }
     }

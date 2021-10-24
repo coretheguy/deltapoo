@@ -21,7 +21,7 @@ function scr_getchar(char) {
 	        chartotal = 0
 	        havechar[0] = false
 	        havechar[1] = false
-	        havechar[2] = false
+	        havechar[2] = false 
 	        havechar[3] = false
 	        for (i = 0; i < 3; i += 1)
 	        {

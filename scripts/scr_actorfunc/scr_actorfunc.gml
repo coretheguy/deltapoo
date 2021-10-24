@@ -22,7 +22,7 @@ function scr_actor_setup_nofacing(_id, _inst, _name) {
     return;
 }
 
-function scr_maincharactesr_actors() {
+function scr_maincharacters_actors() {
     actor_count = 0
     kr = 0
     kr_actor = instance_create(obj_mainchara.x, obj_mainchara.y, obj_actor)

@@ -80,3 +80,16 @@ function scr_move_to_charmarker(last, funn, spd) {
     return;
 }
 
+function scr_getjumpspeed(a1, a2) {
+    return sqrt(((2 * argument0) * argument1));
+}
+
+function scr_movetowards(v, v_max, spd) {
+    if (argument0 == argument1)
+        return argument0;
+    else if (argument0 > argument1)
+        return max((argument0 - argument2), argument1);
+    else
+        return min((argument0 + argument2), argument1);
+}
+

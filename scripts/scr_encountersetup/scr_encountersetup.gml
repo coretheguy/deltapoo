@@ -62,6 +62,30 @@ function scr_encountersetup(encounter ) {
             if (global.ambush == 2)
                 global.battlemsg[0] = stringsetloc("* First strike!", "scr_encountersetup_slash_scr_encountersetup_gml_640_0")
             break
+			
+		case 60:
+            global.monsterinstancetype[0] = obj_spamton_enemy
+            global.monstertype[0] = 49
+            global.monstermakex[0] = (xx + 490)
+            global.monstermakey[0] = (yy + 180)
+            global.heromakex[0] = (xx + 90)
+            global.heromakey[0] = (yy + 170)
+            global.battlemsg[0] = stringsetloc("* DON'T YOU WANNA BE A BIG SHOT?", "scr_encountersetup_slash_scr_encountersetup_gml_720_0")
+            break
+			
+			
+		case 61:
+            global.monsterinstancetype[0] = obj_spamton_neo_enemy
+            global.monstertype[0] = 50
+            global.monstermakex[0] = (xx + 460)
+            global.monstermakey[0] = (yy + 80)
+            global.monstertype[2] = 0
+            global.heromakex[0] = (xx + 80)
+            global.heromakey[0] = (yy + 60)
+            if (scr_sideb_get_phase() > 2)
+                global.heromakey[0] = (yy + 173)
+            global.battlemsg[0] = stringsetloc("* It's time to be a BIG SHOT!", "scr_encountersetup_slash_scr_encountersetup_gml_732_0")
+            break
 		
 		case 102:
             global.monsterinstancetype[0] = obj_pipis_enemy
@@ -218,6 +242,106 @@ function scr_monstersetup() {
         global.canactnoe[myself][0] = true
         global.actnamenoe[myself][0] = stringsetloc("N-Action", "scr_monstersetup_slash_scr_monstersetup_gml_1061_0")
         global.actsimulnoe[myself][0] = true
+    }
+	
+	if (global.monstertype[myself] == 49)
+    {
+        global.monstername[myself] = stringsetloc("Spamton", "scr_monstersetup_slash_scr_monstersetup_gml_1564_0")
+        global.monstermaxhp[myself] = 600
+        global.monsterhp[myself] = 600
+        global.monsterat[myself] = 8
+        global.monsterdf[myself] = 0
+        global.monsterexp[myself] = 0
+        global.monstergold[myself] = -50
+        global.sparepoint[myself] = 0
+        global.mercymod[myself] = 0
+        global.mercymax[myself] = 100
+        global.canact[myself][0] = true
+        global.actname[myself][0] = stringsetloc("Check", "scr_monstersetup_slash_scr_monstersetup_gml_1576_0")
+        global.canact[myself][1] = true
+        global.actname[myself][1] = stringsetloc("Deal", "scr_monstersetup_slash_scr_monstersetup_gml_1579_0")
+        global.canact[myself][2] = true
+        global.actname[myself][2] = stringsetloc("HealDeal", "scr_monstersetup_slash_scr_monstersetup_gml_1611_0")
+        global.actdesc[myself][2] = stringsetloc("DEAL &#HEAL 60", "scr_monstersetup_slash_scr_monstersetup_gml_1612_0")
+        global.actcost[myself][2] = 125
+    }
+	
+    if (global.monstertype[myself] == 50)
+    {
+        global.monstername[myself] = stringsetloc("Spamton NEO", "scr_monstersetup_slash_scr_monstersetup_gml_1591_0")
+        global.monstermaxhp[myself] = 4809
+        global.monsterhp[myself] = 4809
+        global.monsterat[myself] = 13
+        global.monsterdf[myself] = 0
+        global.monsterexp[myself] = 0
+        global.monstergold[myself] = 0
+        global.sparepoint[myself] = 0
+        global.mercymod[myself] = 0
+        global.mercymax[myself] = 100
+        global.canact[myself][0] = true
+        global.actname[myself][0] = stringsetloc("Check", "scr_monstersetup_slash_scr_monstersetup_gml_1614_0")
+        if (scr_sideb_get_phase() > 2)
+        {
+            global.monsterdf[myself] = -27
+            global.canact[myself][1] = true
+            global.actname[myself][1] = stringsetloc("X-Slash", "scr_monstersetup_slash_scr_monstersetup_gml_1643_0")
+            global.actdesc[myself][1] = stringsetloc("Physical#damage", "scr_monstersetup_slash_scr_monstersetup_gml_1644_0")
+            global.actcost[myself][1] = 62.5
+            global.canact[myself][2] = true
+            global.actname[myself][2] = stringsetloc("FriedPipis", "scr_monstersetup_slash_scr_monstersetup_gml_1649_0")
+            global.actdesc[myself][2] = stringsetloc("Heals#120 HP", "scr_monstersetup_slash_scr_monstersetup_gml_1650_0")
+            global.actcost[myself][2] = 80
+        }
+        else
+        {
+            global.canact[myself][1] = true
+            global.actname[myself][1] = stringsetloc("Snap", "scr_monstersetup_slash_scr_monstersetup_gml_1664_0")
+            global.actdesc[myself][1] = ""
+            global.actcost[myself][1] = 0
+            global.canact[myself][2] = true
+            global.actactor[myself][2] = 4
+            global.actname[myself][2] = stringsetloc("SnapAll", "scr_monstersetup_slash_scr_monstersetup_gml_1670_0")
+            global.actdesc[myself][2] = ""
+            global.actcost[myself][2] = 0
+            global.canactsus[myself][0] = true
+            global.actnamesus[myself][0] = stringsetloc("Snap", "scr_monstersetup_slash_scr_monstersetup_gml_1682_0")
+            global.actdescsus[myself][0] = ""
+            global.actcostsus[myself][0] = 0
+            global.canactsus[myself][1] = true
+            global.actnamesus[myself][1] = stringsetloc("Supercharge", "scr_monstersetup_slash_scr_monstersetup_gml_1687_0")
+            global.actdescsus[myself][1] = stringsetloc("Charge#faster", "scr_monstersetup_slash_scr_monstersetup_gml_1685_0")
+            global.actcostsus[myself][1] = 80
+            global.canactral[myself][0] = true
+            global.actnameral[myself][0] = stringsetloc("Snap", "scr_monstersetup_slash_scr_monstersetup_gml_1698_0")
+            global.actdescral[myself][0] = ""
+            global.actcostral[myself][0] = 0
+            global.canactral[myself][1] = true
+            global.actnameral[myself][1] = stringsetloc("FluffyGuard", "scr_monstersetup_slash_scr_monstersetup_gml_1703_0")
+            global.actdescral[myself][1] = stringsetloc("Orbiting#shield", "scr_monstersetup_slash_scr_monstersetup_gml_1701_0")
+            global.actcostral[myself][1] = 40
+        }
+    }
+	
+	if (global.monstertype[myself] == 53)
+    {
+        global.monstername[myself] = stringsetloc("Pipis", "scr_monstersetup_slash_scr_monstersetup_gml_1790_0")
+        global.monstermaxhp[myself] = 200
+        global.monsterhp[myself] = 200
+        global.monsterat[myself] = 8
+        global.monsterdf[myself] = 0
+        global.monsterexp[myself] = 0
+        global.monstergold[myself] = 0
+        global.sparepoint[myself] = 0
+        global.mercymod[myself] = 0
+        global.mercymax[myself] = 100
+        global.canact[myself][0] = true
+        global.actname[myself][0] = stringsetloc("Check", "scr_monstersetup_slash_scr_monstersetup_gml_1276_0")
+        global.canactsus[myself][0] = true
+        global.actnamesus[myself][0] = stringsetloc("S-Action", "scr_monstersetup_slash_scr_monstersetup_gml_1816_0")
+        global.actsimulsus[myself][0] = true
+        global.canactral[myself][0] = true
+        global.actnameral[myself][0] = stringsetloc("R-Action", "scr_monstersetup_slash_scr_monstersetup_gml_1820_0")
+        global.actsimulral[myself][0] = true
     }
 	
 	return;

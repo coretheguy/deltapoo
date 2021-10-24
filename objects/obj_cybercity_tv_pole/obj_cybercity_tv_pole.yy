@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_soliddark",
-    "path": "sprites/spr_soliddark/spr_soliddark.yy",
+    "name": "spr_city_tv_pole",
+    "path": "sprites/spr_city_tv_pole/spr_city_tv_pole.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_solidblock",
-    "path": "objects/obj_solidblock/obj_solidblock.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -23,15 +20,18 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "COLLISION",
-    "path": "folders/Objects/COLLISION.yy",
+    "name": "cyber",
+    "path": "folders/Objects/VFX/cyber.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_soliddark",
+  "name": "obj_cybercity_tv_pole",
   "tags": [],
   "resourceType": "GMObject",
 }

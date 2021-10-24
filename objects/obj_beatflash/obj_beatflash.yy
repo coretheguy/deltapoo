@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_beatbullet_smol",
-    "path": "sprites/spr_beatbullet_smol/spr_beatbullet_smol.yy",
+    "name": "spr_beatflash",
+    "path": "sprites/spr_beatflash/spr_beatflash.yy",
   },
   "solid": false,
   "visible": true,

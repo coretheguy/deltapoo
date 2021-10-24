@@ -267,13 +267,13 @@ if (frozen == false)
             rotation += spd
             if (rotation > 359)
                 rotation -= 360
-            if (room == room_dw_cyber_maze_virokun)
-            {
-                if (rotation > 180)
-                    facing = 1
-                else
-                    facing = 0
-            }
+            //if (room == room_dw_cyber_maze_virokun)
+            //{
+            //    if (rotation > 180)
+            //        facing = 1
+            //    else
+            //        facing = 0
+            //}
         }
         if (pacetype == 15)
         {

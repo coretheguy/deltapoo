@@ -43,7 +43,7 @@ if button1_p()
     else if (choice_index == 1)
         room_goto_next()
     else if (choice_index == 2)
-        scr_load()
+        room_goto(room_battletest)//scr_load()
     else if (choice_index == 3)
     {
         if ossafe_file_exists("filech1_3")

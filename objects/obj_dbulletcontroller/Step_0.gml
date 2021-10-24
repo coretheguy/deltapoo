@@ -103,6 +103,57 @@ if (type == 13)
     }
 }
 
+if (type == 1021)
+{
+	
+	
+	if btimer > (10 * ratio) and btimer < (30 * ratio) and made = 0 {
+		
+		
+		d = instance_create(obj_growtangle.x - 240, cameraheight() + 10, obj_chatbot_textleft)
+		d.orient = 0
+		d.damage = damage
+		d.target = target
+		d.vspeed = -1
+		d.gravity = -0.5
+		
+		made = 1
+	}
+	
+	if btimer > (40 * ratio) and made = 1 {
+		
+		
+		d = instance_create(obj_growtangle.x + 5, cameraheight() + 10, obj_chatbot_textleft)
+		d.orient = 1
+		d.damage = damage
+		d.target = target
+		d.vspeed = -1
+		d.gravity = -0.5
+		
+		made = 0
+	}
+	
+	if btimer > 70 * ratio and made = 0 {
+		btimer = 0
+	}
+
+}
+if (type == 1022)
+{
+    if (btimer >= (24 * ratio))
+    {
+        btimer = 0
+        radius = (150 + random(-100))
+        yy = (radius * side)
+        xx = (-180 + random(0))
+        num = choose(1)
+        if (num == 1)
+        d = instance_create(((obj_growtangle.x + 15) + xx), ((obj_growtangle.y) + yy), obj_chatbot_mail)
+        d.damage = damage
+        d.target = target
+    }
+}
+
 else if (type >= 23 && type <= 25)
 {
     if (init == true)

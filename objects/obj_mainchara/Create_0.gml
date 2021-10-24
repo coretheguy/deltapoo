@@ -222,6 +222,8 @@ if (global.chapter == 2)
         instance_create(x, y, obj_kris_headobj)
 }
 
+y_off = 0
+
 //if global.mainchar = "susie"
 //	y_off = -50
 //else if global.mainchar = "noelle"

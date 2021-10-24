@@ -48,6 +48,16 @@ function scr_encountersetup(encounter ) {
 			
 			break
 			
+		case 121:
+		
+			global.monsterinstancetype[0] = obj_chatbot
+			global.monstertype[0] = 126
+			global.monstermakex[0] = (xx + 480)
+			global.monstermakey[0] = (yy + 60)
+			global.battlemsg[0] = stringset("* Chat-Bot strikes up false conversation!")
+			
+			break
+			
 		case 55:
             global.monsterinstancetype[0] = obj_virovirokun_enemy
             global.monstertype[0] = 35
@@ -342,6 +352,25 @@ function scr_monstersetup() {
         global.canactral[myself][0] = true
         global.actnameral[myself][0] = stringsetloc("R-Action", "scr_monstersetup_slash_scr_monstersetup_gml_1820_0")
         global.actsimulral[myself][0] = true
+    }
+	
+	if (global.monstertype[myself] == 126)
+    {
+        global.monstername[myself] = stringsetloc("Chat-Bot", "scr_monstersetup_slash_scr_monstersetup_gml_244_0")
+        global.monstermaxhp[myself] = 170
+        global.monsterhp[myself] = 170
+        global.monsterat[myself] = 8
+        global.monsterdf[myself] = 0
+        global.monsterexp[myself] = 0
+        global.monstergold[myself] = 150
+        global.sparepoint[myself] = 10
+        global.mercymod[myself] = 0
+        global.mercymax[myself] = 100
+        global.canact[myself][0] = true
+        global.actname[myself][0] = stringsetloc("Check", "scr_monstersetup_slash_scr_monstersetup_gml_255_0")
+        global.canact[myself][1] = true
+        global.actname[myself][1] = stringsetloc("Conversate", "scr_monstersetup_slash_scr_monstersetup_gml_257_0")
+        global.canact[myself][2] = true
     }
 	
 	return;

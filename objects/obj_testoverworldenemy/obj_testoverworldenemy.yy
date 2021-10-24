@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "OVERWORLD",
-    "path": "folders/Objects/ENEMY/OVERWORLD.yy",
+    "name": "ENEMY",
+    "path": "folders/Objects/ENEMY.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_testoverworldenemy",

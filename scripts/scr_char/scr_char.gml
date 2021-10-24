@@ -454,6 +454,16 @@ function scr_setmainchar(char) {
 		lsprite = global.mc_lspr
 		usprite = global.mc_uspr
 		
+		if global.mainchar = "susie"
+			y_off = -8
+			
+		else if global.mainchar = "noelle"
+			y_off = -10
+			
+		else y_off = 0
+		
+		//y_off *= image_yscale
+		
 	}
 	
 	var char_string = global.mainchar

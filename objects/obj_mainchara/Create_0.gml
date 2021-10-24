@@ -222,11 +222,10 @@ if (global.chapter == 2)
         instance_create(x, y, obj_kris_headobj)
 }
 
-y_off = 0
-
-if global.mainchar = "susie"
-	y_off = -8
-if global.mainchar = "noelle"
-	y_off = -10
+//if global.mainchar = "susie"
+//	y_off = -50
+//else if global.mainchar = "noelle"
+//	y_off = -10
+//else y_off = 0
 	
-y_off *= image_yscale
+//y_off *= image_yscale

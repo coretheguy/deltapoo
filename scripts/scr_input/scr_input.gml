@@ -53,6 +53,29 @@ function button3_h() {
     return;
 }
 
+function button1_r() {
+    if global.input_released[4]
+        return 1;
+    if global.input_released[7]
+        return 1;
+    return;
+}
+
+function button2_r() {
+    if global.input_released[5]
+        return 1;
+    if global.input_released[8]
+        return 1;
+    return;
+}
+
+function button3_r() {
+    if global.input_released[6]
+        return 1;
+    if global.input_released[9]
+        return 1;
+    return;
+}
 
 
 function down_p() {
@@ -88,6 +111,25 @@ function right_h() {
 function up_h() {
     return global.input_held[2];
 }
+
+
+
+function down_r() {
+    return global.input_released[0];
+}
+
+function left_r() {
+    return global.input_released[3];
+}
+
+function right_r() {
+    return global.input_released[1];
+}
+
+function up_r() {
+    return global.input_released[2];
+}
+
 
 
 function scr_controls_default() {

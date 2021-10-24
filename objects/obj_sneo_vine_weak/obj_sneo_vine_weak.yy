@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_attack_cut1",
+    "path": "sprites/spr_attack_cut1/spr_attack_cut1.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -18,8 +21,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -28,7 +31,7 @@
     "path": "folders/Objects/ENEMY/CH2/BOSS/sneo.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_sneo_vine_cut",
+  "name": "obj_sneo_vine_weak",
   "tags": [],
   "resourceType": "GMObject",
 }

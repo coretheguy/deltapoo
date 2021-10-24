@@ -1021,8 +1021,8 @@
     ],
   },
   "parent": {
-    "name": "Tile Sets",
-    "path": "folders/Tile Sets.yy",
+    "name": "cybercity",
+    "path": "folders/Tile Sets/darkworld/cybercity.yy",
   },
   "resourceVersion": "1.0",
   "name": "tile_dw_city_tileset",

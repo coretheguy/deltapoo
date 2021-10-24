@@ -1,13 +1,16 @@
 if (partmode == 10)
     partmode = 9
-	
+if (room != room_dw_mansion_b_east_a)
+{
+    if ((!instance_exists(obj_sneo_phonecall)) && obj_spamton_neo_enemy.image_alpha < 1)
+        obj_spamton_neo_enemy.image_alpha += 0.1
+}
 if (state == 0)
     fsiner++
 var hidebgvines = 0
 if (i_ex(obj_battlecontroller) && global.mercymod[myself] > 89)
     hidebgvines = 1
 var bgvinecount = 0
-
 for (var ii = 0; ii < 18; ii += 1)
 {
     if (partvisible_back[ii] == 1)
@@ -33,14 +36,12 @@ for (var ii = 0; ii < 18; ii += 1)
         }
     }
 }
-
 if (weakentimer > 0)
 {
     weakentimer++
     if (weakenshakeamount > 0)
         weakenshakeamount -= 0.5
 }
-
 if (lastwirecon == 0 || lastwirecon == 1)
 {
     draw_set_color(make_colour_rgb(0, 51, 0))
@@ -56,7 +57,6 @@ if (lastwirecon == 0 || lastwirecon == 1)
         draw_set_alpha(1)
     }
 }
-
 if (endcon == 1 && lastwirecon == 0)
     lastwirecon = 1
 if (lastwirecon == 1)
@@ -72,7 +72,6 @@ if (lastwirecon == 1 || lastwirecon == 2)
     draw_line_width(((((x + partx[4]) + (partxoff[4] / 1.2)) + 20) + (sin((partsiner[4] / 25)) * 1.8)), (((y + party[4]) - 10) + partyoff[4]), (((x + partx[4]) + (partxoff[4] / 1.5)) + 32), -400, (1 + (lastwiretimer / 30)))
     draw_set_alpha(1)
 }
-
 var fgvinecount = 0
 for (var i = 0; i < 6; i += 1)
 {
@@ -111,7 +110,17 @@ for (var i = 0; i < 6; i += 1)
     if (partweakened[i] == 1 && weakentimer == 10)
         partweakened[i] = 2
 }
-
+if (i_ex(obj_battlecontroller) && global.mercymod[myself] > 89 && bgvinecount > 0 && (!i_ex(obj_sneo_vine_transition)) && (!i_ex(obj_sneo_vine_cut)))
+{
+    for (i = 0; i < 6; i += 1)
+    {
+        if (obj_spamton_neo_enemy.partvisible[i] == false)
+        {
+            obj_spamton_neo_enemy.vineid = i
+            vine = instance_create(x, y, obj_sneo_vine_transition)
+        }
+    }
+}
 if (specialcon == 1)
 {
     specialcontimer++
@@ -140,9 +149,7 @@ if (specialcon == 1)
     draw_sprite_ext(spr_bhero, (10 + flameframe), (x + 75), (y + 177), -2, (2.8 + abs((sin((specialcontimer / 4)) / 2))), 0, c_blue, flamealpha)
     draw_sprite_ext(spr_bhero, (11 - flameframe), (x + 75), (y + 177), -2, 2.8, 0, c_teal, (flamealpha / 1.4))
 }
-
 shocker -= (1 * f)
-
 for (i = 0; i < 8; i += 1)
 {
     if (partmode < 20)
@@ -342,8 +349,7 @@ for (i = 0; i < 8; i += 1)
                 headsize = lerp(headsize, 0, 0.25)
         }
     }
-	
-	if (partmode >= 21 && partmode <= 30)
+    if (partmode >= 21 && partmode <= 30)
     {
         if (partmode == 21 || partmode == 23 || partmode == 24 || partmode == 25)
         {
@@ -402,13 +408,12 @@ for (i = 0; i < 8; i += 1)
             partrot[i] = lerp(partrot[i], idealrot[i], 0.5)
         }
     }
-	
-	if (partmode >= 30)
+    if (partmode >= 30)
     {
         if scr_debug()
         {
-            //if (keyboard_check_pressed(ord("D")) && i == 5)
-            //    partmode++
+            if (keyboard_check_pressed(ord("D")) && i == 5)
+                partmode++
         }
         if (partmode == 30)
         {
@@ -491,8 +496,320 @@ for (i = 0; i < 8; i += 1)
             snd_play(snd_bump)
         }
     }
-	
-	if (partmode == 35)
+    if (partmode == 34)
+    {
+        hearttype = 0
+        if (obj_spamton_neo_enemy.difficulty == 1)
+            hearttype = 1
+        if (obj_spamton_neo_enemy.difficulty == 2)
+            hearttype = 2
+        if (obj_spamton_neo_enemy.difficulty == 3)
+            hearttype = 3
+        if (obj_spamton_neo_enemy.difficulty == 4)
+            hearttype = 4
+        var flyx = 0
+        if (heart_release_con == 1)
+            flyx = -20
+        if (heart_release_con == 0)
+            flyx = 0
+        if (i == 0)
+        {
+            siner++
+            if (heart_release_con >= 2)
+                heart_release_con = 0
+            if (heart_release_con == 0)
+            {
+                idealx[0] = 0
+                idealx[1] = 0
+                idealx[2] = 0
+                idealx[3] = 0
+                idealx[4] = 0
+                idealx[5] = 0
+                idealx[6] = 0
+                idealx[7] = 0
+                idealrot[0] = 10
+                idealrot[1] = 30
+                idealrot[2] = -50
+                idealrot[3] = -50
+                idealrot[4] = 40
+                idealrot[5] = 60
+                idealrot[6] = -30
+                idealrot[7] = 30
+                if (hearttype > 2 && instance_number(obj_sneo_wireheart) < 3 && makehearttimer < 1 && global.turntimer > 100 && makeheartinit == 1)
+                {
+                    makehearttimer = 80
+                    makeheart = 1
+                    makehearttype = choose(3, 4)
+                    if (makeheartalt != 0)
+                    {
+                        makehearttype = makeheartalt
+                        makehearttimer = 120
+                    }
+                }
+            }
+            if (heart_release_con == 1)
+            {
+                idealx[0] = 4
+                idealx[1] = 0
+                idealx[2] = 0
+                idealx[3] = 0
+                idealx[4] = 0
+                idealx[5] = 15
+                idealx[6] = 0
+                idealx[7] = 4
+                idealrot[0] = -40
+                idealrot[1] = 90
+                idealrot[2] = 50
+                idealrot[3] = 50
+                idealrot[4] = -40
+                idealrot[5] = -100
+                idealrot[6] = 30
+                idealrot[7] = -30
+            }
+            if (global.turntimer < 20)
+            {
+                idealx[0] = 0
+                idealx[1] = 0
+                idealx[2] = 0
+                idealx[3] = 0
+                idealx[4] = 0
+                idealx[5] = 0
+                idealx[6] = 0
+                idealx[7] = 0
+                idealrot[0] = 0
+                idealrot[1] = 0
+                idealrot[2] = 0
+                idealrot[3] = 0
+                idealrot[4] = 0
+                idealrot[5] = 0
+                idealrot[6] = 0
+                idealrot[7] = 0
+            }
+            if (makehearttimer > 0)
+                makehearttimer--
+            if makeheart
+            {
+                if (makeheartinit == 0)
+                {
+                    makeheartinit = 1
+                    makehearttype = 0
+                }
+                if (hearttype == 0)
+                {
+                    wireheart = instance_create((x + 10), (y + 80), obj_sneo_wireheart)
+                    wireheart.boss = id
+                    wireheart.bossx = (x + 10)
+                    wireheart.bossy = (y + 80)
+                    wireheart.type = 0
+                    wireheart.target = 3
+                    wireheart.special = hellmode
+                    if (scr_sideb_get_phase() > 2)
+                    {
+                        wireheart.target = obj_sneo_bulletcontroller.target
+                        wireheart.damage = floor(((global.monsterat[obj_spamton_neo_enemy.myself] * 5) * 0.8))
+                    }
+                    else
+                        wireheart.damage = floor(((global.monsterat[obj_spamton_neo_enemy.myself] * 5) * 0.6))
+                }
+                else if (hearttype == 1)
+                {
+                    wireheart = instance_create((x + 10), (y + 80), obj_sneo_wireheart)
+                    wireheart.boss = id
+                    wireheart.bossx = (x + 10)
+                    wireheart.bossy = (y + 80)
+                    wireheart.type = 0
+                    wireheart.target = 3
+                    wireheart.special = hellmode
+                    if (scr_sideb_get_phase() > 2)
+                    {
+                        wireheart.target = obj_sneo_bulletcontroller.target
+                        wireheart.damage = floor(((global.monsterat[obj_spamton_neo_enemy.myself] * 5) * 0.8))
+                    }
+                    else
+                        wireheart.damage = floor(((global.monsterat[obj_spamton_neo_enemy.myself] * 5) * 0.6))
+                    wireheart = instance_create((x + 10), (y + 80), obj_sneo_wireheart)
+                    wireheart.boss = id
+                    wireheart.bossx = (x + 10)
+                    wireheart.bossy = (y + 80)
+                    wireheart.type = 1
+                    wireheart.target = 3
+                    if (scr_sideb_get_phase() > 2)
+                    {
+                        wireheart.target = obj_sneo_bulletcontroller.target
+                        wireheart.damage = floor(((global.monsterat[obj_spamton_neo_enemy.myself] * 5) * 0.8))
+                    }
+                    else
+                        wireheart.damage = floor(((global.monsterat[obj_spamton_neo_enemy.myself] * 5) * 0.6))
+                    wireheart = instance_create((x + 10), (y + 80), obj_sneo_wireheart)
+                    wireheart.boss = id
+                    wireheart.bossx = (x + 10)
+                    wireheart.bossy = (y + 80)
+                    wireheart.type = 1
+                    wireheart.target = 3
+                    if (scr_sideb_get_phase() > 2)
+                    {
+                        wireheart.target = obj_sneo_bulletcontroller.target
+                        wireheart.damage = floor(((global.monsterat[obj_spamton_neo_enemy.myself] * 5) * 0.8))
+                    }
+                    else
+                        wireheart.damage = floor(((global.monsterat[obj_spamton_neo_enemy.myself] * 5) * 0.6))
+                }
+                else if (hearttype == 2)
+                {
+                    wireheart = instance_create((x + 10), (y + 80), obj_sneo_wireheart)
+                    wireheart.boss = id
+                    wireheart.bossx = (x + 10)
+                    wireheart.bossy = (y + 80)
+                    wireheart.type = 0
+                    wireheart.bighearttype = 1
+                    wireheart.target = 3
+                    wireheart.special = hellmode
+                    if (scr_sideb_get_phase() > 2)
+                    {
+                        wireheart.target = obj_sneo_bulletcontroller.target
+                        wireheart.damage = floor(((global.monsterat[obj_spamton_neo_enemy.myself] * 5) * 0.8))
+                    }
+                    else
+                        wireheart.damage = floor(((global.monsterat[obj_spamton_neo_enemy.myself] * 5) * 0.6))
+                }
+                else if (hearttype == 3)
+                {
+                    if (makehearttype == 0)
+                    {
+                        wireheart = instance_create((x + 10), (y + 80), obj_sneo_wireheart)
+                        wireheart.boss = id
+                        wireheart.bossx = (x + 10)
+                        wireheart.bossy = (y + 80)
+                        wireheart.type = 1
+                        wireheart.target = 3
+                        if (scr_sideb_get_phase() > 2)
+                        {
+                            wireheart.target = obj_sneo_bulletcontroller.target
+                            wireheart.damage = floor(((global.monsterat[obj_spamton_neo_enemy.myself] * 5) * 0.8))
+                        }
+                        else
+                            wireheart.damage = floor(((global.monsterat[obj_spamton_neo_enemy.myself] * 5) * 0.6))
+                    }
+                    if (makehearttype == 0 || makehearttype == 3)
+                    {
+                        wireheart = instance_create((x + 10), (y + 80), obj_sneo_wireheart)
+                        wireheart.boss = id
+                        wireheart.bossx = (x + 10)
+                        wireheart.bossy = (y + 80)
+                        wireheart.type = 3
+                        wireheart.target = 3
+                        if (scr_sideb_get_phase() > 2)
+                        {
+                            wireheart.target = obj_sneo_bulletcontroller.target
+                            wireheart.damage = floor(((global.monsterat[obj_spamton_neo_enemy.myself] * 5) * 0.8))
+                        }
+                        else
+                            wireheart.damage = floor(((global.monsterat[obj_spamton_neo_enemy.myself] * 5) * 0.6))
+                        wireheart.altbiter = 3
+                    }
+                    if (makehearttype == 0 || makehearttype == 4)
+                    {
+                        wireheart = instance_create((x + 10), (y + 80), obj_sneo_wireheart)
+                        wireheart.boss = id
+                        wireheart.bossx = (x + 10)
+                        wireheart.bossy = (y + 80)
+                        wireheart.type = 3
+                        wireheart.target = 3
+                        if (scr_sideb_get_phase() > 2)
+                        {
+                            wireheart.target = obj_sneo_bulletcontroller.target
+                            wireheart.damage = floor(((global.monsterat[obj_spamton_neo_enemy.myself] * 5) * 0.8))
+                        }
+                        else
+                            wireheart.damage = floor(((global.monsterat[obj_spamton_neo_enemy.myself] * 5) * 0.6))
+                        wireheart.altbiter = 4
+                    }
+                }
+                else if (hearttype == 4)
+                {
+                    if (makehearttype == 0)
+                    {
+                        wireheart = instance_create((x + 10), (y + 80), obj_sneo_wireheart)
+                        wireheart.boss = id
+                        wireheart.bossx = (x + 10)
+                        wireheart.bossy = (y + 80)
+                        wireheart.type = 1
+                        wireheart.target = 3
+                        if (scr_sideb_get_phase() > 2)
+                        {
+                            wireheart.target = obj_sneo_bulletcontroller.target
+                            wireheart.damage = floor(((global.monsterat[obj_spamton_neo_enemy.myself] * 5) * 0.8))
+                        }
+                        else
+                            wireheart.damage = floor(((global.monsterat[obj_spamton_neo_enemy.myself] * 5) * 0.6))
+                    }
+                    if (makehearttype == 0 || makehearttype == 3)
+                    {
+                        wireheart = instance_create((x + 10), (y + 80), obj_sneo_wireheart)
+                        wireheart.boss = id
+                        wireheart.bossx = (x + 10)
+                        wireheart.bossy = (y + 80)
+                        wireheart.type = 4
+                        wireheart.target = 3
+                        if (scr_sideb_get_phase() > 2)
+                        {
+                            wireheart.target = obj_sneo_bulletcontroller.target
+                            wireheart.damage = floor(((global.monsterat[obj_spamton_neo_enemy.myself] * 5) * 0.8))
+                        }
+                        else
+                            wireheart.damage = floor(((global.monsterat[obj_spamton_neo_enemy.myself] * 5) * 0.6))
+                    }
+                    if (makehearttype == 0 || makehearttype == 4)
+                    {
+                        wireheart = instance_create((x + 10), (y + 80), obj_sneo_wireheart)
+                        wireheart.boss = id
+                        wireheart.bossx = (x + 10)
+                        wireheart.bossy = (y + 80)
+                        wireheart.type = 4
+                        wireheart.target = 3
+                        if (scr_sideb_get_phase() > 2)
+                        {
+                            wireheart.target = obj_sneo_bulletcontroller.target
+                            wireheart.damage = floor(((global.monsterat[obj_spamton_neo_enemy.myself] * 5) * 0.8))
+                        }
+                        else
+                            wireheart.damage = floor(((global.monsterat[obj_spamton_neo_enemy.myself] * 5) * 0.6))
+                    }
+                }
+                for (_n = 0; _n < 6; _n++)
+                {
+                    var shard = instance_create((x + 10), (y + 80), obj_afterimage)
+                    shard.sprite_index = spr_bullet_laser_circle
+                    shard.speed = (10 + random(2))
+                    shard.direction = (140 + random_range(-40, 40))
+                    shard.gravity = 1
+                    shard.image_xscale = (0.5 + random(0.5))
+                    shard.image_yscale = shard.image_xscale
+                }
+                makeheart = 0
+            }
+        }
+        if (global.turntimer < 20)
+        {
+            partrot[i] = lerp(partrot[i], 0, (0.14 * f))
+            partx[i] = lerp(partx[i], 0, (0.1 * f))
+            party[i] = lerp(0, party[i], (0.06 * f))
+            heartattackoffsetx = lerp(heartattackoffsetx, 0, (0.06 * f))
+            x = lerp(x, xstart, 0.1)
+        }
+        else
+        {
+            partrot[i] = lerp(partrot[i], (idealrot[i] + random(4)), (0.14 * f))
+            partx[i] = lerp((partx[i] + flyx), idealx[i], (0.1 * f))
+            party[i] = lerp(party[i], 0, (0.06 * f))
+            if (heart_release_con == 0)
+                heartattackoffsetx = lerp(heartattackoffsetx, -10, (0.01 * f))
+            if (heart_release_con == 1)
+                heartattackoffsetx = lerp(heartattackoffsetx, -60, (0.01 * f))
+            x = lerp(x, (xstart + 60), 0.1)
+        }
+    }
+    if (partmode == 35)
     {
         flyx = 0
         if (dance_con == 1)
@@ -583,8 +900,119 @@ for (i = 0; i < 8; i += 1)
         y = (ystart + (sin((siner / 6)) * 30))
         x = lerp(x, (xstart + 60), 0.1)
     }
-	
-	if (partmode == 40)
+    if (partmode == 36)
+    {
+        var fastshot = 1
+        if (shootydanceinit == 0)
+        {
+            shootydanceinit = 1
+            shootydancex = x
+            shootydancey = y
+        }
+        if (endcon > 0)
+        {
+            if (dancealtcon == 1)
+                siner += 0.23
+            if (dancealtcon == 2)
+                siner += 0.23
+            x = (xstart + (sin((siner / 20)) * 10))
+            y = (ystart + (sin((siner / 6)) * 20))
+        }
+        else
+        {
+            x = (shootydancex + (sin((siner / 20)) * 10))
+            y = (shootydancey + (sin((siner / 6)) * 20))
+        }
+        armendx = (((x + partx[1]) + partxoff[1]) + lengthdir_x(armlength, (partrot[1] - 93)))
+        armendy = (((y + party[1]) + partyoff[1]) + lengthdir_y(armlength, (partrot[1] - 93)))
+        if (dance_timer == 0)
+        {
+            if i_ex(obj_heart)
+                armangle = point_direction(partxoff[1], partyoff[1], obj_heart.x, obj_heart.y)
+            idealrot[5] = -15
+        }
+        if (i != 1 || endcon > 0)
+        {
+            partsiner[i] += 0.1
+            partx[i] = lerp(partx[i], 0, 0.5)
+            party[i] = lerp(party[i], 0, 0.5)
+            idealrot[i] = (sin((partsiner[i] + (i / 8))) * 20)
+            idealrot[1] = (sin(partsiner[2]) * 60)
+            idealrot[2] = (sin((partsiner[2] - 0.1)) * 60)
+            idealrot[3] = ((-sin((partsiner[2] + 0.3))) * 60)
+            idealrot[6] = ((-sin((partsiner[2] + 0.1))) * 60)
+            partrot[5] = (-15 - (abs(sin((head_recoil_amount / 60))) * 150))
+            partframe[5] = 2
+            head_recoil_amount = lerp(head_recoil_amount, 0, 0.03)
+            partrot[i] = lerp(partrot[i], idealrot[i], 0.5)
+        }
+        if (i == 0 && endcon == 0)
+        {
+            siner += 1.3
+            dance_timer++
+            if (dance_timer == (17 - (fastshot * 10)) || dance_timer == (52 - (fastshot * 10)))
+            {
+                d = instance_create(x, y, obj_sneo_biglaser)
+                d.depth += 1
+                d._type = 1
+                chargeshot_sound = snd_loop(snd_chargeshot_charge)
+                chargesfxtimer = 1
+            }
+            if (dance_timer == (42 - (fastshot * 10)))
+            {
+                with (obj_sneo_biglaser)
+                    instance_destroy()
+                shot = instance_create(armendx, armendy, obj_spamtonshot)
+                shot.target = mytarget
+                shot.damage = damage
+                armaim += 360
+                head_recoil_amount = -170
+                snd_stop(chargeshot_sound)
+                snd_play_x(snd_chargeshot_fire, 0.6, 0.5)
+            }
+            if (dance_timer == (84 - (fastshot * 20)))
+            {
+                with (obj_sneo_biglaser)
+                    instance_destroy()
+                shot = instance_create(armendx, armendy, obj_spamtonshot)
+                shot.target = mytarget
+                shot.damage = damage
+                armaim -= 360
+                head_recoil_amount = -170
+                snd_stop(chargeshot_sound)
+                snd_play_x(snd_chargeshot_fire, 0.6, 0.5)
+            }
+            if (dance_timer == (85 - (fastshot * 20)))
+                dance_timer = 3
+            if (chargesfxtimer == 1)
+            {
+                chargepitch = 0.1
+                snd_pitch(chargeshot_sound, chargepitch)
+                snd_volume(chargeshot_sound, 0, 0)
+                snd_volume(chargeshot_sound, 0.8, 20)
+            }
+            if (chargesfxtimer > 0 && chargesfxtimer <= 30)
+            {
+                chargesfxtimer++
+                chargepitch += 0.03
+                snd_pitch(chargeshot_sound, chargepitch)
+            }
+        }
+        if (i == 1 && endcon == 0)
+        {
+            var shakebuster = 0
+            if instance_exists(obj_sneo_biglaser)
+                shakebuster = (-4 + random(8))
+            partrot[i] = (lerp(partrot[i], armaim, 0.12) + shakebuster)
+            partframe[i] = 1
+            with (obj_sneo_biglaser)
+            {
+                x = obj_spamton_neo_enemy.armendx
+                y = obj_spamton_neo_enemy.armendy
+            }
+        }
+    }
+    if (partmode == 40)
     {
         if (i == 0 && dontchangepose == 0)
             shocktimer++
@@ -632,8 +1060,18 @@ for (i = 0; i < 8; i += 1)
                 shocktimer = 0
         }
     }
-	
-	if (partmode == 41)
+    if (i == 0)
+    {
+        if (keyboard_check_released(ord("O")) && scr_debug())
+        {
+            partmode = 43
+            y = ystart
+            fakegrav = 0
+            for (i = 0; i < 7; i++)
+                partrot[i] = 0
+        }
+    }
+    if (partmode == 41)
     {
         if (i == 0)
             laughtimer++
@@ -781,8 +1219,7 @@ for (i = 0; i < 8; i += 1)
                 fallshake--
         }
     }
-	
-	scalebonus = 0
+    scalebonus = 0
     if (i == 5)
         scalebonus = headsize
     if (shadow_amount >= 0)
@@ -836,8 +1273,48 @@ for (i = 0; i < 8; i += 1)
         partrot[5] -= random(60)
     if (headforceframe != -1 && i == 5)
         partframe[5] = headforceframe
-	
-	var expand = 0
+    if (funnycheat > 5)
+    {
+        if (funnycheattimer < 28)
+            funnycheattimer += 0.125
+        partblend[5] = merge_color(c_white, c_red, (funnycheattimer / 30))
+        if (funnycheattimer == 24)
+        {
+            snd_play(snd_carhonk)
+            funnycheattimer3++
+        }
+        if (funnycheattimer3 > 0 && funnycheattimer3 < 33 && i == 5)
+        {
+            funnycheattimer3++
+            if (funnycheattimer3 > 0 && funnycheattimer3 < 6)
+                headexpand = lerp(headexpand, 2, (funnycheattimer3 / 6))
+            if (funnycheattimer3 >= 8 && funnycheattimer3 < 16)
+                headexpand = lerp(headexpand, 0, ((funnycheattimer3 - 8) / 8))
+            if (funnycheattimer3 >= 16 && funnycheattimer3 < 22)
+                headexpand = lerp(headexpand, 2, ((funnycheattimer3 - 16) / 6))
+            if (funnycheattimer3 >= 24 && funnycheattimer3 < 32)
+                headexpand = lerp(headexpand, 0, ((funnycheattimer3 - 24) / 8))
+            if ((funnycheattimer3 >= 4 && funnycheattimer3 <= 10) || (funnycheattimer3 >= 20 && funnycheattimer3 <= 26))
+                shakevar = (-12 + random(24))
+        }
+        funnycheattimer2++
+        if (funnycheattimer2 >= 10 && image_alpha > 0.6)
+        {
+            smokey = instance_create((x + 50), (y + 80), obj_afterimage_grow)
+            smokey.visible = false
+            with (smokey)
+                scr_script_delayed(scr_var, 1, "visible", 1)
+            smokey.depth = (depth + 10)
+            smokey.image_alpha = 2.5
+            smokey.sprite_index = spr_cakesmoke
+            smokey.hspeed = random_range(2, 8)
+            smokey.gravity = -0.5
+            smokey.friction = 0.2
+            smokey.vspeed = random_range(-1, -2)
+            funnycheattimer2 = 0
+        }
+    }
+    var expand = 0
     if (i == 5)
         expand = headexpand
     draw_monster_body_part_ext(partsprite[i], partframe[i], ((((x + (partx[i] * facing)) + (partxoff[i] * facing)) + lastxoff) + shakevar), (((y + party[i]) + partyoff[i]) - shakevar), (((2 + scalebonus) * facing) + expand), ((2 + scalebonus) + expand), (partrot[i] * facing), partblend[i], image_alpha)
@@ -848,3 +1325,62 @@ for (i = 0; i < 8; i += 1)
         d3d_set_fog(false, c_black, 0, 0)
     }
 }
+if (shocker < 0)
+{
+    shocker = shocker_threshold
+    if (shocker_threshold > 2)
+        shocker_threshold -= (0.25 * f)
+}
+if (partmode == 13)
+{
+    partframe[1] = 1
+    armendx = ((((x + (partx[1] * facing)) + (partxoff[1] * facing)) + (lengthdir_x(armlength, (partrot[1] - 93)) * facing)) + 15)
+    armendy = (((y + party[1]) + partyoff[1]) + lengthdir_y(armlength, (partrot[1] - 93)))
+    partframe[5] = ((partsiner[5] / 6) % 3)
+    draw_set_color(c_white)
+    draw_circle((armendx + 120), (armendy + 6), (13 + (sin((partrot[0] / 2)) * 12)), 0)
+}
+draw_set_color(c_red)
+headx = ((x + partx[5]) + partxoff[5])
+heady = ((y + party[5]) + partyoff[5])
+hitdetector.x = headx
+hitdetector.y = heady
+hitdetector.image_angle = partrot[5]
+hitdetector.image_index = partframe[5]
+if (hitcon == 1 || hitcon == -1)
+{
+    partblend[5] = c_orange
+    hitcontimer = 0
+    if (headhit < 20)
+        headhit += 6
+    hitcon = 2
+}
+if (hitcon == 2)
+{
+    hitcontimer += (1 * f)
+    if (hitcontimer >= 5)
+        partblend[5] = merge_color(partblend[5], c_white, (0.15 * f))
+    if (hitcontimer >= 15)
+    {
+        hitcontimer = 0
+        hitcon = 0
+        partblend[5] = c_white
+    }
+}
+if scr_debug()
+{
+    if (drawaimer == 1)
+    {
+        armendx = (((x + partx[1]) + partxoff[1]) + lengthdir_x(armlength, (partrot[1] - 93)))
+        armendy = (((y + party[1]) + partyoff[1]) + lengthdir_y(armlength, (partrot[1] - 93)))
+        draw_set_color(c_lime)
+        draw_line_width(armendx, armendy, ((x + partx[1]) + partxoff[1]), ((y + party[1]) + partyoff[1]), 2)
+    }
+    if keyboard_check_pressed(ord("D"))
+        drawaimer = (!drawaimer)
+}
+if (violentendflash > 0)
+    violentendflash++
+if (becomeflash == false)
+    flash = false
+becomeflash = false

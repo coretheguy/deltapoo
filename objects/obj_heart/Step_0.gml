@@ -294,37 +294,37 @@ if (color == 0x000001)
             obj_spamton_neo_enemy.bigshotused = 1
         if (global.chapter == 2 && instance_exists(obj_spamton_neo_enemy) && obj_spamton_neo_enemy.bigshotcount > 0)
         {
-            //bigshot.hspeed = (10 * f)
-            //bigshot.trail = 1
-            //obj_spamton_neo_enemy.bigshotcount--
-            //if (obj_spamton_neo_enemy.bigshotcount == 0)
-            //{
-            //    instance_create(x, y, obj_supercharge_end)
-            //    snd_play(snd_stardrop)
-            //    var a = random(45)
-            //    repeat (8)
-            //    {
-            //        part = instance_create((other.x + 10), (other.y + 10), obj_yheart_sneo_particle)
-            //        part.direction = (a + random(15))
-            //        part.image_xscale = (2 + random(2))
-            //        part.image_yscale = (2 + random(2))
-            //        part.speed = 16
-            //        part.friction = 0.8
-            //        a += 45
-            //    }
-            //}
-            //else
-            //{
-            //    a = random(45)
-            //    repeat (8)
-            //    {
-            //        part = instance_create((other.x + 10), (other.y + 10), obj_yheart_sneo_particle)
-            //        part.direction = (a + random(15))
-            //        part.speed = 8
-            //        part.friction = 0.8
-            //        a += 45
-            //    }
-            //}
+            bigshot.hspeed = (10 * f)
+            bigshot.trail = 1
+            obj_spamton_neo_enemy.bigshotcount--
+            if (obj_spamton_neo_enemy.bigshotcount == 0)
+            {
+                instance_create(x, y, obj_supercharge_end)
+                snd_play(snd_stardrop)
+                var a = random(45)
+                repeat (8)
+                {
+                    part = instance_create((other.x + 10), (other.y + 10), obj_yheart_sneo_particle)
+                    part.direction = (a + random(15))
+                    part.image_xscale = (2 + random(2))
+                    part.image_yscale = (2 + random(2))
+                    part.speed = 16
+                    part.friction = 0.8
+                    a += 45
+                }
+            }
+            else
+            {
+                a = random(45)
+                repeat (8)
+                {
+                    part = instance_create((other.x + 10), (other.y + 10), obj_yheart_sneo_particle)
+                    part.direction = (a + random(15))
+                    part.speed = 8
+                    part.friction = 0.8
+                    a += 45
+                }
+            }
         }
     }
     if button1_h()

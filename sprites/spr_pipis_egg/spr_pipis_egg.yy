@@ -81,8 +81,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "sneo",
-    "path": "folders/Sprites/CHARA/ENEMY/BOSS/sneo.yy",
+    "name": "bullet",
+    "path": "folders/Sprites/CHARA/ENEMY/BOSS/sneo/bullet.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_pipis_egg",

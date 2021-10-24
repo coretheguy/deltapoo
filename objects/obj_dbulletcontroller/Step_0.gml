@@ -103,6 +103,53 @@ if (type == 13)
     }
 }
 
+else if (type == 50)
+{
+    if (btimer >= 45 && made == 0)
+    {
+        made = 1
+        snd_play(snd_explosion_8bit)
+        var initangle = random(80)
+        var initspeed = 4
+        bulcount = 9
+        repeat (2)
+        {
+            i = 0
+            if (i < bulcount)
+            {
+                bullet = instance_create(x, y, obj_regularbullet)
+                bullet.sprite_index = spr_spamtonhead
+                bullet.image_index = choose(0, 1, 2, 3)
+                bullet.image_speed = 0.25
+                bullet.direction = initangle
+                bullet.speed = (2 + initspeed)
+                bullet.depth -= made
+                initangle += (360 / bulcount)
+                scr_bullet_inherit(bullet)
+                for (i++; i < bulcount; i++)
+                {
+                    bullet = instance_create(x, y, obj_regularbullet)
+                    bullet.sprite_index = spr_spamtonhead
+                    bullet.image_index = choose(0, 1, 2, 3)
+                    bullet.image_speed = 0.25
+                    bullet.direction = initangle
+                    bullet.speed = (2 + initspeed)
+                    bullet.depth -= made
+                    initangle += (360 / bulcount)
+                    scr_bullet_inherit(bullet)
+                }
+            }
+            initspeed += 4
+            initangle = random(50)
+        }
+        with (creatorid)
+        {
+            global.monster[myself] = false
+            visible = false
+        }
+    }
+}
+
 if (type == 1021)
 {
 	

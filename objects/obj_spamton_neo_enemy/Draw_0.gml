@@ -1,10 +1,10 @@
 if (partmode == 10)
     partmode = 9
-if (room != room_dw_mansion_b_east_a)
-{
+//if (room != room_dw_mansion_b_east_a)
+//{
     if ((!instance_exists(obj_sneo_phonecall)) && obj_spamton_neo_enemy.image_alpha < 1)
         obj_spamton_neo_enemy.image_alpha += 0.1
-}
+//}
 if (state == 0)
     fsiner++
 var hidebgvines = 0

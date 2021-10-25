@@ -246,6 +246,23 @@ else if (type == 1)
         }
         button_clicked[5] = 0
     }
+	if button_clicked[6] == 1 {
+		
+		varname = get_string("Room?", "")
+		if varname != "" {
+			
+			if asset_get_index(varname) > 0 and asset_get_type(varname) == asset_room {
+				
+				var boob = asset_get_index(varname)
+				room_goto(boob)
+				instance_destroy()
+			} else {
+				
+				show_debug_message("not a room or room doesnt exist")
+			}
+		}
+		button_clicked[6] = 0
+	}		
 }
 xx = clamp(xx, 40, 500)
 yy = clamp(yy, 40, 340)

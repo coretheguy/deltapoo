@@ -150,6 +150,21 @@ else if (type == 50)
     }
 }
 
+
+if type = 1010 {
+	
+	if made = 0 {
+		xx = obj_growtangle.x + (obj_growtangle.sprite_width / 2)
+		yy = obj_growtangle.y + (obj_growtangle.sprite_height / 2)
+		d = instance_create((xx + 50), yy - 20, obj_dog_bullet)
+		d.type = choose(1, 1)
+		if d.type = 1
+			d.y -= 100
+		made = 1
+	}
+	
+}
+
 if (type == 1021)
 {
 	

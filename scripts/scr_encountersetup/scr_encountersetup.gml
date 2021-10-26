@@ -24,6 +24,15 @@ function scr_encountersetup(encounter ) {
     {
         case 0:
             break
+			
+		case 3:
+			global.monsterinstancetype[0] = obj_dog_enemy
+			 global.monstertype[0] = 109
+            global.monstermakex[0] = (xx + 480)
+            global.monstermakey[0] = (yy + 150)
+			global.battlemsg[0] = "* Annoying Dog."
+			break
+			
         case 1:
             global.monsterinstancetype[0] = obj_baseenemy
             global.monstertype[0] = 1
@@ -353,6 +362,23 @@ function scr_monstersetup() {
         global.actnameral[myself][0] = stringsetloc("R-Action", "scr_monstersetup_slash_scr_monstersetup_gml_1820_0")
         global.actsimulral[myself][0] = true
     }
+	
+	if global.monstertype[myself] == 109 {
+		
+		global.monstername[myself] = stringsetloc("Annoying Dog", "scr_monstersetup_slash_scr_monstersetup_gml_244_0")
+        global.monstermaxhp[myself] = 99999
+        global.monsterhp[myself] = 99999
+        global.monsterat[myself] = 10
+        global.monsterdf[myself] = 0
+        global.monsterexp[myself] = 0
+        global.monstergold[myself] = 1
+        global.sparepoint[myself] = 1
+        global.mercymod[myself] = 0
+        global.mercymax[myself] = 100
+        global.canact[myself][0] = true
+        global.actname[myself][0] = stringsetloc("Check", "scr_monstersetup_slash_scr_monstersetup_gml_255_0")
+        global.canact[myself][1] = true
+	}
 	
 	if (global.monstertype[myself] == 126)
     {

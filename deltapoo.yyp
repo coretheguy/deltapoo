@@ -631,6 +631,7 @@
     {"id":{"name":"obj_ch2_keyboardpuzzle_speaker","path":"objects/obj_ch2_keyboardpuzzle_speaker/obj_ch2_keyboardpuzzle_speaker.yy",},"order":3,},
     {"id":{"name":"obj_beatflash","path":"objects/obj_beatflash/obj_beatflash.yy",},"order":5,},
     {"id":{"name":"snd_speak_and_spell_N","path":"sounds/snd_speak_and_spell_N/snd_speak_and_spell_N.yy",},"order":282,},
+    {"id":{"name":"spr_tem_sit_l","path":"sprites/spr_tem_sit_l/spr_tem_sit_l.yy",},"order":5,},
     {"id":{"name":"snd_init","path":"scripts/snd_init/snd_init.yy",},"order":2,},
     {"id":{"name":"obj_sneo_wireheart_old","path":"objects/obj_sneo_wireheart_old/obj_sneo_wireheart_old.yy",},"order":41,},
     {"id":{"name":"snd_joker_byebye_ch1","path":"sounds/snd_joker_byebye_ch1/snd_joker_byebye_ch1.yy",},"order":182,},

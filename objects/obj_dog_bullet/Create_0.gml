@@ -1,3 +1,6 @@
+
+damage = 10
+target = 0
 type = 0
 //siner = 0
 sinetimer = 0

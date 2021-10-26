@@ -1,6 +1,6 @@
 sinetimer++
 bultimer++
-siner = sin(sinetimer / 16) * 50
+siner = sin(sinetimer / 16) * 80
 
 if type = 1 {
 	draw_sprite_ext(sprite_index, image_index, x, y + siner, image_xscale, image_yscale, image_angle, image_blend, image_alpha)
@@ -16,6 +16,8 @@ if type = 1 {
 			b.direction = (-180 + (i * 25)) + rand
 			b.speed = 6
 			b.image_angle = b.direction
+			b.damage = damage
+			b.target = target
 			i++
 		}
 	}

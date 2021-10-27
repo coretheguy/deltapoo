@@ -78,7 +78,7 @@
   "nineSlice": null,
   "parent": {
     "name": "cybercity",
-    "path": "folders/Sprites/CHARA/cybercity.yy",
+    "path": "folders/Sprites/MECH/cybercity.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_trafficswitch_symbol",

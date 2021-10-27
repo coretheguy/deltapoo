@@ -31,6 +31,7 @@ function scr_encountersetup(encounter ) {
             global.monstermakex[0] = (xx + 480)
             global.monstermakey[0] = (yy + 150)
 			global.battlemsg[0] = "* Annoying Dog."
+			global.batmusic[0] = snd_init("mus_dogroom.ogg")
 			break
 			
         case 1:
@@ -378,6 +379,7 @@ function scr_monstersetup() {
         global.canact[myself][0] = true
         global.actname[myself][0] = stringsetloc("Check", "scr_monstersetup_slash_scr_monstersetup_gml_255_0")
         global.canact[myself][1] = true
+		global.actname[myself][1] = "Flee"
 	}
 	
 	if (global.monstertype[myself] == 126)

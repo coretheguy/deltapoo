@@ -1,8 +1,14 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_battlebg_0",
+    "path": "sprites/spr_battlebg_0/spr_battlebg_0.yy",
+  },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_battlebg_0",
+    "path": "sprites/spr_battlebg_0/spr_battlebg_0.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,

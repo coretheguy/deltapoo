@@ -24,7 +24,7 @@ if (encountered == 0)
         }
         if (global.flag[9] == 1)
         {
-            if (global.encounterno != 62 && global.encounterno != 84)
+            if (global.encounterno != 62 && global.encounterno != 84 and global.encounterno != 3)
                 global.batmusic[0] = snd_init("battle.ogg")
         }
         alarm[5] = -300

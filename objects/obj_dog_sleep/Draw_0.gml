@@ -1,0 +1,1 @@
+draw_sprite(sprite_index, image_index, maxx / 2, maxy - (sprite_height - 3))

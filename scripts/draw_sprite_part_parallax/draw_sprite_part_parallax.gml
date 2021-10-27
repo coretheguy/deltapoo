@@ -61,3 +61,23 @@ function scr_drawpart_crop(l, t, r, b) {
     return;
 }
 
+function draw_text_width(xx, yy, str, wid) {
+    var _stringxscale = 1
+    var _stringwidth = string_width(argument2)
+    if (_stringwidth >= argument3)
+        _stringxscale = (argument3 / _stringwidth)
+    draw_text_transformed(argument0, argument1, argument2, _stringxscale, 1, 0)
+    return;
+}
+
+function draw_text_shadow_width(xx, yy, str, wid) {
+    __txtcolor__ = draw_get_color()
+    draw_set_color(c_black)
+    draw_text_width((argument0 + 1), (argument1 + 1), string_hash_to_newline(argument2), argument3)
+    draw_set_color(__txtcolor__)
+    draw_text_width(argument0, argument1, string_hash_to_newline(argument2), argument3)
+    return;
+}
+
+
+

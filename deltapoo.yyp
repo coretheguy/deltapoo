@@ -498,6 +498,7 @@
     {"id":{"name":"spr_bg_cyber_parallax_buildings_lights","path":"sprites/spr_bg_cyber_parallax_buildings_lights/spr_bg_cyber_parallax_buildings_lights.yy",},"order":2,},
     {"id":{"name":"obj_cakesmoke","path":"objects/obj_cakesmoke/obj_cakesmoke.yy",},"order":6,},
     {"id":{"name":"snd_queen_hoot_0","path":"sounds/snd_queen_hoot_0/snd_queen_hoot_0.yy",},"order":224,},
+    {"id":{"name":"obj_dog_sleep","path":"objects/obj_dog_sleep/obj_dog_sleep.yy",},"order":4,},
     {"id":{"name":"spr_battleblcon_parts","path":"sprites/spr_battleblcon_parts/spr_battleblcon_parts.yy",},"order":4,},
     {"id":{"name":"obj_ch2_keyboardpuzzle_screen","path":"objects/obj_ch2_keyboardpuzzle_screen/obj_ch2_keyboardpuzzle_screen.yy",},"order":4,},
     {"id":{"name":"obj_dog_bullet","path":"objects/obj_dog_bullet/obj_dog_bullet.yy",},"order":1,},
@@ -1073,6 +1074,7 @@
     {"id":{"name":"spr_cutscene_14_spamton_laugh_right","path":"sprites/spr_cutscene_14_spamton_laugh_right/spr_cutscene_14_spamton_laugh_right.yy",},"order":0,},
     {"id":{"name":"motor_swing_down","path":"sounds/motor_swing_down/motor_swing_down.yy",},"order":57,},
     {"id":{"name":"spr_doorC","path":"sprites/spr_doorC/spr_doorC.yy",},"order":2,},
+    {"id":{"name":"scr_box","path":"scripts/scr_box/scr_box.yy",},"order":17,},
     {"id":{"name":"snd_bell","path":"sounds/snd_bell/snd_bell.yy",},"order":95,},
     {"id":{"name":"scr_cutscene_mastercommands","path":"scripts/scr_cutscene_mastercommands/scr_cutscene_mastercommands.yy",},"order":1,},
     {"id":{"name":"snd_levelup","path":"sounds/snd_levelup/snd_levelup.yy",},"order":78,},
@@ -1718,6 +1720,7 @@
     {"CopyToMask":-1,"filePath":"datafiles/mus","resourceVersion":"1.0","name":"w.ogg","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles/mus","resourceVersion":"1.0","name":"wind.ogg","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles/mus","resourceVersion":"1.0","name":"wind_highplace.ogg","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles/mus","resourceVersion":"1.0","name":"mus_dogroom.ogg","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
     "IDEVersion": "2.3.5.589",

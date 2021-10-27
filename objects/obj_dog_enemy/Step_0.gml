@@ -25,10 +25,10 @@ if (global.monster[myself] == true)
         rtimer += 1
         if (rtimer == 12)
         {
-            rr = choose(0, 0)
+            rr = choose(0, 1)
             if (rr == 0)
             {
-                global.monsterattackname[myself] = "DogBull"
+                global.monsterattackname[myself] = "DogBullets"
                 dc = scr_bulletspawner(x, y, obj_dbulletcontroller)
                 dc.type = 1010
                 dc.damage = 50
@@ -37,7 +37,7 @@ if (global.monster[myself] == true)
             }
 			if rr == 1 {
 				
-				global.monsterattackname[myself] = "DogCar"
+				global.monsterattackname[myself] = "DoggySleepTime"
 				dc = scr_bulletspawner(x, y, obj_dbulletcontroller)
 				dc.type = 1011
 				dc.damage = 80
@@ -71,7 +71,13 @@ if (global.myfight == 3)
         actcon = 1
 		msgset(0, "ANNOYING DOG - A dog that's inconveniently great at getting in the way./%")
         scr_battletext_default()
-    }
+	}
+	if acting = 2 and actcon = 0 {
+		
+		actcon = 1
+		msgset(0, "* You tried to escape, but a dog blocked the way./%")
+		scr_battletext_default()
+	}
     if ((actingsus == true && actconsus == 1) || (actingral == true && actconral == 1))
     {
         msgsetloc(0, "* The act was replaced by a dog./%", "obj_pipis_enemy_slash_Step_0_gml_110_0")

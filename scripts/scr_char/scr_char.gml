@@ -444,6 +444,13 @@ function scr_setmainchar(char) {
 			global.mc_rspr = spr_krisr
 			global.mc_lspr = spr_krisl
 			global.mc_uspr = spr_krisu
+			
+			if global.darkzone {
+				global.mc_dspr = spr_krisd_dark
+				global.mc_rspr = spr_krisr_dark
+				global.mc_lspr = spr_krisl_dark
+				global.mc_uspr = spr_krisu_dark
+			}
 			break
 	}
 	

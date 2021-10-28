@@ -42,7 +42,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "car",
-    "path": "folders/Objects/COLLISION/cybercity/car.yy",
+    "path": "folders/Objects/MECH/cybercity/car.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_traffic_switch",

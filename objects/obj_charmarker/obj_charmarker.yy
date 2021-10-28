@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "cybercity",
-    "path": "folders/Objects/COLLISION/cybercity.yy",
+    "path": "folders/Objects/MECH/cybercity.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_charmarker",

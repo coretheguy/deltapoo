@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "keyboard",
-    "path": "folders/Objects/COLLISION/cybercity/keyboard.yy",
+    "path": "folders/Objects/MECH/cybercity/keyboard.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_ch2_keyboardpuzzle_speaker",

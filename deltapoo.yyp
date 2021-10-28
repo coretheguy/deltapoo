@@ -338,6 +338,7 @@
     {"id":{"name":"spr_sparestar","path":"sprites/spr_sparestar/spr_sparestar.yy",},"order":18,},
     {"id":{"name":"scr_cutscenefuncs","path":"scripts/scr_cutscenefuncs/scr_cutscenefuncs.yy",},"order":2,},
     {"id":{"name":"snd_txtq","path":"sounds/snd_txtq/snd_txtq.yy",},"order":26,},
+    {"id":{"name":"spr_darkdoor","path":"sprites/spr_darkdoor/spr_darkdoor.yy",},"order":20,},
     {"id":{"name":"snd_impact","path":"sounds/snd_impact/snd_impact.yy",},"order":63,},
     {"id":{"name":"spr_ralsei_walk_right_blush","path":"sprites/spr_ralsei_walk_right_blush/spr_ralsei_walk_right_blush.yy",},"order":5,},
     {"id":{"name":"bg_dw_cyber_keyboard","path":"sprites/bg_dw_cyber_keyboard/bg_dw_cyber_keyboard.yy",},"order":8,},
@@ -1649,6 +1650,7 @@
     {"folderPath":"folders/Objects/MECH/mansion.yy","order":1,"resourceVersion":"1.0","name":"mansion","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/MECH/teapots.yy","order":2,"resourceVersion":"1.0","name":"teapots","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/MECH/cybercity/teacup.yy","order":9,"resourceVersion":"1.0","name":"teacup","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/VFX/hometown.yy","order":2,"resourceVersion":"1.0","name":"hometown","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

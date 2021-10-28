@@ -1,5 +1,5 @@
-global.currentsong[0] = snd_init("cyber.ogg")
-global.currentsong[1] = mus_loop(global.currentsong[0])
+//global.currentsong[0] = snd_init("cyber.ogg")
+//global.currentsong[1] = mus_loop(global.currentsong[0])
 
 ts = 0
 

@@ -108,7 +108,7 @@ else if (menuno == 1)
                 draw_text((camerax() + 320), (((cameray() + my) + 20) + (i * mspace)), name_file[i])
             else
             {
-                draw_set_font(fnt_ja_mainbig)
+                //draw_set_font(fnt_ja_mainbig)
                 draw_text((camerax() + 320), (((cameray() + my) + 20) + (i * mspace)), name_file[i])
                 if (global.lang != "ja")
                     draw_set_font(fnt_mainbig)
@@ -265,7 +265,7 @@ else if (menuno == 1)
                 menuno = 2
                 global.filechoice = mpos
                 snd_play(snd_save)
-                script_execute(gml_Script_scr_save)
+                script_execute(scr_save)
                 saved = 1
                 xcoord = 2
                 buffer = 3

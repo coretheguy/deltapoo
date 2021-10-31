@@ -12,7 +12,7 @@ switch room {
 	
 	default:
 		nodialogue = 0
-		msgset(0, "* You are filled with a certain power...")
+		msgset(0, "* You are filled with a certain power.../%")
 }
 
 myinteract = 3

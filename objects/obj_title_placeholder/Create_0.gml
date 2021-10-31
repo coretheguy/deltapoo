@@ -1,6 +1,7 @@
 choice[0] = "Go to Main Menu"
 choice[1] = "Go to Debug Room"
 choice[2] = "battle tester"
+choice[3] = "Load File 0"
 choice_index = 0
 global.cinstance[0] = 4343434343
 global.cinstance[1] = 343434343434

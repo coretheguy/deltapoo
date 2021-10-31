@@ -94,7 +94,27 @@ else
 			
 			draw_set_color(orgincol)
 		}
+		
+		//if logotimer >= 230
+		//	draw_text_transformed(105, 140, "AVAILABLE SOMETIME", 0.6, 0.6, 0)
 			
+		//if logotimer >= 250
+		//	draw_text_transformed(105, 160, "MAYBE LATER TODAY", 0.5, 0.5, 0)
+			
+		//if logotimer >= 270
+		//	draw_text_transformed(105, 180, "POSSIBLY", 0.4, 0.4, 0)
+			
+		//if logotimer >= 272
+		//	draw_text_transformed(105, 190, "PLEASE RESPECT THE DOG THO", 0.3, 0.3, 0)
+			
+		//if logotimer >= 274
+		//	draw_text_transformed(105, 200, "OR I HAVE TO TAKE IT DOWN", 0.3, 0.3, 0)
+			
+		//if logotimer >= 277
+		//	draw_text_transformed(105, 210, "YOU NEED GAMEMAKER STUDIO 2 ALSO", 0.2, 0.2, 0)
+			
+		//if logotimer >= 278
+		//	draw_text_transformed(105, 215, "UH OH HERE COMES THE FILE SELECT", 0.1, 0.1, 0)
 			
         if (logotimer >= 280)
             room_goto(PLACE_MENU)

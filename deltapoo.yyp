@@ -144,6 +144,7 @@
     {"id":{"name":"snd_cd_bagel_susie","path":"sounds/snd_cd_bagel_susie/snd_cd_bagel_susie.yy",},"order":128,},
     {"id":{"name":"obj_spamton_neo_enemy","path":"objects/obj_spamton_neo_enemy/obj_spamton_neo_enemy.yy",},"order":0,},
     {"id":{"name":"spr_shop_spamton_phone","path":"sprites/spr_shop_spamton_phone/spr_shop_spamton_phone.yy",},"order":6,},
+    {"id":{"name":"spr_cutscene_14_spamton_hands_look_down_dark","path":"sprites/spr_cutscene_14_spamton_hands_look_down_dark/spr_cutscene_14_spamton_hands_look_down_dark.yy",},"order":5,},
     {"id":{"name":"spr_noelleb_attackready","path":"sprites/spr_noelleb_attackready/spr_noelleb_attackready.yy",},"order":5,},
     {"id":{"name":"snd_usefountain","path":"sounds/snd_usefountain/snd_usefountain.yy",},"order":33,},
     {"id":{"name":"obj_shake","path":"objects/obj_shake/obj_shake.yy",},"order":3,},

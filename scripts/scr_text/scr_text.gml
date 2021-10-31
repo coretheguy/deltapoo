@@ -50,6 +50,24 @@ function scr_text(mc_id){
                 global.msg[1] = stringsetloc("* (Click...)/%", "scr_text_slash_scr_text_gml_2429_0")
             }
             break
+			
+		case 10010:
+			break
+		case 10011:
+		
+			//if global.choice = 0 {
+				msgset(0, "%%")
+				with obj_test2_cutscene
+					con = 10
+			//}
+			
+			//if global.choice = 1 {
+			//	msgset(0, "%%")
+			//	with obj_test2_cutscene
+			//		con = 0
+			//}
+			
+			break
 	}
 
 }

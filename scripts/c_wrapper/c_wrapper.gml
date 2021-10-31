@@ -438,6 +438,13 @@ function c_jump(ex, ey, jspd, jtm) {
     return;
 }
 
+function c_jump_wait(ex, ey, jspd, jtm) {
+	c_jump(argument0, argument1, argument2, argument3)
+	c_wait(argument3)
+    return;
+}
+
+
 function c_jump_in_place(jspd, jtm) {
     c_cmd("jumpinplace", argument0, argument1, 0, 0)
     return;
@@ -611,3 +618,13 @@ function c_delaycmd4(delay, cmd, arg1, arg2, arg3, arg4) {
     return;
 }
 
+function c_choice(chc, txt) {
+	
+	global.choicemsg[chc] = txt
+	return;
+}
+
+function c_msc(ms) {
+	global.msc = ms
+	return;
+}

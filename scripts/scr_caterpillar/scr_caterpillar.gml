@@ -215,10 +215,10 @@ function scr_makecaterpillar(x, y, name, inst) {
 		with global.cinstance[argument3] {
 			
 			name = "spamton"
-			usprite = spr_spamton_party_l
-			dsprite = spr_spamton_party_l
-            rsprite = spr_spamton_party_l
-            lsprite = spr_spamton_party_l
+			usprite = spr_spamton_idle
+			dsprite = spr_spamton_idle
+            rsprite = spr_spamton_idle
+            lsprite = spr_spamton_idle
 		}
 	}
 	

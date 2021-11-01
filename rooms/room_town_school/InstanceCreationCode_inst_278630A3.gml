@@ -1,0 +1,1 @@
+msginfo = [0, "* (Well, there is not a door here.)/%", "alskdhfaskdlghjaksdghla"]

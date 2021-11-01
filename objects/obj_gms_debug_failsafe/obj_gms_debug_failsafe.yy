@@ -1,10 +1,7 @@
 {
-  "spriteId": {
-    "name": "spr_markerA",
-    "path": "sprites/spr_markerA/spr_markerA.yy",
-  },
+  "spriteId": null,
   "solid": false,
-  "visible": false,
+  "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -20,15 +17,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "marker",
-    "path": "folders/Objects/UTIL/marker.yy",
+    "name": "debug",
+    "path": "folders/Objects/INITIALIZE/debug.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_markerA",
+  "name": "obj_gms_debug_failsafe",
   "tags": [],
   "resourceType": "GMObject",
 }

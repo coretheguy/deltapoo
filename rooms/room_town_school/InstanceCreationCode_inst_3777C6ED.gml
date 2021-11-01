@@ -1,0 +1,1 @@
+msginfo = [0, "* (Nothing but trees. You can see a building through the trees.)/%", "alskdhfaskdlghjaksdghla"]

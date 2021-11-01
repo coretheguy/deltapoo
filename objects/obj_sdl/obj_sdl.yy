@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_solidslope",
-    "path": "sprites/spr_solidslope/spr_solidslope.yy",
+    "name": "spr_sdl",
+    "path": "sprites/spr_sdl/spr_sdl.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objects/COLLISION.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_solidslope",
+  "name": "obj_sdl",
   "tags": [],
   "resourceType": "GMObject",
 }

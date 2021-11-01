@@ -176,8 +176,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "empty",
-    "path": "folders/Rooms/empty.yy",
+    "name": "LIGHTWORLD",
+    "path": "folders/Rooms/LIGHTWORLD.yy",
   },
   "resourceVersion": "1.0",
   "name": "room_town_school",

@@ -557,8 +557,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "DARKWORLD",
-    "path": "folders/Rooms/DARKWORLD.yy",
+    "name": "cytber",
+    "path": "folders/Rooms/DARKWORLD/cytber.yy",
   },
   "resourceVersion": "1.0",
   "name": "room_dw_city_showcase2",

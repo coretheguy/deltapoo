@@ -1,6 +1,6 @@
 {
   "bboxMode": 0,
-  "collisionKind": 0,
+  "collisionKind": 1,
   "type": 0,
   "origin": 0,
   "preMultiplyAlpha": false,
@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 19,
+  "bbox_right": 159,
   "bbox_top": 0,
-  "bbox_bottom": 19,
+  "bbox_bottom": 419,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 20,
-  "height": 20,
+  "width": 160,
+  "height": 420,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a337386d-5224-429e-b0f0-7abaf267b90d","path":"sprites/spr_solidslope/spr_solidslope.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a337386d-5224-429e-b0f0-7abaf267b90d","path":"sprites/spr_solidslope/spr_solidslope.yy",},"LayerId":{"name":"ee531cf7-dda9-4c1a-a814-9733e5624b19","path":"sprites/spr_solidslope/spr_solidslope.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_solidslope","path":"sprites/spr_solidslope/spr_solidslope.yy",},"resourceVersion":"1.0","name":"a337386d-5224-429e-b0f0-7abaf267b90d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0224f0c5-a1a6-4430-9c54-e02402b05df5","path":"sprites/bg_ruintile_1/bg_ruintile_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0224f0c5-a1a6-4430-9c54-e02402b05df5","path":"sprites/bg_ruintile_1/bg_ruintile_1.yy",},"LayerId":{"name":"5ef11e57-67fc-4f8b-94b4-b4792a85a245","path":"sprites/bg_ruintile_1/bg_ruintile_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"bg_ruintile_1","path":"sprites/bg_ruintile_1/bg_ruintile_1.yy",},"resourceVersion":"1.0","name":"0224f0c5-a1a6-4430-9c54-e02402b05df5","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_solidslope","path":"sprites/spr_solidslope/spr_solidslope.yy",},
+    "spriteId": {"name":"bg_ruintile_1","path":"sprites/bg_ruintile_1/bg_ruintile_1.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"8dbe41b5-3dbe-4849-be2e-2a63d8fd845c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a337386d-5224-429e-b0f0-7abaf267b90d","path":"sprites/spr_solidslope/spr_solidslope.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2aeae267-9141-42fd-bf17-866f9a70d7e2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0224f0c5-a1a6-4430-9c54-e02402b05df5","path":"sprites/bg_ruintile_1/bg_ruintile_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,22 +58,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_solidslope","path":"sprites/spr_solidslope/spr_solidslope.yy",},
+    "parent": {"name":"bg_ruintile_1","path":"sprites/bg_ruintile_1/bg_ruintile_1.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_solidslope",
+    "name": "bg_ruintile_1",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ee531cf7-dda9-4c1a-a814-9733e5624b19","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5ef11e57-67fc-4f8b-94b4-b4792a85a245","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "DEBUG",
-    "path": "folders/Sprites/DEBUG.yy",
+    "name": "underta",
+    "path": "folders/Sprites/BG/underta.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_solidslope",
+  "name": "bg_ruintile_1",
   "tags": [],
   "resourceType": "GMSprite",
 }

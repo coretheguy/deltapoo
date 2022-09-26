@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_chatbot_mailattackmissile",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,45 +27,23 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"dae2265a-a690-4c0f-a349-405feb3c69fd","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dae2265a-a690-4c0f-a349-405feb3c69fd","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"LayerId":{"name":"51e19b03-466f-4a37-92cb-2b56459fda51","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_chatbot_mailattackmissile","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"resourceVersion":"1.0","name":"dae2265a-a690-4c0f-a349-405feb3c69fd","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"415207bf-6286-4dc6-9eb1-14ddc36a57b5","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"415207bf-6286-4dc6-9eb1-14ddc36a57b5","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"LayerId":{"name":"51e19b03-466f-4a37-92cb-2b56459fda51","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_chatbot_mailattackmissile","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"resourceVersion":"1.0","name":"415207bf-6286-4dc6-9eb1-14ddc36a57b5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"692c6dea-e60f-4c5b-a4dc-c84a103d4228","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"692c6dea-e60f-4c5b-a4dc-c84a103d4228","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"LayerId":{"name":"51e19b03-466f-4a37-92cb-2b56459fda51","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_chatbot_mailattackmissile","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"resourceVersion":"1.0","name":"692c6dea-e60f-4c5b-a4dc-c84a103d4228","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e774ef07-c4de-45b5-af54-44aa436b3079","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e774ef07-c4de-45b5-af54-44aa436b3079","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"LayerId":{"name":"51e19b03-466f-4a37-92cb-2b56459fda51","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_chatbot_mailattackmissile","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"resourceVersion":"1.0","name":"e774ef07-c4de-45b5-af54-44aa436b3079","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"69e5cf6d-2598-461d-b046-38563c64b26d","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"69e5cf6d-2598-461d-b046-38563c64b26d","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"LayerId":{"name":"51e19b03-466f-4a37-92cb-2b56459fda51","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_chatbot_mailattackmissile","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"resourceVersion":"1.0","name":"69e5cf6d-2598-461d-b046-38563c64b26d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6dbf07dd-d5a7-4007-85e0-274c5628ae8a","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6dbf07dd-d5a7-4007-85e0-274c5628ae8a","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"LayerId":{"name":"51e19b03-466f-4a37-92cb-2b56459fda51","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_chatbot_mailattackmissile","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"resourceVersion":"1.0","name":"6dbf07dd-d5a7-4007-85e0-274c5628ae8a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4122789a-002b-4b03-a005-cea59891b3fc","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4122789a-002b-4b03-a005-cea59891b3fc","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"LayerId":{"name":"51e19b03-466f-4a37-92cb-2b56459fda51","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_chatbot_mailattackmissile","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"resourceVersion":"1.0","name":"4122789a-002b-4b03-a005-cea59891b3fc","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"dd2d68af-26eb-4d67-add1-ac1fd370fc82","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dd2d68af-26eb-4d67-add1-ac1fd370fc82","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"LayerId":{"name":"51e19b03-466f-4a37-92cb-2b56459fda51","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_chatbot_mailattackmissile","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"resourceVersion":"1.0","name":"dd2d68af-26eb-4d67-add1-ac1fd370fc82","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e9ea9871-7714-4ca1-a715-0818f38a70c8","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e9ea9871-7714-4ca1-a715-0818f38a70c8","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"LayerId":{"name":"51e19b03-466f-4a37-92cb-2b56459fda51","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_chatbot_mailattackmissile","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"resourceVersion":"1.0","name":"e9ea9871-7714-4ca1-a715-0818f38a70c8","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ff7393fd-14e3-42e1-8f6a-f90057986482","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ff7393fd-14e3-42e1-8f6a-f90057986482","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"LayerId":{"name":"51e19b03-466f-4a37-92cb-2b56459fda51","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_chatbot_mailattackmissile","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"resourceVersion":"1.0","name":"ff7393fd-14e3-42e1-8f6a-f90057986482","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"29c088c6-73fc-4809-9992-dc5c43a78b86","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"29c088c6-73fc-4809-9992-dc5c43a78b86","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"LayerId":{"name":"51e19b03-466f-4a37-92cb-2b56459fda51","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_chatbot_mailattackmissile","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"resourceVersion":"1.0","name":"29c088c6-73fc-4809-9992-dc5c43a78b86","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"908d81c5-1f88-4df7-a825-d9df35d51265","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"908d81c5-1f88-4df7-a825-d9df35d51265","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"LayerId":{"name":"51e19b03-466f-4a37-92cb-2b56459fda51","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_chatbot_mailattackmissile","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"resourceVersion":"1.0","name":"908d81c5-1f88-4df7-a825-d9df35d51265","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"dae2265a-a690-4c0f-a349-405feb3c69fd",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"415207bf-6286-4dc6-9eb1-14ddc36a57b5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"692c6dea-e60f-4c5b-a4dc-c84a103d4228",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e774ef07-c4de-45b5-af54-44aa436b3079",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"69e5cf6d-2598-461d-b046-38563c64b26d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6dbf07dd-d5a7-4007-85e0-274c5628ae8a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4122789a-002b-4b03-a005-cea59891b3fc",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"dd2d68af-26eb-4d67-add1-ac1fd370fc82",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e9ea9871-7714-4ca1-a715-0818f38a70c8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ff7393fd-14e3-42e1-8f6a-f90057986482",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"29c088c6-73fc-4809-9992-dc5c43a78b86",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"908d81c5-1f88-4df7-a825-d9df35d51265",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_chatbot_mailattackmissile","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_chatbot_mailattackmissile",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -73,7 +54,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"c9c23e88-6be1-4c50-b6b3-2e8bf2c10dcb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dae2265a-a690-4c0f-a349-405feb3c69fd","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"7a353c11-090d-4bf0-901c-8a564828a9a2","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"415207bf-6286-4dc6-9eb1-14ddc36a57b5","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"c87c7c86-2288-44f9-a2f2-6bc55c8ac505","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"692c6dea-e60f-4c5b-a4dc-c84a103d4228","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -86,7 +67,7 @@
             {"id":"2199bad5-f44b-4858-9da1-76bcac9830d7","Key":9.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ff7393fd-14e3-42e1-8f6a-f90057986482","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"9b4297a7-2f5e-4ffc-8b08-fae607c7bd9b","Key":10.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"29c088c6-73fc-4809-9992-dc5c43a78b86","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"045169eb-70a9-4bb6-aecc-8cb5a6b91b7e","Key":11.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"908d81c5-1f88-4df7-a825-d9df35d51265","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -102,22 +83,13 @@
     "yorigin": 29,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_chatbot_mailattackmissile","path":"sprites/spr_chatbot_mailattackmissile/spr_chatbot_mailattackmissile.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_chatbot_mailattackmissile",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"51e19b03-466f-4a37-92cb-2b56459fda51","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"51e19b03-466f-4a37-92cb-2b56459fda51","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "attack2",
     "path": "folders/Sprites/CHARA/ENEMY/chatbot/attack2.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_chatbot_mailattackmissile",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

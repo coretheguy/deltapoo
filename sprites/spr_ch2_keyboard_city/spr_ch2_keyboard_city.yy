@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_ch2_keyboard_city",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,18 +27,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f5abe937-d113-4955-bf41-a08bc5e80a4f","path":"sprites/spr_ch2_keyboard_city/spr_ch2_keyboard_city.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f5abe937-d113-4955-bf41-a08bc5e80a4f","path":"sprites/spr_ch2_keyboard_city/spr_ch2_keyboard_city.yy",},"LayerId":{"name":"31037fe4-5c06-4a70-97f6-7b77b50f02cf","path":"sprites/spr_ch2_keyboard_city/spr_ch2_keyboard_city.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_city","path":"sprites/spr_ch2_keyboard_city/spr_ch2_keyboard_city.yy",},"resourceVersion":"1.0","name":"f5abe937-d113-4955-bf41-a08bc5e80a4f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9ed072bd-4621-4811-ac90-d6775dbe2b54","path":"sprites/spr_ch2_keyboard_city/spr_ch2_keyboard_city.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9ed072bd-4621-4811-ac90-d6775dbe2b54","path":"sprites/spr_ch2_keyboard_city/spr_ch2_keyboard_city.yy",},"LayerId":{"name":"31037fe4-5c06-4a70-97f6-7b77b50f02cf","path":"sprites/spr_ch2_keyboard_city/spr_ch2_keyboard_city.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_city","path":"sprites/spr_ch2_keyboard_city/spr_ch2_keyboard_city.yy",},"resourceVersion":"1.0","name":"9ed072bd-4621-4811-ac90-d6775dbe2b54","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e9dc612d-35d8-4844-9008-51a452167beb","path":"sprites/spr_ch2_keyboard_city/spr_ch2_keyboard_city.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e9dc612d-35d8-4844-9008-51a452167beb","path":"sprites/spr_ch2_keyboard_city/spr_ch2_keyboard_city.yy",},"LayerId":{"name":"31037fe4-5c06-4a70-97f6-7b77b50f02cf","path":"sprites/spr_ch2_keyboard_city/spr_ch2_keyboard_city.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_city","path":"sprites/spr_ch2_keyboard_city/spr_ch2_keyboard_city.yy",},"resourceVersion":"1.0","name":"e9dc612d-35d8-4844-9008-51a452167beb","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f5abe937-d113-4955-bf41-a08bc5e80a4f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9ed072bd-4621-4811-ac90-d6775dbe2b54",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e9dc612d-35d8-4844-9008-51a452167beb",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_ch2_keyboard_city","path":"sprites/spr_ch2_keyboard_city/spr_ch2_keyboard_city.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_ch2_keyboard_city",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -46,11 +45,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"dfb34c2c-1efd-4915-b0fc-3af8f7f86aa0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f5abe937-d113-4955-bf41-a08bc5e80a4f","path":"sprites/spr_ch2_keyboard_city/spr_ch2_keyboard_city.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"4f2c21a0-e0e7-413b-bcd4-58fec606083f","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9ed072bd-4621-4811-ac90-d6775dbe2b54","path":"sprites/spr_ch2_keyboard_city/spr_ch2_keyboard_city.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"b42aee62-9509-425a-a467-f348335b8e39","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e9dc612d-35d8-4844-9008-51a452167beb","path":"sprites/spr_ch2_keyboard_city/spr_ch2_keyboard_city.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +65,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_ch2_keyboard_city","path":"sprites/spr_ch2_keyboard_city/spr_ch2_keyboard_city.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_ch2_keyboard_city",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"31037fe4-5c06-4a70-97f6-7b77b50f02cf","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"31037fe4-5c06-4a70-97f6-7b77b50f02cf","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "keyboard",
     "path": "folders/Sprites/TILE/keyboard.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_ch2_keyboard_city",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

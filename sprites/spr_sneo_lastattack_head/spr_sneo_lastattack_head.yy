@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_sneo_lastattack_head",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1a4e9c22-634b-4477-974a-5ccf03958643","path":"sprites/spr_sneo_lastattack_head/spr_sneo_lastattack_head.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1a4e9c22-634b-4477-974a-5ccf03958643","path":"sprites/spr_sneo_lastattack_head/spr_sneo_lastattack_head.yy",},"LayerId":{"name":"c826ebd2-5a51-4d34-9fa4-8092fc8def27","path":"sprites/spr_sneo_lastattack_head/spr_sneo_lastattack_head.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_sneo_lastattack_head","path":"sprites/spr_sneo_lastattack_head/spr_sneo_lastattack_head.yy",},"resourceVersion":"1.0","name":"1a4e9c22-634b-4477-974a-5ccf03958643","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1a4e9c22-634b-4477-974a-5ccf03958643",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_sneo_lastattack_head","path":"sprites/spr_sneo_lastattack_head/spr_sneo_lastattack_head.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_sneo_lastattack_head",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"afaabda6-1468-48e6-aa0e-8c7382bdfafa","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1a4e9c22-634b-4477-974a-5ccf03958643","path":"sprites/spr_sneo_lastattack_head/spr_sneo_lastattack_head.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_sneo_lastattack_head","path":"sprites/spr_sneo_lastattack_head/spr_sneo_lastattack_head.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_sneo_lastattack_head",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c826ebd2-5a51-4d34-9fa4-8092fc8def27","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c826ebd2-5a51-4d34-9fa4-8092fc8def27","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "finale",
     "path": "folders/Sprites/CHARA/ENEMY/BOSS/sneo/bullet/finale.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_sneo_lastattack_head",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

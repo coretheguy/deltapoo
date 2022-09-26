@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_shop_spamton_phone",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,24 +27,16 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"4e8b3726-3567-40bd-be90-3764dd419bd2","path":"sprites/spr_shop_spamton_phone/spr_shop_spamton_phone.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4e8b3726-3567-40bd-be90-3764dd419bd2","path":"sprites/spr_shop_spamton_phone/spr_shop_spamton_phone.yy",},"LayerId":{"name":"cd017940-f09e-4570-9eef-13c244282553","path":"sprites/spr_shop_spamton_phone/spr_shop_spamton_phone.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_shop_spamton_phone","path":"sprites/spr_shop_spamton_phone/spr_shop_spamton_phone.yy",},"resourceVersion":"1.0","name":"4e8b3726-3567-40bd-be90-3764dd419bd2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6615501c-e67c-4b01-9785-ffc409761222","path":"sprites/spr_shop_spamton_phone/spr_shop_spamton_phone.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6615501c-e67c-4b01-9785-ffc409761222","path":"sprites/spr_shop_spamton_phone/spr_shop_spamton_phone.yy",},"LayerId":{"name":"cd017940-f09e-4570-9eef-13c244282553","path":"sprites/spr_shop_spamton_phone/spr_shop_spamton_phone.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_shop_spamton_phone","path":"sprites/spr_shop_spamton_phone/spr_shop_spamton_phone.yy",},"resourceVersion":"1.0","name":"6615501c-e67c-4b01-9785-ffc409761222","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6cd7f8fb-550d-4539-aeb2-92a4eaf85fc2","path":"sprites/spr_shop_spamton_phone/spr_shop_spamton_phone.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6cd7f8fb-550d-4539-aeb2-92a4eaf85fc2","path":"sprites/spr_shop_spamton_phone/spr_shop_spamton_phone.yy",},"LayerId":{"name":"cd017940-f09e-4570-9eef-13c244282553","path":"sprites/spr_shop_spamton_phone/spr_shop_spamton_phone.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_shop_spamton_phone","path":"sprites/spr_shop_spamton_phone/spr_shop_spamton_phone.yy",},"resourceVersion":"1.0","name":"6cd7f8fb-550d-4539-aeb2-92a4eaf85fc2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"357027fb-5459-479b-8af5-6d286ca32887","path":"sprites/spr_shop_spamton_phone/spr_shop_spamton_phone.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"357027fb-5459-479b-8af5-6d286ca32887","path":"sprites/spr_shop_spamton_phone/spr_shop_spamton_phone.yy",},"LayerId":{"name":"cd017940-f09e-4570-9eef-13c244282553","path":"sprites/spr_shop_spamton_phone/spr_shop_spamton_phone.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_shop_spamton_phone","path":"sprites/spr_shop_spamton_phone/spr_shop_spamton_phone.yy",},"resourceVersion":"1.0","name":"357027fb-5459-479b-8af5-6d286ca32887","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b6fbb323-afef-49dc-965e-84625704e610","path":"sprites/spr_shop_spamton_phone/spr_shop_spamton_phone.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b6fbb323-afef-49dc-965e-84625704e610","path":"sprites/spr_shop_spamton_phone/spr_shop_spamton_phone.yy",},"LayerId":{"name":"cd017940-f09e-4570-9eef-13c244282553","path":"sprites/spr_shop_spamton_phone/spr_shop_spamton_phone.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_shop_spamton_phone","path":"sprites/spr_shop_spamton_phone/spr_shop_spamton_phone.yy",},"resourceVersion":"1.0","name":"b6fbb323-afef-49dc-965e-84625704e610","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4e8b3726-3567-40bd-be90-3764dd419bd2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6615501c-e67c-4b01-9785-ffc409761222",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6cd7f8fb-550d-4539-aeb2-92a4eaf85fc2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"357027fb-5459-479b-8af5-6d286ca32887",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b6fbb323-afef-49dc-965e-84625704e610",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_shop_spamton_phone","path":"sprites/spr_shop_spamton_phone/spr_shop_spamton_phone.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_shop_spamton_phone",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -52,13 +47,13 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"433fcf20-34f6-4c6e-aba6-7da0c63dc1ad","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4e8b3726-3567-40bd-be90-3764dd419bd2","path":"sprites/spr_shop_spamton_phone/spr_shop_spamton_phone.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"326fcc72-3e4c-497d-8824-1a0050ecac59","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6615501c-e67c-4b01-9785-ffc409761222","path":"sprites/spr_shop_spamton_phone/spr_shop_spamton_phone.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"25f0f1a0-ddcd-4bf1-b1b3-8fe09a45ccc8","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6cd7f8fb-550d-4539-aeb2-92a4eaf85fc2","path":"sprites/spr_shop_spamton_phone/spr_shop_spamton_phone.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"ab32c897-b6f3-4f57-9906-d8c4edba975e","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"357027fb-5459-479b-8af5-6d286ca32887","path":"sprites/spr_shop_spamton_phone/spr_shop_spamton_phone.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"bf82fc08-3a0d-4c5d-8d69-c8afe9d6d43e","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b6fbb323-afef-49dc-965e-84625704e610","path":"sprites/spr_shop_spamton_phone/spr_shop_spamton_phone.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -74,22 +69,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_shop_spamton_phone","path":"sprites/spr_shop_spamton_phone/spr_shop_spamton_phone.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_shop_spamton_phone",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cd017940-f09e-4570-9eef-13c244282553","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"cd017940-f09e-4570-9eef-13c244282553","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "spamton",
     "path": "folders/Sprites/SHOP/spamton.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_shop_spamton_phone",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

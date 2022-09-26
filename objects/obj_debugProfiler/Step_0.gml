@@ -6,6 +6,16 @@ if (keyboard_check(vk_shift) && keyboard_check(vk_control) && keyboard_check_pre
     else
         safe_delete(obj_debug_drawInput)
 }
+
+if (keyboard_check(vk_shift) && keyboard_check(vk_control) && keyboard_check_pressed(ord("L")))
+{
+    snd_play_pitch(snd_won, 1.2)
+    if (!i_ex(crashmoment))
+        instance_create(x, y, crashmoment)
+    else
+        safe_delete(crashmoment)
+}
+
 if (keyboard_check(vk_shift) && keyboard_check(vk_control) && keyboard_check_pressed(vk_up))
 {
     snd_play(snd_txtsans)
@@ -106,3 +116,12 @@ if (keyboard_check(vk_shift) && keyboard_check(vk_control) && keyboard_check_pre
     scr_84_load_ini()
     room_restart()
 }
+
+if keyboard_check_pressed(vk_insert) {
+		
+	       snd_play_pitch(snd_bomb, 1.2)
+	    if (!i_ex(obj_debug_roompicker))
+	        instance_create(x, y, obj_debug_roompicker)
+	    else
+	        safe_delete(obj_debug_roompicker)
+	}

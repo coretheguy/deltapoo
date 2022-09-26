@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_streets_parallax_for2x",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"bc7d5975-b1a2-4a2a-9802-56b8ca6ae25f","path":"sprites/spr_streets_parallax_for2x/spr_streets_parallax_for2x.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bc7d5975-b1a2-4a2a-9802-56b8ca6ae25f","path":"sprites/spr_streets_parallax_for2x/spr_streets_parallax_for2x.yy",},"LayerId":{"name":"4a82fa6c-4bf0-4d22-bacf-83c78b76c900","path":"sprites/spr_streets_parallax_for2x/spr_streets_parallax_for2x.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_streets_parallax_for2x","path":"sprites/spr_streets_parallax_for2x/spr_streets_parallax_for2x.yy",},"resourceVersion":"1.0","name":"bc7d5975-b1a2-4a2a-9802-56b8ca6ae25f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bc7d5975-b1a2-4a2a-9802-56b8ca6ae25f",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_streets_parallax_for2x","path":"sprites/spr_streets_parallax_for2x/spr_streets_parallax_for2x.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_streets_parallax_for2x",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"9839f0c5-11f5-4900-8053-97a2d93369ba","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bc7d5975-b1a2-4a2a-9802-56b8ca6ae25f","path":"sprites/spr_streets_parallax_for2x/spr_streets_parallax_for2x.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_streets_parallax_for2x","path":"sprites/spr_streets_parallax_for2x/spr_streets_parallax_for2x.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_streets_parallax_for2x",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4a82fa6c-4bf0-4d22-bacf-83c78b76c900","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4a82fa6c-4bf0-4d22-bacf-83c78b76c900","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "cybercity",
     "path": "folders/Sprites/VFX/cybercity.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_streets_parallax_for2x",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

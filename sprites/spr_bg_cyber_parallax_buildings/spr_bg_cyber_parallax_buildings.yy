@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_bg_cyber_parallax_buildings",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"2d305e40-664e-4f6b-8c5a-d2619cb37ac9","path":"sprites/spr_bg_cyber_parallax_buildings/spr_bg_cyber_parallax_buildings.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2d305e40-664e-4f6b-8c5a-d2619cb37ac9","path":"sprites/spr_bg_cyber_parallax_buildings/spr_bg_cyber_parallax_buildings.yy",},"LayerId":{"name":"ea92a497-2368-44fc-a5b2-e9f3a086ade2","path":"sprites/spr_bg_cyber_parallax_buildings/spr_bg_cyber_parallax_buildings.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_bg_cyber_parallax_buildings","path":"sprites/spr_bg_cyber_parallax_buildings/spr_bg_cyber_parallax_buildings.yy",},"resourceVersion":"1.0","name":"2d305e40-664e-4f6b-8c5a-d2619cb37ac9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2d305e40-664e-4f6b-8c5a-d2619cb37ac9",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_bg_cyber_parallax_buildings","path":"sprites/spr_bg_cyber_parallax_buildings/spr_bg_cyber_parallax_buildings.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_bg_cyber_parallax_buildings",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"02ea173c-da96-470e-be5a-1ab66a1fc4f3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2d305e40-664e-4f6b-8c5a-d2619cb37ac9","path":"sprites/spr_bg_cyber_parallax_buildings/spr_bg_cyber_parallax_buildings.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_bg_cyber_parallax_buildings","path":"sprites/spr_bg_cyber_parallax_buildings/spr_bg_cyber_parallax_buildings.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_bg_cyber_parallax_buildings",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ea92a497-2368-44fc-a5b2-e9f3a086ade2","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ea92a497-2368-44fc-a5b2-e9f3a086ade2","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "cyber",
     "path": "folders/Sprites/BG/cyber.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_bg_cyber_parallax_buildings",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

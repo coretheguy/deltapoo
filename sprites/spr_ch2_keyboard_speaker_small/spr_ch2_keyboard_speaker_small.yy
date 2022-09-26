@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_ch2_keyboard_speaker_small",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"e2e11545-49a9-443f-893d-c66081f8d63f","path":"sprites/spr_ch2_keyboard_speaker_small/spr_ch2_keyboard_speaker_small.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e2e11545-49a9-443f-893d-c66081f8d63f","path":"sprites/spr_ch2_keyboard_speaker_small/spr_ch2_keyboard_speaker_small.yy",},"LayerId":{"name":"751ff2fe-8674-44e3-ad66-8ff780ffb170","path":"sprites/spr_ch2_keyboard_speaker_small/spr_ch2_keyboard_speaker_small.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_speaker_small","path":"sprites/spr_ch2_keyboard_speaker_small/spr_ch2_keyboard_speaker_small.yy",},"resourceVersion":"1.0","name":"e2e11545-49a9-443f-893d-c66081f8d63f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f6c4bd0a-f8cd-4607-b60d-a780ffc8c522","path":"sprites/spr_ch2_keyboard_speaker_small/spr_ch2_keyboard_speaker_small.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f6c4bd0a-f8cd-4607-b60d-a780ffc8c522","path":"sprites/spr_ch2_keyboard_speaker_small/spr_ch2_keyboard_speaker_small.yy",},"LayerId":{"name":"751ff2fe-8674-44e3-ad66-8ff780ffb170","path":"sprites/spr_ch2_keyboard_speaker_small/spr_ch2_keyboard_speaker_small.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_speaker_small","path":"sprites/spr_ch2_keyboard_speaker_small/spr_ch2_keyboard_speaker_small.yy",},"resourceVersion":"1.0","name":"f6c4bd0a-f8cd-4607-b60d-a780ffc8c522","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e2e11545-49a9-443f-893d-c66081f8d63f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f6c4bd0a-f8cd-4607-b60d-a780ffc8c522",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_ch2_keyboard_speaker_small","path":"sprites/spr_ch2_keyboard_speaker_small/spr_ch2_keyboard_speaker_small.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_ch2_keyboard_speaker_small",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"03d6cbd2-77b3-4d9f-a0eb-0660fb6d0ef6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e2e11545-49a9-443f-893d-c66081f8d63f","path":"sprites/spr_ch2_keyboard_speaker_small/spr_ch2_keyboard_speaker_small.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"c9f129d4-e25e-416f-a6b6-7c84e2493b1f","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f6c4bd0a-f8cd-4607-b60d-a780ffc8c522","path":"sprites/spr_ch2_keyboard_speaker_small/spr_ch2_keyboard_speaker_small.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_ch2_keyboard_speaker_small","path":"sprites/spr_ch2_keyboard_speaker_small/spr_ch2_keyboard_speaker_small.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_ch2_keyboard_speaker_small",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"751ff2fe-8674-44e3-ad66-8ff780ffb170","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"751ff2fe-8674-44e3-ad66-8ff780ffb170","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "keyboard",
     "path": "folders/Sprites/TILE/keyboard.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_ch2_keyboard_speaker_small",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

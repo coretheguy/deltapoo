@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_kris_fall_ball",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,21 +27,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"e70203a8-3d13-481f-852f-6d3bb7384737","path":"sprites/spr_kris_fall_ball/spr_kris_fall_ball.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e70203a8-3d13-481f-852f-6d3bb7384737","path":"sprites/spr_kris_fall_ball/spr_kris_fall_ball.yy",},"LayerId":{"name":"af7d91e5-c5ae-43ef-9734-431e9c2013db","path":"sprites/spr_kris_fall_ball/spr_kris_fall_ball.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_kris_fall_ball","path":"sprites/spr_kris_fall_ball/spr_kris_fall_ball.yy",},"resourceVersion":"1.0","name":"e70203a8-3d13-481f-852f-6d3bb7384737","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6f9026ec-537b-478b-b101-2b503615aec3","path":"sprites/spr_kris_fall_ball/spr_kris_fall_ball.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6f9026ec-537b-478b-b101-2b503615aec3","path":"sprites/spr_kris_fall_ball/spr_kris_fall_ball.yy",},"LayerId":{"name":"af7d91e5-c5ae-43ef-9734-431e9c2013db","path":"sprites/spr_kris_fall_ball/spr_kris_fall_ball.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_kris_fall_ball","path":"sprites/spr_kris_fall_ball/spr_kris_fall_ball.yy",},"resourceVersion":"1.0","name":"6f9026ec-537b-478b-b101-2b503615aec3","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ade97ede-6b19-49a6-b4a3-eade5fcab374","path":"sprites/spr_kris_fall_ball/spr_kris_fall_ball.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ade97ede-6b19-49a6-b4a3-eade5fcab374","path":"sprites/spr_kris_fall_ball/spr_kris_fall_ball.yy",},"LayerId":{"name":"af7d91e5-c5ae-43ef-9734-431e9c2013db","path":"sprites/spr_kris_fall_ball/spr_kris_fall_ball.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_kris_fall_ball","path":"sprites/spr_kris_fall_ball/spr_kris_fall_ball.yy",},"resourceVersion":"1.0","name":"ade97ede-6b19-49a6-b4a3-eade5fcab374","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0dca4228-e164-44d8-85a8-4e063c63a964","path":"sprites/spr_kris_fall_ball/spr_kris_fall_ball.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0dca4228-e164-44d8-85a8-4e063c63a964","path":"sprites/spr_kris_fall_ball/spr_kris_fall_ball.yy",},"LayerId":{"name":"af7d91e5-c5ae-43ef-9734-431e9c2013db","path":"sprites/spr_kris_fall_ball/spr_kris_fall_ball.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_kris_fall_ball","path":"sprites/spr_kris_fall_ball/spr_kris_fall_ball.yy",},"resourceVersion":"1.0","name":"0dca4228-e164-44d8-85a8-4e063c63a964","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e70203a8-3d13-481f-852f-6d3bb7384737",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6f9026ec-537b-478b-b101-2b503615aec3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ade97ede-6b19-49a6-b4a3-eade5fcab374",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0dca4228-e164-44d8-85a8-4e063c63a964",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_kris_fall_ball","path":"sprites/spr_kris_fall_ball/spr_kris_fall_ball.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_kris_fall_ball",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -49,12 +46,12 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"57d8905c-156c-4093-b765-f2e91c22adfc","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e70203a8-3d13-481f-852f-6d3bb7384737","path":"sprites/spr_kris_fall_ball/spr_kris_fall_ball.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"3e52b8fe-d826-489a-98d9-0cc9964cfa27","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6f9026ec-537b-478b-b101-2b503615aec3","path":"sprites/spr_kris_fall_ball/spr_kris_fall_ball.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"1acd101f-ac01-433b-8c2a-f31d4cf39cfe","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ade97ede-6b19-49a6-b4a3-eade5fcab374","path":"sprites/spr_kris_fall_ball/spr_kris_fall_ball.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"44e3f955-0719-4e40-9f17-41b159ec444a","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0dca4228-e164-44d8-85a8-4e063c63a964","path":"sprites/spr_kris_fall_ball/spr_kris_fall_ball.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -70,22 +67,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_kris_fall_ball","path":"sprites/spr_kris_fall_ball/spr_kris_fall_ball.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_kris_fall_ball",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"af7d91e5-c5ae-43ef-9734-431e9c2013db","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"af7d91e5-c5ae-43ef-9734-431e9c2013db","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "dw_transition",
     "path": "folders/Sprites/CHARA/dw_transition.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_kris_fall_ball",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

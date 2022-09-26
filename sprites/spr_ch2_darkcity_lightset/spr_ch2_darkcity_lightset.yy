@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_ch2_darkcity_lightset",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"210765bc-0aaf-4ba0-8f69-6ae7f17c9190","path":"sprites/spr_ch2_darkcity_lightset/spr_ch2_darkcity_lightset.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"210765bc-0aaf-4ba0-8f69-6ae7f17c9190","path":"sprites/spr_ch2_darkcity_lightset/spr_ch2_darkcity_lightset.yy",},"LayerId":{"name":"f01fe7bf-1a4f-42ea-8a8c-e4a86b1c2b82","path":"sprites/spr_ch2_darkcity_lightset/spr_ch2_darkcity_lightset.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_darkcity_lightset","path":"sprites/spr_ch2_darkcity_lightset/spr_ch2_darkcity_lightset.yy",},"resourceVersion":"1.0","name":"210765bc-0aaf-4ba0-8f69-6ae7f17c9190","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"210765bc-0aaf-4ba0-8f69-6ae7f17c9190",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_ch2_darkcity_lightset","path":"sprites/spr_ch2_darkcity_lightset/spr_ch2_darkcity_lightset.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_ch2_darkcity_lightset",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"6b6636b4-3f9a-470b-9804-9868f82ed3a3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"210765bc-0aaf-4ba0-8f69-6ae7f17c9190","path":"sprites/spr_ch2_darkcity_lightset/spr_ch2_darkcity_lightset.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 40,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_ch2_darkcity_lightset","path":"sprites/spr_ch2_darkcity_lightset/spr_ch2_darkcity_lightset.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_ch2_darkcity_lightset",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f01fe7bf-1a4f-42ea-8a8c-e4a86b1c2b82","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f01fe7bf-1a4f-42ea-8a8c-e4a86b1c2b82","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "cybercity",
     "path": "folders/Sprites/VFX/cybercity.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_ch2_darkcity_lightset",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

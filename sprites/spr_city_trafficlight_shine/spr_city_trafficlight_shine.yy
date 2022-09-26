@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_city_trafficlight_shine",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,18 +27,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f33b6eac-b6dc-41ad-935f-411b4256c37a","path":"sprites/spr_city_trafficlight_shine/spr_city_trafficlight_shine.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f33b6eac-b6dc-41ad-935f-411b4256c37a","path":"sprites/spr_city_trafficlight_shine/spr_city_trafficlight_shine.yy",},"LayerId":{"name":"448b7b48-30f6-4035-be6e-e4bacf23f2ab","path":"sprites/spr_city_trafficlight_shine/spr_city_trafficlight_shine.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_city_trafficlight_shine","path":"sprites/spr_city_trafficlight_shine/spr_city_trafficlight_shine.yy",},"resourceVersion":"1.0","name":"f33b6eac-b6dc-41ad-935f-411b4256c37a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6ead9754-aeda-4ec1-940a-2d0e2b8aa9f4","path":"sprites/spr_city_trafficlight_shine/spr_city_trafficlight_shine.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6ead9754-aeda-4ec1-940a-2d0e2b8aa9f4","path":"sprites/spr_city_trafficlight_shine/spr_city_trafficlight_shine.yy",},"LayerId":{"name":"448b7b48-30f6-4035-be6e-e4bacf23f2ab","path":"sprites/spr_city_trafficlight_shine/spr_city_trafficlight_shine.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_city_trafficlight_shine","path":"sprites/spr_city_trafficlight_shine/spr_city_trafficlight_shine.yy",},"resourceVersion":"1.0","name":"6ead9754-aeda-4ec1-940a-2d0e2b8aa9f4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"344f1b25-f7ec-4c7a-b965-59546f635e7c","path":"sprites/spr_city_trafficlight_shine/spr_city_trafficlight_shine.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"344f1b25-f7ec-4c7a-b965-59546f635e7c","path":"sprites/spr_city_trafficlight_shine/spr_city_trafficlight_shine.yy",},"LayerId":{"name":"448b7b48-30f6-4035-be6e-e4bacf23f2ab","path":"sprites/spr_city_trafficlight_shine/spr_city_trafficlight_shine.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_city_trafficlight_shine","path":"sprites/spr_city_trafficlight_shine/spr_city_trafficlight_shine.yy",},"resourceVersion":"1.0","name":"344f1b25-f7ec-4c7a-b965-59546f635e7c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f33b6eac-b6dc-41ad-935f-411b4256c37a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6ead9754-aeda-4ec1-940a-2d0e2b8aa9f4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"344f1b25-f7ec-4c7a-b965-59546f635e7c",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_city_trafficlight_shine","path":"sprites/spr_city_trafficlight_shine/spr_city_trafficlight_shine.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_city_trafficlight_shine",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -46,11 +45,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"32155fbf-8637-48a2-b052-ca56744ff037","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f33b6eac-b6dc-41ad-935f-411b4256c37a","path":"sprites/spr_city_trafficlight_shine/spr_city_trafficlight_shine.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"3898929d-18e2-4212-ae02-e39048065def","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6ead9754-aeda-4ec1-940a-2d0e2b8aa9f4","path":"sprites/spr_city_trafficlight_shine/spr_city_trafficlight_shine.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"da242566-2a7d-4e2b-a0eb-73c38a2f3bc2","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"344f1b25-f7ec-4c7a-b965-59546f635e7c","path":"sprites/spr_city_trafficlight_shine/spr_city_trafficlight_shine.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +65,13 @@
     "yorigin": 10,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_city_trafficlight_shine","path":"sprites/spr_city_trafficlight_shine/spr_city_trafficlight_shine.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_city_trafficlight_shine",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"448b7b48-30f6-4035-be6e-e4bacf23f2ab","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"448b7b48-30f6-4035-be6e-e4bacf23f2ab","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "cybercity",
     "path": "folders/Sprites/VFX/cybercity.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_city_trafficlight_shine",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

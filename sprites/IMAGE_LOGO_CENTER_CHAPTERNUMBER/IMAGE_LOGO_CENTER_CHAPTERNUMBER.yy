@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "IMAGE_LOGO_CENTER_CHAPTERNUMBER",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,42 +27,22 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"2663763c-2b3f-4d79-a4da-70b807cd23b1","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2663763c-2b3f-4d79-a4da-70b807cd23b1","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"LayerId":{"name":"84fa53b7-1366-4c37-8442-366c90dad510","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"IMAGE_LOGO_CENTER_CHAPTERNUMBER","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"resourceVersion":"1.0","name":"2663763c-2b3f-4d79-a4da-70b807cd23b1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3d2dc25f-2f62-42c3-990c-10691fafb11a","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3d2dc25f-2f62-42c3-990c-10691fafb11a","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"LayerId":{"name":"84fa53b7-1366-4c37-8442-366c90dad510","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"IMAGE_LOGO_CENTER_CHAPTERNUMBER","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"resourceVersion":"1.0","name":"3d2dc25f-2f62-42c3-990c-10691fafb11a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"2d360d61-78fa-4efb-8c7d-d5808574572f","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2d360d61-78fa-4efb-8c7d-d5808574572f","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"LayerId":{"name":"84fa53b7-1366-4c37-8442-366c90dad510","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"IMAGE_LOGO_CENTER_CHAPTERNUMBER","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"resourceVersion":"1.0","name":"2d360d61-78fa-4efb-8c7d-d5808574572f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"489a088c-6b6f-4e62-80c1-a5a6465fbb2f","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"489a088c-6b6f-4e62-80c1-a5a6465fbb2f","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"LayerId":{"name":"84fa53b7-1366-4c37-8442-366c90dad510","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"IMAGE_LOGO_CENTER_CHAPTERNUMBER","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"resourceVersion":"1.0","name":"489a088c-6b6f-4e62-80c1-a5a6465fbb2f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d50b088b-2427-46f4-9ccd-3cdfe59584db","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d50b088b-2427-46f4-9ccd-3cdfe59584db","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"LayerId":{"name":"84fa53b7-1366-4c37-8442-366c90dad510","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"IMAGE_LOGO_CENTER_CHAPTERNUMBER","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"resourceVersion":"1.0","name":"d50b088b-2427-46f4-9ccd-3cdfe59584db","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"88ba9f2a-8065-4b16-bfc1-ce058c9b9130","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"88ba9f2a-8065-4b16-bfc1-ce058c9b9130","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"LayerId":{"name":"84fa53b7-1366-4c37-8442-366c90dad510","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"IMAGE_LOGO_CENTER_CHAPTERNUMBER","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"resourceVersion":"1.0","name":"88ba9f2a-8065-4b16-bfc1-ce058c9b9130","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"204a724b-272d-4974-85ba-495dac1e1f39","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"204a724b-272d-4974-85ba-495dac1e1f39","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"LayerId":{"name":"84fa53b7-1366-4c37-8442-366c90dad510","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"IMAGE_LOGO_CENTER_CHAPTERNUMBER","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"resourceVersion":"1.0","name":"204a724b-272d-4974-85ba-495dac1e1f39","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d5cff32a-e9d8-4de8-88aa-2eb88849f3af","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d5cff32a-e9d8-4de8-88aa-2eb88849f3af","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"LayerId":{"name":"84fa53b7-1366-4c37-8442-366c90dad510","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"IMAGE_LOGO_CENTER_CHAPTERNUMBER","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"resourceVersion":"1.0","name":"d5cff32a-e9d8-4de8-88aa-2eb88849f3af","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e1bb07e1-5a7f-4370-bd46-ade6e97d73c5","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e1bb07e1-5a7f-4370-bd46-ade6e97d73c5","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"LayerId":{"name":"84fa53b7-1366-4c37-8442-366c90dad510","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"IMAGE_LOGO_CENTER_CHAPTERNUMBER","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"resourceVersion":"1.0","name":"e1bb07e1-5a7f-4370-bd46-ade6e97d73c5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c40daddc-e7a1-439f-9179-c6b8576adc46","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c40daddc-e7a1-439f-9179-c6b8576adc46","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"LayerId":{"name":"84fa53b7-1366-4c37-8442-366c90dad510","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"IMAGE_LOGO_CENTER_CHAPTERNUMBER","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"resourceVersion":"1.0","name":"c40daddc-e7a1-439f-9179-c6b8576adc46","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9b85bc74-4319-479a-8ff5-db9c7aadee28","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9b85bc74-4319-479a-8ff5-db9c7aadee28","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"LayerId":{"name":"84fa53b7-1366-4c37-8442-366c90dad510","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"IMAGE_LOGO_CENTER_CHAPTERNUMBER","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"resourceVersion":"1.0","name":"9b85bc74-4319-479a-8ff5-db9c7aadee28","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2663763c-2b3f-4d79-a4da-70b807cd23b1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3d2dc25f-2f62-42c3-990c-10691fafb11a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2d360d61-78fa-4efb-8c7d-d5808574572f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"489a088c-6b6f-4e62-80c1-a5a6465fbb2f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d50b088b-2427-46f4-9ccd-3cdfe59584db",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"88ba9f2a-8065-4b16-bfc1-ce058c9b9130",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"204a724b-272d-4974-85ba-495dac1e1f39",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d5cff32a-e9d8-4de8-88aa-2eb88849f3af",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e1bb07e1-5a7f-4370-bd46-ade6e97d73c5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c40daddc-e7a1-439f-9179-c6b8576adc46",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9b85bc74-4319-479a-8ff5-db9c7aadee28",},
   ],
   "sequence": {
-    "spriteId": {"name":"IMAGE_LOGO_CENTER_CHAPTERNUMBER","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "IMAGE_LOGO_CENTER_CHAPTERNUMBER",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -70,7 +53,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"75ab0488-9a71-427a-b6dd-5a92da2f4f10","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2663763c-2b3f-4d79-a4da-70b807cd23b1","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"5a666e98-6e8b-41ef-9453-346bf71cc01a","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3d2dc25f-2f62-42c3-990c-10691fafb11a","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"a2e1f6e4-8dc0-494b-bc7d-39613fd9f0fe","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2d360d61-78fa-4efb-8c7d-d5808574572f","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -82,7 +65,7 @@
             {"id":"f1055038-76b3-4269-b6e1-37e649c54e51","Key":8.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e1bb07e1-5a7f-4370-bd46-ade6e97d73c5","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"d03b842c-8341-4930-b0e8-8b77207f9f2c","Key":9.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c40daddc-e7a1-439f-9179-c6b8576adc46","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f22f9476-ec04-49b2-862c-b5afe1fe0018","Key":10.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9b85bc74-4319-479a-8ff5-db9c7aadee28","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -98,22 +81,13 @@
     "yorigin": 9,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"IMAGE_LOGO_CENTER_CHAPTERNUMBER","path":"sprites/IMAGE_LOGO_CENTER_CHAPTERNUMBER/IMAGE_LOGO_CENTER_CHAPTERNUMBER.yy",},
-    "resourceVersion": "1.3",
-    "name": "IMAGE_LOGO_CENTER_CHAPTERNUMBER",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"84fa53b7-1366-4c37-8442-366c90dad510","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"84fa53b7-1366-4c37-8442-366c90dad510","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "chapter select",
     "path": "folders/Sprites/IMAGE/chapter select.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "IMAGE_LOGO_CENTER_CHAPTERNUMBER",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

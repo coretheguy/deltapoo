@@ -1,14 +1,17 @@
 {
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "tile_dw_city_sidewalk_animated_tileset",
   "spriteId": {
     "name": "bg_dw_city_sidewalk_animated_tileset_comp",
     "path": "sprites/bg_dw_city_sidewalk_animated_tileset_comp/bg_dw_city_sidewalk_animated_tileset_comp.yy",
   },
   "tileWidth": 40,
   "tileHeight": 40,
-  "tilexoff": 2,
-  "tileyoff": 2,
-  "tilehsep": 4,
-  "tilevsep": 4,
+  "tilexoff": 0,
+  "tileyoff": 0,
+  "tilehsep": 0,
+  "tilevsep": 0,
   "spriteNoExport": true,
   "textureGroupId": {
     "name": "Default",
@@ -20,126 +23,126 @@
   "tile_count": 132,
   "autoTileSets": [],
   "tileAnimationFrames": [
-    {"frames":[
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"animation_1","frames":[
         4,
         5,
         6,
         7,
-      ],"resourceVersion":"1.0","name":"animation_1","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"animation_2","frames":[
         8,
         9,
         10,
         11,
-      ],"resourceVersion":"1.0","name":"animation_2","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"animation_3","frames":[
         12,
         13,
         14,
         15,
-      ],"resourceVersion":"1.0","name":"animation_3","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"animation_4","frames":[
         16,
         17,
         18,
         19,
-      ],"resourceVersion":"1.0","name":"animation_4","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"animation_5","frames":[
         20,
         21,
         22,
         23,
-      ],"resourceVersion":"1.0","name":"animation_5","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"animation_6","frames":[
         24,
         25,
         26,
         27,
-      ],"resourceVersion":"1.0","name":"animation_6","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"animation_7","frames":[
         28,
         29,
         30,
         31,
-      ],"resourceVersion":"1.0","name":"animation_7","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"animation_8","frames":[
         32,
         33,
         34,
         35,
-      ],"resourceVersion":"1.0","name":"animation_8","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"animation_9","frames":[
         100,
         101,
         102,
         103,
-      ],"resourceVersion":"1.0","name":"animation_9","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"animation_10","frames":[
         108,
         109,
         110,
         111,
-      ],"resourceVersion":"1.0","name":"animation_10","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"animation_11","frames":[
         116,
         117,
         118,
         119,
-      ],"resourceVersion":"1.0","name":"animation_11","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"animation_12","frames":[
         124,
         125,
         126,
         127,
-      ],"resourceVersion":"1.0","name":"animation_12","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"animation_13","frames":[
         72,
         73,
         74,
         75,
-      ],"resourceVersion":"1.0","name":"animation_13","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"animation_14","frames":[
         80,
         81,
         82,
         83,
-      ],"resourceVersion":"1.0","name":"animation_14","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"animation_15","frames":[
         88,
         89,
         90,
         91,
-      ],"resourceVersion":"1.0","name":"animation_15","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"animation_16","frames":[
         96,
         97,
         98,
         99,
-      ],"resourceVersion":"1.0","name":"animation_16","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"animation_17","frames":[
         48,
         49,
         50,
         51,
-      ],"resourceVersion":"1.0","name":"animation_17","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"animation_18","frames":[
         56,
         57,
         58,
         59,
-      ],"resourceVersion":"1.0","name":"animation_18","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"animation_19","frames":[
         64,
         65,
         66,
         67,
-      ],"resourceVersion":"1.0","name":"animation_19","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"animation_20","frames":[
         40,
         41,
         42,
         43,
-      ],"resourceVersion":"1.0","name":"animation_20","tags":[],"resourceType":"GMTileAnimation",},
+      ],},
   ],
   "tileAnimationSpeed": 5.0,
   "tileAnimation": {
@@ -684,8 +687,4 @@
     "name": "cybercity",
     "path": "folders/Tile Sets/darkworld/cybercity.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "tile_dw_city_sidewalk_animated_tileset",
-  "tags": [],
-  "resourceType": "GMTileSet",
 }

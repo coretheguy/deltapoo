@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_cyber_wall_lights_right",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"9d7d1487-3fad-4ade-acd9-fbdc047be7bb","path":"sprites/spr_cyber_wall_lights_right/spr_cyber_wall_lights_right.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9d7d1487-3fad-4ade-acd9-fbdc047be7bb","path":"sprites/spr_cyber_wall_lights_right/spr_cyber_wall_lights_right.yy",},"LayerId":{"name":"b5c6585f-4bed-48d7-9f3c-f0b3175aa4a5","path":"sprites/spr_cyber_wall_lights_right/spr_cyber_wall_lights_right.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_cyber_wall_lights_right","path":"sprites/spr_cyber_wall_lights_right/spr_cyber_wall_lights_right.yy",},"resourceVersion":"1.0","name":"9d7d1487-3fad-4ade-acd9-fbdc047be7bb","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f90f9501-1414-4d50-abb8-24aee6c545c5","path":"sprites/spr_cyber_wall_lights_right/spr_cyber_wall_lights_right.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f90f9501-1414-4d50-abb8-24aee6c545c5","path":"sprites/spr_cyber_wall_lights_right/spr_cyber_wall_lights_right.yy",},"LayerId":{"name":"b5c6585f-4bed-48d7-9f3c-f0b3175aa4a5","path":"sprites/spr_cyber_wall_lights_right/spr_cyber_wall_lights_right.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_cyber_wall_lights_right","path":"sprites/spr_cyber_wall_lights_right/spr_cyber_wall_lights_right.yy",},"resourceVersion":"1.0","name":"f90f9501-1414-4d50-abb8-24aee6c545c5","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9d7d1487-3fad-4ade-acd9-fbdc047be7bb",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f90f9501-1414-4d50-abb8-24aee6c545c5",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_cyber_wall_lights_right","path":"sprites/spr_cyber_wall_lights_right/spr_cyber_wall_lights_right.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_cyber_wall_lights_right",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"6b60a939-5adf-4dbc-8b04-135a4a2a72a1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9d7d1487-3fad-4ade-acd9-fbdc047be7bb","path":"sprites/spr_cyber_wall_lights_right/spr_cyber_wall_lights_right.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"98af2f74-e693-44d9-a476-f58ea4e0fa25","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f90f9501-1414-4d50-abb8-24aee6c545c5","path":"sprites/spr_cyber_wall_lights_right/spr_cyber_wall_lights_right.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_cyber_wall_lights_right","path":"sprites/spr_cyber_wall_lights_right/spr_cyber_wall_lights_right.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_cyber_wall_lights_right",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b5c6585f-4bed-48d7-9f3c-f0b3175aa4a5","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b5c6585f-4bed-48d7-9f3c-f0b3175aa4a5","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "tile",
     "path": "folders/Sprites/BG/cyber/tile.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_cyber_wall_lights_right",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

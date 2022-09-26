@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_viro_poison_effect_big",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,21 +27,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5cb6eb66-8385-49b2-aa0e-47d637644cff","path":"sprites/spr_viro_poison_effect_big/spr_viro_poison_effect_big.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5cb6eb66-8385-49b2-aa0e-47d637644cff","path":"sprites/spr_viro_poison_effect_big/spr_viro_poison_effect_big.yy",},"LayerId":{"name":"bf4200f2-ee9e-4a89-8571-e202f83a49c6","path":"sprites/spr_viro_poison_effect_big/spr_viro_poison_effect_big.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_viro_poison_effect_big","path":"sprites/spr_viro_poison_effect_big/spr_viro_poison_effect_big.yy",},"resourceVersion":"1.0","name":"5cb6eb66-8385-49b2-aa0e-47d637644cff","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"fd05c4af-92fd-4d86-b5bb-49f763d5c6f6","path":"sprites/spr_viro_poison_effect_big/spr_viro_poison_effect_big.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fd05c4af-92fd-4d86-b5bb-49f763d5c6f6","path":"sprites/spr_viro_poison_effect_big/spr_viro_poison_effect_big.yy",},"LayerId":{"name":"bf4200f2-ee9e-4a89-8571-e202f83a49c6","path":"sprites/spr_viro_poison_effect_big/spr_viro_poison_effect_big.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_viro_poison_effect_big","path":"sprites/spr_viro_poison_effect_big/spr_viro_poison_effect_big.yy",},"resourceVersion":"1.0","name":"fd05c4af-92fd-4d86-b5bb-49f763d5c6f6","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0f268fa4-7db2-4d3c-8b60-eba37e839a58","path":"sprites/spr_viro_poison_effect_big/spr_viro_poison_effect_big.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0f268fa4-7db2-4d3c-8b60-eba37e839a58","path":"sprites/spr_viro_poison_effect_big/spr_viro_poison_effect_big.yy",},"LayerId":{"name":"bf4200f2-ee9e-4a89-8571-e202f83a49c6","path":"sprites/spr_viro_poison_effect_big/spr_viro_poison_effect_big.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_viro_poison_effect_big","path":"sprites/spr_viro_poison_effect_big/spr_viro_poison_effect_big.yy",},"resourceVersion":"1.0","name":"0f268fa4-7db2-4d3c-8b60-eba37e839a58","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"404d3b06-8310-4df9-a976-058019fd17b6","path":"sprites/spr_viro_poison_effect_big/spr_viro_poison_effect_big.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"404d3b06-8310-4df9-a976-058019fd17b6","path":"sprites/spr_viro_poison_effect_big/spr_viro_poison_effect_big.yy",},"LayerId":{"name":"bf4200f2-ee9e-4a89-8571-e202f83a49c6","path":"sprites/spr_viro_poison_effect_big/spr_viro_poison_effect_big.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_viro_poison_effect_big","path":"sprites/spr_viro_poison_effect_big/spr_viro_poison_effect_big.yy",},"resourceVersion":"1.0","name":"404d3b06-8310-4df9-a976-058019fd17b6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5cb6eb66-8385-49b2-aa0e-47d637644cff",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fd05c4af-92fd-4d86-b5bb-49f763d5c6f6",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0f268fa4-7db2-4d3c-8b60-eba37e839a58",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"404d3b06-8310-4df9-a976-058019fd17b6",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_viro_poison_effect_big","path":"sprites/spr_viro_poison_effect_big/spr_viro_poison_effect_big.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_viro_poison_effect_big",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -49,12 +46,12 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"cf8ddff0-bc14-42de-bccb-b8e6211b609d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5cb6eb66-8385-49b2-aa0e-47d637644cff","path":"sprites/spr_viro_poison_effect_big/spr_viro_poison_effect_big.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"bcb5c966-6226-44f4-8fa2-26dfcaa0c747","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fd05c4af-92fd-4d86-b5bb-49f763d5c6f6","path":"sprites/spr_viro_poison_effect_big/spr_viro_poison_effect_big.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"c09882fc-9451-4578-ae4d-8037ea6dab9d","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0f268fa4-7db2-4d3c-8b60-eba37e839a58","path":"sprites/spr_viro_poison_effect_big/spr_viro_poison_effect_big.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"52570043-69d3-4045-ac24-e3ac3e67c455","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"404d3b06-8310-4df9-a976-058019fd17b6","path":"sprites/spr_viro_poison_effect_big/spr_viro_poison_effect_big.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -70,22 +67,13 @@
     "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_viro_poison_effect_big","path":"sprites/spr_viro_poison_effect_big/spr_viro_poison_effect_big.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_viro_poison_effect_big",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"bf4200f2-ee9e-4a89-8571-e202f83a49c6","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"bf4200f2-ee9e-4a89-8571-e202f83a49c6","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "bullet",
     "path": "folders/Sprites/CHARA/ENEMY/virovirokun/bullet.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_viro_poison_effect_big",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

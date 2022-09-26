@@ -7,7 +7,7 @@ if (init == false)
         alpha_changed = false
         tile_fade = true
         tilearray = tile_get_ids_at_depth(tile_layer_amount)
-        for (var i = 0; i < array_length_1d(tilearray); i++)
+        for (var i = 0; i < array_length(tilearray); i++)
             tile_set_alpha(tilearray[i], 0)
     }
 }
@@ -30,7 +30,7 @@ if (tile_fade == true)
 {
     if (cur_alpha != battlealpha)
     {
-        for (i = 0; i < array_length_1d(tilearray); i++)
+        for (i = 0; i < array_length(tilearray); i++)
             tile_set_alpha(tilearray[i], (battlealpha * 2))
     }
 }

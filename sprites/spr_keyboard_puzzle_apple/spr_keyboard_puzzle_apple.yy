@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_keyboard_puzzle_apple",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,42 +27,22 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"63e7c018-3a38-425f-abc5-765d48ef61ab","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"63e7c018-3a38-425f-abc5-765d48ef61ab","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"LayerId":{"name":"1ce8c7ff-8fe7-44dd-83d2-ba7cb1f33946","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_keyboard_puzzle_apple","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"resourceVersion":"1.0","name":"63e7c018-3a38-425f-abc5-765d48ef61ab","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d57c0901-f434-4317-bea6-3a7e1bb4a06c","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d57c0901-f434-4317-bea6-3a7e1bb4a06c","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"LayerId":{"name":"1ce8c7ff-8fe7-44dd-83d2-ba7cb1f33946","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_keyboard_puzzle_apple","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"resourceVersion":"1.0","name":"d57c0901-f434-4317-bea6-3a7e1bb4a06c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b4f10062-8f5e-41cf-890c-239bdebdb5ea","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b4f10062-8f5e-41cf-890c-239bdebdb5ea","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"LayerId":{"name":"1ce8c7ff-8fe7-44dd-83d2-ba7cb1f33946","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_keyboard_puzzle_apple","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"resourceVersion":"1.0","name":"b4f10062-8f5e-41cf-890c-239bdebdb5ea","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b368c067-8002-472d-97a1-4691f8cf1e06","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b368c067-8002-472d-97a1-4691f8cf1e06","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"LayerId":{"name":"1ce8c7ff-8fe7-44dd-83d2-ba7cb1f33946","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_keyboard_puzzle_apple","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"resourceVersion":"1.0","name":"b368c067-8002-472d-97a1-4691f8cf1e06","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d6ccf926-d3c8-43ca-81f6-e5bea607a38e","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d6ccf926-d3c8-43ca-81f6-e5bea607a38e","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"LayerId":{"name":"1ce8c7ff-8fe7-44dd-83d2-ba7cb1f33946","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_keyboard_puzzle_apple","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"resourceVersion":"1.0","name":"d6ccf926-d3c8-43ca-81f6-e5bea607a38e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1d9b7ac9-65c1-416e-989a-0fbecc27788c","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1d9b7ac9-65c1-416e-989a-0fbecc27788c","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"LayerId":{"name":"1ce8c7ff-8fe7-44dd-83d2-ba7cb1f33946","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_keyboard_puzzle_apple","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"resourceVersion":"1.0","name":"1d9b7ac9-65c1-416e-989a-0fbecc27788c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"aa55ecf6-6916-475d-a382-28021e1d81c4","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"aa55ecf6-6916-475d-a382-28021e1d81c4","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"LayerId":{"name":"1ce8c7ff-8fe7-44dd-83d2-ba7cb1f33946","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_keyboard_puzzle_apple","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"resourceVersion":"1.0","name":"aa55ecf6-6916-475d-a382-28021e1d81c4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"535a384d-3b15-4cf2-bd15-6422538d922b","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"535a384d-3b15-4cf2-bd15-6422538d922b","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"LayerId":{"name":"1ce8c7ff-8fe7-44dd-83d2-ba7cb1f33946","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_keyboard_puzzle_apple","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"resourceVersion":"1.0","name":"535a384d-3b15-4cf2-bd15-6422538d922b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7b185e79-7ce5-4b2b-a98b-0a17523a8912","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7b185e79-7ce5-4b2b-a98b-0a17523a8912","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"LayerId":{"name":"1ce8c7ff-8fe7-44dd-83d2-ba7cb1f33946","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_keyboard_puzzle_apple","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"resourceVersion":"1.0","name":"7b185e79-7ce5-4b2b-a98b-0a17523a8912","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7b3edfc8-301d-4edc-bbba-bf78abb90073","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7b3edfc8-301d-4edc-bbba-bf78abb90073","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"LayerId":{"name":"1ce8c7ff-8fe7-44dd-83d2-ba7cb1f33946","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_keyboard_puzzle_apple","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"resourceVersion":"1.0","name":"7b3edfc8-301d-4edc-bbba-bf78abb90073","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"61ea4d12-4881-4106-b24e-1ef8144df015","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"61ea4d12-4881-4106-b24e-1ef8144df015","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"LayerId":{"name":"1ce8c7ff-8fe7-44dd-83d2-ba7cb1f33946","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_keyboard_puzzle_apple","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"resourceVersion":"1.0","name":"61ea4d12-4881-4106-b24e-1ef8144df015","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"63e7c018-3a38-425f-abc5-765d48ef61ab",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d57c0901-f434-4317-bea6-3a7e1bb4a06c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b4f10062-8f5e-41cf-890c-239bdebdb5ea",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b368c067-8002-472d-97a1-4691f8cf1e06",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d6ccf926-d3c8-43ca-81f6-e5bea607a38e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1d9b7ac9-65c1-416e-989a-0fbecc27788c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"aa55ecf6-6916-475d-a382-28021e1d81c4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"535a384d-3b15-4cf2-bd15-6422538d922b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7b185e79-7ce5-4b2b-a98b-0a17523a8912",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7b3edfc8-301d-4edc-bbba-bf78abb90073",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"61ea4d12-4881-4106-b24e-1ef8144df015",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_keyboard_puzzle_apple","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_keyboard_puzzle_apple",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -70,7 +53,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"0dc58274-b614-46f1-8cb0-59a4f32204a9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"63e7c018-3a38-425f-abc5-765d48ef61ab","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"5b258ecf-a23f-40b7-bfd4-aaa1029f26f8","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d57c0901-f434-4317-bea6-3a7e1bb4a06c","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"453919f1-16be-46db-ad6d-02772f0cf9a8","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b4f10062-8f5e-41cf-890c-239bdebdb5ea","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -82,7 +65,7 @@
             {"id":"7bbdcaf8-660d-4278-a52d-21b707a4f7f3","Key":8.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7b185e79-7ce5-4b2b-a98b-0a17523a8912","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"62e3da01-a9ee-4cf0-a90c-993ea1aeacdf","Key":9.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7b3edfc8-301d-4edc-bbba-bf78abb90073","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"ae3ccc43-353f-4908-b602-084ded107938","Key":10.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"61ea4d12-4881-4106-b24e-1ef8144df015","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -98,22 +81,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_keyboard_puzzle_apple","path":"sprites/spr_keyboard_puzzle_apple/spr_keyboard_puzzle_apple.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_keyboard_puzzle_apple",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1ce8c7ff-8fe7-44dd-83d2-ba7cb1f33946","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1ce8c7ff-8fe7-44dd-83d2-ba7cb1f33946","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "keyboard",
     "path": "folders/Sprites/TILE/keyboard.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_keyboard_puzzle_apple",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

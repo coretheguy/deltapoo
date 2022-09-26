@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_virovirokun_hurt",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"fc3632d8-d646-44e1-8e94-8e3203f8fc32","path":"sprites/spr_virovirokun_hurt/spr_virovirokun_hurt.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fc3632d8-d646-44e1-8e94-8e3203f8fc32","path":"sprites/spr_virovirokun_hurt/spr_virovirokun_hurt.yy",},"LayerId":{"name":"210c6d03-0e14-49f7-b07f-8edffd44d4e8","path":"sprites/spr_virovirokun_hurt/spr_virovirokun_hurt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_virovirokun_hurt","path":"sprites/spr_virovirokun_hurt/spr_virovirokun_hurt.yy",},"resourceVersion":"1.0","name":"fc3632d8-d646-44e1-8e94-8e3203f8fc32","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fc3632d8-d646-44e1-8e94-8e3203f8fc32",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_virovirokun_hurt","path":"sprites/spr_virovirokun_hurt/spr_virovirokun_hurt.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_virovirokun_hurt",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"b5bf860a-d2bf-4950-8fcf-8edd7603885d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fc3632d8-d646-44e1-8e94-8e3203f8fc32","path":"sprites/spr_virovirokun_hurt/spr_virovirokun_hurt.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_virovirokun_hurt","path":"sprites/spr_virovirokun_hurt/spr_virovirokun_hurt.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_virovirokun_hurt",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"210c6d03-0e14-49f7-b07f-8edffd44d4e8","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"210c6d03-0e14-49f7-b07f-8edffd44d4e8","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "virovirokun",
     "path": "folders/Sprites/CHARA/ENEMY/virovirokun.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_virovirokun_hurt",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

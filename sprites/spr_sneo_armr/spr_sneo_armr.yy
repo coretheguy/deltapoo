@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_sneo_armr",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"4f1c8d7b-36b1-4742-ad21-50bf29b57721","path":"sprites/spr_sneo_armr/spr_sneo_armr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4f1c8d7b-36b1-4742-ad21-50bf29b57721","path":"sprites/spr_sneo_armr/spr_sneo_armr.yy",},"LayerId":{"name":"ebd6d54c-0faa-4e72-8582-19335d271a9c","path":"sprites/spr_sneo_armr/spr_sneo_armr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_sneo_armr","path":"sprites/spr_sneo_armr/spr_sneo_armr.yy",},"resourceVersion":"1.0","name":"4f1c8d7b-36b1-4742-ad21-50bf29b57721","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4f1c8d7b-36b1-4742-ad21-50bf29b57721",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_sneo_armr","path":"sprites/spr_sneo_armr/spr_sneo_armr.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_sneo_armr",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"86564dfb-9bfb-4be3-9e48-a7934cb9facb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4f1c8d7b-36b1-4742-ad21-50bf29b57721","path":"sprites/spr_sneo_armr/spr_sneo_armr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 35,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_sneo_armr","path":"sprites/spr_sneo_armr/spr_sneo_armr.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_sneo_armr",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ebd6d54c-0faa-4e72-8582-19335d271a9c","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ebd6d54c-0faa-4e72-8582-19335d271a9c","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "sneo",
     "path": "folders/Sprites/CHARA/ENEMY/BOSS/sneo.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_sneo_armr",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

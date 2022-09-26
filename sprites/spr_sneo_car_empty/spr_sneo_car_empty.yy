@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_sneo_car_empty",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c2a3f9fc-68aa-415b-afc9-d0398302e006","path":"sprites/spr_sneo_car_empty/spr_sneo_car_empty.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c2a3f9fc-68aa-415b-afc9-d0398302e006","path":"sprites/spr_sneo_car_empty/spr_sneo_car_empty.yy",},"LayerId":{"name":"64feb51b-1e9b-4a3c-9228-69eb6a8fdb8a","path":"sprites/spr_sneo_car_empty/spr_sneo_car_empty.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_sneo_car_empty","path":"sprites/spr_sneo_car_empty/spr_sneo_car_empty.yy",},"resourceVersion":"1.0","name":"c2a3f9fc-68aa-415b-afc9-d0398302e006","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c2a3f9fc-68aa-415b-afc9-d0398302e006",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_sneo_car_empty","path":"sprites/spr_sneo_car_empty/spr_sneo_car_empty.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_sneo_car_empty",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"72e3f1f2-1462-4fc0-9f0b-208b18ce8732","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c2a3f9fc-68aa-415b-afc9-d0398302e006","path":"sprites/spr_sneo_car_empty/spr_sneo_car_empty.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_sneo_car_empty","path":"sprites/spr_sneo_car_empty/spr_sneo_car_empty.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_sneo_car_empty",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"64feb51b-1e9b-4a3c-9228-69eb6a8fdb8a","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"64feb51b-1e9b-4a3c-9228-69eb6a8fdb8a","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "bullet",
     "path": "folders/Sprites/CHARA/ENEMY/BOSS/sneo/bullet.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_sneo_car_empty",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_kris_fall_turnaround",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,24 +27,16 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"879db4a5-1320-4640-a076-055f37f1210b","path":"sprites/spr_kris_fall_turnaround/spr_kris_fall_turnaround.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"879db4a5-1320-4640-a076-055f37f1210b","path":"sprites/spr_kris_fall_turnaround/spr_kris_fall_turnaround.yy",},"LayerId":{"name":"56690b67-0131-4798-82b9-bf1f476b6cb7","path":"sprites/spr_kris_fall_turnaround/spr_kris_fall_turnaround.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_kris_fall_turnaround","path":"sprites/spr_kris_fall_turnaround/spr_kris_fall_turnaround.yy",},"resourceVersion":"1.0","name":"879db4a5-1320-4640-a076-055f37f1210b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"52d14b01-e9a3-4a57-bcc8-0170b68d24dc","path":"sprites/spr_kris_fall_turnaround/spr_kris_fall_turnaround.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"52d14b01-e9a3-4a57-bcc8-0170b68d24dc","path":"sprites/spr_kris_fall_turnaround/spr_kris_fall_turnaround.yy",},"LayerId":{"name":"56690b67-0131-4798-82b9-bf1f476b6cb7","path":"sprites/spr_kris_fall_turnaround/spr_kris_fall_turnaround.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_kris_fall_turnaround","path":"sprites/spr_kris_fall_turnaround/spr_kris_fall_turnaround.yy",},"resourceVersion":"1.0","name":"52d14b01-e9a3-4a57-bcc8-0170b68d24dc","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c4eb286a-3a2b-489e-8b77-d1400de086cf","path":"sprites/spr_kris_fall_turnaround/spr_kris_fall_turnaround.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c4eb286a-3a2b-489e-8b77-d1400de086cf","path":"sprites/spr_kris_fall_turnaround/spr_kris_fall_turnaround.yy",},"LayerId":{"name":"56690b67-0131-4798-82b9-bf1f476b6cb7","path":"sprites/spr_kris_fall_turnaround/spr_kris_fall_turnaround.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_kris_fall_turnaround","path":"sprites/spr_kris_fall_turnaround/spr_kris_fall_turnaround.yy",},"resourceVersion":"1.0","name":"c4eb286a-3a2b-489e-8b77-d1400de086cf","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4a166193-54ef-4d24-8b1a-c73e8d697ca3","path":"sprites/spr_kris_fall_turnaround/spr_kris_fall_turnaround.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4a166193-54ef-4d24-8b1a-c73e8d697ca3","path":"sprites/spr_kris_fall_turnaround/spr_kris_fall_turnaround.yy",},"LayerId":{"name":"56690b67-0131-4798-82b9-bf1f476b6cb7","path":"sprites/spr_kris_fall_turnaround/spr_kris_fall_turnaround.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_kris_fall_turnaround","path":"sprites/spr_kris_fall_turnaround/spr_kris_fall_turnaround.yy",},"resourceVersion":"1.0","name":"4a166193-54ef-4d24-8b1a-c73e8d697ca3","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9083c4c5-8c7b-4349-96ed-277e4b0a3404","path":"sprites/spr_kris_fall_turnaround/spr_kris_fall_turnaround.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9083c4c5-8c7b-4349-96ed-277e4b0a3404","path":"sprites/spr_kris_fall_turnaround/spr_kris_fall_turnaround.yy",},"LayerId":{"name":"56690b67-0131-4798-82b9-bf1f476b6cb7","path":"sprites/spr_kris_fall_turnaround/spr_kris_fall_turnaround.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_kris_fall_turnaround","path":"sprites/spr_kris_fall_turnaround/spr_kris_fall_turnaround.yy",},"resourceVersion":"1.0","name":"9083c4c5-8c7b-4349-96ed-277e4b0a3404","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"879db4a5-1320-4640-a076-055f37f1210b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"52d14b01-e9a3-4a57-bcc8-0170b68d24dc",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c4eb286a-3a2b-489e-8b77-d1400de086cf",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4a166193-54ef-4d24-8b1a-c73e8d697ca3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9083c4c5-8c7b-4349-96ed-277e4b0a3404",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_kris_fall_turnaround","path":"sprites/spr_kris_fall_turnaround/spr_kris_fall_turnaround.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_kris_fall_turnaround",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -52,13 +47,13 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"9c6f7036-b6b9-45ed-9391-227c3dcb40cb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"879db4a5-1320-4640-a076-055f37f1210b","path":"sprites/spr_kris_fall_turnaround/spr_kris_fall_turnaround.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"1c29c0cd-d7e2-4d82-a4d3-c2859d97dfc0","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"52d14b01-e9a3-4a57-bcc8-0170b68d24dc","path":"sprites/spr_kris_fall_turnaround/spr_kris_fall_turnaround.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"424ef944-2087-44a9-a9ea-cbd17c6ed2cc","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c4eb286a-3a2b-489e-8b77-d1400de086cf","path":"sprites/spr_kris_fall_turnaround/spr_kris_fall_turnaround.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"efea4c87-8b8c-44d7-a722-410ad18d8958","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4a166193-54ef-4d24-8b1a-c73e8d697ca3","path":"sprites/spr_kris_fall_turnaround/spr_kris_fall_turnaround.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"99e1d35f-cedd-4931-a988-08ec980aec8b","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9083c4c5-8c7b-4349-96ed-277e4b0a3404","path":"sprites/spr_kris_fall_turnaround/spr_kris_fall_turnaround.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -74,22 +69,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_kris_fall_turnaround","path":"sprites/spr_kris_fall_turnaround/spr_kris_fall_turnaround.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_kris_fall_turnaround",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"56690b67-0131-4798-82b9-bf1f476b6cb7","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"56690b67-0131-4798-82b9-bf1f476b6cb7","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "dw_transition",
     "path": "folders/Sprites/CHARA/dw_transition.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_kris_fall_turnaround",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

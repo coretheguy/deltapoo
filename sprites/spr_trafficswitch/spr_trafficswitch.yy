@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_trafficswitch",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"7eafe53f-e66f-49a0-be68-3d37c984eb77","path":"sprites/spr_trafficswitch/spr_trafficswitch.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7eafe53f-e66f-49a0-be68-3d37c984eb77","path":"sprites/spr_trafficswitch/spr_trafficswitch.yy",},"LayerId":{"name":"f8bf8eab-ff95-44d5-818e-192f8b1f6d8f","path":"sprites/spr_trafficswitch/spr_trafficswitch.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_trafficswitch","path":"sprites/spr_trafficswitch/spr_trafficswitch.yy",},"resourceVersion":"1.0","name":"7eafe53f-e66f-49a0-be68-3d37c984eb77","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a339ca7f-1451-4960-9511-62dafd7fefab","path":"sprites/spr_trafficswitch/spr_trafficswitch.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a339ca7f-1451-4960-9511-62dafd7fefab","path":"sprites/spr_trafficswitch/spr_trafficswitch.yy",},"LayerId":{"name":"f8bf8eab-ff95-44d5-818e-192f8b1f6d8f","path":"sprites/spr_trafficswitch/spr_trafficswitch.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_trafficswitch","path":"sprites/spr_trafficswitch/spr_trafficswitch.yy",},"resourceVersion":"1.0","name":"a339ca7f-1451-4960-9511-62dafd7fefab","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7eafe53f-e66f-49a0-be68-3d37c984eb77",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a339ca7f-1451-4960-9511-62dafd7fefab",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_trafficswitch","path":"sprites/spr_trafficswitch/spr_trafficswitch.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_trafficswitch",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"b2423f1f-cb38-463a-a035-acf224b94eab","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7eafe53f-e66f-49a0-be68-3d37c984eb77","path":"sprites/spr_trafficswitch/spr_trafficswitch.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"3957468a-5a6f-4536-bf53-8fb49bf6a20a","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a339ca7f-1451-4960-9511-62dafd7fefab","path":"sprites/spr_trafficswitch/spr_trafficswitch.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_trafficswitch","path":"sprites/spr_trafficswitch/spr_trafficswitch.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_trafficswitch",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f8bf8eab-ff95-44d5-818e-192f8b1f6d8f","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f8bf8eab-ff95-44d5-818e-192f8b1f6d8f","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "cybercity",
     "path": "folders/Sprites/MECH/cybercity.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_trafficswitch",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

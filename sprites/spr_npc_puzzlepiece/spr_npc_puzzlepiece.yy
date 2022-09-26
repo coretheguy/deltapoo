@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_npc_puzzlepiece",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c1cbf262-ce1a-4b72-9b26-ad443430b789","path":"sprites/spr_npc_puzzlepiece/spr_npc_puzzlepiece.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c1cbf262-ce1a-4b72-9b26-ad443430b789","path":"sprites/spr_npc_puzzlepiece/spr_npc_puzzlepiece.yy",},"LayerId":{"name":"c02b5a36-01de-4d92-b82f-590e44c7fb0e","path":"sprites/spr_npc_puzzlepiece/spr_npc_puzzlepiece.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_npc_puzzlepiece","path":"sprites/spr_npc_puzzlepiece/spr_npc_puzzlepiece.yy",},"resourceVersion":"1.0","name":"c1cbf262-ce1a-4b72-9b26-ad443430b789","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f9a44882-2bc5-4500-9301-f52dd27bd90d","path":"sprites/spr_npc_puzzlepiece/spr_npc_puzzlepiece.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f9a44882-2bc5-4500-9301-f52dd27bd90d","path":"sprites/spr_npc_puzzlepiece/spr_npc_puzzlepiece.yy",},"LayerId":{"name":"c02b5a36-01de-4d92-b82f-590e44c7fb0e","path":"sprites/spr_npc_puzzlepiece/spr_npc_puzzlepiece.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_npc_puzzlepiece","path":"sprites/spr_npc_puzzlepiece/spr_npc_puzzlepiece.yy",},"resourceVersion":"1.0","name":"f9a44882-2bc5-4500-9301-f52dd27bd90d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c1cbf262-ce1a-4b72-9b26-ad443430b789",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f9a44882-2bc5-4500-9301-f52dd27bd90d",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_npc_puzzlepiece","path":"sprites/spr_npc_puzzlepiece/spr_npc_puzzlepiece.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_npc_puzzlepiece",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"281f1663-f29c-4a1a-944e-0bb04c3b08ed","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c1cbf262-ce1a-4b72-9b26-ad443430b789","path":"sprites/spr_npc_puzzlepiece/spr_npc_puzzlepiece.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"0268da2c-5801-42fc-a7c4-39f17a9e5fbb","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f9a44882-2bc5-4500-9301-f52dd27bd90d","path":"sprites/spr_npc_puzzlepiece/spr_npc_puzzlepiece.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_npc_puzzlepiece","path":"sprites/spr_npc_puzzlepiece/spr_npc_puzzlepiece.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_npc_puzzlepiece",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c02b5a36-01de-4d92-b82f-590e44c7fb0e","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c02b5a36-01de-4d92-b82f-590e44c7fb0e","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "NPC",
     "path": "folders/Sprites/CHARA/NPC.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_npc_puzzlepiece",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

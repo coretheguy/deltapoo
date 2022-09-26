@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_chatbot_happy",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"2089d191-cc1b-49a1-9362-2fa54bcdc60d","path":"sprites/spr_chatbot_happy/spr_chatbot_happy.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2089d191-cc1b-49a1-9362-2fa54bcdc60d","path":"sprites/spr_chatbot_happy/spr_chatbot_happy.yy",},"LayerId":{"name":"897d5902-0652-4882-9f73-24a476e76865","path":"sprites/spr_chatbot_happy/spr_chatbot_happy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_chatbot_happy","path":"sprites/spr_chatbot_happy/spr_chatbot_happy.yy",},"resourceVersion":"1.0","name":"2089d191-cc1b-49a1-9362-2fa54bcdc60d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2089d191-cc1b-49a1-9362-2fa54bcdc60d",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_chatbot_happy","path":"sprites/spr_chatbot_happy/spr_chatbot_happy.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_chatbot_happy",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"b99ee9a9-bbbe-45d0-b3aa-9582efd2e91e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2089d191-cc1b-49a1-9362-2fa54bcdc60d","path":"sprites/spr_chatbot_happy/spr_chatbot_happy.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_chatbot_happy","path":"sprites/spr_chatbot_happy/spr_chatbot_happy.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_chatbot_happy",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"897d5902-0652-4882-9f73-24a476e76865","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"897d5902-0652-4882-9f73-24a476e76865","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "chatbot",
     "path": "folders/Sprites/CHARA/ENEMY/chatbot.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_chatbot_happy",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

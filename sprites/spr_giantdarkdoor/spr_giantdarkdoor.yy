@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_giantdarkdoor",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"cf42d77e-47e2-462e-bf93-32c256334572","path":"sprites/spr_giantdarkdoor/spr_giantdarkdoor.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cf42d77e-47e2-462e-bf93-32c256334572","path":"sprites/spr_giantdarkdoor/spr_giantdarkdoor.yy",},"LayerId":{"name":"0eb0c32c-8814-4a9a-ae9c-c48516f2dce0","path":"sprites/spr_giantdarkdoor/spr_giantdarkdoor.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_giantdarkdoor","path":"sprites/spr_giantdarkdoor/spr_giantdarkdoor.yy",},"resourceVersion":"1.0","name":"cf42d77e-47e2-462e-bf93-32c256334572","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"38c7a47b-c405-4f56-a7ec-3bd0676e0ba4","path":"sprites/spr_giantdarkdoor/spr_giantdarkdoor.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"38c7a47b-c405-4f56-a7ec-3bd0676e0ba4","path":"sprites/spr_giantdarkdoor/spr_giantdarkdoor.yy",},"LayerId":{"name":"0eb0c32c-8814-4a9a-ae9c-c48516f2dce0","path":"sprites/spr_giantdarkdoor/spr_giantdarkdoor.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_giantdarkdoor","path":"sprites/spr_giantdarkdoor/spr_giantdarkdoor.yy",},"resourceVersion":"1.0","name":"38c7a47b-c405-4f56-a7ec-3bd0676e0ba4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cf42d77e-47e2-462e-bf93-32c256334572",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"38c7a47b-c405-4f56-a7ec-3bd0676e0ba4",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_giantdarkdoor","path":"sprites/spr_giantdarkdoor/spr_giantdarkdoor.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_giantdarkdoor",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"df56552a-ce16-4c62-83f3-51db8ba3c8d3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cf42d77e-47e2-462e-bf93-32c256334572","path":"sprites/spr_giantdarkdoor/spr_giantdarkdoor.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"2a715177-e7e6-4335-893e-c72c0d9ef828","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"38c7a47b-c405-4f56-a7ec-3bd0676e0ba4","path":"sprites/spr_giantdarkdoor/spr_giantdarkdoor.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_giantdarkdoor","path":"sprites/spr_giantdarkdoor/spr_giantdarkdoor.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_giantdarkdoor",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0eb0c32c-8814-4a9a-ae9c-c48516f2dce0","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0eb0c32c-8814-4a9a-ae9c-c48516f2dce0","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "IMAGE",
     "path": "folders/Sprites/IMAGE.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_giantdarkdoor",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_noelleb_battleintro",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,54 +27,26 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a646df74-b41f-404b-8f91-1d40df1a6245","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a646df74-b41f-404b-8f91-1d40df1a6245","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"LayerId":{"name":"c339d42a-a378-41a7-8621-256558b424a5","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_noelleb_battleintro","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"resourceVersion":"1.0","name":"a646df74-b41f-404b-8f91-1d40df1a6245","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d9144812-04ac-44bc-a9f9-681f3244401b","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d9144812-04ac-44bc-a9f9-681f3244401b","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"LayerId":{"name":"c339d42a-a378-41a7-8621-256558b424a5","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_noelleb_battleintro","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"resourceVersion":"1.0","name":"d9144812-04ac-44bc-a9f9-681f3244401b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"eaca4f08-ed05-435f-9721-060eaeacd8f1","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"eaca4f08-ed05-435f-9721-060eaeacd8f1","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"LayerId":{"name":"c339d42a-a378-41a7-8621-256558b424a5","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_noelleb_battleintro","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"resourceVersion":"1.0","name":"eaca4f08-ed05-435f-9721-060eaeacd8f1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d25d2798-717b-4366-910e-92715e604634","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d25d2798-717b-4366-910e-92715e604634","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"LayerId":{"name":"c339d42a-a378-41a7-8621-256558b424a5","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_noelleb_battleintro","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"resourceVersion":"1.0","name":"d25d2798-717b-4366-910e-92715e604634","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c445ee32-b24c-499e-8087-39df3b858193","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c445ee32-b24c-499e-8087-39df3b858193","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"LayerId":{"name":"c339d42a-a378-41a7-8621-256558b424a5","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_noelleb_battleintro","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"resourceVersion":"1.0","name":"c445ee32-b24c-499e-8087-39df3b858193","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d562776a-0778-48fd-9f75-7b202e5fb587","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d562776a-0778-48fd-9f75-7b202e5fb587","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"LayerId":{"name":"c339d42a-a378-41a7-8621-256558b424a5","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_noelleb_battleintro","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"resourceVersion":"1.0","name":"d562776a-0778-48fd-9f75-7b202e5fb587","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"2da43a18-186d-4016-ac4b-4723ec0ddfac","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2da43a18-186d-4016-ac4b-4723ec0ddfac","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"LayerId":{"name":"c339d42a-a378-41a7-8621-256558b424a5","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_noelleb_battleintro","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"resourceVersion":"1.0","name":"2da43a18-186d-4016-ac4b-4723ec0ddfac","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e35730b3-28a1-4211-a960-99bebaf5beba","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e35730b3-28a1-4211-a960-99bebaf5beba","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"LayerId":{"name":"c339d42a-a378-41a7-8621-256558b424a5","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_noelleb_battleintro","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"resourceVersion":"1.0","name":"e35730b3-28a1-4211-a960-99bebaf5beba","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6e1d4e74-1e35-4847-a112-338fcc2eb12c","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6e1d4e74-1e35-4847-a112-338fcc2eb12c","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"LayerId":{"name":"c339d42a-a378-41a7-8621-256558b424a5","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_noelleb_battleintro","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"resourceVersion":"1.0","name":"6e1d4e74-1e35-4847-a112-338fcc2eb12c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"33583430-f501-4f86-a139-41c728a1707e","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"33583430-f501-4f86-a139-41c728a1707e","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"LayerId":{"name":"c339d42a-a378-41a7-8621-256558b424a5","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_noelleb_battleintro","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"resourceVersion":"1.0","name":"33583430-f501-4f86-a139-41c728a1707e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"00638fc2-e174-41e7-90a8-a10ddbfb74f2","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"00638fc2-e174-41e7-90a8-a10ddbfb74f2","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"LayerId":{"name":"c339d42a-a378-41a7-8621-256558b424a5","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_noelleb_battleintro","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"resourceVersion":"1.0","name":"00638fc2-e174-41e7-90a8-a10ddbfb74f2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0e5384f8-6446-4eab-8ed3-f3ceadfacdcc","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0e5384f8-6446-4eab-8ed3-f3ceadfacdcc","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"LayerId":{"name":"c339d42a-a378-41a7-8621-256558b424a5","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_noelleb_battleintro","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"resourceVersion":"1.0","name":"0e5384f8-6446-4eab-8ed3-f3ceadfacdcc","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"77836591-fbab-42db-b526-7ff64714a8e6","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"77836591-fbab-42db-b526-7ff64714a8e6","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"LayerId":{"name":"c339d42a-a378-41a7-8621-256558b424a5","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_noelleb_battleintro","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"resourceVersion":"1.0","name":"77836591-fbab-42db-b526-7ff64714a8e6","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5d3f19fc-7c99-4eee-a1c6-a6c1e3533a1f","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5d3f19fc-7c99-4eee-a1c6-a6c1e3533a1f","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"LayerId":{"name":"c339d42a-a378-41a7-8621-256558b424a5","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_noelleb_battleintro","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"resourceVersion":"1.0","name":"5d3f19fc-7c99-4eee-a1c6-a6c1e3533a1f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"90e6a8ec-ead6-4609-acf4-6cb8cce5cb84","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"90e6a8ec-ead6-4609-acf4-6cb8cce5cb84","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"LayerId":{"name":"c339d42a-a378-41a7-8621-256558b424a5","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_noelleb_battleintro","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"resourceVersion":"1.0","name":"90e6a8ec-ead6-4609-acf4-6cb8cce5cb84","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a646df74-b41f-404b-8f91-1d40df1a6245",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d9144812-04ac-44bc-a9f9-681f3244401b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"eaca4f08-ed05-435f-9721-060eaeacd8f1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d25d2798-717b-4366-910e-92715e604634",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c445ee32-b24c-499e-8087-39df3b858193",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d562776a-0778-48fd-9f75-7b202e5fb587",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2da43a18-186d-4016-ac4b-4723ec0ddfac",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e35730b3-28a1-4211-a960-99bebaf5beba",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6e1d4e74-1e35-4847-a112-338fcc2eb12c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"33583430-f501-4f86-a139-41c728a1707e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"00638fc2-e174-41e7-90a8-a10ddbfb74f2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0e5384f8-6446-4eab-8ed3-f3ceadfacdcc",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"77836591-fbab-42db-b526-7ff64714a8e6",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5d3f19fc-7c99-4eee-a1c6-a6c1e3533a1f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"90e6a8ec-ead6-4609-acf4-6cb8cce5cb84",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_noelleb_battleintro","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_noelleb_battleintro",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -82,7 +57,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"0f4fe12d-9338-41ec-a85d-a18ebdfc1368","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a646df74-b41f-404b-8f91-1d40df1a6245","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"7cacabd7-220f-4a80-abad-7972290cb81e","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d9144812-04ac-44bc-a9f9-681f3244401b","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"b9e5197f-d5ee-49cb-8145-4fd138978dfd","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"eaca4f08-ed05-435f-9721-060eaeacd8f1","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -98,7 +73,7 @@
             {"id":"09a8c4aa-afc7-4d44-a575-27435962e1cb","Key":12.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"77836591-fbab-42db-b526-7ff64714a8e6","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"63d4e8b0-93ff-4501-98d4-902f342737dd","Key":13.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5d3f19fc-7c99-4eee-a1c6-a6c1e3533a1f","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"fc0b3dee-8917-46be-b502-83ec03ae284f","Key":14.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"90e6a8ec-ead6-4609-acf4-6cb8cce5cb84","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -114,22 +89,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_noelleb_battleintro","path":"sprites/spr_noelleb_battleintro/spr_noelleb_battleintro.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_noelleb_battleintro",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c339d42a-a378-41a7-8621-256558b424a5","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c339d42a-a378-41a7-8621-256558b424a5","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "noelle",
     "path": "folders/Sprites/CHARA/BATTLE/noelle.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_noelleb_battleintro",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

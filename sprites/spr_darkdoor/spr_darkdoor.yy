@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_darkdoor",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,18 +27,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1a4d551b-7046-482c-91d1-2c571f8c5b8a","path":"sprites/spr_darkdoor/spr_darkdoor.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1a4d551b-7046-482c-91d1-2c571f8c5b8a","path":"sprites/spr_darkdoor/spr_darkdoor.yy",},"LayerId":{"name":"3303bcb1-11aa-4bab-96b7-402ecdbe5ed4","path":"sprites/spr_darkdoor/spr_darkdoor.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_darkdoor","path":"sprites/spr_darkdoor/spr_darkdoor.yy",},"resourceVersion":"1.0","name":"1a4d551b-7046-482c-91d1-2c571f8c5b8a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"12a160e9-93c9-44d8-bfa3-9841012a6db1","path":"sprites/spr_darkdoor/spr_darkdoor.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"12a160e9-93c9-44d8-bfa3-9841012a6db1","path":"sprites/spr_darkdoor/spr_darkdoor.yy",},"LayerId":{"name":"3303bcb1-11aa-4bab-96b7-402ecdbe5ed4","path":"sprites/spr_darkdoor/spr_darkdoor.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_darkdoor","path":"sprites/spr_darkdoor/spr_darkdoor.yy",},"resourceVersion":"1.0","name":"12a160e9-93c9-44d8-bfa3-9841012a6db1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"26ba8ab8-fea3-416a-a1cc-14fda7c2fecc","path":"sprites/spr_darkdoor/spr_darkdoor.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"26ba8ab8-fea3-416a-a1cc-14fda7c2fecc","path":"sprites/spr_darkdoor/spr_darkdoor.yy",},"LayerId":{"name":"3303bcb1-11aa-4bab-96b7-402ecdbe5ed4","path":"sprites/spr_darkdoor/spr_darkdoor.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_darkdoor","path":"sprites/spr_darkdoor/spr_darkdoor.yy",},"resourceVersion":"1.0","name":"26ba8ab8-fea3-416a-a1cc-14fda7c2fecc","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1a4d551b-7046-482c-91d1-2c571f8c5b8a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"12a160e9-93c9-44d8-bfa3-9841012a6db1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"26ba8ab8-fea3-416a-a1cc-14fda7c2fecc",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_darkdoor","path":"sprites/spr_darkdoor/spr_darkdoor.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_darkdoor",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -46,11 +45,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"915e4f59-da5b-4c14-9892-7dc0e52adaf7","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1a4d551b-7046-482c-91d1-2c571f8c5b8a","path":"sprites/spr_darkdoor/spr_darkdoor.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"e0746ee1-c56e-49d2-8e47-effbf20242b4","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"12a160e9-93c9-44d8-bfa3-9841012a6db1","path":"sprites/spr_darkdoor/spr_darkdoor.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"5fd3b30d-7393-47f0-9410-210a301ac749","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"26ba8ab8-fea3-416a-a1cc-14fda7c2fecc","path":"sprites/spr_darkdoor/spr_darkdoor.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +65,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_darkdoor","path":"sprites/spr_darkdoor/spr_darkdoor.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_darkdoor",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3303bcb1-11aa-4bab-96b7-402ecdbe5ed4","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3303bcb1-11aa-4bab-96b7-402ecdbe5ed4","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_darkdoor",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_susie_white_fall_d",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,18 +27,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1d34617b-4c3d-4a09-8f62-9745cd520fbc","path":"sprites/spr_susie_white_fall_d/spr_susie_white_fall_d.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1d34617b-4c3d-4a09-8f62-9745cd520fbc","path":"sprites/spr_susie_white_fall_d/spr_susie_white_fall_d.yy",},"LayerId":{"name":"38a3f71e-59a6-45b9-ab84-e165451b263d","path":"sprites/spr_susie_white_fall_d/spr_susie_white_fall_d.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_susie_white_fall_d","path":"sprites/spr_susie_white_fall_d/spr_susie_white_fall_d.yy",},"resourceVersion":"1.0","name":"1d34617b-4c3d-4a09-8f62-9745cd520fbc","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"fcdb1a21-95c8-4130-aeb8-b52692635ccb","path":"sprites/spr_susie_white_fall_d/spr_susie_white_fall_d.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fcdb1a21-95c8-4130-aeb8-b52692635ccb","path":"sprites/spr_susie_white_fall_d/spr_susie_white_fall_d.yy",},"LayerId":{"name":"38a3f71e-59a6-45b9-ab84-e165451b263d","path":"sprites/spr_susie_white_fall_d/spr_susie_white_fall_d.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_susie_white_fall_d","path":"sprites/spr_susie_white_fall_d/spr_susie_white_fall_d.yy",},"resourceVersion":"1.0","name":"fcdb1a21-95c8-4130-aeb8-b52692635ccb","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"bcd9df66-c273-46e5-809c-20fef57dd69d","path":"sprites/spr_susie_white_fall_d/spr_susie_white_fall_d.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bcd9df66-c273-46e5-809c-20fef57dd69d","path":"sprites/spr_susie_white_fall_d/spr_susie_white_fall_d.yy",},"LayerId":{"name":"38a3f71e-59a6-45b9-ab84-e165451b263d","path":"sprites/spr_susie_white_fall_d/spr_susie_white_fall_d.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_susie_white_fall_d","path":"sprites/spr_susie_white_fall_d/spr_susie_white_fall_d.yy",},"resourceVersion":"1.0","name":"bcd9df66-c273-46e5-809c-20fef57dd69d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1d34617b-4c3d-4a09-8f62-9745cd520fbc",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fcdb1a21-95c8-4130-aeb8-b52692635ccb",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bcd9df66-c273-46e5-809c-20fef57dd69d",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_susie_white_fall_d","path":"sprites/spr_susie_white_fall_d/spr_susie_white_fall_d.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_susie_white_fall_d",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -46,11 +45,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"8f37ae13-3766-448a-9d71-7e62b94c7b1e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1d34617b-4c3d-4a09-8f62-9745cd520fbc","path":"sprites/spr_susie_white_fall_d/spr_susie_white_fall_d.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"a65b230a-b389-4b2f-a2dc-23ebd95fabb5","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fcdb1a21-95c8-4130-aeb8-b52692635ccb","path":"sprites/spr_susie_white_fall_d/spr_susie_white_fall_d.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"ecd2e59e-a723-47f3-94a1-54f3cff013ef","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bcd9df66-c273-46e5-809c-20fef57dd69d","path":"sprites/spr_susie_white_fall_d/spr_susie_white_fall_d.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +65,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_susie_white_fall_d","path":"sprites/spr_susie_white_fall_d/spr_susie_white_fall_d.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_susie_white_fall_d",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"38a3f71e-59a6-45b9-ab84-e165451b263d","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"38a3f71e-59a6-45b9-ab84-e165451b263d","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "dw_transition",
     "path": "folders/Sprites/CHARA/dw_transition.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_susie_white_fall_d",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

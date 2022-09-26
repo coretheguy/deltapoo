@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_teacup_screw",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,24 +27,16 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c3142990-6186-41e1-8398-19acfa6a0934","path":"sprites/spr_teacup_screw/spr_teacup_screw.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c3142990-6186-41e1-8398-19acfa6a0934","path":"sprites/spr_teacup_screw/spr_teacup_screw.yy",},"LayerId":{"name":"7c5d632d-9843-4448-a6db-68c94e8bc6b0","path":"sprites/spr_teacup_screw/spr_teacup_screw.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_teacup_screw","path":"sprites/spr_teacup_screw/spr_teacup_screw.yy",},"resourceVersion":"1.0","name":"c3142990-6186-41e1-8398-19acfa6a0934","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7f24708a-ae8c-46e9-bbb2-b52be58dacb8","path":"sprites/spr_teacup_screw/spr_teacup_screw.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7f24708a-ae8c-46e9-bbb2-b52be58dacb8","path":"sprites/spr_teacup_screw/spr_teacup_screw.yy",},"LayerId":{"name":"7c5d632d-9843-4448-a6db-68c94e8bc6b0","path":"sprites/spr_teacup_screw/spr_teacup_screw.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_teacup_screw","path":"sprites/spr_teacup_screw/spr_teacup_screw.yy",},"resourceVersion":"1.0","name":"7f24708a-ae8c-46e9-bbb2-b52be58dacb8","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4b5587d8-c6e6-43a7-9ccf-da3d58c7fff0","path":"sprites/spr_teacup_screw/spr_teacup_screw.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4b5587d8-c6e6-43a7-9ccf-da3d58c7fff0","path":"sprites/spr_teacup_screw/spr_teacup_screw.yy",},"LayerId":{"name":"7c5d632d-9843-4448-a6db-68c94e8bc6b0","path":"sprites/spr_teacup_screw/spr_teacup_screw.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_teacup_screw","path":"sprites/spr_teacup_screw/spr_teacup_screw.yy",},"resourceVersion":"1.0","name":"4b5587d8-c6e6-43a7-9ccf-da3d58c7fff0","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a1b857fb-2199-4f5a-8507-2e4502b0580a","path":"sprites/spr_teacup_screw/spr_teacup_screw.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a1b857fb-2199-4f5a-8507-2e4502b0580a","path":"sprites/spr_teacup_screw/spr_teacup_screw.yy",},"LayerId":{"name":"7c5d632d-9843-4448-a6db-68c94e8bc6b0","path":"sprites/spr_teacup_screw/spr_teacup_screw.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_teacup_screw","path":"sprites/spr_teacup_screw/spr_teacup_screw.yy",},"resourceVersion":"1.0","name":"a1b857fb-2199-4f5a-8507-2e4502b0580a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1facc6db-4131-4784-8144-52d8da8ff5d6","path":"sprites/spr_teacup_screw/spr_teacup_screw.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1facc6db-4131-4784-8144-52d8da8ff5d6","path":"sprites/spr_teacup_screw/spr_teacup_screw.yy",},"LayerId":{"name":"7c5d632d-9843-4448-a6db-68c94e8bc6b0","path":"sprites/spr_teacup_screw/spr_teacup_screw.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_teacup_screw","path":"sprites/spr_teacup_screw/spr_teacup_screw.yy",},"resourceVersion":"1.0","name":"1facc6db-4131-4784-8144-52d8da8ff5d6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c3142990-6186-41e1-8398-19acfa6a0934",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7f24708a-ae8c-46e9-bbb2-b52be58dacb8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4b5587d8-c6e6-43a7-9ccf-da3d58c7fff0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a1b857fb-2199-4f5a-8507-2e4502b0580a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1facc6db-4131-4784-8144-52d8da8ff5d6",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_teacup_screw","path":"sprites/spr_teacup_screw/spr_teacup_screw.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_teacup_screw",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -52,13 +47,13 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"af27a06a-9568-43bc-abcd-8191eda53383","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c3142990-6186-41e1-8398-19acfa6a0934","path":"sprites/spr_teacup_screw/spr_teacup_screw.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"eebe7209-8efb-4ce5-ac15-5c4985ed18c9","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7f24708a-ae8c-46e9-bbb2-b52be58dacb8","path":"sprites/spr_teacup_screw/spr_teacup_screw.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"4b3767ed-d8bf-4869-adbb-661c317682fb","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4b5587d8-c6e6-43a7-9ccf-da3d58c7fff0","path":"sprites/spr_teacup_screw/spr_teacup_screw.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"03d89495-9d86-4dca-afcf-babd3f0b3655","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a1b857fb-2199-4f5a-8507-2e4502b0580a","path":"sprites/spr_teacup_screw/spr_teacup_screw.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"a4bdd5e1-8bed-4cf2-baba-ede7dac2ded6","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1facc6db-4131-4784-8144-52d8da8ff5d6","path":"sprites/spr_teacup_screw/spr_teacup_screw.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -74,22 +69,13 @@
     "yorigin": 15,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_teacup_screw","path":"sprites/spr_teacup_screw/spr_teacup_screw.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_teacup_screw",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7c5d632d-9843-4448-a6db-68c94e8bc6b0","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7c5d632d-9843-4448-a6db-68c94e8bc6b0","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "teapots",
     "path": "folders/Sprites/MECH/teapots.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_teacup_screw",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

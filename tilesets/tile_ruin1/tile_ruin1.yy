@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "tile_ruin1",
   "spriteId": {
     "name": "bg_ruintile_1",
     "path": "sprites/bg_ruintile_1/bg_ruintile_1.yy",
@@ -203,8 +206,4 @@
     "name": "trouble",
     "path": "folders/Tile Sets/trouble.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "tile_ruin1",
-  "tags": [],
-  "resourceType": "GMTileSet",
 }

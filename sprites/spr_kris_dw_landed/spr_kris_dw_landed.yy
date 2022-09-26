@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_kris_dw_landed",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,18 +27,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"ba496c7c-9964-4cbf-96d9-ef7f171588a0","path":"sprites/spr_kris_dw_landed/spr_kris_dw_landed.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ba496c7c-9964-4cbf-96d9-ef7f171588a0","path":"sprites/spr_kris_dw_landed/spr_kris_dw_landed.yy",},"LayerId":{"name":"9477fa73-9ea9-4b85-8be9-18520d6167a2","path":"sprites/spr_kris_dw_landed/spr_kris_dw_landed.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_kris_dw_landed","path":"sprites/spr_kris_dw_landed/spr_kris_dw_landed.yy",},"resourceVersion":"1.0","name":"ba496c7c-9964-4cbf-96d9-ef7f171588a0","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"00ce5324-6beb-4faf-9137-3e3573e975d5","path":"sprites/spr_kris_dw_landed/spr_kris_dw_landed.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"00ce5324-6beb-4faf-9137-3e3573e975d5","path":"sprites/spr_kris_dw_landed/spr_kris_dw_landed.yy",},"LayerId":{"name":"9477fa73-9ea9-4b85-8be9-18520d6167a2","path":"sprites/spr_kris_dw_landed/spr_kris_dw_landed.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_kris_dw_landed","path":"sprites/spr_kris_dw_landed/spr_kris_dw_landed.yy",},"resourceVersion":"1.0","name":"00ce5324-6beb-4faf-9137-3e3573e975d5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"99328864-0661-4522-b54c-1118f6a6cfb6","path":"sprites/spr_kris_dw_landed/spr_kris_dw_landed.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"99328864-0661-4522-b54c-1118f6a6cfb6","path":"sprites/spr_kris_dw_landed/spr_kris_dw_landed.yy",},"LayerId":{"name":"9477fa73-9ea9-4b85-8be9-18520d6167a2","path":"sprites/spr_kris_dw_landed/spr_kris_dw_landed.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_kris_dw_landed","path":"sprites/spr_kris_dw_landed/spr_kris_dw_landed.yy",},"resourceVersion":"1.0","name":"99328864-0661-4522-b54c-1118f6a6cfb6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ba496c7c-9964-4cbf-96d9-ef7f171588a0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"00ce5324-6beb-4faf-9137-3e3573e975d5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"99328864-0661-4522-b54c-1118f6a6cfb6",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_kris_dw_landed","path":"sprites/spr_kris_dw_landed/spr_kris_dw_landed.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_kris_dw_landed",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -46,11 +45,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"f277822c-186d-4043-b41e-195f78f9a351","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ba496c7c-9964-4cbf-96d9-ef7f171588a0","path":"sprites/spr_kris_dw_landed/spr_kris_dw_landed.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"4f6c2840-1365-4a28-a82c-d21df3d8f709","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"00ce5324-6beb-4faf-9137-3e3573e975d5","path":"sprites/spr_kris_dw_landed/spr_kris_dw_landed.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"781b9f2c-d280-41c5-93de-922bde526463","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"99328864-0661-4522-b54c-1118f6a6cfb6","path":"sprites/spr_kris_dw_landed/spr_kris_dw_landed.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +65,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_kris_dw_landed","path":"sprites/spr_kris_dw_landed/spr_kris_dw_landed.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_kris_dw_landed",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9477fa73-9ea9-4b85-8be9-18520d6167a2","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9477fa73-9ea9-4b85-8be9-18520d6167a2","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "dw_transition",
     "path": "folders/Sprites/CHARA/dw_transition.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_kris_dw_landed",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

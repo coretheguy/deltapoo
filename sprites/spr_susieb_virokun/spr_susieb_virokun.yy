@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_susieb_virokun",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"53dcb2fe-0720-48b1-817e-89f69b9c339a","path":"sprites/spr_susieb_virokun/spr_susieb_virokun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"53dcb2fe-0720-48b1-817e-89f69b9c339a","path":"sprites/spr_susieb_virokun/spr_susieb_virokun.yy",},"LayerId":{"name":"e6ae2712-91d4-4368-8d81-41f9c9b4454b","path":"sprites/spr_susieb_virokun/spr_susieb_virokun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_susieb_virokun","path":"sprites/spr_susieb_virokun/spr_susieb_virokun.yy",},"resourceVersion":"1.0","name":"53dcb2fe-0720-48b1-817e-89f69b9c339a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"53dcb2fe-0720-48b1-817e-89f69b9c339a",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_susieb_virokun","path":"sprites/spr_susieb_virokun/spr_susieb_virokun.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_susieb_virokun",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"f7069502-d669-4ea0-a535-36fdf92ca019","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"53dcb2fe-0720-48b1-817e-89f69b9c339a","path":"sprites/spr_susieb_virokun/spr_susieb_virokun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 4,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_susieb_virokun","path":"sprites/spr_susieb_virokun/spr_susieb_virokun.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_susieb_virokun",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e6ae2712-91d4-4368-8d81-41f9c9b4454b","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e6ae2712-91d4-4368-8d81-41f9c9b4454b","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "susie",
     "path": "folders/Sprites/CHARA/BATTLE/susie.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_susieb_virokun",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

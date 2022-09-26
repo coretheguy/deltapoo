@@ -1,7 +1,11 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_berdlyb2_enemy",
   "spriteId": null,
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -22,10 +26,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "WEIRD",
-    "path": "folders/Objects/ENEMY/CH2/WEIRD.yy",
+    "path": "folders/Objects/ENEMY/WEIRD.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_berdlyb2_enemy",
-  "tags": [],
-  "resourceType": "GMObject",
 }

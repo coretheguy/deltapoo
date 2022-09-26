@@ -16,7 +16,7 @@ switch text {
 	case 100010:
 		
 		if talked = 0 {
-			//scr_anyface("no_name", 0, 0)
+			scr_anyface("no_name", 0, 0)
 			scr_speaker("no_name")
 			msgset(0, "* This bench is too small for me. I can't catch a break around here./")
 			msgnext("* My legs are getting cold. The city is too loud for me./")

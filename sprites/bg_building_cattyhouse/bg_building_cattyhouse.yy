@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "bg_building_cattyhouse",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1103669c-2da8-4b04-83c1-082dfa8814ca","path":"sprites/bg_building_cattyhouse/bg_building_cattyhouse.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1103669c-2da8-4b04-83c1-082dfa8814ca","path":"sprites/bg_building_cattyhouse/bg_building_cattyhouse.yy",},"LayerId":{"name":"cdc9f20c-435d-41d3-ba46-75fd4557311b","path":"sprites/bg_building_cattyhouse/bg_building_cattyhouse.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"bg_building_cattyhouse","path":"sprites/bg_building_cattyhouse/bg_building_cattyhouse.yy",},"resourceVersion":"1.0","name":"1103669c-2da8-4b04-83c1-082dfa8814ca","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1103669c-2da8-4b04-83c1-082dfa8814ca",},
   ],
   "sequence": {
-    "spriteId": {"name":"bg_building_cattyhouse","path":"sprites/bg_building_cattyhouse/bg_building_cattyhouse.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "bg_building_cattyhouse",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"eb7faddd-fb57-4639-8627-0e5b5ecf224b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1103669c-2da8-4b04-83c1-082dfa8814ca","path":"sprites/bg_building_cattyhouse/bg_building_cattyhouse.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"bg_building_cattyhouse","path":"sprites/bg_building_cattyhouse/bg_building_cattyhouse.yy",},
-    "resourceVersion": "1.3",
-    "name": "bg_building_cattyhouse",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cdc9f20c-435d-41d3-ba46-75fd4557311b","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"cdc9f20c-435d-41d3-ba46-75fd4557311b","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "hometown",
     "path": "folders/Sprites/BG/hometown.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "bg_building_cattyhouse",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

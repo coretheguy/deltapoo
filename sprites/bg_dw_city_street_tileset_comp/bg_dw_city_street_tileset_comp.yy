@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "bg_dw_city_street_tileset_comp",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -9,13 +12,13 @@
   "swfPrecision": 2.525,
   "bbox_left": 0,
   "bbox_right": 439,
-  "bbox_top": 2,
-  "bbox_bottom": 483,
+  "bbox_top": 40,
+  "bbox_bottom": 399,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "width": 440,
-  "height": 484,
+  "height": 400,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"04448627-78ad-490f-a22a-ef0a1f694442","path":"sprites/bg_dw_city_street_tileset_comp/bg_dw_city_street_tileset_comp.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"04448627-78ad-490f-a22a-ef0a1f694442","path":"sprites/bg_dw_city_street_tileset_comp/bg_dw_city_street_tileset_comp.yy",},"LayerId":{"name":"fc298205-f4aa-4d37-ba29-4774030ce309","path":"sprites/bg_dw_city_street_tileset_comp/bg_dw_city_street_tileset_comp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"bg_dw_city_street_tileset_comp","path":"sprites/bg_dw_city_street_tileset_comp/bg_dw_city_street_tileset_comp.yy",},"resourceVersion":"1.0","name":"04448627-78ad-490f-a22a-ef0a1f694442","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"44922162-2a6e-42fd-9087-e01b3fbcc3b2",},
   ],
   "sequence": {
-    "spriteId": {"name":"bg_dw_city_street_tileset_comp","path":"sprites/bg_dw_city_street_tileset_comp/bg_dw_city_street_tileset_comp.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "bg_dw_city_street_tileset_comp",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"2c6760f5-f96d-49a0-bc59-050dca36733a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"04448627-78ad-490f-a22a-ef0a1f694442","path":"sprites/bg_dw_city_street_tileset_comp/bg_dw_city_street_tileset_comp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"bb2bae15-cb59-4942-9389-be9b6590531c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"44922162-2a6e-42fd-9087-e01b3fbcc3b2","path":"sprites/bg_dw_city_street_tileset_comp/bg_dw_city_street_tileset_comp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"bg_dw_city_street_tileset_comp","path":"sprites/bg_dw_city_street_tileset_comp/bg_dw_city_street_tileset_comp.yy",},
-    "resourceVersion": "1.3",
-    "name": "bg_dw_city_street_tileset_comp",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"fc298205-f4aa-4d37-ba29-4774030ce309","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1c93ed26-b86f-495f-8c91-b68929a0f6f8","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "tile",
     "path": "folders/Sprites/BG/cyber/city/tile.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "bg_dw_city_street_tileset_comp",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

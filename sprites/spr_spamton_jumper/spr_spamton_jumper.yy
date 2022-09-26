@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_spamton_jumper",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"e6406a23-fe2b-49fc-a66d-a424cd1a813e","path":"sprites/spr_spamton_jumper/spr_spamton_jumper.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e6406a23-fe2b-49fc-a66d-a424cd1a813e","path":"sprites/spr_spamton_jumper/spr_spamton_jumper.yy",},"LayerId":{"name":"01262b94-38f2-4fa8-9c09-ec080098e5d1","path":"sprites/spr_spamton_jumper/spr_spamton_jumper.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_spamton_jumper","path":"sprites/spr_spamton_jumper/spr_spamton_jumper.yy",},"resourceVersion":"1.0","name":"e6406a23-fe2b-49fc-a66d-a424cd1a813e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"56059e47-948b-40c4-b421-c399fd61e629","path":"sprites/spr_spamton_jumper/spr_spamton_jumper.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"56059e47-948b-40c4-b421-c399fd61e629","path":"sprites/spr_spamton_jumper/spr_spamton_jumper.yy",},"LayerId":{"name":"01262b94-38f2-4fa8-9c09-ec080098e5d1","path":"sprites/spr_spamton_jumper/spr_spamton_jumper.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_spamton_jumper","path":"sprites/spr_spamton_jumper/spr_spamton_jumper.yy",},"resourceVersion":"1.0","name":"56059e47-948b-40c4-b421-c399fd61e629","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e6406a23-fe2b-49fc-a66d-a424cd1a813e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"56059e47-948b-40c4-b421-c399fd61e629",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_spamton_jumper","path":"sprites/spr_spamton_jumper/spr_spamton_jumper.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_spamton_jumper",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"bcbd601a-ce83-4726-9e2f-3049f76465eb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e6406a23-fe2b-49fc-a66d-a424cd1a813e","path":"sprites/spr_spamton_jumper/spr_spamton_jumper.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"e4fc0bb6-c229-48e6-8884-b31c0b814458","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"56059e47-948b-40c4-b421-c399fd61e629","path":"sprites/spr_spamton_jumper/spr_spamton_jumper.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_spamton_jumper","path":"sprites/spr_spamton_jumper/spr_spamton_jumper.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_spamton_jumper",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"01262b94-38f2-4fa8-9c09-ec080098e5d1","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"01262b94-38f2-4fa8-9c09-ec080098e5d1","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "spamton",
     "path": "folders/Sprites/CHARA/ENEMY/BOSS/spamton.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_spamton_jumper",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

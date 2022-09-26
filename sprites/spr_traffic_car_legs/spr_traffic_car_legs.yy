@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_traffic_car_legs",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,21 +27,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f0ae6952-8415-49c5-8959-b3faede45218","path":"sprites/spr_traffic_car_legs/spr_traffic_car_legs.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f0ae6952-8415-49c5-8959-b3faede45218","path":"sprites/spr_traffic_car_legs/spr_traffic_car_legs.yy",},"LayerId":{"name":"078f34cc-4f9f-4ada-9665-f553248d52a4","path":"sprites/spr_traffic_car_legs/spr_traffic_car_legs.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_traffic_car_legs","path":"sprites/spr_traffic_car_legs/spr_traffic_car_legs.yy",},"resourceVersion":"1.0","name":"f0ae6952-8415-49c5-8959-b3faede45218","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"235a33de-28be-4f4b-bb5e-8adb3802ede3","path":"sprites/spr_traffic_car_legs/spr_traffic_car_legs.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"235a33de-28be-4f4b-bb5e-8adb3802ede3","path":"sprites/spr_traffic_car_legs/spr_traffic_car_legs.yy",},"LayerId":{"name":"078f34cc-4f9f-4ada-9665-f553248d52a4","path":"sprites/spr_traffic_car_legs/spr_traffic_car_legs.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_traffic_car_legs","path":"sprites/spr_traffic_car_legs/spr_traffic_car_legs.yy",},"resourceVersion":"1.0","name":"235a33de-28be-4f4b-bb5e-8adb3802ede3","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"91bea289-78f2-4167-a678-60faab78c904","path":"sprites/spr_traffic_car_legs/spr_traffic_car_legs.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"91bea289-78f2-4167-a678-60faab78c904","path":"sprites/spr_traffic_car_legs/spr_traffic_car_legs.yy",},"LayerId":{"name":"078f34cc-4f9f-4ada-9665-f553248d52a4","path":"sprites/spr_traffic_car_legs/spr_traffic_car_legs.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_traffic_car_legs","path":"sprites/spr_traffic_car_legs/spr_traffic_car_legs.yy",},"resourceVersion":"1.0","name":"91bea289-78f2-4167-a678-60faab78c904","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"bd326ab2-ebf8-4f60-ad17-0d8235f2ef44","path":"sprites/spr_traffic_car_legs/spr_traffic_car_legs.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bd326ab2-ebf8-4f60-ad17-0d8235f2ef44","path":"sprites/spr_traffic_car_legs/spr_traffic_car_legs.yy",},"LayerId":{"name":"078f34cc-4f9f-4ada-9665-f553248d52a4","path":"sprites/spr_traffic_car_legs/spr_traffic_car_legs.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_traffic_car_legs","path":"sprites/spr_traffic_car_legs/spr_traffic_car_legs.yy",},"resourceVersion":"1.0","name":"bd326ab2-ebf8-4f60-ad17-0d8235f2ef44","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f0ae6952-8415-49c5-8959-b3faede45218",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"235a33de-28be-4f4b-bb5e-8adb3802ede3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"91bea289-78f2-4167-a678-60faab78c904",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bd326ab2-ebf8-4f60-ad17-0d8235f2ef44",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_traffic_car_legs","path":"sprites/spr_traffic_car_legs/spr_traffic_car_legs.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_traffic_car_legs",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -49,12 +46,12 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"2b094b87-22a0-468d-b5c1-b73df91cd10a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f0ae6952-8415-49c5-8959-b3faede45218","path":"sprites/spr_traffic_car_legs/spr_traffic_car_legs.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"4df5390e-d483-40c0-a885-a88f11e91bdb","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"235a33de-28be-4f4b-bb5e-8adb3802ede3","path":"sprites/spr_traffic_car_legs/spr_traffic_car_legs.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"7a98db4d-49af-4026-a145-451310f8f746","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"91bea289-78f2-4167-a678-60faab78c904","path":"sprites/spr_traffic_car_legs/spr_traffic_car_legs.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"066b6efe-4a3c-49b2-a2f3-8a3e591f6962","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bd326ab2-ebf8-4f60-ad17-0d8235f2ef44","path":"sprites/spr_traffic_car_legs/spr_traffic_car_legs.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -70,22 +67,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_traffic_car_legs","path":"sprites/spr_traffic_car_legs/spr_traffic_car_legs.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_traffic_car_legs",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"078f34cc-4f9f-4ada-9665-f553248d52a4","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"078f34cc-4f9f-4ada-9665-f553248d52a4","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "cybercity",
     "path": "folders/Sprites/MECH/cybercity.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_traffic_car_legs",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

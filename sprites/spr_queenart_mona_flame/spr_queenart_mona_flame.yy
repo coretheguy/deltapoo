@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_queenart_mona_flame",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"ac13d193-bdf6-4857-a24d-c906ecf7a170","path":"sprites/spr_queenart_mona_flame/spr_queenart_mona_flame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ac13d193-bdf6-4857-a24d-c906ecf7a170","path":"sprites/spr_queenart_mona_flame/spr_queenart_mona_flame.yy",},"LayerId":{"name":"d9c74c1e-9db5-47c2-b00c-51b2da893777","path":"sprites/spr_queenart_mona_flame/spr_queenart_mona_flame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_queenart_mona_flame","path":"sprites/spr_queenart_mona_flame/spr_queenart_mona_flame.yy",},"resourceVersion":"1.0","name":"ac13d193-bdf6-4857-a24d-c906ecf7a170","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ac13d193-bdf6-4857-a24d-c906ecf7a170",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_queenart_mona_flame","path":"sprites/spr_queenart_mona_flame/spr_queenart_mona_flame.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_queenart_mona_flame",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"55ae8e3d-f307-477e-bfeb-b9d337e1047e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ac13d193-bdf6-4857-a24d-c906ecf7a170","path":"sprites/spr_queenart_mona_flame/spr_queenart_mona_flame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 10,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_queenart_mona_flame","path":"sprites/spr_queenart_mona_flame/spr_queenart_mona_flame.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_queenart_mona_flame",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d9c74c1e-9db5-47c2-b00c-51b2da893777","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d9c74c1e-9db5-47c2-b00c-51b2da893777","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "mansion",
     "path": "folders/Sprites/MECH/mansion.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_queenart_mona_flame",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

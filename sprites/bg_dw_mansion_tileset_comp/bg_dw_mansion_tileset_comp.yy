@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "bg_dw_mansion_tileset_comp",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -8,14 +11,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 1231,
-  "bbox_top": 0,
-  "bbox_bottom": 1011,
+  "bbox_right": 719,
+  "bbox_top": 40,
+  "bbox_bottom": 1399,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 1232,
-  "height": 1232,
+  "width": 720,
+  "height": 1760,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f0a7d512-ca15-40a2-b970-5626d25ac012","path":"sprites/bg_dw_mansion_tileset_comp/bg_dw_mansion_tileset_comp.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f0a7d512-ca15-40a2-b970-5626d25ac012","path":"sprites/bg_dw_mansion_tileset_comp/bg_dw_mansion_tileset_comp.yy",},"LayerId":{"name":"1dfb0d61-3954-467c-a51d-8e364aa9e975","path":"sprites/bg_dw_mansion_tileset_comp/bg_dw_mansion_tileset_comp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"bg_dw_mansion_tileset_comp","path":"sprites/bg_dw_mansion_tileset_comp/bg_dw_mansion_tileset_comp.yy",},"resourceVersion":"1.0","name":"f0a7d512-ca15-40a2-b970-5626d25ac012","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"aa8d64b2-57d6-4082-b48f-200b6f688711",},
   ],
   "sequence": {
-    "spriteId": {"name":"bg_dw_mansion_tileset_comp","path":"sprites/bg_dw_mansion_tileset_comp/bg_dw_mansion_tileset_comp.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "bg_dw_mansion_tileset_comp",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"a4c5770a-6f1c-4ed0-8b45-794ab4cffc62","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f0a7d512-ca15-40a2-b970-5626d25ac012","path":"sprites/bg_dw_mansion_tileset_comp/bg_dw_mansion_tileset_comp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"d4ebf99f-324e-4fa6-a3d3-46a010165fa9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"aa8d64b2-57d6-4082-b48f-200b6f688711","path":"sprites/bg_dw_mansion_tileset_comp/bg_dw_mansion_tileset_comp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"bg_dw_mansion_tileset_comp","path":"sprites/bg_dw_mansion_tileset_comp/bg_dw_mansion_tileset_comp.yy",},
-    "resourceVersion": "1.3",
-    "name": "bg_dw_mansion_tileset_comp",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1dfb0d61-3954-467c-a51d-8e364aa9e975","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2f83f298-4d2e-41c0-a40b-ad56c515863e","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "mansion",
     "path": "folders/Sprites/BG/cyber/mansion.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "bg_dw_mansion_tileset_comp",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

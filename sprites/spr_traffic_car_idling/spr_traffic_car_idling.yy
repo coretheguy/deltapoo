@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_traffic_car_idling",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a21fc02b-35d1-45a4-be94-e817797e1d41","path":"sprites/spr_traffic_car_idling/spr_traffic_car_idling.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a21fc02b-35d1-45a4-be94-e817797e1d41","path":"sprites/spr_traffic_car_idling/spr_traffic_car_idling.yy",},"LayerId":{"name":"2ab93d60-037d-4dba-a1ed-09ac3c6a7f0b","path":"sprites/spr_traffic_car_idling/spr_traffic_car_idling.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_traffic_car_idling","path":"sprites/spr_traffic_car_idling/spr_traffic_car_idling.yy",},"resourceVersion":"1.0","name":"a21fc02b-35d1-45a4-be94-e817797e1d41","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"28cf493b-719b-49e6-969c-962a401999ab","path":"sprites/spr_traffic_car_idling/spr_traffic_car_idling.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"28cf493b-719b-49e6-969c-962a401999ab","path":"sprites/spr_traffic_car_idling/spr_traffic_car_idling.yy",},"LayerId":{"name":"2ab93d60-037d-4dba-a1ed-09ac3c6a7f0b","path":"sprites/spr_traffic_car_idling/spr_traffic_car_idling.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_traffic_car_idling","path":"sprites/spr_traffic_car_idling/spr_traffic_car_idling.yy",},"resourceVersion":"1.0","name":"28cf493b-719b-49e6-969c-962a401999ab","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a21fc02b-35d1-45a4-be94-e817797e1d41",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"28cf493b-719b-49e6-969c-962a401999ab",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_traffic_car_idling","path":"sprites/spr_traffic_car_idling/spr_traffic_car_idling.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_traffic_car_idling",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"e7d1e3ac-2a68-40cd-9dbd-4bfd57619185","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a21fc02b-35d1-45a4-be94-e817797e1d41","path":"sprites/spr_traffic_car_idling/spr_traffic_car_idling.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"6916abd3-6453-4908-8f2c-982a47403dd7","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"28cf493b-719b-49e6-969c-962a401999ab","path":"sprites/spr_traffic_car_idling/spr_traffic_car_idling.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_traffic_car_idling","path":"sprites/spr_traffic_car_idling/spr_traffic_car_idling.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_traffic_car_idling",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2ab93d60-037d-4dba-a1ed-09ac3c6a7f0b","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2ab93d60-037d-4dba-a1ed-09ac3c6a7f0b","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "cybercity",
     "path": "folders/Sprites/MECH/cybercity.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_traffic_car_idling",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

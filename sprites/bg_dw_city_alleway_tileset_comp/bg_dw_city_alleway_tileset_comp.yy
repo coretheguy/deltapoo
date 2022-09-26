@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "bg_dw_city_alleway_tileset_comp",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -8,14 +11,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 835,
-  "bbox_top": 2,
-  "bbox_bottom": 747,
+  "bbox_right": 599,
+  "bbox_top": 40,
+  "bbox_bottom": 839,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 836,
-  "height": 836,
+  "width": 600,
+  "height": 1000,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"bcdcdc17-1ebf-4c48-b587-94e599f692db","path":"sprites/bg_dw_city_alleway_tileset_comp/bg_dw_city_alleway_tileset_comp.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bcdcdc17-1ebf-4c48-b587-94e599f692db","path":"sprites/bg_dw_city_alleway_tileset_comp/bg_dw_city_alleway_tileset_comp.yy",},"LayerId":{"name":"abf6c69e-7d76-406c-ab65-31acebf95433","path":"sprites/bg_dw_city_alleway_tileset_comp/bg_dw_city_alleway_tileset_comp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"bg_dw_city_alleway_tileset_comp","path":"sprites/bg_dw_city_alleway_tileset_comp/bg_dw_city_alleway_tileset_comp.yy",},"resourceVersion":"1.0","name":"bcdcdc17-1ebf-4c48-b587-94e599f692db","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bc5dc82d-db9e-4f46-995e-77c47e6dde6a",},
   ],
   "sequence": {
-    "spriteId": {"name":"bg_dw_city_alleway_tileset_comp","path":"sprites/bg_dw_city_alleway_tileset_comp/bg_dw_city_alleway_tileset_comp.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "bg_dw_city_alleway_tileset_comp",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"fcfeabe9-861b-4097-b4ca-6dadde3fe419","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bcdcdc17-1ebf-4c48-b587-94e599f692db","path":"sprites/bg_dw_city_alleway_tileset_comp/bg_dw_city_alleway_tileset_comp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"e5b65850-fb48-4c07-b8b3-65731a226f5b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bc5dc82d-db9e-4f46-995e-77c47e6dde6a","path":"sprites/bg_dw_city_alleway_tileset_comp/bg_dw_city_alleway_tileset_comp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"bg_dw_city_alleway_tileset_comp","path":"sprites/bg_dw_city_alleway_tileset_comp/bg_dw_city_alleway_tileset_comp.yy",},
-    "resourceVersion": "1.3",
-    "name": "bg_dw_city_alleway_tileset_comp",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"abf6c69e-7d76-406c-ab65-31acebf95433","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1a2b82ee-f006-404f-a41f-bdce9e9d53ef","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "tile",
     "path": "folders/Sprites/BG/cyber/city/tile.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "bg_dw_city_alleway_tileset_comp",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

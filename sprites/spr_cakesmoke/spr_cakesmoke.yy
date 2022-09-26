@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_cakesmoke",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f0a09e7e-70c3-4ab2-85db-f7e96f1a589d","path":"sprites/spr_cakesmoke/spr_cakesmoke.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f0a09e7e-70c3-4ab2-85db-f7e96f1a589d","path":"sprites/spr_cakesmoke/spr_cakesmoke.yy",},"LayerId":{"name":"11846695-3dea-4d9f-a019-6f71e00d9cda","path":"sprites/spr_cakesmoke/spr_cakesmoke.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_cakesmoke","path":"sprites/spr_cakesmoke/spr_cakesmoke.yy",},"resourceVersion":"1.0","name":"f0a09e7e-70c3-4ab2-85db-f7e96f1a589d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f0a09e7e-70c3-4ab2-85db-f7e96f1a589d",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_cakesmoke","path":"sprites/spr_cakesmoke/spr_cakesmoke.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_cakesmoke",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"d66f947a-5609-4b4c-9f8c-648f9be0360b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f0a09e7e-70c3-4ab2-85db-f7e96f1a589d","path":"sprites/spr_cakesmoke/spr_cakesmoke.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 7,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_cakesmoke","path":"sprites/spr_cakesmoke/spr_cakesmoke.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_cakesmoke",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"11846695-3dea-4d9f-a019-6f71e00d9cda","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"11846695-3dea-4d9f-a019-6f71e00d9cda","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "EFFECT",
     "path": "folders/Sprites/EFFECT.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_cakesmoke",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

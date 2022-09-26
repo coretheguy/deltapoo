@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_ch2_cityad_dog",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,30 +27,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1bf60cfe-df86-476c-a2fb-4b3e1b1d83d5","path":"sprites/spr_ch2_cityad_dog/spr_ch2_cityad_dog.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1bf60cfe-df86-476c-a2fb-4b3e1b1d83d5","path":"sprites/spr_ch2_cityad_dog/spr_ch2_cityad_dog.yy",},"LayerId":{"name":"603bc9b9-b4df-4caa-b4cb-6d199480c3d4","path":"sprites/spr_ch2_cityad_dog/spr_ch2_cityad_dog.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_cityad_dog","path":"sprites/spr_ch2_cityad_dog/spr_ch2_cityad_dog.yy",},"resourceVersion":"1.0","name":"1bf60cfe-df86-476c-a2fb-4b3e1b1d83d5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c5cf0910-fc6f-4592-b62a-79d421b09801","path":"sprites/spr_ch2_cityad_dog/spr_ch2_cityad_dog.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c5cf0910-fc6f-4592-b62a-79d421b09801","path":"sprites/spr_ch2_cityad_dog/spr_ch2_cityad_dog.yy",},"LayerId":{"name":"603bc9b9-b4df-4caa-b4cb-6d199480c3d4","path":"sprites/spr_ch2_cityad_dog/spr_ch2_cityad_dog.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_cityad_dog","path":"sprites/spr_ch2_cityad_dog/spr_ch2_cityad_dog.yy",},"resourceVersion":"1.0","name":"c5cf0910-fc6f-4592-b62a-79d421b09801","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"dee32a45-6d47-4dc2-af87-d57a56c21343","path":"sprites/spr_ch2_cityad_dog/spr_ch2_cityad_dog.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dee32a45-6d47-4dc2-af87-d57a56c21343","path":"sprites/spr_ch2_cityad_dog/spr_ch2_cityad_dog.yy",},"LayerId":{"name":"603bc9b9-b4df-4caa-b4cb-6d199480c3d4","path":"sprites/spr_ch2_cityad_dog/spr_ch2_cityad_dog.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_cityad_dog","path":"sprites/spr_ch2_cityad_dog/spr_ch2_cityad_dog.yy",},"resourceVersion":"1.0","name":"dee32a45-6d47-4dc2-af87-d57a56c21343","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"093ea2c7-807f-4045-96ad-360f791b39cf","path":"sprites/spr_ch2_cityad_dog/spr_ch2_cityad_dog.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"093ea2c7-807f-4045-96ad-360f791b39cf","path":"sprites/spr_ch2_cityad_dog/spr_ch2_cityad_dog.yy",},"LayerId":{"name":"603bc9b9-b4df-4caa-b4cb-6d199480c3d4","path":"sprites/spr_ch2_cityad_dog/spr_ch2_cityad_dog.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_cityad_dog","path":"sprites/spr_ch2_cityad_dog/spr_ch2_cityad_dog.yy",},"resourceVersion":"1.0","name":"093ea2c7-807f-4045-96ad-360f791b39cf","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6dd82028-699e-43e7-9786-746ba54431bd","path":"sprites/spr_ch2_cityad_dog/spr_ch2_cityad_dog.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6dd82028-699e-43e7-9786-746ba54431bd","path":"sprites/spr_ch2_cityad_dog/spr_ch2_cityad_dog.yy",},"LayerId":{"name":"603bc9b9-b4df-4caa-b4cb-6d199480c3d4","path":"sprites/spr_ch2_cityad_dog/spr_ch2_cityad_dog.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_cityad_dog","path":"sprites/spr_ch2_cityad_dog/spr_ch2_cityad_dog.yy",},"resourceVersion":"1.0","name":"6dd82028-699e-43e7-9786-746ba54431bd","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ce397a63-6ecd-4682-b347-50d6fd59203b","path":"sprites/spr_ch2_cityad_dog/spr_ch2_cityad_dog.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ce397a63-6ecd-4682-b347-50d6fd59203b","path":"sprites/spr_ch2_cityad_dog/spr_ch2_cityad_dog.yy",},"LayerId":{"name":"603bc9b9-b4df-4caa-b4cb-6d199480c3d4","path":"sprites/spr_ch2_cityad_dog/spr_ch2_cityad_dog.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_cityad_dog","path":"sprites/spr_ch2_cityad_dog/spr_ch2_cityad_dog.yy",},"resourceVersion":"1.0","name":"ce397a63-6ecd-4682-b347-50d6fd59203b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3636c17f-7d69-460c-a8cf-809846ecf155","path":"sprites/spr_ch2_cityad_dog/spr_ch2_cityad_dog.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3636c17f-7d69-460c-a8cf-809846ecf155","path":"sprites/spr_ch2_cityad_dog/spr_ch2_cityad_dog.yy",},"LayerId":{"name":"603bc9b9-b4df-4caa-b4cb-6d199480c3d4","path":"sprites/spr_ch2_cityad_dog/spr_ch2_cityad_dog.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_cityad_dog","path":"sprites/spr_ch2_cityad_dog/spr_ch2_cityad_dog.yy",},"resourceVersion":"1.0","name":"3636c17f-7d69-460c-a8cf-809846ecf155","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1bf60cfe-df86-476c-a2fb-4b3e1b1d83d5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c5cf0910-fc6f-4592-b62a-79d421b09801",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"dee32a45-6d47-4dc2-af87-d57a56c21343",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"093ea2c7-807f-4045-96ad-360f791b39cf",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6dd82028-699e-43e7-9786-746ba54431bd",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ce397a63-6ecd-4682-b347-50d6fd59203b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3636c17f-7d69-460c-a8cf-809846ecf155",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_ch2_cityad_dog","path":"sprites/spr_ch2_cityad_dog/spr_ch2_cityad_dog.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_ch2_cityad_dog",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -58,7 +49,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"1d5af332-cd48-44fb-b854-45bd336f538c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1bf60cfe-df86-476c-a2fb-4b3e1b1d83d5","path":"sprites/spr_ch2_cityad_dog/spr_ch2_cityad_dog.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"6a57615f-08d4-49e4-9dcc-f3913969674d","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c5cf0910-fc6f-4592-b62a-79d421b09801","path":"sprites/spr_ch2_cityad_dog/spr_ch2_cityad_dog.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"0b441ce4-9af4-435c-8720-bfd93473f912","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dee32a45-6d47-4dc2-af87-d57a56c21343","path":"sprites/spr_ch2_cityad_dog/spr_ch2_cityad_dog.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -66,7 +57,7 @@
             {"id":"0090a6dd-5bf8-4cd7-a43e-b343d0029882","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6dd82028-699e-43e7-9786-746ba54431bd","path":"sprites/spr_ch2_cityad_dog/spr_ch2_cityad_dog.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"330fd5d0-a25a-4be9-9510-dc86d96b3b48","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ce397a63-6ecd-4682-b347-50d6fd59203b","path":"sprites/spr_ch2_cityad_dog/spr_ch2_cityad_dog.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"d6a2b7cd-0c32-4ef1-aeba-633ea7fc4de2","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3636c17f-7d69-460c-a8cf-809846ecf155","path":"sprites/spr_ch2_cityad_dog/spr_ch2_cityad_dog.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -82,22 +73,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_ch2_cityad_dog","path":"sprites/spr_ch2_cityad_dog/spr_ch2_cityad_dog.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_ch2_cityad_dog",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"603bc9b9-b4df-4caa-b4cb-6d199480c3d4","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"603bc9b9-b4df-4caa-b4cb-6d199480c3d4","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "cybercity",
     "path": "folders/Sprites/VFX/cybercity.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_ch2_cityad_dog",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_icespell_mist",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"0b2005d1-268f-4d0e-89b3-a85f7701ce22","path":"sprites/spr_icespell_mist/spr_icespell_mist.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0b2005d1-268f-4d0e-89b3-a85f7701ce22","path":"sprites/spr_icespell_mist/spr_icespell_mist.yy",},"LayerId":{"name":"5ba51e10-6ca7-4d9c-a4be-dca819f4b637","path":"sprites/spr_icespell_mist/spr_icespell_mist.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_icespell_mist","path":"sprites/spr_icespell_mist/spr_icespell_mist.yy",},"resourceVersion":"1.0","name":"0b2005d1-268f-4d0e-89b3-a85f7701ce22","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0b2005d1-268f-4d0e-89b3-a85f7701ce22",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_icespell_mist","path":"sprites/spr_icespell_mist/spr_icespell_mist.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_icespell_mist",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"01792362-181c-46d6-815c-99931ba07556","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0b2005d1-268f-4d0e-89b3-a85f7701ce22","path":"sprites/spr_icespell_mist/spr_icespell_mist.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 25,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_icespell_mist","path":"sprites/spr_icespell_mist/spr_icespell_mist.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_icespell_mist",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5ba51e10-6ca7-4d9c-a4be-dca819f4b637","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5ba51e10-6ca7-4d9c-a4be-dca819f4b637","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "spells",
     "path": "folders/Sprites/CHARA/BATTLE/noelle/spells.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_icespell_mist",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

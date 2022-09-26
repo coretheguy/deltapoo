@@ -593,10 +593,16 @@ if (battlemode == 1)
 }
 if scr_debug()
 {
-    if keyboard_check_pressed(vk_insert)
-        room_goto_next()
-    if keyboard_check_pressed(vk_delete)
-        room_goto_previous()
+    //if keyboard_check_pressed(vk_insert) {
+		
+	//       snd_play_pitch(snd_egg, 1.2)
+	//    if (!i_ex(obj_debug_roompicker))
+	//        instance_create(x, y, obj_debug_roompicker)
+	//    else
+	//        safe_delete(obj_debug_roompicker)
+	//}
+    //if keyboard_check_pressed(vk_delete)
+    //    room_goto_previous()
     if keyboard_check_pressed(vk_home)
     {
 		

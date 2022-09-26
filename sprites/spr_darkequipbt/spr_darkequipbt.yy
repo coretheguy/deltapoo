@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_darkequipbt",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,18 +27,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"b9449a49-72b3-4668-9712-3a9c1f74a62b","path":"sprites/spr_darkequipbt/spr_darkequipbt.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b9449a49-72b3-4668-9712-3a9c1f74a62b","path":"sprites/spr_darkequipbt/spr_darkequipbt.yy",},"LayerId":{"name":"e2e605f9-0273-40a5-95fc-3d92325953ba","path":"sprites/spr_darkequipbt/spr_darkequipbt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_darkequipbt","path":"sprites/spr_darkequipbt/spr_darkequipbt.yy",},"resourceVersion":"1.0","name":"b9449a49-72b3-4668-9712-3a9c1f74a62b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"86d7a1e7-43f8-4c44-aaf9-07db55a7e1fe","path":"sprites/spr_darkequipbt/spr_darkequipbt.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"86d7a1e7-43f8-4c44-aaf9-07db55a7e1fe","path":"sprites/spr_darkequipbt/spr_darkequipbt.yy",},"LayerId":{"name":"e2e605f9-0273-40a5-95fc-3d92325953ba","path":"sprites/spr_darkequipbt/spr_darkequipbt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_darkequipbt","path":"sprites/spr_darkequipbt/spr_darkequipbt.yy",},"resourceVersion":"1.0","name":"86d7a1e7-43f8-4c44-aaf9-07db55a7e1fe","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"2e6c9286-db7b-4c49-b3db-5dab628cbb1c","path":"sprites/spr_darkequipbt/spr_darkequipbt.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2e6c9286-db7b-4c49-b3db-5dab628cbb1c","path":"sprites/spr_darkequipbt/spr_darkequipbt.yy",},"LayerId":{"name":"e2e605f9-0273-40a5-95fc-3d92325953ba","path":"sprites/spr_darkequipbt/spr_darkequipbt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_darkequipbt","path":"sprites/spr_darkequipbt/spr_darkequipbt.yy",},"resourceVersion":"1.0","name":"2e6c9286-db7b-4c49-b3db-5dab628cbb1c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b9449a49-72b3-4668-9712-3a9c1f74a62b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"86d7a1e7-43f8-4c44-aaf9-07db55a7e1fe",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2e6c9286-db7b-4c49-b3db-5dab628cbb1c",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_darkequipbt","path":"sprites/spr_darkequipbt/spr_darkequipbt.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_darkequipbt",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -46,11 +45,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"4efbe7b0-8e85-43d7-90d0-e5fa3fb65fcb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b9449a49-72b3-4668-9712-3a9c1f74a62b","path":"sprites/spr_darkequipbt/spr_darkequipbt.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"63415529-eb48-4e84-92b2-7e978aeb0d79","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"86d7a1e7-43f8-4c44-aaf9-07db55a7e1fe","path":"sprites/spr_darkequipbt/spr_darkequipbt.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"c5099fd1-d115-4e3b-b56c-fd2a84949d48","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2e6c9286-db7b-4c49-b3db-5dab628cbb1c","path":"sprites/spr_darkequipbt/spr_darkequipbt.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +65,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_darkequipbt","path":"sprites/spr_darkequipbt/spr_darkequipbt.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_darkequipbt",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e2e605f9-0273-40a5-95fc-3d92325953ba","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e2e605f9-0273-40a5-95fc-3d92325953ba","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "menu",
     "path": "folders/Sprites/UI/DARK/menu.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_darkequipbt",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

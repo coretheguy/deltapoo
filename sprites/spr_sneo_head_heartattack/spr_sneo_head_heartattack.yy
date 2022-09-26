@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_sneo_head_heartattack",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c32fcdd0-dfc5-47e0-9af9-ebc8108e88f9","path":"sprites/spr_sneo_head_heartattack/spr_sneo_head_heartattack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c32fcdd0-dfc5-47e0-9af9-ebc8108e88f9","path":"sprites/spr_sneo_head_heartattack/spr_sneo_head_heartattack.yy",},"LayerId":{"name":"873e3edd-33ee-4ae5-a186-54ebff20dd80","path":"sprites/spr_sneo_head_heartattack/spr_sneo_head_heartattack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_sneo_head_heartattack","path":"sprites/spr_sneo_head_heartattack/spr_sneo_head_heartattack.yy",},"resourceVersion":"1.0","name":"c32fcdd0-dfc5-47e0-9af9-ebc8108e88f9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c32fcdd0-dfc5-47e0-9af9-ebc8108e88f9",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_sneo_head_heartattack","path":"sprites/spr_sneo_head_heartattack/spr_sneo_head_heartattack.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_sneo_head_heartattack",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"5f3ea838-adcd-4efc-b609-6a7d499fff12","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c32fcdd0-dfc5-47e0-9af9-ebc8108e88f9","path":"sprites/spr_sneo_head_heartattack/spr_sneo_head_heartattack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 24,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_sneo_head_heartattack","path":"sprites/spr_sneo_head_heartattack/spr_sneo_head_heartattack.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_sneo_head_heartattack",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"873e3edd-33ee-4ae5-a186-54ebff20dd80","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"873e3edd-33ee-4ae5-a186-54ebff20dd80","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "sneo",
     "path": "folders/Sprites/CHARA/ENEMY/BOSS/sneo.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_sneo_head_heartattack",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

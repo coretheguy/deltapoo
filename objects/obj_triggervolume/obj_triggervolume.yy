@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_triggervolume",
   "spriteId": {
-    "name": "spr_ch2_keyboard_tile",
-    "path": "sprites/spr_ch2_keyboard_tile/spr_ch2_keyboard_tile.yy",
+    "name": "spr_whitepixel",
+    "path": "sprites/spr_whitepixel/spr_whitepixel.yy",
   },
   "solid": false,
   "visible": false,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -27,8 +31,4 @@
     "name": "mansion",
     "path": "folders/Objects/MECH/mansion.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_triggervolume",
-  "tags": [],
-  "resourceType": "GMObject",
 }

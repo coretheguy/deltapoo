@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_sneo_wireheart_biter",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,24 +27,16 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"3fb4ed7c-92ba-4da2-b13a-dbd68c008291","path":"sprites/spr_sneo_wireheart_biter/spr_sneo_wireheart_biter.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3fb4ed7c-92ba-4da2-b13a-dbd68c008291","path":"sprites/spr_sneo_wireheart_biter/spr_sneo_wireheart_biter.yy",},"LayerId":{"name":"1385ed79-4ec8-499a-a4c0-f07a60b2e3b4","path":"sprites/spr_sneo_wireheart_biter/spr_sneo_wireheart_biter.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_sneo_wireheart_biter","path":"sprites/spr_sneo_wireheart_biter/spr_sneo_wireheart_biter.yy",},"resourceVersion":"1.0","name":"3fb4ed7c-92ba-4da2-b13a-dbd68c008291","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ed1ddf3a-7214-41b8-813e-90f55e750634","path":"sprites/spr_sneo_wireheart_biter/spr_sneo_wireheart_biter.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ed1ddf3a-7214-41b8-813e-90f55e750634","path":"sprites/spr_sneo_wireheart_biter/spr_sneo_wireheart_biter.yy",},"LayerId":{"name":"1385ed79-4ec8-499a-a4c0-f07a60b2e3b4","path":"sprites/spr_sneo_wireheart_biter/spr_sneo_wireheart_biter.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_sneo_wireheart_biter","path":"sprites/spr_sneo_wireheart_biter/spr_sneo_wireheart_biter.yy",},"resourceVersion":"1.0","name":"ed1ddf3a-7214-41b8-813e-90f55e750634","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7561e842-2cc6-4686-bb28-0dac1abdd5d7","path":"sprites/spr_sneo_wireheart_biter/spr_sneo_wireheart_biter.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7561e842-2cc6-4686-bb28-0dac1abdd5d7","path":"sprites/spr_sneo_wireheart_biter/spr_sneo_wireheart_biter.yy",},"LayerId":{"name":"1385ed79-4ec8-499a-a4c0-f07a60b2e3b4","path":"sprites/spr_sneo_wireheart_biter/spr_sneo_wireheart_biter.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_sneo_wireheart_biter","path":"sprites/spr_sneo_wireheart_biter/spr_sneo_wireheart_biter.yy",},"resourceVersion":"1.0","name":"7561e842-2cc6-4686-bb28-0dac1abdd5d7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"38e784f2-7989-4619-8faa-2fbfa665fac1","path":"sprites/spr_sneo_wireheart_biter/spr_sneo_wireheart_biter.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"38e784f2-7989-4619-8faa-2fbfa665fac1","path":"sprites/spr_sneo_wireheart_biter/spr_sneo_wireheart_biter.yy",},"LayerId":{"name":"1385ed79-4ec8-499a-a4c0-f07a60b2e3b4","path":"sprites/spr_sneo_wireheart_biter/spr_sneo_wireheart_biter.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_sneo_wireheart_biter","path":"sprites/spr_sneo_wireheart_biter/spr_sneo_wireheart_biter.yy",},"resourceVersion":"1.0","name":"38e784f2-7989-4619-8faa-2fbfa665fac1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"64772caa-a414-4b3c-b098-30dbf25fffed","path":"sprites/spr_sneo_wireheart_biter/spr_sneo_wireheart_biter.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"64772caa-a414-4b3c-b098-30dbf25fffed","path":"sprites/spr_sneo_wireheart_biter/spr_sneo_wireheart_biter.yy",},"LayerId":{"name":"1385ed79-4ec8-499a-a4c0-f07a60b2e3b4","path":"sprites/spr_sneo_wireheart_biter/spr_sneo_wireheart_biter.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_sneo_wireheart_biter","path":"sprites/spr_sneo_wireheart_biter/spr_sneo_wireheart_biter.yy",},"resourceVersion":"1.0","name":"64772caa-a414-4b3c-b098-30dbf25fffed","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3fb4ed7c-92ba-4da2-b13a-dbd68c008291",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ed1ddf3a-7214-41b8-813e-90f55e750634",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7561e842-2cc6-4686-bb28-0dac1abdd5d7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"38e784f2-7989-4619-8faa-2fbfa665fac1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"64772caa-a414-4b3c-b098-30dbf25fffed",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_sneo_wireheart_biter","path":"sprites/spr_sneo_wireheart_biter/spr_sneo_wireheart_biter.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_sneo_wireheart_biter",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -52,13 +47,13 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"fc25fbf9-2a12-47ef-a5ab-759ae3375d3d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3fb4ed7c-92ba-4da2-b13a-dbd68c008291","path":"sprites/spr_sneo_wireheart_biter/spr_sneo_wireheart_biter.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"295a41dd-7a9f-4d39-beb0-31947487848c","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ed1ddf3a-7214-41b8-813e-90f55e750634","path":"sprites/spr_sneo_wireheart_biter/spr_sneo_wireheart_biter.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f9f9ace4-5125-45de-b9ba-074722b8e5bc","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7561e842-2cc6-4686-bb28-0dac1abdd5d7","path":"sprites/spr_sneo_wireheart_biter/spr_sneo_wireheart_biter.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"59965840-0f21-4d8e-ad9a-6ccbfd25902a","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"38e784f2-7989-4619-8faa-2fbfa665fac1","path":"sprites/spr_sneo_wireheart_biter/spr_sneo_wireheart_biter.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"8eea1d7f-2cdf-45be-932e-c8e09339f275","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"64772caa-a414-4b3c-b098-30dbf25fffed","path":"sprites/spr_sneo_wireheart_biter/spr_sneo_wireheart_biter.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -74,22 +69,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_sneo_wireheart_biter","path":"sprites/spr_sneo_wireheart_biter/spr_sneo_wireheart_biter.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_sneo_wireheart_biter",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1385ed79-4ec8-499a-a4c0-f07a60b2e3b4","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1385ed79-4ec8-499a-a4c0-f07a60b2e3b4","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "bullet",
     "path": "folders/Sprites/CHARA/ENEMY/BOSS/sneo/bullet.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_sneo_wireheart_biter",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

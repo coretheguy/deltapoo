@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_kris_fall_smear",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,18 +27,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"288f4cef-426b-47f5-82bd-04e777178f3e","path":"sprites/spr_kris_fall_smear/spr_kris_fall_smear.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"288f4cef-426b-47f5-82bd-04e777178f3e","path":"sprites/spr_kris_fall_smear/spr_kris_fall_smear.yy",},"LayerId":{"name":"584aaec9-9ae4-42b2-8a8d-2b2c7581851b","path":"sprites/spr_kris_fall_smear/spr_kris_fall_smear.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_kris_fall_smear","path":"sprites/spr_kris_fall_smear/spr_kris_fall_smear.yy",},"resourceVersion":"1.0","name":"288f4cef-426b-47f5-82bd-04e777178f3e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1c940232-25b6-4967-862e-3b1b9ef567df","path":"sprites/spr_kris_fall_smear/spr_kris_fall_smear.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1c940232-25b6-4967-862e-3b1b9ef567df","path":"sprites/spr_kris_fall_smear/spr_kris_fall_smear.yy",},"LayerId":{"name":"584aaec9-9ae4-42b2-8a8d-2b2c7581851b","path":"sprites/spr_kris_fall_smear/spr_kris_fall_smear.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_kris_fall_smear","path":"sprites/spr_kris_fall_smear/spr_kris_fall_smear.yy",},"resourceVersion":"1.0","name":"1c940232-25b6-4967-862e-3b1b9ef567df","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"88337abe-bbca-437e-b2e0-74a0aea0f6a4","path":"sprites/spr_kris_fall_smear/spr_kris_fall_smear.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"88337abe-bbca-437e-b2e0-74a0aea0f6a4","path":"sprites/spr_kris_fall_smear/spr_kris_fall_smear.yy",},"LayerId":{"name":"584aaec9-9ae4-42b2-8a8d-2b2c7581851b","path":"sprites/spr_kris_fall_smear/spr_kris_fall_smear.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_kris_fall_smear","path":"sprites/spr_kris_fall_smear/spr_kris_fall_smear.yy",},"resourceVersion":"1.0","name":"88337abe-bbca-437e-b2e0-74a0aea0f6a4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"288f4cef-426b-47f5-82bd-04e777178f3e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1c940232-25b6-4967-862e-3b1b9ef567df",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"88337abe-bbca-437e-b2e0-74a0aea0f6a4",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_kris_fall_smear","path":"sprites/spr_kris_fall_smear/spr_kris_fall_smear.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_kris_fall_smear",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -46,11 +45,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"9c981434-c2f3-4c8a-a245-8e00a2831788","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"288f4cef-426b-47f5-82bd-04e777178f3e","path":"sprites/spr_kris_fall_smear/spr_kris_fall_smear.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"16b60beb-1c3c-41b3-8788-9b38599a2d03","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1c940232-25b6-4967-862e-3b1b9ef567df","path":"sprites/spr_kris_fall_smear/spr_kris_fall_smear.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"32052baf-9d65-4493-8fa7-d867a8e0a539","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"88337abe-bbca-437e-b2e0-74a0aea0f6a4","path":"sprites/spr_kris_fall_smear/spr_kris_fall_smear.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +65,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_kris_fall_smear","path":"sprites/spr_kris_fall_smear/spr_kris_fall_smear.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_kris_fall_smear",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"584aaec9-9ae4-42b2-8a8d-2b2c7581851b","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"584aaec9-9ae4-42b2-8a8d-2b2c7581851b","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "dw_transition",
     "path": "folders/Sprites/CHARA/dw_transition.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_kris_fall_smear",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

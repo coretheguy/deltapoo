@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_spamton_dollar",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"9770dfb7-60cc-4741-bd64-a8b284609cf9","path":"sprites/spr_spamton_dollar/spr_spamton_dollar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9770dfb7-60cc-4741-bd64-a8b284609cf9","path":"sprites/spr_spamton_dollar/spr_spamton_dollar.yy",},"LayerId":{"name":"2d4fcaf4-1b0f-419a-afaa-dec5fc1c737b","path":"sprites/spr_spamton_dollar/spr_spamton_dollar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_spamton_dollar","path":"sprites/spr_spamton_dollar/spr_spamton_dollar.yy",},"resourceVersion":"1.0","name":"9770dfb7-60cc-4741-bd64-a8b284609cf9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9770dfb7-60cc-4741-bd64-a8b284609cf9",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_spamton_dollar","path":"sprites/spr_spamton_dollar/spr_spamton_dollar.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_spamton_dollar",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"ba897100-b6ac-46f1-ac33-b422e583c1ca","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9770dfb7-60cc-4741-bd64-a8b284609cf9","path":"sprites/spr_spamton_dollar/spr_spamton_dollar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 12,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_spamton_dollar","path":"sprites/spr_spamton_dollar/spr_spamton_dollar.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_spamton_dollar",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2d4fcaf4-1b0f-419a-afaa-dec5fc1c737b","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2d4fcaf4-1b0f-419a-afaa-dec5fc1c737b","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "spamton",
     "path": "folders/Sprites/CHARA/ENEMY/BOSS/spamton.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_spamton_dollar",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_ch2_keyboard_tile_text",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,123 +27,49 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"dde53260-1eab-4e40-ba72-e7f29adb961a","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dde53260-1eab-4e40-ba72-e7f29adb961a","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":{"name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"dde53260-1eab-4e40-ba72-e7f29adb961a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7926402b-64bd-4894-b02e-7f5ff4b5ff5e","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7926402b-64bd-4894-b02e-7f5ff4b5ff5e","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":{"name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"7926402b-64bd-4894-b02e-7f5ff4b5ff5e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a0484f05-be64-4331-a602-dabbde3bfaa6","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a0484f05-be64-4331-a602-dabbde3bfaa6","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":{"name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"a0484f05-be64-4331-a602-dabbde3bfaa6","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"db9594ab-6ba7-4869-8b96-d894c6a372a1","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"db9594ab-6ba7-4869-8b96-d894c6a372a1","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":{"name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"db9594ab-6ba7-4869-8b96-d894c6a372a1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"2dc2a714-c7e2-4962-81c3-62117f0875b1","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2dc2a714-c7e2-4962-81c3-62117f0875b1","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":{"name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"2dc2a714-c7e2-4962-81c3-62117f0875b1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"90f98225-1ff4-4612-aab9-85e8b916944f","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"90f98225-1ff4-4612-aab9-85e8b916944f","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":{"name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"90f98225-1ff4-4612-aab9-85e8b916944f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7825454f-cc76-4268-94d4-3cbefeaeee25","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7825454f-cc76-4268-94d4-3cbefeaeee25","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":{"name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"7825454f-cc76-4268-94d4-3cbefeaeee25","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"43b8060c-c695-4cb6-825e-acad9ce67934","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"43b8060c-c695-4cb6-825e-acad9ce67934","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":{"name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"43b8060c-c695-4cb6-825e-acad9ce67934","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6209341c-99e6-418f-897c-88f72ba61f98","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6209341c-99e6-418f-897c-88f72ba61f98","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":{"name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"6209341c-99e6-418f-897c-88f72ba61f98","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0cddaa30-6ee9-4fad-8bd6-227c232ebbc3","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0cddaa30-6ee9-4fad-8bd6-227c232ebbc3","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":{"name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"0cddaa30-6ee9-4fad-8bd6-227c232ebbc3","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a6bffe2b-dbfc-4f26-bcae-e7000e4839b4","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a6bffe2b-dbfc-4f26-bcae-e7000e4839b4","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":{"name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"a6bffe2b-dbfc-4f26-bcae-e7000e4839b4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b5747fe4-5904-4858-9469-366b8fbac398","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b5747fe4-5904-4858-9469-366b8fbac398","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":{"name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"b5747fe4-5904-4858-9469-366b8fbac398","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4c204788-c8e1-42c1-85dd-6140b61980ce","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4c204788-c8e1-42c1-85dd-6140b61980ce","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":{"name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"4c204788-c8e1-42c1-85dd-6140b61980ce","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c218b8ec-dab9-4c81-af60-f907904f178a","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c218b8ec-dab9-4c81-af60-f907904f178a","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":{"name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"c218b8ec-dab9-4c81-af60-f907904f178a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"513f7ca0-dce9-42b8-bbee-83889fe77234","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"513f7ca0-dce9-42b8-bbee-83889fe77234","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":{"name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"513f7ca0-dce9-42b8-bbee-83889fe77234","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"877af8de-20a1-458d-aa98-bbec35ab60d8","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"877af8de-20a1-458d-aa98-bbec35ab60d8","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":{"name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"877af8de-20a1-458d-aa98-bbec35ab60d8","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a94ba028-0c30-44cf-8996-eeeeea1736a6","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a94ba028-0c30-44cf-8996-eeeeea1736a6","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":{"name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"a94ba028-0c30-44cf-8996-eeeeea1736a6","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0e3f92e5-ce5c-406f-b8ad-e831d29a9840","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0e3f92e5-ce5c-406f-b8ad-e831d29a9840","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":{"name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"0e3f92e5-ce5c-406f-b8ad-e831d29a9840","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0f321280-dc66-4fcf-b686-50dd0cfa7019","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0f321280-dc66-4fcf-b686-50dd0cfa7019","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":{"name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"0f321280-dc66-4fcf-b686-50dd0cfa7019","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9d09f1da-81ff-422b-9807-30bd161a6822","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9d09f1da-81ff-422b-9807-30bd161a6822","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":{"name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"9d09f1da-81ff-422b-9807-30bd161a6822","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"75178f78-c8d8-4a2c-9739-73332d3d98b8","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"75178f78-c8d8-4a2c-9739-73332d3d98b8","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":{"name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"75178f78-c8d8-4a2c-9739-73332d3d98b8","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1530f968-02d0-4ff7-b97b-d04a013ab60c","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1530f968-02d0-4ff7-b97b-d04a013ab60c","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":{"name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"1530f968-02d0-4ff7-b97b-d04a013ab60c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"fa1eeeba-5fc2-4ce4-9688-2c325542b55f","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fa1eeeba-5fc2-4ce4-9688-2c325542b55f","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":{"name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"fa1eeeba-5fc2-4ce4-9688-2c325542b55f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a497e753-5106-4d2c-b8a8-2e345883c50e","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a497e753-5106-4d2c-b8a8-2e345883c50e","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":{"name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"a497e753-5106-4d2c-b8a8-2e345883c50e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e70700e8-2ce6-4591-a8a7-8646dccd19d4","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e70700e8-2ce6-4591-a8a7-8646dccd19d4","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":{"name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"e70700e8-2ce6-4591-a8a7-8646dccd19d4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"8bdebfc2-45f0-41dc-8288-9e437a683715","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8bdebfc2-45f0-41dc-8288-9e437a683715","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":{"name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"8bdebfc2-45f0-41dc-8288-9e437a683715","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"2b29ee99-b49a-43ee-8711-2a336ecaa8ac","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2b29ee99-b49a-43ee-8711-2a336ecaa8ac","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":{"name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"2b29ee99-b49a-43ee-8711-2a336ecaa8ac","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"fddc887e-0782-4691-a123-44ad8bdaa547","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fddc887e-0782-4691-a123-44ad8bdaa547","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":{"name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"fddc887e-0782-4691-a123-44ad8bdaa547","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c206434c-1ff2-456a-b066-923b6e25a621","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c206434c-1ff2-456a-b066-923b6e25a621","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":{"name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"c206434c-1ff2-456a-b066-923b6e25a621","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"dcbd5c9c-514b-4c82-850b-6800d9e17881","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dcbd5c9c-514b-4c82-850b-6800d9e17881","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":{"name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"dcbd5c9c-514b-4c82-850b-6800d9e17881","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6348a72c-2222-4f91-838d-fe25a0bc2e3f","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6348a72c-2222-4f91-838d-fe25a0bc2e3f","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":{"name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"6348a72c-2222-4f91-838d-fe25a0bc2e3f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"29d7bf7d-fc45-4eea-9a8c-8d33faa8f326","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"29d7bf7d-fc45-4eea-9a8c-8d33faa8f326","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":{"name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"29d7bf7d-fc45-4eea-9a8c-8d33faa8f326","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ae3d0f10-55f3-435f-9656-5c2a352dad43","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ae3d0f10-55f3-435f-9656-5c2a352dad43","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":{"name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"ae3d0f10-55f3-435f-9656-5c2a352dad43","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7e7b2c73-1357-4138-b706-b2ec779f516e","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7e7b2c73-1357-4138-b706-b2ec779f516e","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":{"name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"7e7b2c73-1357-4138-b706-b2ec779f516e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"86e1de9d-5033-4c27-86fb-3d778e7b8d1c","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"86e1de9d-5033-4c27-86fb-3d778e7b8d1c","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":{"name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"86e1de9d-5033-4c27-86fb-3d778e7b8d1c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0422036c-c9ab-4ec4-8416-8c2b4d3d9f33","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0422036c-c9ab-4ec4-8416-8c2b4d3d9f33","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":{"name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"0422036c-c9ab-4ec4-8416-8c2b4d3d9f33","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f1905e94-d774-413e-9819-db144a535648","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f1905e94-d774-413e-9819-db144a535648","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":{"name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"f1905e94-d774-413e-9819-db144a535648","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f6442bfc-809e-4db4-b9b5-079d00c40a54","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f6442bfc-809e-4db4-b9b5-079d00c40a54","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"LayerId":{"name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","name":"f6442bfc-809e-4db4-b9b5-079d00c40a54","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"dde53260-1eab-4e40-ba72-e7f29adb961a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7926402b-64bd-4894-b02e-7f5ff4b5ff5e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a0484f05-be64-4331-a602-dabbde3bfaa6",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"db9594ab-6ba7-4869-8b96-d894c6a372a1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2dc2a714-c7e2-4962-81c3-62117f0875b1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"90f98225-1ff4-4612-aab9-85e8b916944f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7825454f-cc76-4268-94d4-3cbefeaeee25",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"43b8060c-c695-4cb6-825e-acad9ce67934",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6209341c-99e6-418f-897c-88f72ba61f98",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0cddaa30-6ee9-4fad-8bd6-227c232ebbc3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a6bffe2b-dbfc-4f26-bcae-e7000e4839b4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b5747fe4-5904-4858-9469-366b8fbac398",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4c204788-c8e1-42c1-85dd-6140b61980ce",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c218b8ec-dab9-4c81-af60-f907904f178a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"513f7ca0-dce9-42b8-bbee-83889fe77234",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"877af8de-20a1-458d-aa98-bbec35ab60d8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a94ba028-0c30-44cf-8996-eeeeea1736a6",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0e3f92e5-ce5c-406f-b8ad-e831d29a9840",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0f321280-dc66-4fcf-b686-50dd0cfa7019",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9d09f1da-81ff-422b-9807-30bd161a6822",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"75178f78-c8d8-4a2c-9739-73332d3d98b8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1530f968-02d0-4ff7-b97b-d04a013ab60c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fa1eeeba-5fc2-4ce4-9688-2c325542b55f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a497e753-5106-4d2c-b8a8-2e345883c50e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e70700e8-2ce6-4591-a8a7-8646dccd19d4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8bdebfc2-45f0-41dc-8288-9e437a683715",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2b29ee99-b49a-43ee-8711-2a336ecaa8ac",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fddc887e-0782-4691-a123-44ad8bdaa547",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c206434c-1ff2-456a-b066-923b6e25a621",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"dcbd5c9c-514b-4c82-850b-6800d9e17881",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6348a72c-2222-4f91-838d-fe25a0bc2e3f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"29d7bf7d-fc45-4eea-9a8c-8d33faa8f326",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ae3d0f10-55f3-435f-9656-5c2a352dad43",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7e7b2c73-1357-4138-b706-b2ec779f516e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"86e1de9d-5033-4c27-86fb-3d778e7b8d1c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0422036c-c9ab-4ec4-8416-8c2b4d3d9f33",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f1905e94-d774-413e-9819-db144a535648",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f6442bfc-809e-4db4-b9b5-079d00c40a54",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_ch2_keyboard_tile_text",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -151,7 +80,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"ea93fcd6-a87f-431f-be8f-c3f12d30d44c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dde53260-1eab-4e40-ba72-e7f29adb961a","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f8d76062-e263-4724-86a4-8baec64cd55f","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7926402b-64bd-4894-b02e-7f5ff4b5ff5e","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"be80dbef-c429-4ad3-8988-3245ea016228","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a0484f05-be64-4331-a602-dabbde3bfaa6","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -190,7 +119,7 @@
             {"id":"887ca7ce-a0cb-40b3-abb3-97a29a650c2a","Key":35.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0422036c-c9ab-4ec4-8416-8c2b4d3d9f33","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"3cf1956a-a892-4d6a-9173-c0d7df39846b","Key":36.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f1905e94-d774-413e-9819-db144a535648","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"bc450738-646f-4984-ba50-b669ae42da15","Key":37.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f6442bfc-809e-4db4-b9b5-079d00c40a54","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -206,22 +135,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_ch2_keyboard_tile_text","path":"sprites/spr_ch2_keyboard_tile_text/spr_ch2_keyboard_tile_text.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_ch2_keyboard_tile_text",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"081d67ba-18e7-4925-aefa-bc62c4f25f9d","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "keyboard",
     "path": "folders/Sprites/TILE/keyboard.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_ch2_keyboard_tile_text",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

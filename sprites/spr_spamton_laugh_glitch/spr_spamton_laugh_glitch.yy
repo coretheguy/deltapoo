@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_spamton_laugh_glitch",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,72 +27,32 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"2a9937e5-c06f-4a79-80c3-ed7310e8c904","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2a9937e5-c06f-4a79-80c3-ed7310e8c904","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":{"name":"0cb05cd2-9bc0-475f-9c3f-409976d3987b","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_spamton_laugh_glitch","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"2a9937e5-c06f-4a79-80c3-ed7310e8c904","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"072aab2a-ad3d-41f9-bd3c-c856f7075c22","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"072aab2a-ad3d-41f9-bd3c-c856f7075c22","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":{"name":"0cb05cd2-9bc0-475f-9c3f-409976d3987b","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_spamton_laugh_glitch","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"072aab2a-ad3d-41f9-bd3c-c856f7075c22","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"400b697f-5c09-48a7-b675-9ad03293ee97","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"400b697f-5c09-48a7-b675-9ad03293ee97","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":{"name":"0cb05cd2-9bc0-475f-9c3f-409976d3987b","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_spamton_laugh_glitch","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"400b697f-5c09-48a7-b675-9ad03293ee97","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"eac90648-b1a1-42bc-957b-886e93aed27d","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"eac90648-b1a1-42bc-957b-886e93aed27d","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":{"name":"0cb05cd2-9bc0-475f-9c3f-409976d3987b","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_spamton_laugh_glitch","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"eac90648-b1a1-42bc-957b-886e93aed27d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5cb54b64-7632-4fa1-9f79-ca285bf517cc","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5cb54b64-7632-4fa1-9f79-ca285bf517cc","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":{"name":"0cb05cd2-9bc0-475f-9c3f-409976d3987b","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_spamton_laugh_glitch","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"5cb54b64-7632-4fa1-9f79-ca285bf517cc","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6d071f53-90a5-43c1-a258-700c4563f260","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6d071f53-90a5-43c1-a258-700c4563f260","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":{"name":"0cb05cd2-9bc0-475f-9c3f-409976d3987b","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_spamton_laugh_glitch","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"6d071f53-90a5-43c1-a258-700c4563f260","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6cf5e8d3-7436-4c24-9cfa-b9f288c21af7","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6cf5e8d3-7436-4c24-9cfa-b9f288c21af7","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":{"name":"0cb05cd2-9bc0-475f-9c3f-409976d3987b","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_spamton_laugh_glitch","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"6cf5e8d3-7436-4c24-9cfa-b9f288c21af7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f87af645-d02d-4415-a7a7-044897c72996","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f87af645-d02d-4415-a7a7-044897c72996","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":{"name":"0cb05cd2-9bc0-475f-9c3f-409976d3987b","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_spamton_laugh_glitch","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"f87af645-d02d-4415-a7a7-044897c72996","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"068cbc3f-aac3-4502-a23c-8745e3676ab8","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"068cbc3f-aac3-4502-a23c-8745e3676ab8","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":{"name":"0cb05cd2-9bc0-475f-9c3f-409976d3987b","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_spamton_laugh_glitch","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"068cbc3f-aac3-4502-a23c-8745e3676ab8","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e28c2caa-5231-4b08-812e-0713c1c827c0","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e28c2caa-5231-4b08-812e-0713c1c827c0","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":{"name":"0cb05cd2-9bc0-475f-9c3f-409976d3987b","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_spamton_laugh_glitch","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"e28c2caa-5231-4b08-812e-0713c1c827c0","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"78a37ccb-baf9-4ea6-a362-8bd512c35f4c","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"78a37ccb-baf9-4ea6-a362-8bd512c35f4c","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":{"name":"0cb05cd2-9bc0-475f-9c3f-409976d3987b","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_spamton_laugh_glitch","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"78a37ccb-baf9-4ea6-a362-8bd512c35f4c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"bfe883a9-25eb-4f48-9ae0-aea1e56b56bf","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bfe883a9-25eb-4f48-9ae0-aea1e56b56bf","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":{"name":"0cb05cd2-9bc0-475f-9c3f-409976d3987b","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_spamton_laugh_glitch","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"bfe883a9-25eb-4f48-9ae0-aea1e56b56bf","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0375f2ca-5149-4a4b-8878-8790fee88a58","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0375f2ca-5149-4a4b-8878-8790fee88a58","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":{"name":"0cb05cd2-9bc0-475f-9c3f-409976d3987b","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_spamton_laugh_glitch","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"0375f2ca-5149-4a4b-8878-8790fee88a58","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e42ea1ed-cc90-494f-9544-4e03fad6244a","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e42ea1ed-cc90-494f-9544-4e03fad6244a","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":{"name":"0cb05cd2-9bc0-475f-9c3f-409976d3987b","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_spamton_laugh_glitch","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"e42ea1ed-cc90-494f-9544-4e03fad6244a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1e39704f-7e5c-463b-ac88-501500f77a79","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1e39704f-7e5c-463b-ac88-501500f77a79","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":{"name":"0cb05cd2-9bc0-475f-9c3f-409976d3987b","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_spamton_laugh_glitch","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"1e39704f-7e5c-463b-ac88-501500f77a79","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"64c7eb94-dfb5-4db3-bf6c-d9a8e3d84be4","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"64c7eb94-dfb5-4db3-bf6c-d9a8e3d84be4","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":{"name":"0cb05cd2-9bc0-475f-9c3f-409976d3987b","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_spamton_laugh_glitch","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"64c7eb94-dfb5-4db3-bf6c-d9a8e3d84be4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f459e276-89a0-4ef7-a818-07e213fbf701","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f459e276-89a0-4ef7-a818-07e213fbf701","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":{"name":"0cb05cd2-9bc0-475f-9c3f-409976d3987b","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_spamton_laugh_glitch","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"f459e276-89a0-4ef7-a818-07e213fbf701","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"fe9c95f0-ad0d-4e99-9df0-f95cbee4f2c7","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fe9c95f0-ad0d-4e99-9df0-f95cbee4f2c7","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":{"name":"0cb05cd2-9bc0-475f-9c3f-409976d3987b","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_spamton_laugh_glitch","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"fe9c95f0-ad0d-4e99-9df0-f95cbee4f2c7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3aab4267-f058-4e24-b3b0-d29832f625ab","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3aab4267-f058-4e24-b3b0-d29832f625ab","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":{"name":"0cb05cd2-9bc0-475f-9c3f-409976d3987b","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_spamton_laugh_glitch","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"3aab4267-f058-4e24-b3b0-d29832f625ab","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b2b26ec8-cd4d-4e9d-a583-a312ac36a3a1","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b2b26ec8-cd4d-4e9d-a583-a312ac36a3a1","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":{"name":"0cb05cd2-9bc0-475f-9c3f-409976d3987b","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_spamton_laugh_glitch","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"b2b26ec8-cd4d-4e9d-a583-a312ac36a3a1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9bb93221-053e-4ac8-97dc-cffb008c444c","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9bb93221-053e-4ac8-97dc-cffb008c444c","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"LayerId":{"name":"0cb05cd2-9bc0-475f-9c3f-409976d3987b","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_spamton_laugh_glitch","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","name":"9bb93221-053e-4ac8-97dc-cffb008c444c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2a9937e5-c06f-4a79-80c3-ed7310e8c904",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"072aab2a-ad3d-41f9-bd3c-c856f7075c22",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"400b697f-5c09-48a7-b675-9ad03293ee97",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"eac90648-b1a1-42bc-957b-886e93aed27d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5cb54b64-7632-4fa1-9f79-ca285bf517cc",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6d071f53-90a5-43c1-a258-700c4563f260",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6cf5e8d3-7436-4c24-9cfa-b9f288c21af7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f87af645-d02d-4415-a7a7-044897c72996",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"068cbc3f-aac3-4502-a23c-8745e3676ab8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e28c2caa-5231-4b08-812e-0713c1c827c0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"78a37ccb-baf9-4ea6-a362-8bd512c35f4c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bfe883a9-25eb-4f48-9ae0-aea1e56b56bf",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0375f2ca-5149-4a4b-8878-8790fee88a58",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e42ea1ed-cc90-494f-9544-4e03fad6244a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1e39704f-7e5c-463b-ac88-501500f77a79",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"64c7eb94-dfb5-4db3-bf6c-d9a8e3d84be4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f459e276-89a0-4ef7-a818-07e213fbf701",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fe9c95f0-ad0d-4e99-9df0-f95cbee4f2c7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3aab4267-f058-4e24-b3b0-d29832f625ab",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b2b26ec8-cd4d-4e9d-a583-a312ac36a3a1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9bb93221-053e-4ac8-97dc-cffb008c444c",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_spamton_laugh_glitch","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_spamton_laugh_glitch",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -100,7 +63,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"62e05dcf-160e-42bb-94bf-e58d63ac41e9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2a9937e5-c06f-4a79-80c3-ed7310e8c904","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"3fe8f1e6-23cb-49ff-a620-48ef8455c200","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"072aab2a-ad3d-41f9-bd3c-c856f7075c22","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"cbac4264-992d-41dc-bf2a-fec9e4cd8bd5","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"400b697f-5c09-48a7-b675-9ad03293ee97","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -122,7 +85,7 @@
             {"id":"a85161cb-011b-4e38-a2aa-7a9d29bc5b93","Key":18.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3aab4267-f058-4e24-b3b0-d29832f625ab","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"e02bab7e-9a02-4075-9dd3-e596a281a785","Key":19.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b2b26ec8-cd4d-4e9d-a583-a312ac36a3a1","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"5a29dcec-c6c3-46d8-808a-c4cc8ff9f745","Key":20.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9bb93221-053e-4ac8-97dc-cffb008c444c","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -138,22 +101,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_spamton_laugh_glitch","path":"sprites/spr_spamton_laugh_glitch/spr_spamton_laugh_glitch.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_spamton_laugh_glitch",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0cb05cd2-9bc0-475f-9c3f-409976d3987b","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0cb05cd2-9bc0-475f-9c3f-409976d3987b","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "spamton",
     "path": "folders/Sprites/CHARA/ENEMY/BOSS/spamton.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_spamton_laugh_glitch",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

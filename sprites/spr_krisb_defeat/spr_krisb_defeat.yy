@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_krisb_defeat",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"b83ba820-f81c-4980-aa65-bafe1a2cbb3d","path":"sprites/spr_krisb_defeat/spr_krisb_defeat.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b83ba820-f81c-4980-aa65-bafe1a2cbb3d","path":"sprites/spr_krisb_defeat/spr_krisb_defeat.yy",},"LayerId":{"name":"5a36b175-5d2a-4bad-9bfa-ec5117067185","path":"sprites/spr_krisb_defeat/spr_krisb_defeat.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_krisb_defeat","path":"sprites/spr_krisb_defeat/spr_krisb_defeat.yy",},"resourceVersion":"1.0","name":"b83ba820-f81c-4980-aa65-bafe1a2cbb3d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b83ba820-f81c-4980-aa65-bafe1a2cbb3d",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_krisb_defeat","path":"sprites/spr_krisb_defeat/spr_krisb_defeat.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_krisb_defeat",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"e67c0c94-3b0f-402a-8d77-3c3180d2cbf9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b83ba820-f81c-4980-aa65-bafe1a2cbb3d","path":"sprites/spr_krisb_defeat/spr_krisb_defeat.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 4,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_krisb_defeat","path":"sprites/spr_krisb_defeat/spr_krisb_defeat.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_krisb_defeat",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5a36b175-5d2a-4bad-9bfa-ec5117067185","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5a36b175-5d2a-4bad-9bfa-ec5117067185","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "kris",
     "path": "folders/Sprites/CHARA/BATTLE/kris.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_krisb_defeat",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

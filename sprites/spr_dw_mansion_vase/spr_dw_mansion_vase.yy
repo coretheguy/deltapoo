@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_dw_mansion_vase",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1517da7d-1d46-4612-89d1-7d7b63c4583a","path":"sprites/spr_dw_mansion_vase/spr_dw_mansion_vase.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1517da7d-1d46-4612-89d1-7d7b63c4583a","path":"sprites/spr_dw_mansion_vase/spr_dw_mansion_vase.yy",},"LayerId":{"name":"163f46f5-b680-4c11-9bdd-4c791e3b35f4","path":"sprites/spr_dw_mansion_vase/spr_dw_mansion_vase.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_dw_mansion_vase","path":"sprites/spr_dw_mansion_vase/spr_dw_mansion_vase.yy",},"resourceVersion":"1.0","name":"1517da7d-1d46-4612-89d1-7d7b63c4583a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e3ffd2f2-e39e-4a03-976d-c0a6c766ca1f","path":"sprites/spr_dw_mansion_vase/spr_dw_mansion_vase.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e3ffd2f2-e39e-4a03-976d-c0a6c766ca1f","path":"sprites/spr_dw_mansion_vase/spr_dw_mansion_vase.yy",},"LayerId":{"name":"163f46f5-b680-4c11-9bdd-4c791e3b35f4","path":"sprites/spr_dw_mansion_vase/spr_dw_mansion_vase.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_dw_mansion_vase","path":"sprites/spr_dw_mansion_vase/spr_dw_mansion_vase.yy",},"resourceVersion":"1.0","name":"e3ffd2f2-e39e-4a03-976d-c0a6c766ca1f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1517da7d-1d46-4612-89d1-7d7b63c4583a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e3ffd2f2-e39e-4a03-976d-c0a6c766ca1f",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_dw_mansion_vase","path":"sprites/spr_dw_mansion_vase/spr_dw_mansion_vase.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_dw_mansion_vase",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"81ee2b7a-1a86-48be-aa60-96008d1f8c4e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1517da7d-1d46-4612-89d1-7d7b63c4583a","path":"sprites/spr_dw_mansion_vase/spr_dw_mansion_vase.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"cc801360-baf6-4787-b73b-79e9d4f525c5","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e3ffd2f2-e39e-4a03-976d-c0a6c766ca1f","path":"sprites/spr_dw_mansion_vase/spr_dw_mansion_vase.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_dw_mansion_vase","path":"sprites/spr_dw_mansion_vase/spr_dw_mansion_vase.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_dw_mansion_vase",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"163f46f5-b680-4c11-9bdd-4c791e3b35f4","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"163f46f5-b680-4c11-9bdd-4c791e3b35f4","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "cybercity",
     "path": "folders/Sprites/VFX/cybercity.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_dw_mansion_vase",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

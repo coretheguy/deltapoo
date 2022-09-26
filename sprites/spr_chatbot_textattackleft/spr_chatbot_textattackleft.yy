@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_chatbot_textattackleft",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"87c65995-cff6-463e-ac2c-8c9a9c64c060","path":"sprites/spr_chatbot_textattackleft/spr_chatbot_textattackleft.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"87c65995-cff6-463e-ac2c-8c9a9c64c060","path":"sprites/spr_chatbot_textattackleft/spr_chatbot_textattackleft.yy",},"LayerId":{"name":"1b123cd8-473a-4e30-8822-740533c7bc36","path":"sprites/spr_chatbot_textattackleft/spr_chatbot_textattackleft.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_chatbot_textattackleft","path":"sprites/spr_chatbot_textattackleft/spr_chatbot_textattackleft.yy",},"resourceVersion":"1.0","name":"87c65995-cff6-463e-ac2c-8c9a9c64c060","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"bae23522-808c-45e3-ae19-186a87411413","path":"sprites/spr_chatbot_textattackleft/spr_chatbot_textattackleft.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bae23522-808c-45e3-ae19-186a87411413","path":"sprites/spr_chatbot_textattackleft/spr_chatbot_textattackleft.yy",},"LayerId":{"name":"1b123cd8-473a-4e30-8822-740533c7bc36","path":"sprites/spr_chatbot_textattackleft/spr_chatbot_textattackleft.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_chatbot_textattackleft","path":"sprites/spr_chatbot_textattackleft/spr_chatbot_textattackleft.yy",},"resourceVersion":"1.0","name":"bae23522-808c-45e3-ae19-186a87411413","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"87c65995-cff6-463e-ac2c-8c9a9c64c060",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bae23522-808c-45e3-ae19-186a87411413",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_chatbot_textattackleft","path":"sprites/spr_chatbot_textattackleft/spr_chatbot_textattackleft.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_chatbot_textattackleft",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"079bc2c3-f5d9-4486-a9e3-6d17a1bc7a53","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"87c65995-cff6-463e-ac2c-8c9a9c64c060","path":"sprites/spr_chatbot_textattackleft/spr_chatbot_textattackleft.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"8e493f50-6e3b-4c85-bd5c-a80b8128fa66","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bae23522-808c-45e3-ae19-186a87411413","path":"sprites/spr_chatbot_textattackleft/spr_chatbot_textattackleft.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_chatbot_textattackleft","path":"sprites/spr_chatbot_textattackleft/spr_chatbot_textattackleft.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_chatbot_textattackleft",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1b123cd8-473a-4e30-8822-740533c7bc36","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1b123cd8-473a-4e30-8822-740533c7bc36","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "attack1",
     "path": "folders/Sprites/CHARA/ENEMY/chatbot/attack1.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_chatbot_textattackleft",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

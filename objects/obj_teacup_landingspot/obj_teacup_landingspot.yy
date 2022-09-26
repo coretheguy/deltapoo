@@ -1,7 +1,14 @@
 {
-  "spriteId": null,
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_teacup_landingspot",
+  "spriteId": {
+    "name": "spr_krisd_heart",
+    "path": "sprites/spr_krisd_heart/spr_krisd_heart.yy",
+  },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -24,8 +31,4 @@
     "name": "teacup",
     "path": "folders/Objects/MECH/cybercity/teacup.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_teacup_landingspot",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_cyber_wall_lights",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f7783cac-3f7f-4535-a440-aedcbae49b00","path":"sprites/spr_cyber_wall_lights/spr_cyber_wall_lights.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f7783cac-3f7f-4535-a440-aedcbae49b00","path":"sprites/spr_cyber_wall_lights/spr_cyber_wall_lights.yy",},"LayerId":{"name":"2708b1ac-3208-475b-8bc0-7b38f051d48f","path":"sprites/spr_cyber_wall_lights/spr_cyber_wall_lights.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_cyber_wall_lights","path":"sprites/spr_cyber_wall_lights/spr_cyber_wall_lights.yy",},"resourceVersion":"1.0","name":"f7783cac-3f7f-4535-a440-aedcbae49b00","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"320b9ffd-bf3d-49b8-916b-f40fd55b91e6","path":"sprites/spr_cyber_wall_lights/spr_cyber_wall_lights.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"320b9ffd-bf3d-49b8-916b-f40fd55b91e6","path":"sprites/spr_cyber_wall_lights/spr_cyber_wall_lights.yy",},"LayerId":{"name":"2708b1ac-3208-475b-8bc0-7b38f051d48f","path":"sprites/spr_cyber_wall_lights/spr_cyber_wall_lights.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_cyber_wall_lights","path":"sprites/spr_cyber_wall_lights/spr_cyber_wall_lights.yy",},"resourceVersion":"1.0","name":"320b9ffd-bf3d-49b8-916b-f40fd55b91e6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f7783cac-3f7f-4535-a440-aedcbae49b00",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"320b9ffd-bf3d-49b8-916b-f40fd55b91e6",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_cyber_wall_lights","path":"sprites/spr_cyber_wall_lights/spr_cyber_wall_lights.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_cyber_wall_lights",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"b8fdeec9-869f-46e8-9c20-fb275c614bc0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f7783cac-3f7f-4535-a440-aedcbae49b00","path":"sprites/spr_cyber_wall_lights/spr_cyber_wall_lights.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"6170c12c-4277-4d17-af33-ba0efdbcf483","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"320b9ffd-bf3d-49b8-916b-f40fd55b91e6","path":"sprites/spr_cyber_wall_lights/spr_cyber_wall_lights.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_cyber_wall_lights","path":"sprites/spr_cyber_wall_lights/spr_cyber_wall_lights.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_cyber_wall_lights",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2708b1ac-3208-475b-8bc0-7b38f051d48f","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2708b1ac-3208-475b-8bc0-7b38f051d48f","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "tile",
     "path": "folders/Sprites/BG/cyber/tile.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_cyber_wall_lights",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

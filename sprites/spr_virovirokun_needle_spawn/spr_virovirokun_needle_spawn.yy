@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_virovirokun_needle_spawn",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,24 +27,16 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"611bfa95-cd66-4334-b2cc-92270b565816","path":"sprites/spr_virovirokun_needle_spawn/spr_virovirokun_needle_spawn.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"611bfa95-cd66-4334-b2cc-92270b565816","path":"sprites/spr_virovirokun_needle_spawn/spr_virovirokun_needle_spawn.yy",},"LayerId":{"name":"9a439e4e-6a3e-4964-b584-162b223a89f0","path":"sprites/spr_virovirokun_needle_spawn/spr_virovirokun_needle_spawn.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_virovirokun_needle_spawn","path":"sprites/spr_virovirokun_needle_spawn/spr_virovirokun_needle_spawn.yy",},"resourceVersion":"1.0","name":"611bfa95-cd66-4334-b2cc-92270b565816","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"36323407-4f32-44cf-abb4-e83e3ca5478b","path":"sprites/spr_virovirokun_needle_spawn/spr_virovirokun_needle_spawn.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"36323407-4f32-44cf-abb4-e83e3ca5478b","path":"sprites/spr_virovirokun_needle_spawn/spr_virovirokun_needle_spawn.yy",},"LayerId":{"name":"9a439e4e-6a3e-4964-b584-162b223a89f0","path":"sprites/spr_virovirokun_needle_spawn/spr_virovirokun_needle_spawn.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_virovirokun_needle_spawn","path":"sprites/spr_virovirokun_needle_spawn/spr_virovirokun_needle_spawn.yy",},"resourceVersion":"1.0","name":"36323407-4f32-44cf-abb4-e83e3ca5478b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"45bc18f8-b105-45a0-b25b-1dc41d62269c","path":"sprites/spr_virovirokun_needle_spawn/spr_virovirokun_needle_spawn.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"45bc18f8-b105-45a0-b25b-1dc41d62269c","path":"sprites/spr_virovirokun_needle_spawn/spr_virovirokun_needle_spawn.yy",},"LayerId":{"name":"9a439e4e-6a3e-4964-b584-162b223a89f0","path":"sprites/spr_virovirokun_needle_spawn/spr_virovirokun_needle_spawn.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_virovirokun_needle_spawn","path":"sprites/spr_virovirokun_needle_spawn/spr_virovirokun_needle_spawn.yy",},"resourceVersion":"1.0","name":"45bc18f8-b105-45a0-b25b-1dc41d62269c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"54c9af3b-bf4e-49f5-83c0-51c49dbd2b61","path":"sprites/spr_virovirokun_needle_spawn/spr_virovirokun_needle_spawn.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"54c9af3b-bf4e-49f5-83c0-51c49dbd2b61","path":"sprites/spr_virovirokun_needle_spawn/spr_virovirokun_needle_spawn.yy",},"LayerId":{"name":"9a439e4e-6a3e-4964-b584-162b223a89f0","path":"sprites/spr_virovirokun_needle_spawn/spr_virovirokun_needle_spawn.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_virovirokun_needle_spawn","path":"sprites/spr_virovirokun_needle_spawn/spr_virovirokun_needle_spawn.yy",},"resourceVersion":"1.0","name":"54c9af3b-bf4e-49f5-83c0-51c49dbd2b61","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5378b1a2-9891-4e0a-ac51-ae447d1ae227","path":"sprites/spr_virovirokun_needle_spawn/spr_virovirokun_needle_spawn.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5378b1a2-9891-4e0a-ac51-ae447d1ae227","path":"sprites/spr_virovirokun_needle_spawn/spr_virovirokun_needle_spawn.yy",},"LayerId":{"name":"9a439e4e-6a3e-4964-b584-162b223a89f0","path":"sprites/spr_virovirokun_needle_spawn/spr_virovirokun_needle_spawn.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_virovirokun_needle_spawn","path":"sprites/spr_virovirokun_needle_spawn/spr_virovirokun_needle_spawn.yy",},"resourceVersion":"1.0","name":"5378b1a2-9891-4e0a-ac51-ae447d1ae227","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"611bfa95-cd66-4334-b2cc-92270b565816",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"36323407-4f32-44cf-abb4-e83e3ca5478b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"45bc18f8-b105-45a0-b25b-1dc41d62269c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"54c9af3b-bf4e-49f5-83c0-51c49dbd2b61",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5378b1a2-9891-4e0a-ac51-ae447d1ae227",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_virovirokun_needle_spawn","path":"sprites/spr_virovirokun_needle_spawn/spr_virovirokun_needle_spawn.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_virovirokun_needle_spawn",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -52,13 +47,13 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"75e2d640-592d-41b4-be67-36b7feb1c217","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"611bfa95-cd66-4334-b2cc-92270b565816","path":"sprites/spr_virovirokun_needle_spawn/spr_virovirokun_needle_spawn.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"8469bc76-3fa7-4c72-8482-731794e7282d","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"36323407-4f32-44cf-abb4-e83e3ca5478b","path":"sprites/spr_virovirokun_needle_spawn/spr_virovirokun_needle_spawn.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"096b4f2a-5902-4939-83c9-d12f7cb97e28","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"45bc18f8-b105-45a0-b25b-1dc41d62269c","path":"sprites/spr_virovirokun_needle_spawn/spr_virovirokun_needle_spawn.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"745154ec-3c05-4c6d-afd8-7796d38145b4","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"54c9af3b-bf4e-49f5-83c0-51c49dbd2b61","path":"sprites/spr_virovirokun_needle_spawn/spr_virovirokun_needle_spawn.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"a51698fb-7355-4c98-83db-1578f2f308d0","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5378b1a2-9891-4e0a-ac51-ae447d1ae227","path":"sprites/spr_virovirokun_needle_spawn/spr_virovirokun_needle_spawn.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -74,22 +69,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_virovirokun_needle_spawn","path":"sprites/spr_virovirokun_needle_spawn/spr_virovirokun_needle_spawn.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_virovirokun_needle_spawn",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9a439e4e-6a3e-4964-b584-162b223a89f0","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9a439e4e-6a3e-4964-b584-162b223a89f0","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "bullet",
     "path": "folders/Sprites/CHARA/ENEMY/virovirokun/bullet.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_virovirokun_needle_spawn",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

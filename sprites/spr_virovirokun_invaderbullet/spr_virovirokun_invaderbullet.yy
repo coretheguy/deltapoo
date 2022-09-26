@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_virovirokun_invaderbullet",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,21 +27,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"442061e1-1cfa-4b6a-80f5-21a547ec1427","path":"sprites/spr_virovirokun_invaderbullet/spr_virovirokun_invaderbullet.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"442061e1-1cfa-4b6a-80f5-21a547ec1427","path":"sprites/spr_virovirokun_invaderbullet/spr_virovirokun_invaderbullet.yy",},"LayerId":{"name":"ee6a8fcc-547b-4cd9-aee5-f8bba3d217c5","path":"sprites/spr_virovirokun_invaderbullet/spr_virovirokun_invaderbullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_virovirokun_invaderbullet","path":"sprites/spr_virovirokun_invaderbullet/spr_virovirokun_invaderbullet.yy",},"resourceVersion":"1.0","name":"442061e1-1cfa-4b6a-80f5-21a547ec1427","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"edb02622-436d-4eac-9a3e-caa1b9532341","path":"sprites/spr_virovirokun_invaderbullet/spr_virovirokun_invaderbullet.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"edb02622-436d-4eac-9a3e-caa1b9532341","path":"sprites/spr_virovirokun_invaderbullet/spr_virovirokun_invaderbullet.yy",},"LayerId":{"name":"ee6a8fcc-547b-4cd9-aee5-f8bba3d217c5","path":"sprites/spr_virovirokun_invaderbullet/spr_virovirokun_invaderbullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_virovirokun_invaderbullet","path":"sprites/spr_virovirokun_invaderbullet/spr_virovirokun_invaderbullet.yy",},"resourceVersion":"1.0","name":"edb02622-436d-4eac-9a3e-caa1b9532341","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5cccbf3d-0b85-4cc6-ad82-5ab4a220c6c0","path":"sprites/spr_virovirokun_invaderbullet/spr_virovirokun_invaderbullet.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5cccbf3d-0b85-4cc6-ad82-5ab4a220c6c0","path":"sprites/spr_virovirokun_invaderbullet/spr_virovirokun_invaderbullet.yy",},"LayerId":{"name":"ee6a8fcc-547b-4cd9-aee5-f8bba3d217c5","path":"sprites/spr_virovirokun_invaderbullet/spr_virovirokun_invaderbullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_virovirokun_invaderbullet","path":"sprites/spr_virovirokun_invaderbullet/spr_virovirokun_invaderbullet.yy",},"resourceVersion":"1.0","name":"5cccbf3d-0b85-4cc6-ad82-5ab4a220c6c0","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"940bb22a-48f8-4847-8622-0a7760aaa591","path":"sprites/spr_virovirokun_invaderbullet/spr_virovirokun_invaderbullet.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"940bb22a-48f8-4847-8622-0a7760aaa591","path":"sprites/spr_virovirokun_invaderbullet/spr_virovirokun_invaderbullet.yy",},"LayerId":{"name":"ee6a8fcc-547b-4cd9-aee5-f8bba3d217c5","path":"sprites/spr_virovirokun_invaderbullet/spr_virovirokun_invaderbullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_virovirokun_invaderbullet","path":"sprites/spr_virovirokun_invaderbullet/spr_virovirokun_invaderbullet.yy",},"resourceVersion":"1.0","name":"940bb22a-48f8-4847-8622-0a7760aaa591","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"442061e1-1cfa-4b6a-80f5-21a547ec1427",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"edb02622-436d-4eac-9a3e-caa1b9532341",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5cccbf3d-0b85-4cc6-ad82-5ab4a220c6c0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"940bb22a-48f8-4847-8622-0a7760aaa591",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_virovirokun_invaderbullet","path":"sprites/spr_virovirokun_invaderbullet/spr_virovirokun_invaderbullet.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_virovirokun_invaderbullet",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -49,12 +46,12 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"635095bc-a222-4aca-9aae-64eb49c8bdd8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"442061e1-1cfa-4b6a-80f5-21a547ec1427","path":"sprites/spr_virovirokun_invaderbullet/spr_virovirokun_invaderbullet.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"4d0506c7-822c-4b93-b38a-bf656cdf1683","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"edb02622-436d-4eac-9a3e-caa1b9532341","path":"sprites/spr_virovirokun_invaderbullet/spr_virovirokun_invaderbullet.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"3864c14b-9473-496d-83dc-6f1779d8b13e","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5cccbf3d-0b85-4cc6-ad82-5ab4a220c6c0","path":"sprites/spr_virovirokun_invaderbullet/spr_virovirokun_invaderbullet.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"021f0a88-7220-4682-bc34-d20c469698fd","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"940bb22a-48f8-4847-8622-0a7760aaa591","path":"sprites/spr_virovirokun_invaderbullet/spr_virovirokun_invaderbullet.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -70,22 +67,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_virovirokun_invaderbullet","path":"sprites/spr_virovirokun_invaderbullet/spr_virovirokun_invaderbullet.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_virovirokun_invaderbullet",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ee6a8fcc-547b-4cd9-aee5-f8bba3d217c5","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ee6a8fcc-547b-4cd9-aee5-f8bba3d217c5","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "bullet",
     "path": "folders/Sprites/CHARA/ENEMY/virovirokun/bullet.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_virovirokun_invaderbullet",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

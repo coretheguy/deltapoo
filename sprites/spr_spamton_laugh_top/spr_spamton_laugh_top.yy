@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_spamton_laugh_top",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"31a1505a-9e5f-4aa8-ac76-67d8b233c3e3","path":"sprites/spr_spamton_laugh_top/spr_spamton_laugh_top.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"31a1505a-9e5f-4aa8-ac76-67d8b233c3e3","path":"sprites/spr_spamton_laugh_top/spr_spamton_laugh_top.yy",},"LayerId":{"name":"1f7fbdd3-8fd7-454f-b278-38a063991c84","path":"sprites/spr_spamton_laugh_top/spr_spamton_laugh_top.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_spamton_laugh_top","path":"sprites/spr_spamton_laugh_top/spr_spamton_laugh_top.yy",},"resourceVersion":"1.0","name":"31a1505a-9e5f-4aa8-ac76-67d8b233c3e3","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3157a203-4697-456c-95a1-4afceaea9b92","path":"sprites/spr_spamton_laugh_top/spr_spamton_laugh_top.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3157a203-4697-456c-95a1-4afceaea9b92","path":"sprites/spr_spamton_laugh_top/spr_spamton_laugh_top.yy",},"LayerId":{"name":"1f7fbdd3-8fd7-454f-b278-38a063991c84","path":"sprites/spr_spamton_laugh_top/spr_spamton_laugh_top.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_spamton_laugh_top","path":"sprites/spr_spamton_laugh_top/spr_spamton_laugh_top.yy",},"resourceVersion":"1.0","name":"3157a203-4697-456c-95a1-4afceaea9b92","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"31a1505a-9e5f-4aa8-ac76-67d8b233c3e3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3157a203-4697-456c-95a1-4afceaea9b92",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_spamton_laugh_top","path":"sprites/spr_spamton_laugh_top/spr_spamton_laugh_top.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_spamton_laugh_top",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"132988bb-114b-40a4-a80e-dda69acc5669","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"31a1505a-9e5f-4aa8-ac76-67d8b233c3e3","path":"sprites/spr_spamton_laugh_top/spr_spamton_laugh_top.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"76d8ee94-0abc-448d-8f8b-6dde318869f0","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3157a203-4697-456c-95a1-4afceaea9b92","path":"sprites/spr_spamton_laugh_top/spr_spamton_laugh_top.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_spamton_laugh_top","path":"sprites/spr_spamton_laugh_top/spr_spamton_laugh_top.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_spamton_laugh_top",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1f7fbdd3-8fd7-454f-b278-38a063991c84","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1f7fbdd3-8fd7-454f-b278-38a063991c84","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "spamton",
     "path": "folders/Sprites/CHARA/ENEMY/BOSS/spamton.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_spamton_laugh_top",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

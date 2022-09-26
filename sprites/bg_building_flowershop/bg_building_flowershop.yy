@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "bg_building_flowershop",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"fa89eb85-f6ab-4169-b9ff-96211b27281c","path":"sprites/bg_building_flowershop/bg_building_flowershop.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fa89eb85-f6ab-4169-b9ff-96211b27281c","path":"sprites/bg_building_flowershop/bg_building_flowershop.yy",},"LayerId":{"name":"7a10bf60-037a-4140-b7fd-45d097d93d64","path":"sprites/bg_building_flowershop/bg_building_flowershop.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"bg_building_flowershop","path":"sprites/bg_building_flowershop/bg_building_flowershop.yy",},"resourceVersion":"1.0","name":"fa89eb85-f6ab-4169-b9ff-96211b27281c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fa89eb85-f6ab-4169-b9ff-96211b27281c",},
   ],
   "sequence": {
-    "spriteId": {"name":"bg_building_flowershop","path":"sprites/bg_building_flowershop/bg_building_flowershop.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "bg_building_flowershop",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"07e80b45-d497-4372-97ac-82fc8060ae1c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fa89eb85-f6ab-4169-b9ff-96211b27281c","path":"sprites/bg_building_flowershop/bg_building_flowershop.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"bg_building_flowershop","path":"sprites/bg_building_flowershop/bg_building_flowershop.yy",},
-    "resourceVersion": "1.3",
-    "name": "bg_building_flowershop",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7a10bf60-037a-4140-b7fd-45d097d93d64","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7a10bf60-037a-4140-b7fd-45d097d93d64","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "hometown",
     "path": "folders/Sprites/BG/hometown.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "bg_building_flowershop",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "tile_school",
   "spriteId": {
     "name": "bg_schooltiles",
     "path": "sprites/bg_schooltiles/bg_schooltiles.yy",
@@ -155,8 +158,4 @@
     "name": "hometown",
     "path": "folders/Tile Sets/hometown.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "tile_school",
-  "tags": [],
-  "resourceType": "GMTileSet",
 }

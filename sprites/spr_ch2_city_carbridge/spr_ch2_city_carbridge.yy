@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_ch2_city_carbridge",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,21 +27,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"92c7680a-dca6-4afc-b7bf-ba671b3f996f","path":"sprites/spr_ch2_city_carbridge/spr_ch2_city_carbridge.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"92c7680a-dca6-4afc-b7bf-ba671b3f996f","path":"sprites/spr_ch2_city_carbridge/spr_ch2_city_carbridge.yy",},"LayerId":{"name":"583fa734-6bf4-4a6d-814f-3a9b395ade34","path":"sprites/spr_ch2_city_carbridge/spr_ch2_city_carbridge.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_city_carbridge","path":"sprites/spr_ch2_city_carbridge/spr_ch2_city_carbridge.yy",},"resourceVersion":"1.0","name":"92c7680a-dca6-4afc-b7bf-ba671b3f996f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b28be916-4606-4ed0-bd8f-318b14ab5a5f","path":"sprites/spr_ch2_city_carbridge/spr_ch2_city_carbridge.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b28be916-4606-4ed0-bd8f-318b14ab5a5f","path":"sprites/spr_ch2_city_carbridge/spr_ch2_city_carbridge.yy",},"LayerId":{"name":"583fa734-6bf4-4a6d-814f-3a9b395ade34","path":"sprites/spr_ch2_city_carbridge/spr_ch2_city_carbridge.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_city_carbridge","path":"sprites/spr_ch2_city_carbridge/spr_ch2_city_carbridge.yy",},"resourceVersion":"1.0","name":"b28be916-4606-4ed0-bd8f-318b14ab5a5f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ac17d624-f896-4bb1-b11f-f1d6345f31be","path":"sprites/spr_ch2_city_carbridge/spr_ch2_city_carbridge.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ac17d624-f896-4bb1-b11f-f1d6345f31be","path":"sprites/spr_ch2_city_carbridge/spr_ch2_city_carbridge.yy",},"LayerId":{"name":"583fa734-6bf4-4a6d-814f-3a9b395ade34","path":"sprites/spr_ch2_city_carbridge/spr_ch2_city_carbridge.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_city_carbridge","path":"sprites/spr_ch2_city_carbridge/spr_ch2_city_carbridge.yy",},"resourceVersion":"1.0","name":"ac17d624-f896-4bb1-b11f-f1d6345f31be","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"595d8fdf-f356-4cbe-be7a-47dda7510df7","path":"sprites/spr_ch2_city_carbridge/spr_ch2_city_carbridge.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"595d8fdf-f356-4cbe-be7a-47dda7510df7","path":"sprites/spr_ch2_city_carbridge/spr_ch2_city_carbridge.yy",},"LayerId":{"name":"583fa734-6bf4-4a6d-814f-3a9b395ade34","path":"sprites/spr_ch2_city_carbridge/spr_ch2_city_carbridge.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ch2_city_carbridge","path":"sprites/spr_ch2_city_carbridge/spr_ch2_city_carbridge.yy",},"resourceVersion":"1.0","name":"595d8fdf-f356-4cbe-be7a-47dda7510df7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"92c7680a-dca6-4afc-b7bf-ba671b3f996f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b28be916-4606-4ed0-bd8f-318b14ab5a5f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ac17d624-f896-4bb1-b11f-f1d6345f31be",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"595d8fdf-f356-4cbe-be7a-47dda7510df7",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_ch2_city_carbridge","path":"sprites/spr_ch2_city_carbridge/spr_ch2_city_carbridge.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_ch2_city_carbridge",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -49,12 +46,12 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"30d7d726-574e-4a91-9bd1-0ef4eecabccb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"92c7680a-dca6-4afc-b7bf-ba671b3f996f","path":"sprites/spr_ch2_city_carbridge/spr_ch2_city_carbridge.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"7d81c6a0-4d6b-4558-8b4d-0756d5631df8","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b28be916-4606-4ed0-bd8f-318b14ab5a5f","path":"sprites/spr_ch2_city_carbridge/spr_ch2_city_carbridge.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"490eb107-33e7-42b9-82ff-2d8eff93c802","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ac17d624-f896-4bb1-b11f-f1d6345f31be","path":"sprites/spr_ch2_city_carbridge/spr_ch2_city_carbridge.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"d4d30e06-795d-4c6d-b5b0-dd17446e4188","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"595d8fdf-f356-4cbe-be7a-47dda7510df7","path":"sprites/spr_ch2_city_carbridge/spr_ch2_city_carbridge.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -70,22 +67,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_ch2_city_carbridge","path":"sprites/spr_ch2_city_carbridge/spr_ch2_city_carbridge.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_ch2_city_carbridge",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"583fa734-6bf4-4a6d-814f-3a9b395ade34","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"583fa734-6bf4-4a6d-814f-3a9b395ade34","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "cybercity",
     "path": "folders/Sprites/MECH/cybercity.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_ch2_city_carbridge",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

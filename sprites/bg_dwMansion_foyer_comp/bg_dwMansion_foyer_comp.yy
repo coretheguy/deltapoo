@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "bg_dwMansion_foyer_comp",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -8,14 +11,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 703,
-  "bbox_top": 2,
-  "bbox_bottom": 747,
+  "bbox_right": 479,
+  "bbox_top": 40,
+  "bbox_bottom": 879,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 704,
-  "height": 748,
+  "width": 480,
+  "height": 920,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"8f8f5d84-bc18-4c9e-9802-65604bbcada5","path":"sprites/bg_dwMansion_foyer_comp/bg_dwMansion_foyer_comp.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8f8f5d84-bc18-4c9e-9802-65604bbcada5","path":"sprites/bg_dwMansion_foyer_comp/bg_dwMansion_foyer_comp.yy",},"LayerId":{"name":"5a87d753-6465-4bd6-8c75-2afec24a4bf7","path":"sprites/bg_dwMansion_foyer_comp/bg_dwMansion_foyer_comp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"bg_dwMansion_foyer_comp","path":"sprites/bg_dwMansion_foyer_comp/bg_dwMansion_foyer_comp.yy",},"resourceVersion":"1.0","name":"8f8f5d84-bc18-4c9e-9802-65604bbcada5","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6c4f4a97-e8d8-4c22-9d49-10a3b7e1fcc8",},
   ],
   "sequence": {
-    "spriteId": {"name":"bg_dwMansion_foyer_comp","path":"sprites/bg_dwMansion_foyer_comp/bg_dwMansion_foyer_comp.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "bg_dwMansion_foyer_comp",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"b5fd2997-09c4-49e2-bcff-e82def2aebc5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8f8f5d84-bc18-4c9e-9802-65604bbcada5","path":"sprites/bg_dwMansion_foyer_comp/bg_dwMansion_foyer_comp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"25c232bd-89fc-494d-82a3-f4f44e5a0497","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6c4f4a97-e8d8-4c22-9d49-10a3b7e1fcc8","path":"sprites/bg_dwMansion_foyer_comp/bg_dwMansion_foyer_comp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"bg_dwMansion_foyer_comp","path":"sprites/bg_dwMansion_foyer_comp/bg_dwMansion_foyer_comp.yy",},
-    "resourceVersion": "1.3",
-    "name": "bg_dwMansion_foyer_comp",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5a87d753-6465-4bd6-8c75-2afec24a4bf7","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"782edd4d-b77f-4373-a977-3d634cd282d0","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "mansion",
     "path": "folders/Sprites/BG/cyber/mansion.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "bg_dwMansion_foyer_comp",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

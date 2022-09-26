@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_ralsei_hurt_fixed",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"81568835-dd40-48f6-9e50-b44328529092","path":"sprites/spr_ralsei_hurt_fixed/spr_ralsei_hurt_fixed.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"81568835-dd40-48f6-9e50-b44328529092","path":"sprites/spr_ralsei_hurt_fixed/spr_ralsei_hurt_fixed.yy",},"LayerId":{"name":"e1fa18d8-e2fe-4a85-bdf5-f90421739b79","path":"sprites/spr_ralsei_hurt_fixed/spr_ralsei_hurt_fixed.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ralsei_hurt_fixed","path":"sprites/spr_ralsei_hurt_fixed/spr_ralsei_hurt_fixed.yy",},"resourceVersion":"1.0","name":"81568835-dd40-48f6-9e50-b44328529092","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"81568835-dd40-48f6-9e50-b44328529092",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_ralsei_hurt_fixed","path":"sprites/spr_ralsei_hurt_fixed/spr_ralsei_hurt_fixed.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_ralsei_hurt_fixed",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"d2c9354d-94e9-4145-ae51-6616f77c9a1c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"81568835-dd40-48f6-9e50-b44328529092","path":"sprites/spr_ralsei_hurt_fixed/spr_ralsei_hurt_fixed.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_ralsei_hurt_fixed","path":"sprites/spr_ralsei_hurt_fixed/spr_ralsei_hurt_fixed.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_ralsei_hurt_fixed",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e1fa18d8-e2fe-4a85-bdf5-f90421739b79","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e1fa18d8-e2fe-4a85-bdf5-f90421739b79","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "ralsei",
     "path": "folders/Sprites/CHARA/BATTLE/ralsei.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_ralsei_hurt_fixed",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

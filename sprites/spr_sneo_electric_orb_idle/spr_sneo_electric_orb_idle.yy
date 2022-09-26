@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_sneo_electric_orb_idle",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,27 +27,17 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"49b4fa97-22d4-49a2-bd92-495e2fb58f16","path":"sprites/spr_sneo_electric_orb_idle/spr_sneo_electric_orb_idle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"49b4fa97-22d4-49a2-bd92-495e2fb58f16","path":"sprites/spr_sneo_electric_orb_idle/spr_sneo_electric_orb_idle.yy",},"LayerId":{"name":"3766ec79-0415-4028-8a45-d6f278dd59a6","path":"sprites/spr_sneo_electric_orb_idle/spr_sneo_electric_orb_idle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_sneo_electric_orb_idle","path":"sprites/spr_sneo_electric_orb_idle/spr_sneo_electric_orb_idle.yy",},"resourceVersion":"1.0","name":"49b4fa97-22d4-49a2-bd92-495e2fb58f16","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4c688c31-3627-487a-852f-921f02a4b3a1","path":"sprites/spr_sneo_electric_orb_idle/spr_sneo_electric_orb_idle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4c688c31-3627-487a-852f-921f02a4b3a1","path":"sprites/spr_sneo_electric_orb_idle/spr_sneo_electric_orb_idle.yy",},"LayerId":{"name":"3766ec79-0415-4028-8a45-d6f278dd59a6","path":"sprites/spr_sneo_electric_orb_idle/spr_sneo_electric_orb_idle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_sneo_electric_orb_idle","path":"sprites/spr_sneo_electric_orb_idle/spr_sneo_electric_orb_idle.yy",},"resourceVersion":"1.0","name":"4c688c31-3627-487a-852f-921f02a4b3a1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"2fa10c53-3b91-415b-800c-ffe96e160ce3","path":"sprites/spr_sneo_electric_orb_idle/spr_sneo_electric_orb_idle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2fa10c53-3b91-415b-800c-ffe96e160ce3","path":"sprites/spr_sneo_electric_orb_idle/spr_sneo_electric_orb_idle.yy",},"LayerId":{"name":"3766ec79-0415-4028-8a45-d6f278dd59a6","path":"sprites/spr_sneo_electric_orb_idle/spr_sneo_electric_orb_idle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_sneo_electric_orb_idle","path":"sprites/spr_sneo_electric_orb_idle/spr_sneo_electric_orb_idle.yy",},"resourceVersion":"1.0","name":"2fa10c53-3b91-415b-800c-ffe96e160ce3","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0abd4b45-6325-48d4-8447-adfa5bc9f077","path":"sprites/spr_sneo_electric_orb_idle/spr_sneo_electric_orb_idle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0abd4b45-6325-48d4-8447-adfa5bc9f077","path":"sprites/spr_sneo_electric_orb_idle/spr_sneo_electric_orb_idle.yy",},"LayerId":{"name":"3766ec79-0415-4028-8a45-d6f278dd59a6","path":"sprites/spr_sneo_electric_orb_idle/spr_sneo_electric_orb_idle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_sneo_electric_orb_idle","path":"sprites/spr_sneo_electric_orb_idle/spr_sneo_electric_orb_idle.yy",},"resourceVersion":"1.0","name":"0abd4b45-6325-48d4-8447-adfa5bc9f077","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f07781c7-d5ed-4227-82b6-4089fd279cbf","path":"sprites/spr_sneo_electric_orb_idle/spr_sneo_electric_orb_idle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f07781c7-d5ed-4227-82b6-4089fd279cbf","path":"sprites/spr_sneo_electric_orb_idle/spr_sneo_electric_orb_idle.yy",},"LayerId":{"name":"3766ec79-0415-4028-8a45-d6f278dd59a6","path":"sprites/spr_sneo_electric_orb_idle/spr_sneo_electric_orb_idle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_sneo_electric_orb_idle","path":"sprites/spr_sneo_electric_orb_idle/spr_sneo_electric_orb_idle.yy",},"resourceVersion":"1.0","name":"f07781c7-d5ed-4227-82b6-4089fd279cbf","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1002b5ce-9270-46fe-a080-37c2542a4406","path":"sprites/spr_sneo_electric_orb_idle/spr_sneo_electric_orb_idle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1002b5ce-9270-46fe-a080-37c2542a4406","path":"sprites/spr_sneo_electric_orb_idle/spr_sneo_electric_orb_idle.yy",},"LayerId":{"name":"3766ec79-0415-4028-8a45-d6f278dd59a6","path":"sprites/spr_sneo_electric_orb_idle/spr_sneo_electric_orb_idle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_sneo_electric_orb_idle","path":"sprites/spr_sneo_electric_orb_idle/spr_sneo_electric_orb_idle.yy",},"resourceVersion":"1.0","name":"1002b5ce-9270-46fe-a080-37c2542a4406","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"49b4fa97-22d4-49a2-bd92-495e2fb58f16",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4c688c31-3627-487a-852f-921f02a4b3a1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2fa10c53-3b91-415b-800c-ffe96e160ce3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0abd4b45-6325-48d4-8447-adfa5bc9f077",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f07781c7-d5ed-4227-82b6-4089fd279cbf",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1002b5ce-9270-46fe-a080-37c2542a4406",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_sneo_electric_orb_idle","path":"sprites/spr_sneo_electric_orb_idle/spr_sneo_electric_orb_idle.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_sneo_electric_orb_idle",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -55,14 +48,14 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"5d5bc05f-2fb3-43a7-bc3c-51039e41d191","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"49b4fa97-22d4-49a2-bd92-495e2fb58f16","path":"sprites/spr_sneo_electric_orb_idle/spr_sneo_electric_orb_idle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"76c0b4d5-f697-4cc2-8e58-d53104f7fff3","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4c688c31-3627-487a-852f-921f02a4b3a1","path":"sprites/spr_sneo_electric_orb_idle/spr_sneo_electric_orb_idle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"9ced5c46-57ce-44e0-85b9-f464c30d859d","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2fa10c53-3b91-415b-800c-ffe96e160ce3","path":"sprites/spr_sneo_electric_orb_idle/spr_sneo_electric_orb_idle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"ded824ae-5ba0-42f4-85d3-2eb4105b8364","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0abd4b45-6325-48d4-8447-adfa5bc9f077","path":"sprites/spr_sneo_electric_orb_idle/spr_sneo_electric_orb_idle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"65b0413c-3fbd-4fdf-abfa-94611e1a1859","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f07781c7-d5ed-4227-82b6-4089fd279cbf","path":"sprites/spr_sneo_electric_orb_idle/spr_sneo_electric_orb_idle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"30b74ac5-6164-40e8-86c4-5b6476b72df0","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1002b5ce-9270-46fe-a080-37c2542a4406","path":"sprites/spr_sneo_electric_orb_idle/spr_sneo_electric_orb_idle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -78,22 +71,13 @@
     "yorigin": 14,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_sneo_electric_orb_idle","path":"sprites/spr_sneo_electric_orb_idle/spr_sneo_electric_orb_idle.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_sneo_electric_orb_idle",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3766ec79-0415-4028-8a45-d6f278dd59a6","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3766ec79-0415-4028-8a45-d6f278dd59a6","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "bullet",
     "path": "folders/Sprites/CHARA/ENEMY/BOSS/sneo/bullet.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_sneo_electric_orb_idle",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

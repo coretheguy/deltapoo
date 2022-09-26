@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMMainOptions",
+  "resourceVersion": "1.4",
+  "name": "Main",
   "option_gameguid": "5078ff2e-5bd2-4661-8e70-607630925565",
   "option_gameid": "0",
   "option_game_speed": 30,
@@ -8,10 +11,10 @@
   "option_steam_app_id": "0",
   "option_sci_usesci": false,
   "option_author": "",
-  "option_lastchanged": "19 October 2021 7:43:18",
+  "option_collision_compatibility": true,
+  "option_copy_on_write_enabled": true,
   "option_spine_licence": false,
-  "resourceVersion": "1.2",
-  "name": "Main",
-  "tags": [],
-  "resourceType": "GMMainOptions",
+  "option_template_image": "${base_options_dir}/main/template_image.png",
+  "option_template_icon": "${base_options_dir}/main/template_icon.png",
+  "option_template_description": null,
 }

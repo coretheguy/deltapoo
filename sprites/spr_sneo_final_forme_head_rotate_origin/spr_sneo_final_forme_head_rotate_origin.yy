@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_sneo_final_forme_head_rotate_origin",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1fb7eb0a-b06d-44fa-accc-94cb026902a6","path":"sprites/spr_sneo_final_forme_head_rotate_origin/spr_sneo_final_forme_head_rotate_origin.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1fb7eb0a-b06d-44fa-accc-94cb026902a6","path":"sprites/spr_sneo_final_forme_head_rotate_origin/spr_sneo_final_forme_head_rotate_origin.yy",},"LayerId":{"name":"97a2617a-3967-4d3a-9db7-c36de9180359","path":"sprites/spr_sneo_final_forme_head_rotate_origin/spr_sneo_final_forme_head_rotate_origin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_sneo_final_forme_head_rotate_origin","path":"sprites/spr_sneo_final_forme_head_rotate_origin/spr_sneo_final_forme_head_rotate_origin.yy",},"resourceVersion":"1.0","name":"1fb7eb0a-b06d-44fa-accc-94cb026902a6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1fb7eb0a-b06d-44fa-accc-94cb026902a6",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_sneo_final_forme_head_rotate_origin","path":"sprites/spr_sneo_final_forme_head_rotate_origin/spr_sneo_final_forme_head_rotate_origin.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_sneo_final_forme_head_rotate_origin",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"7d87d656-d4b6-4972-8593-80d06879b1c7","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1fb7eb0a-b06d-44fa-accc-94cb026902a6","path":"sprites/spr_sneo_final_forme_head_rotate_origin/spr_sneo_final_forme_head_rotate_origin.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 222,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_sneo_final_forme_head_rotate_origin","path":"sprites/spr_sneo_final_forme_head_rotate_origin/spr_sneo_final_forme_head_rotate_origin.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_sneo_final_forme_head_rotate_origin",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"97a2617a-3967-4d3a-9db7-c36de9180359","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"97a2617a-3967-4d3a-9db7-c36de9180359","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "finale",
     "path": "folders/Sprites/CHARA/ENEMY/BOSS/sneo/bullet/finale.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_sneo_final_forme_head_rotate_origin",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

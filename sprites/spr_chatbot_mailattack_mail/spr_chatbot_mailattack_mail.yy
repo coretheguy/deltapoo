@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_chatbot_mailattack_mail",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"0e7299ed-1f85-4a6f-a73c-faf1a21dcedf","path":"sprites/spr_chatbot_mailattack_mail/spr_chatbot_mailattack_mail.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0e7299ed-1f85-4a6f-a73c-faf1a21dcedf","path":"sprites/spr_chatbot_mailattack_mail/spr_chatbot_mailattack_mail.yy",},"LayerId":{"name":"dfc2b162-f40b-401f-bde2-1dd3e081594d","path":"sprites/spr_chatbot_mailattack_mail/spr_chatbot_mailattack_mail.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_chatbot_mailattack_mail","path":"sprites/spr_chatbot_mailattack_mail/spr_chatbot_mailattack_mail.yy",},"resourceVersion":"1.0","name":"0e7299ed-1f85-4a6f-a73c-faf1a21dcedf","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0e7299ed-1f85-4a6f-a73c-faf1a21dcedf",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_chatbot_mailattack_mail","path":"sprites/spr_chatbot_mailattack_mail/spr_chatbot_mailattack_mail.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_chatbot_mailattack_mail",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"7a97aeed-8fa9-4108-b251-6affab6f9484","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0e7299ed-1f85-4a6f-a73c-faf1a21dcedf","path":"sprites/spr_chatbot_mailattack_mail/spr_chatbot_mailattack_mail.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 13,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_chatbot_mailattack_mail","path":"sprites/spr_chatbot_mailattack_mail/spr_chatbot_mailattack_mail.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_chatbot_mailattack_mail",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"dfc2b162-f40b-401f-bde2-1dd3e081594d","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"dfc2b162-f40b-401f-bde2-1dd3e081594d","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "attack2",
     "path": "folders/Sprites/CHARA/ENEMY/chatbot/attack2.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_chatbot_mailattack_mail",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

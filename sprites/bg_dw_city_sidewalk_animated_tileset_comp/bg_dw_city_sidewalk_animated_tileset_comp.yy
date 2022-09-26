@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "bg_dw_city_sidewalk_animated_tileset_comp",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -8,14 +11,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 483,
-  "bbox_top": 0,
-  "bbox_bottom": 527,
+  "bbox_right": 159,
+  "bbox_top": 40,
+  "bbox_bottom": 1319,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 484,
-  "height": 528,
+  "width": 160,
+  "height": 1320,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"83ba8219-be50-423c-b657-4c6eeda5b5ed","path":"sprites/bg_dw_city_sidewalk_animated_tileset_comp/bg_dw_city_sidewalk_animated_tileset_comp.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"83ba8219-be50-423c-b657-4c6eeda5b5ed","path":"sprites/bg_dw_city_sidewalk_animated_tileset_comp/bg_dw_city_sidewalk_animated_tileset_comp.yy",},"LayerId":{"name":"62b5ec33-e6da-4e0f-ad5e-713af3a633e2","path":"sprites/bg_dw_city_sidewalk_animated_tileset_comp/bg_dw_city_sidewalk_animated_tileset_comp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"bg_dw_city_sidewalk_animated_tileset_comp","path":"sprites/bg_dw_city_sidewalk_animated_tileset_comp/bg_dw_city_sidewalk_animated_tileset_comp.yy",},"resourceVersion":"1.0","name":"83ba8219-be50-423c-b657-4c6eeda5b5ed","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d211f803-edf6-446f-8553-c4b2d7f40d14",},
   ],
   "sequence": {
-    "spriteId": {"name":"bg_dw_city_sidewalk_animated_tileset_comp","path":"sprites/bg_dw_city_sidewalk_animated_tileset_comp/bg_dw_city_sidewalk_animated_tileset_comp.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "bg_dw_city_sidewalk_animated_tileset_comp",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"4d9eed79-efba-4652-969f-93edac2ff362","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"83ba8219-be50-423c-b657-4c6eeda5b5ed","path":"sprites/bg_dw_city_sidewalk_animated_tileset_comp/bg_dw_city_sidewalk_animated_tileset_comp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"90a96467-5b55-494e-a356-48b7f8124264","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d211f803-edf6-446f-8553-c4b2d7f40d14","path":"sprites/bg_dw_city_sidewalk_animated_tileset_comp/bg_dw_city_sidewalk_animated_tileset_comp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"bg_dw_city_sidewalk_animated_tileset_comp","path":"sprites/bg_dw_city_sidewalk_animated_tileset_comp/bg_dw_city_sidewalk_animated_tileset_comp.yy",},
-    "resourceVersion": "1.3",
-    "name": "bg_dw_city_sidewalk_animated_tileset_comp",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"62b5ec33-e6da-4e0f-ad5e-713af3a633e2","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b4c95c74-3d68-43cb-8ec1-8f9f1169df86","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "tile",
     "path": "folders/Sprites/BG/cyber/city/tile.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "bg_dw_city_sidewalk_animated_tileset_comp",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

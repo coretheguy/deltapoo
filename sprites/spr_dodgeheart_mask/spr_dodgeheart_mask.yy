@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_dodgeheart_mask",
   "bboxMode": 0,
   "collisionKind": 0,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"e487fc0a-e849-4110-9d5f-480d472ca130","path":"sprites/spr_dodgeheart_mask/spr_dodgeheart_mask.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e487fc0a-e849-4110-9d5f-480d472ca130","path":"sprites/spr_dodgeheart_mask/spr_dodgeheart_mask.yy",},"LayerId":{"name":"d0cdacdd-1610-4349-a65c-c07ed7edaf8d","path":"sprites/spr_dodgeheart_mask/spr_dodgeheart_mask.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_dodgeheart_mask","path":"sprites/spr_dodgeheart_mask/spr_dodgeheart_mask.yy",},"resourceVersion":"1.0","name":"e487fc0a-e849-4110-9d5f-480d472ca130","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ee06b50f-126e-4a89-a3b5-348e12ce6850","path":"sprites/spr_dodgeheart_mask/spr_dodgeheart_mask.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ee06b50f-126e-4a89-a3b5-348e12ce6850","path":"sprites/spr_dodgeheart_mask/spr_dodgeheart_mask.yy",},"LayerId":{"name":"d0cdacdd-1610-4349-a65c-c07ed7edaf8d","path":"sprites/spr_dodgeheart_mask/spr_dodgeheart_mask.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_dodgeheart_mask","path":"sprites/spr_dodgeheart_mask/spr_dodgeheart_mask.yy",},"resourceVersion":"1.0","name":"ee06b50f-126e-4a89-a3b5-348e12ce6850","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e487fc0a-e849-4110-9d5f-480d472ca130",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ee06b50f-126e-4a89-a3b5-348e12ce6850",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_dodgeheart_mask","path":"sprites/spr_dodgeheart_mask/spr_dodgeheart_mask.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_dodgeheart_mask",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"bfe7b149-1bc7-438a-ae7e-32794f0d0836","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e487fc0a-e849-4110-9d5f-480d472ca130","path":"sprites/spr_dodgeheart_mask/spr_dodgeheart_mask.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"6beb7b0b-7bbf-4f60-aa18-bc4cda09ddca","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ee06b50f-126e-4a89-a3b5-348e12ce6850","path":"sprites/spr_dodgeheart_mask/spr_dodgeheart_mask.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,14 +63,9 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_dodgeheart_mask","path":"sprites/spr_dodgeheart_mask/spr_dodgeheart_mask.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_dodgeheart_mask",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d0cdacdd-1610-4349-a65c-c07ed7edaf8d","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d0cdacdd-1610-4349-a65c-c07ed7edaf8d","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": {
     "left": 0,
@@ -100,8 +96,4 @@
     "name": "soul",
     "path": "folders/Sprites/CHARA/kris/soul.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_dodgeheart_mask",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

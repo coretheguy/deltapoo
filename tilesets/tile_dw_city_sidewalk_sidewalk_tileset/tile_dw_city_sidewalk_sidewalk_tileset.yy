@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "tile_dw_city_sidewalk_sidewalk_tileset",
   "spriteId": {
     "name": "bg_dw_city_sidewalk_tileset_comp",
     "path": "sprites/bg_dw_city_sidewalk_tileset_comp/bg_dw_city_sidewalk_tileset_comp.yy",
@@ -275,8 +278,4 @@
     "name": "cybercity",
     "path": "folders/Tile Sets/darkworld/cybercity.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "tile_dw_city_sidewalk_sidewalk_tileset",
-  "tags": [],
-  "resourceType": "GMTileSet",
 }

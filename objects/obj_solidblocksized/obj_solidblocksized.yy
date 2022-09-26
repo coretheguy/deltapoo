@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_solidblocksized",
   "spriteId": {
-    "name": "spr_soliddark",
-    "path": "sprites/spr_soliddark/spr_soliddark.yy",
+    "name": "Sprite607",
+    "path": "sprites/Sprite607/Sprite607.yy",
   },
   "solid": false,
   "visible": false,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
@@ -30,8 +34,4 @@
     "name": "COLLISION",
     "path": "folders/Objects/COLLISION.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_solidblocksized",
-  "tags": [],
-  "resourceType": "GMObject",
 }

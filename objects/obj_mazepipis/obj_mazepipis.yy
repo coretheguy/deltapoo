@@ -33,6 +33,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "WEIRD",
-    "path": "folders/Objects/ENEMY/WEIRD.yy",
+    "path": "folders/Objects/ENEMY/CH2/WEIRD.yy",
   },
 }

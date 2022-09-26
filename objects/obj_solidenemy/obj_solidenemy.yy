@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_solidenemy",
   "spriteId": {
     "name": "spr_solidenemy",
     "path": "sprites/spr_solidenemy/spr_solidenemy.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -27,8 +31,4 @@
     "name": "COLLISION",
     "path": "folders/Objects/COLLISION.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_solidenemy",
-  "tags": [],
-  "resourceType": "GMObject",
 }
